@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotalScoreCell renders correctly when not scored 1`] = `
+<body>
+  <div>
+    
+  </div>
+</body>
+`;
+
+exports[`TotalScoreCell renders correctly when scored 1`] = `
+<body>
+  <div>
+    <span
+      class="visually-hidden"
+    >
+      Task is scored
+    </span>
+     
+    <svg
+      aria-hidden="true"
+      class="icon medium"
+      viewBox="0 0 16 16"
+    >
+      <title>
+        Check mark icon
+      </title>
+      <path
+        d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+      />
+    </svg>
+     
+    <div
+      class="visually-hidden"
+    >
+      4 of 5
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      4 / 5
+    </span>
+    
+  </div>
+</body>
+`;
+
+exports[`TotalScoreCell renders correctly when scored and with 0 value 1`] = `
+<body>
+  <div>
+    <span
+      class="visually-hidden"
+    >
+      Task is scored
+    </span>
+     
+    <svg
+      aria-hidden="true"
+      class="icon medium"
+      viewBox="0 0 16 16"
+    >
+      <title>
+        Check mark icon
+      </title>
+      <path
+        d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+      />
+    </svg>
+     
+    <div
+      class="visually-hidden"
+    >
+      0 of 5
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      0 / 5
+    </span>
+    
+  </div>
+</body>
+`;

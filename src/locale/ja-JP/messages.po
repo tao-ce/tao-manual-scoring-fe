@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "日付を選択"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "日"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "火"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "水"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "木"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "金"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "土"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "日"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "火"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "水"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "木"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "金"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "土"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "1月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "2月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "3月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "4月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "5月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "6月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "7月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "8月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "9月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "10月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "11月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "12月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "1月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "2月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "3月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "4月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "6月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "7月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "8月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "9月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "10月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "11月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "12月"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "週"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "AM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "PM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "年"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "保存しました"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "1分前に保存しました"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "%d 分前に保存しました"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "1時間前に保存されました"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "%d 時間前に保存されました"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "最終保存日： %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "コンテンツの読み込み中"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "採点入力"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "別の採点者によって選択されました。"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "拒否されました"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "ラジオボタン"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "詳細については、こちらをご覧ください。"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "と"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Cookieポリシー"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "当サイトでは、閲覧体験の向上および分析・調査を目的としてCookieを使用しています。設定を変更するには「設定の管理」をクリックしてください。「すべて受け入れる」をクリックした場合、デバイスでのCookie使用に同意したものとみなします。「すべて拒否」をクリックした場合、必須Cookie以外は使用されません。"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "必須Cookie"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "必須Cookieは常に有効にしておく必要があります。これにより、Cookie設定を保存できます。"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "分析Cookie"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "これらのCookieは、アクセス数やその他の分析データを収集し、サイトのパフォーマンスを測定・改善するために利用されます。これにより、人気ページの特定や、ユーザーがサイト内をどのように移動しているかを確認するのに役立ちます。これらのCookieを許可しない場合、サイトへのアクセス状況を把握できず、パフォーマンスの監視ができなくなります。"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "採点は利用できません。"
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "システム管理者にお問い合わせください"
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "スコアが正常に送信されました"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "得点の進行状況が更新されました。"
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "1人以上の学生が回答を再提出しました．残念ながら，既に得点していた回答は再度採点する必要があります．"
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "テスト概要"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "タスクの状況"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "問題"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "合計スコア"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "全て"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "未解答"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "ブックマーク済"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "調整後の合計スコア"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "ノート"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "レポート"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "アイテム"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "ブックマーク"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "押してタスクを表示"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s ／ %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "スコアが追加されていません"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "押してメモを表示"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "「%s 」と採点者「 %s 」の組み合わせ、ユーザ名「 %s 」は、以下の理由で報告されました:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "理由が指定されていません"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "タスクは採点済みです"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "ページが見つかりません"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "お探しのページは存在しません。"
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "ホームへ戻る"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "このプロジェクトは現在非アクティブです"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "プロジェクト一覧にリダイレクトされます"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "OK"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "閉じる"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "非準拠の採点について、この問題と採点者の組み合わせを報告しますか？"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "その組み合わせに対するすべての解答、 %j 採点者 %j がレビュータスクを受けます。この操作は元に戻せません。"
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "このレポートのメモを入力してください"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "レポートして続ける"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "不適格として報告されました"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "%j と採点者 %j の組み合わせ、ユーザー名 %j は、以下の理由で報告されました:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "読み込み中"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "解答が読み込まれています"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "アイテムレスポンス"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "得点基準を読み込んでいます"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "採点基準を閉じる"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "採点基準"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "提案された採点の説明"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "もう一度試してください"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "スコアを使用"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "破棄する"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "スコアの提案を取得"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "%sの基準を見る"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "基準を見る"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "不正行為の疑いがある"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "コメントは省略可能"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "残り%d文字"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "コメント (オプション)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "採点者のメモ:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "スコアを提出しますか？"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "すべてのスコアがシステムに提出されます。もし以前にスコアを付けた解答を再評価した場合は、新しいスコアに置き換えられます。"
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "スコアを提出する"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "採点"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "採点パネルを閉じる"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "採点パネルを開く"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "%sによって与えられたスコア"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "レポート"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "解答 %s ／ %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "解答"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "前の解答へ"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "概要を見る"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "次の解答へ"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "完了: %s %"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "受験者の解答"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "タスクの読み込みに失敗しました。システム管理者にお問い合わせください。"
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "採点タスクの送信エラー"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "この解答のノートを入力してください"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "このレビューのメモを入力してください"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr ""
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "スコアを保存中に問題が発生しました。もう一度やり直してください。問題が解決しない場合は、サポートチームにお問い合わせください。"
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "戻る"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "メインナビゲーション"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "スコア"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "本当に終了しますか？"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "成績は保存され、あとで採点を再開することができます。"
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "スコアを送信"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "ツール"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "採点を続ける"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "セーブして終了"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "スコア"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "ハイライト表示を隠す"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "ハイライトを表示"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "エラーページ"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - 手動採点"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "長いユーザー名"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "短いユーザー名："
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "ユーザー名に禁止文字が含まれています"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "パスワードが空です"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "短いパスワードです"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "パスワードが長すぎます"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "ロールがありません"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "割り当て済みです"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "見つかりません"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "割り当て条件がありません"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "システムユーザーとの競合"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "選択された採点ストラテジーにそのロールは存在しません"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "無効な結果変数の宣言"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "「アイテムグループ」プロジェクトに割り当てられたストラテジーにデリバリが構成されているようです"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "「受験者グループ」プロジェクトに割り当てられたストラテジーにデリバリが構成されているようですグループ"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "申し訳ありませんが、スコアへの解答が見つかりません。システム管理者にお問い合わせください。"
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "スコアに解答がまだありません。しばらくしてからもう一度お試しください。"
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "採点は利用できません。"
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "管理者にお問い合わせください"
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "回答が見つかりませんでした。"
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "次のIDを持つ配信実行が見つかりません: <br><strong>%s</strong><br>システム管理者に連絡してください。"
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "次のIDを持つ配信実行は無効です: <br><strong>%s</strong><br>システム管理者に問い合わせてください。"
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "以下のIDの配信は無効です: <br><strong>%s</strong><br>システム管理者に問い合わせてください。"
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "レスポンスが見つからなかったため、現在、採点は利用できません。"
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "学生がテストを提出した直後の場合に発生する可能性があります。後でもう一度やり直してください。問題が解決しない場合は、システム管理者に連絡してください。 テスト受験者IDが見つかりませんでした: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "スコアするタスクが多すぎます。"
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr ""
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr ""
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr ""
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "納品IDと受験者IDは空か定義されていません。"
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "配信IDが空か定義されていません。"
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "受験者IDが空か、または定義されていません。"
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "レビューが失敗しました：レビュアーは元の採点者と同じユーザーにすることはできません。"
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "スコアの独立した評価を確保するため、別のレビュアーを割り当ててください。"
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "無効なスコアカテゴリー"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "scoringCategory値を確認してください。有効でなければならず、空にすることはできません。"
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "無効なカスタム要求です。"
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "パラメータが無効です。要求には [%s] が必要です。空ではなく、 [%s]と入力してください。"
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "必要なカスタムクレーム。"
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "パラメータがありません。要求には [%s] パラメータが必要です。"
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "カンマが不足しています。行 %d には正確に \"%s\" 列が存在なくてはいけません。"
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "アップロードされたファイルに重複するユーザー名が含まれています．重複したユーザー名を削除して再度お試し下さい．"
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "採点タスクID：%s は既に採点されて提出されています。"
+

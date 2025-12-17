@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoreCell it renders correctly for reviewer 1`] = `
+<body>
+  <div>
+    <div
+      class="visually-hidden"
+    >
+      3 of 5
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      3 / 5
+    </span>
+     
+    <span
+      class="crossed"
+    >
+      (
+      2
+      )
+    </span>
+    
+    
+  </div>
+</body>
+`;
+
+exports[`ScoreCell it renders correctly for scorer 1`] = `
+<body>
+  <div>
+    <div
+      class="visually-hidden"
+    >
+      No score added
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      -
+    </span>
+    
+  </div>
+</body>
+`;

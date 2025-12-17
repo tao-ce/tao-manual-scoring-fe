@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Válasszon egy dátumot"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "Nap"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Hétfő"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "Kedd"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "Házasodik"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Csütörtök"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "Péntek"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "Ült"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "vasárnap"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "hétfő"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "kedd"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "szerda"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "csütörtök"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "péntek"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "szombat"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "Január"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Február"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Március"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "Április"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "május"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "Június"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Július"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Augusztus"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Szept."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "Október"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "November"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "December"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "január"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "február"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "március"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "április"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "június"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "július"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "augusztus"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "szeptember"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "október"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "november"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "december"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Hét"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "délelőtt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "PM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Év"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "elmentve"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "elmentve 1 perccel korábban"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "elmentve %d perccel korábban"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "elmentve 1 órával ezelőtt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "elmentve %d órával ezelőtt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "utolsó mentés ekkor %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "A tartalom betöltődik"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Pontozási bemenet"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Egy másik pontozó választotta ki."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Elutasítva."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Rádiógomb"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Erről bővebben olvashat a mi"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "és"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Sütikre vonatkozó szabályzat"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Ez az oldal sütiket használ a böngészési élmény javítása, valamint elemzések és kutatások elvégzéséhez. A beállítások módosításához kattintson a Beállítások kezelése gombra. Ellenkező esetben az Összes süti elfogadása gombra kattintva elfogadja a sütik használatát az eszközén. Az Összes süti elutasítása gombra kattintva nem fogadja el a nem feltétlenül szükséges sütik használatát az eszközén."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Alapvető sütik"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "A feltétlenül szükséges sütiket mindig engedélyezni kell, hogy elmenthessük a sütibeállításokra vonatkozó preferenciáidat."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Analitikai sütik"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Ezek a sütik lehetővé teszik számunkra a látogatások számlálását és különféle egyéb analitikai adatok gyűjtését, így mérhetjük és javíthatjuk oldalunk teljesítményét. Segítenek nekünk megtudni, mely oldalak a legnépszerűbbek és legkevésbé népszerűek, és látni, hogyan mozognak a látogatók az oldalon. Ha nem engedélyezi ezeket a sütiket, nem fogjuk tudni, hogy mikor látogatta meg oldalunkat, és nem tudjuk nyomon követni annak teljesítményét."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Adatvédelmi irányelvek"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Pontozás nem elérhető."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Kérjük, forduljon a rendszergazdához."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "A pontszámok sikeresen leadva"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "A pontozási folyamatod frissítve."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Egy vagy több diák újra elküldte válaszát. Sajnos a már pontozott frissített válaszokat újra kell pontozni."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Teszt áttekintése"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Feladatok állapota"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Kérdés"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Összpontszám"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Minden"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Befejezetlen"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Könyvjelzővel ellátva"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Javított összpontszám"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Jegyzet"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Jelentés"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Tételek"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Könyvjelző"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Nyomja meg a feladatmegjegyzés megjelenítéséhez"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s / %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Nincs hozzáadott pontszám"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Nyomja meg a jegyzet megjelenítéséhez"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "A következő okok miatt jelentették a \"%s\" és a pontozó \"%s %s\" párosítását a \"%s\" felhasználónévvel:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Az ok nem adott"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "A feladat pontozva van"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Hoppá! Az oldal nem található"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "A keresett oldal nem létezik."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Menj haza"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Ez a projekt most inaktív"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Ekkor át lesz irányítva a projektek listájára"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Rendben"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Párbeszéd bezárása"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Bejelenti ezt a kérdés/pontozó párost a nem megfelelő pontozás miatt?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Ha igen, akkor az adott pár, a %j és a pontozó %j összes válaszát áttekintési feladatnak vetjük alá. Ez a művelet nem vonható vissza."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Írjon be egy megjegyzést ehhez a jelentéshez"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Jelentés és folytatás"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Bejelentették nem megfelelőség miatt"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "A következő okok miatt jelentették a \"%j\" és a pontozó \"%j\" párosítását a \"%j\" felhasználónévvel:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "terhelés"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "A válasz betöltődik"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Tételre adott válasz"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "A pontozási kritériumok betöltése folyamatban van"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Pontozási kritériumok bezárása"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Pontozási kritériumok"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Javasolt pontozási magyarázat"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Próbáld újra"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Használja a pontszámot"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Elvetés"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Pontszámjavaslat megjelenítése"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Pontszámjavaslat kérése"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "lásd a %s kritériumait"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "lásd a kritériumokat"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Csalás gyanúja merült fel"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Megjegyzés opcionális"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "%d karakterből maradt"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Megjegyzés (opcionális)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Pontozó megjegyzése:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Elküldi a pontszámokat?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Minden pontszám elküldésre kerül a rendszerébe. Ha korábban már pontozott és újraminősített válaszokat, azokat az új pontszámokkal helyettesítjük."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Add be a pontszámokat"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Pontozás"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Pontozási panel összecsukása"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Nyissa meg a pontozási panelt"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "A %s által adott pontszámok"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "jelentés"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "%s / %s válasza"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Válasz"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Ugrás az előző válaszra"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "LÁSD Áttekintés"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Ugrás a következő válaszra"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Teljesítés: %s %"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Tesztfelvevő válasza"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "A feladat betöltése nem sikerült. Kérjük, forduljon a rendszergazdához."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Pontozási feladat beküldési hiba"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Írjon be egy megjegyzést ehhez a válaszhoz"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Írjon megjegyzést ehhez az értékeléshez"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr ""
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Hiba történt a pontszám mentése közben. Kérjük, próbálja újra. Ha a probléma továbbra is fennáll, segítségért forduljon ügyfélszolgálatunkhoz."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Vissza"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Fő navigáció"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Pontszámok"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Biztos, hogy el akarsz menni?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Az érdemjegyeit a rendszer elmenti, és később folytathatja az értékelést."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Eredmények küldése"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Eszközök"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "folytassa az osztályozást"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "menteni és távozni"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Pontszám"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Kiemelő elrejtése"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Kiemelő megjelenítése"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Hibaoldal"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Kézi pontozás"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Hosszú felhasználónév"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Rövid felhasználónév"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Tiltott karakter a felhasználónévben"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Üres jelszó"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Rövid jelszó"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Hosszú jelszó"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Üres szerep"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Már ki van osztva"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Nem található"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Üres hozzárendelési feltétel"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Rendszer felhasználói ütközés"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "A szerep nem létezik a kiválasztott pontozási stratégiában"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Érvénytelen eredménynyilatkozatok"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Úgy tűnik, hogy a szállítás „elemcsoport” projekt-hozzárendelési stratégiához van konfigurálva"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Úgy tűnik, hogy a kézbesítés egy \"tesztfelvevő csoport\" projekt-hozzárendelési stratégiához van konfigurálva"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Sajnáljuk, nem találjuk a pontozáshoz szükséges válaszokat. Kérjük, forduljon a rendszergazdához."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Még nincsenek válaszok a pontozáshoz. Kérjük, várjon, és próbálja újra."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Az osztályozás nem elérhető."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Kérjük, forduljon rendszergazdájához."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Nem találtunk választ."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "A következő azonosítókkal rendelkező kézbesítési végrehajtások nem találhatók: <br><strong>%s</strong><br>Kérjük, forduljon a rendszergazdához."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "A következő azonosítókkal rendelkező kézbesítési végrehajtások érvénytelenek: <br><strong>%s</strong><br>Kérjük, forduljon a rendszergazdához."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "A következő azonosítókkal rendelkező szállítások érvénytelenek: <br><strong>%s</strong><br>Kérjük, forduljon a rendszergazdához."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "A pontozás jelenleg nem érhető el, mert nem található válasz."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Ez akkor fordulhat elő, ha egy diák éppen most küldte be a tesztet. Kérjük, próbálja meg később. Ha a probléma továbbra is fennáll, kérjük, vegye fel a kapcsolatot a rendszergazdával. A nem található vizsgázók azonosítói: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Túl sok feladat a pontozáshoz."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Szállítási végrehajtási azonosítók: <strong>%s</strong><br>Pontozási feladatok száma: <strong>%s</strong><br>Engedélyezett feladatok maximális száma: <strong>%s</strong><br>Kérjük, forduljon a rendszergazdához."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Kézbesítési azonosítók: <strong>%s</strong><br>Tesztfelvevő azonosítói: <strong>%s</strong><br>Pontozások száma feladatok: <strong>%s</strong><br>A feladatok megengedett maximális száma: <strong>%s</strong><br>Kérjük, forduljon a rendszergazdához."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "A következő azonosítókkal rendelkező kézbesítések és vizsgázók nem találhatók.<br>Szállítások: <strong>%s</strong>, <br>Tesztvizsgálók: <strong>%s</strong>. <br>Kérjük, vegye fel a kapcsolatot a rendszergazdával."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "A kézbesítési azonosító(k) és a vizsgázói azonosító(k) üres vagy nincs meghatározva."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "A kézbesítési azonosító(k) üres vagy nincs meghatározva."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "A vizsgázói azonosító(k) üres vagy nincs meghatározva."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Sikertelen ellenőrzés: Az értékelő nem lehet ugyanaz a felhasználó, mint az eredeti pontozó."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Kérjük, jelöljön ki egy másik bírálót a pontszám független felülvizsgálatának biztosítása érdekében."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Érvénytelen pontozási kategória"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Kérjük, ellenőrizze a scoringCategory értékét. Érvényesnek kell lennie, és nem lehet üres."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Érvénytelen egyéni igény."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Érvénytelen paraméter, az igény [%s] mező nem lehet üres, és típusa [%s] kell legyen."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Kötelező egyéni igény."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Hiányzó paraméter, az igényhez [%s] paraméter szükséges."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Hiányzó vessző(k), pontosan %d oszlopnak kell lennie a \"%s\" sorban"
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "A feltöltött fájl ismétlődő felhasználóneveket tartalmaz. Kérjük, távolítsa el az ismétlődő felhasználóneveket, és próbálja újra."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "A pontozási feladat azonosítója:%s már pontozva és elküldve."
+

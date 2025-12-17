@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:26\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Sélectionner une date"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "dim."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "lun"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "mar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "mer"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "jeu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "ven."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "sam."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "janv."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "fév."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "mars"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "avr."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "mai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "juin"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "juil."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "août"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "sept."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "oct."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "nov."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "déc."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "janvier"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "février"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "mars"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "avril"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "juin"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "juillet"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "août"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "septembre"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "octobre"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "novembre"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "décembre"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Sem"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "matin"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "après-midi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Année"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "sauvegardé"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "sauvegardé il y a 1 minute"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "sauvé il y a 1 heure"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "dernière sauvegarde sur %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Chargement du contenu en cours"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Saisie de notation"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Sélectionné par un autre correcteur."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Rejeté."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Bouton radio"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Zone de texte"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Vous pouvez en savoir plus à ce sujet dans notre"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "et"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Politique sur les cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Ce site utilise des cookies pour améliorer votre expérience de navigation et pour effectuer des analyses et des recherches. Pour modifier vos préférences, cliquez sur Gérer vos préférences. Sinon, en cliquant sur Accepter tous les cookies, vous acceptez que nous utilisions des cookies sur votre appareil. Cliquer sur Rejeter tous les cookies signifie que vous n’acceptez pas que nous utilisions des cookies non strictement nécessaires sur votre appareil."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Cookies essentiels"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Les cookies strictement nécessaires doivent être activés en tout temps afin que nous puissions enregistrer vos préférences pour les paramètres des cookies."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Cookies d'analyse"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Ces cookies nous permettent de compter les visites et diverses autres données analytiques afin que nous puissions mesurer et améliorer la performance de notre site. Ils nous aident à savoir quelles pages sont les plus populaires et comment les visiteurs se déplacent sur le site. Si vous n'autorisez pas ces cookies, nous ne saurons pas quand vous aurez visité notre site, et ne pourra pas contrôler ses performances."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Notation non disponible."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Contactez votre administrateur système."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Les notes ont été soumises avec succès"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "Votre progression de notation a été mise à jour."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Un ou plusieurs étudiants ont de nouveau soumis leurs réponses. Malheureusement, les réponses mises à jour qui ont déjà été notées doivent être à nouveau notées."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Vue d'ensemble du test"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "État de la tâche"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Question"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Score total"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Tous"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Incomplet"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Ajouté à vos favoris"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Score total corrigé"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Remarque"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Rapport"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Questions"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Ajouter à vos favoris"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Appuyez pour afficher la remarque"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s sur %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Aucun score ajouté"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Appuyez pour afficher la remarque"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "La tâche de notation \"%s\" et le correcteur \"%s %s\" avec le nom d'utilisateur \"%s\" ont été signalés pour les raisons suivantes :"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Raison non donnée"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "La tâche est notée"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Oups ! Page introuvable"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "La page que vous cherchez n'existe pas."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Retourner à la page d'accueil"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Ce projet est maintenant inactif"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Vous allez maintenant être redirigé vers la liste des projets"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Ok"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Fermer la fenêtre"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Signaler cette question et ce correcteur pour une notation non conforme ?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Si vous confirmez, toutes les réponses pour %j et le correcteur %j seront soumise à une vérification. Cette action ne peut pas être annulée."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Tapez une remarque pour ce signalement"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Signaler et continuer"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Signalé pour non-conformité"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "La tâche de notation %j et le correcteur %j avec le nom d'utilisateur %j ont été signalés pour les raisons suivantes :"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "chargement"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Chargement de la réponse"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Réponse à la question"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Les critères de notation sont en cours de chargement"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Fermer les critères de notation"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Critères de notation"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Explication de notation suggérée"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Veuillez réessayer"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Utiliser le score"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Ignorer"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Afficher la suggestion de score"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Obtenir une suggestion de score"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "voir les critères pour %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "voir les critères"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Suspect de tricherie"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Commentaire optionnel"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "sur %d caractères restants"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Commentaire (facultatif)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Remarques du noteur :"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Soumettre les notes?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Toutes les notes seront soumises à votre système. Si vous avez déjà noté et renoté les réponses, elles seront remplacées par les nouvelles notes."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Soumettre les notes"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Notation"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Réduire le panneau de notation"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Ouvrir le panneau de notation"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Notes données par %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "rapport"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Réponse %s de %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Réponse"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Aller à la réponse précédente"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "Voir le résumé"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Allez à la réponse suivante"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Avancement : %s %"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Réponse du preneur de test"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "La tâche n'a pas pu être chargée. Veuillez contacter votre administrateur système."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Erreur lors de la soumission de la tâche de notation"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Tapez une remarque pour cette réponse"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Tapez une remarque pour cette vérification"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Cette tâche de notation n'a pas pu être initiée car une autre session de notation a été initiée dans une autre fenêtre ou un autre navigateur.<br>Pour résoudre ce problème :<br><ul><li>Assurez-vous que vous ne marquez pas une session différente dans une autre fenêtre ou navigateur.</li><li>Fermer tous les autres onglets ou fenêtres du navigateur où ceci ou un autre lien de notation pourrait être ouvert.</li></ul>Si vous avez déjà vérifié ces étapes et que vous voyez toujours ce message, veuillez contacter le support ou votre administrateur pour obtenir de l'aide."
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Nous avons rencontré un problème lors de l'enregistrement de votre score. Veuillez réessayer. Si le problème persiste, contactez notre équipe d'assistance pour obtenir de l'aide."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Retour"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Navigation principale"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Notations"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Êtes-vous sûr de vouloir quitter ?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Vos notes seront enregistrées et vous pourrez reprendre la notation ultérieurement."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Envoyer les notes"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Outils"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "continuer à noter"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "enregistrer et quitter"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Notation"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Masquer le surligneur"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Afficher le surligneur"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Page d'erreur"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Notation manuelle"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Nom d'utilisateur long"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Nom d'utilisateur court"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Caractère interdit dans le nom d'utilisateur"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Mot de passe vide"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Mot de passe court"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Mot de passe long"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Rôle vide"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Déjà assigné"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Non trouvé"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Critère d'assignation vide"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Conflit utilisateur système"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Le rôle n'existe pas dans la stratégie de notation sélectionnée"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Déclarations de résultat invalides"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "La passation semble être configurée pour une stratégie d'affectation de projet par questions groupées"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "La passation semble être configurée pour une stratégie d'affectation de projet par utilisateurs groupés"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Désolé, nous ne pouvons pas trouver les réponses à noter. Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Il n'y a pas encore de réponses à noter pour le moment. Veuillez patienter et réessayer."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Notation non disponible."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Veuillez contacter votre administrateur."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Aucune réponse n'a été trouvée."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Les passations avec les identifiants suivants sont introuvables : <br><strong>%s</strong><br>Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Les passations avec les identifiants suivants ne sont pas valides : <br><strong>%s</strong><br>Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Les passations avec les identifiants suivants ne sont pas valides : <br><strong>%s</strong><br>Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Le score n'est pas disponible pour le moment, car aucune réponse n'a été trouvée."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Cela peut se produire si un étudiant vient de soumettre le test. Veuillez réessayer ultérieurement. Si le problème persiste, veuillez contacter votre administrateur système. Les utilisateurs de tests qui n'ont pas été trouvés : <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Trop de tâches à noter."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Identifiants de passations : <strong>%s</strong><br>Nombre de tâches de notation: <strong>%s</strong><br>Nombre maximum de tâches autorisées : <strong>%s</strong><br>Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Identifiants de passations : <strong>%s</strong><br>Identifiants du candidat : <strong>%s</strong><br>Nombre de tâches de notation : <strong>%s</strong><br>Nombre maximum autorisé de tâches : <strong>%s</strong><br>Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Les passations et les candidats avec les identifiants suivants sont introuvables.<br>Passations : <strong>%s</strong>, <br>Candidats : <strong>%s</strong>. <br>Veuillez contacter votre administrateur système."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Les identifiants de passation et/ou de candidats sont vides ou non définis."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Le ou les identifiants de passation sont vides ou non définis."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Le ou les identifiants de candidats sont vides ou non définis."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Échec de la vérification : le correcteur ne peut pas être le même utilisateur que le correcteur d'origine."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Veuillez assigner un autre vérificateur pour assurer une vérification indépendante de la notation."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Catégorie de cotation invalide"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Veuillez vérifier la valeur de la catégorie de pointe. Elle doit être valide et ne peut pas être vide."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Requête personnalisée invalide."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Paramètre invalide, la requête nécessite que le paramètre [%s] ne soit pas vide et de type [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Requête personnalisée requise."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Paramètre manquant, la requête nécessite que le paramètre [%s] soit présent."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Virgule(s) manquante(s), il devrait y avoir exactement %d colonnes à la ligne \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Le fichier téléchargé contient des noms d'utilisateur dupliqués. Veuillez supprimer les noms d'utilisateur dupliqués et réessayer."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "La tâche de notation %s est déjà effectuée et soumise."
+

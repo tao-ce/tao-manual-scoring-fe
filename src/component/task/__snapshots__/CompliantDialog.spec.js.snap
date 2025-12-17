@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompliantDialog should render correctly in closed state 1`] = `
+<body>
+  <div>
+    <div
+      class="dialog close"
+    >
+      <button
+        aria-label="Close Dialog"
+        class="icon-bar-btn actionable base-24 default"
+        title="Close Dialog"
+      >
+        <svg
+          aria-hidden="false"
+          class="icon medium"
+          viewBox="0 0 16 16"
+        >
+          <title>
+            Remove icon
+          </title>
+          <path
+            d="M1 0l7 7 7-7 1 1-7 7 7 7-1 1-7-7-7 7-1-1 7-7-7-7 1-1z"
+          />
+        </svg>
+         
+         
+      </button>
+       
+      <div
+        class="content"
+      >
+         
+        <h3>
+          Report this question/scorer pair for non-compliant scoring?
+        </h3>
+         
+        <p
+          class="warning"
+        >
+          If you do, all the responses for that pair, "Item1" and scorer "John Doe" will be subjected to a review task. This action cannot be undone.
+        </p>
+         
+        <div
+          class="label-root fullwidth"
+        >
+          <label
+            class="label-text"
+            id="tao-option"
+          >
+            Note
+             
+          </label>
+           
+          <div
+            class="label-content"
+          >
+            <label
+              class="fullwidth"
+            >
+              <div
+                class="label-text visually-hidden"
+              >
+                Note
+                 
+              </div>
+               
+              <div
+                class="positioning-wrapper"
+              >
+                <textarea
+                  class="resize-vertical"
+                  cols="25"
+                  maxlength="500"
+                  name="complaint-note"
+                  placeholder="Type a note for this report"
+                  rows="7"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+         
+        <div
+          class="bottom-bar"
+        >
+          <div
+            class="action-button"
+          >
+            <button
+              class="actionable secondary pill medium"
+              type="button"
+            >
+               
+               
+              Cancel
+            </button>
+          </div>
+           
+          <div
+            class="action-button"
+          >
+            <button
+              aria-disabled="true"
+              class="actionable primary pill medium"
+              disabled=""
+              type="button"
+            >
+               
+               
+              Report and continue
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CompliantDialog should render correctly in opened state 1`] = `
+<body>
+  <div>
+    <div
+      class="dialog"
+    >
+      <button
+        aria-label="Close Dialog"
+        class="icon-bar-btn actionable base-24 default"
+        title="Close Dialog"
+      >
+        <svg
+          aria-hidden="false"
+          class="icon medium"
+          viewBox="0 0 16 16"
+        >
+          <title>
+            Remove icon
+          </title>
+          <path
+            d="M1 0l7 7 7-7 1 1-7 7 7 7-1 1-7-7-7 7-1-1 7-7-7-7 1-1z"
+          />
+        </svg>
+         
+         
+      </button>
+       
+      <div
+        class="content"
+      >
+         
+        <h3>
+          Report this question/scorer pair for non-compliant scoring?
+        </h3>
+         
+        <p
+          class="warning"
+        >
+          If you do, all the responses for that pair, "Item2" and scorer "Jane Doe" will be subjected to a review task. This action cannot be undone.
+        </p>
+         
+        <div
+          class="label-root fullwidth"
+        >
+          <label
+            class="label-text"
+            id="tao-option"
+          >
+            Note
+             
+          </label>
+           
+          <div
+            class="label-content"
+          >
+            <label
+              class="fullwidth"
+            >
+              <div
+                class="label-text visually-hidden"
+              >
+                Note
+                 
+              </div>
+               
+              <div
+                class="positioning-wrapper"
+              >
+                <textarea
+                  class="resize-vertical"
+                  cols="25"
+                  maxlength="500"
+                  name="complaint-note"
+                  placeholder="Type a note for this report"
+                  rows="7"
+                />
+              </div>
+            </label>
+          </div>
+        </div>
+         
+        <div
+          class="bottom-bar"
+        >
+          <div
+            class="action-button"
+          >
+            <button
+              class="actionable secondary pill medium"
+              type="button"
+            >
+               
+               
+              Cancel
+            </button>
+          </div>
+           
+          <div
+            class="action-button"
+          >
+            <button
+              aria-disabled="true"
+              class="actionable primary pill medium"
+              disabled=""
+              type="button"
+            >
+               
+               
+              Report and continue
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

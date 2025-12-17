@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:26\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Vyberte datum"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "Slunce"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Mon"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "Út"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "Stříl/a"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Thu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "Pá"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "Skot"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Neděle"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Pondělí"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "úterý"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Středa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Pátek"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Sobota"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "leden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Únor"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Mar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "Vrt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "Květen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "leden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Červen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Srp"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Zář"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "říjen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "Lov"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "Pro."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "Leden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "únor"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "Březen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "duben"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "Červen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "červenec"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "Srpen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "Září"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "Říjen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "Listopad"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "prosinec"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Wk"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "dop"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "odp."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Rok"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "uloženo"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "uloženo před 1 minutou"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "uloženo před 1 hodinou"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "naposledy uloženo v %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Obsah se načítá"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Bodový vstup"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Vybráno jiným scorerem."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Odmítnuto."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Přepínací tlačítko"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Více o tom si můžete přečíst v našem"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "a"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Zásady Cookie"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Tato stránka používá soubory cookie ke zlepšení vašeho zážitku z prohlížení a k provádění analýz a výzkumu. Chcete-li změnit vaše předvolby, klepněte na tlačítko Správa nastavení. V opačném případě kliknutím na Přijmout všechny cookies znamená, že souhlasíte s naším používáním cookies ve vašem zařízení. Klepnutím na tlačítko Odmítnout všechny soubory cookie znamená, že nesouhlasíte s naším používáním naprosto nezbytných cookies na vašem zařízení."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Základní soubory cookie"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Potřebná cookie by měla být vždy povolena, abychom mohli uložit vaše předvolby pro nastavení cookie."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Analytické cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Tyto soubory cookie nám umožňují počítat návštěvy a různé další analytické údaje, abychom mohli měřit a zlepšit výkon našich stránek. Pomáhají nám vědět, které stránky jsou nejpopulárnější a nejméně populární, a uvidíme, jak se návštěvníci pohybují po webu. Pokud tyto soubory cookie nepovolíte, nebudeme vědět, kdy jste navštívili naše stránky, a nebude schopno sledovat jeho výkon."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Ochrana osobních údajů"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Bodování není k dispozici."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Obraťte se na správce systému."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Skóre bylo úspěšně odesláno"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "Váš skóre byl aktualizován."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Jeden nebo více studentů znovu odeslal své odpovědi. Bohužel, aktualizované odpovědi, které již byly vyhodnoceny, je třeba znovu vyčíslit."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Přehled testů"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Stav úkolů"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Otázka"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Celkové skóre"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Vše"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Nedokončené"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Záložka"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Opravené celkové skóre"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Poznámka"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Nahlásit"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Položky"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Záložka"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Stiskněte pro zobrazení poznámky k úkolu"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s z %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Nebylo přidáno žádné skóre"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Stisknutím zobrazíte poznámku"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "Párování \"%s\" a skóre \"%s %s\" s uživatelským jménem \"%s\" bylo nahlášeno z následujících důvodů:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Důvod nebyl zadán"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Úkol je skórován"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Jejda! Stránka nebyla nalezena"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Hledaná stránka neexistuje."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Přejít na domov"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Tento projekt je nyní neaktivní"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Nyní budete přesměrováni na seznam projektů"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Ok"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Zavřít dialogové okno"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Nahlásit tento pár otázek/skórer pro neodpovídající bodové hodnocení?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Pokud ano, všechny odpovědi na tuto dvojici, %j a scorer %j budou podrobeny úkolu recenze. Tuto akci nelze vrátit zpět."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Napište poznámku pro tuto zprávu"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Nahlásit a pokračovat"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Hlášené nedodržení požadavků"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "Párování %j a scorer %j s uživatelským jménem %j bylo nahlášeno z následujících důvodů:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "načítání"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Odpověď se načítá"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Odpověď na položku"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Kritéria bodování jsou načítána"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Úzká kritéria bodování"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Kritéria bodování"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Navrhované skóre vysvětlení"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Zkuste to znovu"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Použít skóre"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Zahodit"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Zobrazit návrh skóre"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Získat návrh skóre"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "viz kritéria %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "viz kritéria"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Podezření na podvádění"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Komentář je nepovinný"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "zbývá %d znaků"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Komentář (volitelné)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Poznámka koridoru:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Odeslat skóre?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Všechna skóre budou odeslána do vašeho systému. Pokud jste dříve skórovali a regregregerovali odpovědi, budou nahrazena novými skóre."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Odeslat skóre"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Bodování"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Sbalit bodovací panel"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Otevřít panel bodování"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Skóre zadané %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "nahlásit"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Odpověď %s z %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Odpověď"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Přejít na předchozí odpověď"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "SEE přehled"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Přejít na další odpověď"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Dokončeno: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Odezva osoby provádějící test"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Úkol se nepodařilo načíst. Obraťte se na správce systému."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Chyba při odesílání skóre"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Napište poznámku pro tuto odpověď"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Napište poznámku pro tuto recenzi"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Tento bodovací úkol nemohl být s největší pravděpodobností zahájen, protože byla zahájena jiná relace bodování v jiném okně nebo prohlížeči.<br>Pro vyřešení tohoto problému:<br><ul><li>Ujistěte se, že neskórujete jinou relaci v jiném okně nebo prohlížeči.</li><li>Zavřete všechny ostatní panely nebo okna prohlížeče, kde může být tento nebo jiný odkaz pro bodování otevřen.</li></ul>Pokud jste tyto kroky již zkontrolovali a stále vidíte tuto zprávu, kontaktujte prosím podporu nebo vašeho administrátora."
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Při ukládání vašeho skóre jsme narazili na problém. Zkuste to prosím znovu. Pokud problém přetrvává, kontaktujte náš tým podpory pro pomoc."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Zpět"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Hlavní navigace"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Skóre"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Jste si jisti, že chcete odejít?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Vaše známky budou uloženy a budete moci pokračovat v hodnocení později."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Odeslat skóre"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Nástroje a nářadí"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "pokračovat v hodnocení"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "uložit a opustit"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Skóre"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Skrýt zvýraznění"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Zobrazit zvýraznění"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Chybová stránka"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Ruční bodování"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Dlouhé uživatelské jméno"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Krátké uživatelské jméno"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Zakázaná postava v uživatelském jménu"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Prázdné heslo"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Krátké heslo"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Dlouhé heslo"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Prázdná role"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Již přiřazeno"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Nenalezeno"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Prázdné kritérium přiřazování"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Konflikt systémových uživatelů"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Role neexistuje ve zvolené strategii bodování"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Neplatná prohlášení o výsledku"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Doručení se zdá být nakonfigurováno pro strategii přiřazování \"skupiny položek\" projektu"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Doručení se zdá být nakonfigurováno pro strategii přiřazování projektů „skupina odběratelů“."
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Omlouváme se, ale odpovědi na skóre nelze najít. Obraťte se na správce systému."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Zatím nejsou žádné odpovědi na skóre. Počkejte prosím a zkuste to znovu."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Třídění není k dispozici."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Obraťte se na správce."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Nebyly nalezeny žádné odpovědi."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Nelze nalézt vykonání doručení s následujícími idy: <br><strong>%s</strong><br>Obraťte se na správce systému."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Výběry doručení s následujícími ID jsou neplatné: <br><strong>%s</strong><br>Obraťte se na správce systému."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Dodávky s následujícími ID jsou neplatné: <br><strong>%s</strong><br>Obraťte se na správce systému."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Bodování není momentálně k dispozici, protože nebyly nalezeny žádné odpovědi."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "To se může stát, pokud student právě odeslal test. Opakujte akci později. Pokud problém přetrvává, obraťte se na správce systému. Testovací kupující, kteří nebyli nalezeni: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Příliš mnoho úkolů na skóre."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "ID provedení doručení: <strong>%s</strong><br>Počet bodových úkolů: <strong>%s</strong><br>Povolený maximální počet úkolů: <strong>%s</strong><br>Kontaktujte prosím správce systému."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Doručovací idla: <strong>%s</strong><br>ID testovacího uživatele: <strong>%s</strong><br>Počet bodových úkolů: <strong>%s</strong><br>Povolen maximální počet úkolů: <strong>%s</strong><br>Obraťte se na správce systému."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Dodávky a testovací osoby s následujícími ID nebyly nalezeny.<br>Dodávky: <strong>%s</strong>, <br>Osoby provádějící testy: <strong>%s</strong>. <br>Obraťte se na správce systému."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "ID doručení a ID kontrolního subjektu jsou prázdné nebo nejsou definovány."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "ID doručení je prázdné nebo není definováno."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "ID (ID) zkušebního zařízení je prázdné nebo není definováno."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Recenze se nezdařila: Recenze nemůže být stejného uživatele jako původní scorer."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Pro zajištění nezávislého přezkumu skóre prosím přiřaďte jinému hodnotiteli."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Neplatná kategorie bodování"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Zkontrolujte hodnotu bodové kategorie. Musí být platná a nemůže být prázdná."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Neplatný vlastní požadavek."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Neplatný parametr, požadavek vyžaduje [%s] nesmí být prázdný a typ [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Požadovaný vlastní nárok."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Chybějící parametr, tvrzení vyžaduje přítomnost [%s] parametru."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Chybí čárka(y), mělo by být přesně %d sloupec na řádku \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Nahraný soubor obsahuje duplicitní uživatelská jména. Prosím odeberte duplicitní uživatelská jména a zkuste to znovu."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "ID bodovacího úkolu:%s je již ohodnocen a odeslán."
+

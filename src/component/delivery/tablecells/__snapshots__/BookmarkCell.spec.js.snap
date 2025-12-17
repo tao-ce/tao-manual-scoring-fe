@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookmarkCell it renders correctly with bookmarked state 1`] = `
+<body>
+  <div>
+    <button
+      aria-label="Bookmark"
+      aria-pressed="true"
+      class="icon-bar-btn actionable base-16 default"
+      title="Bookmark"
+    >
+      <svg
+        aria-hidden="false"
+        class="icon medium"
+        viewBox="0 0 16 16"
+      >
+        <title>
+          Bookmark active icon
+        </title>
+        <path
+          d="M13 0H3a1 1 0 00-1 1v14a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V1a1 1 0 00-1-1z"
+        />
+      </svg>
+       
+       
+    </button>
+  </div>
+</body>
+`;
+
+exports[`BookmarkCell it renders correctly with not bookmarked state 1`] = `
+<body>
+  <div>
+    <button
+      aria-label="Bookmark"
+      aria-pressed="false"
+      class="icon-bar-btn actionable base-16 default"
+      title="Bookmark"
+    >
+      <svg
+        aria-hidden="false"
+        class="icon medium"
+        viewBox="0 0 16 16"
+      >
+        <title>
+          Bookmark inactive icon
+        </title>
+        <path
+          d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+        />
+      </svg>
+       
+       
+    </button>
+  </div>
+</body>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HasNoteCell it renders correctly 1`] = `
+<body>
+  <div>
+    <button
+      aria-label="Press to show task note"
+      class="icon-bar-btn actionable base-16 default"
+      title="Press to show task note"
+    >
+      <svg
+        aria-hidden="false"
+        class="icon medium"
+        viewBox="0 0 16 16"
+      >
+        <title>
+          Notepad icon
+        </title>
+        <path
+          d="M13 1h-3V0H9v1H7V0H6v1H3a1 1 0 00-1 1v13a1 1 0 001 1h10a1 1 0 001-1V2a1 1 0 00-1-1zm0 14H3V2h3v1h1V2h2v1h1V2h3z"
+        />
+        <path
+          d="M4 5h8v1H4zm0 2h8v1H4zm0 2h8v1H4zm0 2h4v1H4z"
+        />
+      </svg>
+       
+       
+    </button>
+    
+  </div>
+</body>
+`;

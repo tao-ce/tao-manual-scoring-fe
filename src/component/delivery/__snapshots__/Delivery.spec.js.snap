@@ -1,0 +1,1256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delivery overview active item change 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  All(3)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  disabled=""
+                  role="tab"
+                >
+                   
+                  Incomplete(0)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Bookmarked(1)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div>
+              Delivery Table
+    
+              
+               
+              <div
+                data-testid="DeliveryTable"
+              />
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class=""
+            >
+              <a
+                href=""
+              >
+                item-1-title
+              </a>
+               
+            </li>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                item-2-title
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;
+
+exports[`Delivery overview bookmark test 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  All(2)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Incomplete(1)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Bookmarked(1)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div>
+              Delivery Table
+    
+              
+               
+              <div
+                data-testid="DeliveryTable"
+              />
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                MANUAL
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;
+
+exports[`Delivery overview bookmark test unexpected task key 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  All(2)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Incomplete(1)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  disabled=""
+                  role="tab"
+                >
+                   
+                  Bookmarked(0)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div>
+              Delivery Table
+    
+              
+               
+              <div
+                data-testid="DeliveryTable"
+              />
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                MANUAL
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;
+
+exports[`Delivery overview change to incomplete tab 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  All(2)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  Incomplete(1)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  disabled=""
+                  role="tab"
+                >
+                   
+                  Bookmarked(0)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div
+              class="block"
+            >
+              <div
+                aria-live="assertive"
+                class="loading-wrapper small"
+                role="status"
+              >
+                <div
+                  class="loading"
+                />
+                 
+                <div
+                  class="content"
+                >
+                  <p
+                    class="visually-hidden"
+                  >
+                    Content is loading
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                MANUAL
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;
+
+exports[`Delivery overview renders correcly with different task types 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  All(2)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Incomplete(1)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  disabled=""
+                  role="tab"
+                >
+                   
+                  Bookmarked(0)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div>
+              Delivery Table
+    
+              
+               
+              <div
+                data-testid="DeliveryTable"
+              />
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                MANUAL
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;
+
+exports[`Delivery overview renders correctly after LTI launch 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  All(5)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Incomplete(1)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Bookmarked(1)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div>
+              Delivery Table
+    
+              
+               
+              <div
+                data-testid="DeliveryTable"
+              />
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                MANUAL
+              </a>
+               
+            </li>
+            <li>
+              <a
+                href=""
+              >
+                item-1-title
+              </a>
+               
+            </li>
+            <li>
+              <a
+                href=""
+              >
+                item-2-title
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;
+
+exports[`Delivery overview renders correctly with paginator 1`] = `
+<body>
+  <div>
+    <div
+      class="delivery"
+    >
+      <div
+        class="header"
+      >
+        <button
+          aria-label="Close overview"
+          class="close"
+        >
+          <span
+            class="close-text"
+          >
+            Test overview
+          </span>
+           
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Chevron down icon
+            </title>
+            <path
+              d="M8 13L0 5l2-2 6 6 6-6 2 2-8 8z"
+            />
+          </svg>
+        </button>
+      </div>
+       
+      <aside
+        aria-label="Tasks status"
+        class="tab-bar"
+      >
+        <div
+          class="tabgroup"
+        >
+           
+          <div
+            class="scrollbox"
+          >
+            <ul
+              role="tablist"
+            >
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="true"
+                  aria-selected="true"
+                  role="tab"
+                >
+                   
+                  All(2)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  role="tab"
+                >
+                   
+                  Incomplete(1)
+                   
+                </button>
+                 
+              </li>
+              <li
+                role="presentation"
+              >
+                <button
+                  aria-current="false"
+                  aria-selected="false"
+                  disabled=""
+                  role="tab"
+                >
+                   
+                  Bookmarked(0)
+                   
+                </button>
+                 
+              </li>
+            </ul>
+            <iframe
+              aria-hidden="true"
+              src="about:blank"
+              style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; border: 0; opacity: 0; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+          </div>
+           
+        </div>
+         
+      </aside>
+       
+      <div
+        class="container"
+      >
+        <main>
+          <div
+            class="content"
+          >
+            <div>
+              Delivery Table
+    
+              <div
+                class="pagination-container"
+              >
+                <ul
+                  class="pagination"
+                >
+                  <li
+                    class="pagination-item icon"
+                  >
+                    <button
+                      class="page"
+                      disabled=""
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        first page
+                      </span>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="icon medium rtl-flip"
+                        viewBox="0 0 16 16"
+                      >
+                        <title>
+                          Chevron bar left icon
+                        </title>
+                        <path
+                          d="M0 8v8h3V0H0zm10.168-3.918L6.25 8l7.832 7.832.918-.914.918-.918-2.969-2.95L10 8.083l6-6-.965-.965-.953-.949zm0 0"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                   
+                  <li
+                    class="pagination-item icon previous"
+                  >
+                    <button
+                      class="page"
+                      disabled=""
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        previous page
+                      </span>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="icon medium rtl-flip"
+                        viewBox="0 0 16 16"
+                      >
+                        <title>
+                          Chevron left icon
+                        </title>
+                        <path
+                          d="M3 8l8-8 2 2-6 6 6 6-2 2-8-8z"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                   
+                  <li
+                    class="pagination-item"
+                  >
+                    <div
+                      class="focus-visible-wrapper"
+                    >
+                      <div
+                        class="page-label"
+                      >
+                        1
+                      </div>
+                       
+                      <select
+                        class="page-select"
+                      >
+                        <option
+                          value="1"
+                        >
+                          Page 1
+                        </option>
+                        <option
+                          value="2"
+                        >
+                          Page 2
+                        </option>
+                      </select>
+                    </div>
+                  </li>
+                  
+                   
+                   
+                   
+                   
+                  <li
+                    class="pagination-item"
+                  >
+                    <button
+                      class="page"
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        page
+                      </span>
+                       
+                      2
+                    </button>
+                  </li>
+                  
+                   
+                  <li
+                    class="pagination-item icon next"
+                  >
+                    <button
+                      class="page"
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        next page
+                      </span>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="icon medium rtl-flip"
+                        viewBox="0 0 16 16"
+                      >
+                        <title>
+                          Chevron right icon
+                        </title>
+                        <path
+                          d="M13 8l-8 8-2-2 6-6-6-6 2-2 8 8z"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                   
+                  <li
+                    class="pagination-item icon"
+                  >
+                    <button
+                      class="page"
+                    >
+                      <span
+                        class="visually-hidden"
+                      >
+                        last page
+                      </span>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="icon medium rtl-flip"
+                        viewBox="0 0 16 16"
+                      >
+                        <title>
+                          Chevron bar right icon
+                        </title>
+                        <path
+                          d="M12.832 8v8H16V0h-3.168zM1 1.082L.082 2l2.969 2.965L6 7.918l-6 6 .965.965.953.949L9.75 8 1.918.168zm0 0"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              
+               
+              <div
+                data-testid="DeliveryTable"
+              />
+            </div>
+          </div>
+        </main>
+         
+        <aside
+          aria-label="Items"
+          class="items-bar"
+        >
+          <ul>
+            <li
+              class="active"
+            >
+              <a
+                href=""
+              >
+                MANUAL
+              </a>
+               
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+     
+    <div
+      data-testid="InactiveProjectDialog"
+    />
+  </div>
+</body>
+`;

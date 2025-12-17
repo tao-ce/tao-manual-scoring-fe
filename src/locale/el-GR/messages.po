@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Επιλέξτε μια ημερομηνία"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "Κυρ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Mon"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "Τρί"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "Τετ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Thu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "Παρ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "Σαβ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "Ιαν"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Φεβ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Μαρ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "Απρ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "Μάιος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "Ιουν"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Ιουλ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Αυγ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Σεπ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "Οκτ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "Νοε"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "Δεκ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "Ιανουάριος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "Μάρτιος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "Απριλίου"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "Ιουνίου"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "Ιούλιος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "Αύγουστος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "Οκτώβριος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "Νοέμβριος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Δκ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "ΠΜ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "ΜΜ"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Έτος"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "αποθηκεύτηκε"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "αποθηκεύτηκε πριν από 1 λεπτό"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "αποθηκεύτηκε πριν από 1 ώρα"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "αποθηκεύτηκε πριν από %d ώρες"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "τελευταία αποθηκεύτηκε στις %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Το περιεχόμενο φορτώνει"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Είσοδος βαθμολογίας"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Επιλέχθηκε από άλλο σκορ."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Απορρίφθηκε."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Κουμπί ραδιοφώνου"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Μπορείτε να διαβάσετε περισσότερα σχετικά με αυτό στο μας"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "και"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Πολιτική Cookie"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την εμπειρία περιήγησής σας και να εκτελέσει ανάλυση και έρευνα. Για να αλλάξετε τις προτιμήσεις σας, κάντε κλικ στο στοιχείο Διαχείριση προτιμήσεων. Διαφορετικά, κάνοντας κλικ στην επιλογή Αποδοχή όλων των cookies υποδηλώνει ότι συμφωνείτε με τη χρήση των cookies στη συσκευή σας. Κάνοντας κλικ στην Απόρριψη όλων των cookies σημαίνει ότι δεν συμφωνείτε με τη χρήση μη αυστηρά απαραίτητων cookies στη συσκευή σας."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Βασικά Cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Τα απολύτως απαραίτητα cookies θα πρέπει να είναι ενεργοποιημένα ανά πάσα στιγμή, ώστε να μπορούμε να αποθηκεύσουμε τις προτιμήσεις σας για τις ρυθμίσεις cookie."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Cookies Αναλύσεων"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Αυτά τα cookies μας επιτρέπουν να μετρήσουμε επισκέψεις και διάφορα άλλα αναλυτικά δεδομένα ώστε να μπορούμε να μετρήσουμε και να βελτιώσουμε την απόδοση του ιστότοπου μας. Μας βοηθούν να γνωρίζουμε ποιες σελίδες είναι οι πιο δημοφιλείς και να δούμε πώς κινούνται οι επισκέπτες γύρω από την ιστοσελίδα. Εάν δεν επιτρέπετε αυτά τα cookies, δεν θα γνωρίζουμε πότε επισκεφθήκατε την ιστοσελίδα μας, και δεν θα είναι σε θέση να παρακολουθεί την απόδοσή της."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Πολιτική Απορρήτου"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Η βαθμολογία δεν είναι διαθέσιμη."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Παρακαλούμε επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Οι βαθμολογίες υποβλήθηκαν με επιτυχία"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "Η πρόοδος βαθμολογίας σας έχει ενημερωθεί."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Ένας ή περισσότεροι μαθητές έχουν υποβάλει εκ νέου τις απαντήσεις τους. Δυστυχώς οι ενημερωμένες απαντήσεις που είχαν ήδη βαθμολογηθεί πρέπει να βαθμολογηθούν ξανά."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Επισκόπηση δοκιμής"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Κατάσταση εργασιών"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Συνολική βαθμολογία"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Όλα"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Ελλιπής"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Σελιδοδείκτης"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Διορθωμένη συνολική βαθμολογία"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Σημείωση"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Αναφορά"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Στοιχεία"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Σελιδοδείκτης"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Πατήστε για εμφάνιση σημείωσης εργασίας"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s από %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Δεν προστέθηκε σκορ"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Πατήστε για εμφάνιση σημείωσης"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "Η αντιστοίχιση του \"%s\" και του σκόρερ \"%s %s\" με το όνομα χρήστη \"%s\" έχει αναφερθεί για τους ακόλουθους λόγους:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Δεν δόθηκε λόγος"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Η εργασία έχει βαθμολογηθεί"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Ωχ! Η σελίδα δεν βρέθηκε"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Η σελίδα που ψάχνετε δεν υπάρχει."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Μετάβαση στην αρχική"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Αυτό το έργο είναι τώρα ανενεργό"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Τώρα θα μεταφερθείτε στη λίστα έργων"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Εντάξει"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Κλείσιμο Διαλόγου"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Αναφέρετε αυτό το ζεύγος ερωτήσεων/scorer για μη συμμορφούμενη βαθμολογία?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Αν το κάνετε, όλες οι απαντήσεις για αυτό το ζευγάρι, το %j και το scorer %j θα υποβληθούν σε μια εργασία αξιολόγησης. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Πληκτρολογήστε μια σημείωση για αυτήν την έκθεση"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Αναφορά και συνέχεια"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Αναφέρθηκε για μη συμμόρφωση"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr ""
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "φόρτωση"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Φόρτωση απόκρισης"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Απάντηση αντικειμένου"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Τα κριτήρια βαθμολόγησης είναι η φόρτωση"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Στενά κριτήρια βαθμολογίας"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Κριτήρια βαθμολόγησης"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Προτεινόμενη εξήγηση βαθμολογίας"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Προσπαθήστε ξανά"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Χρησιμοποιήστε το σκορ"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Απορρίψτε"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Εμφάνιση πρότασης βαθμολογίας"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Λήψη πρότασης βαθμολογίας"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "δείτε τα κριτήρια για %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "βλέπε κριτήρια"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Ύποπτο για εξαπάτηση"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Προαιρετικό σχόλιο"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "από %d χαρακτήρες που απομένουν"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Σχόλιο (προαιρετικό)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Σημείωση βαθμολογίας:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Υποβολή βαθμολογίας?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Όλες οι βαθμολογίες θα υποβληθούν στο σύστημά σας. Αν έχετε προηγουμένως βαθμολογήσει και συγκεντρώσει απαντήσεις, θα αντικατασταθούν με τις νέες βαθμολογίες."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Υποβολή βαθμολογιών"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Βαθμολογία"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Σύμπτυξη πίνακα βαθμολογίας"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Άνοιγμα πίνακα βαθμολογίας"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Βαθμοί που δίνονται από %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "αναφορά"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Απάντηση %s από %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Απάντηση"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Μετάβαση στην προηγούμενη απάντηση"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "Επισκόπηση SEE"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Μετάβαση στην επόμενη απάντηση"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Ολοκλήρωση: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Δοκιμή απόκρισης taker"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Η εργασία απέτυχε να φορτωθεί. Παρακαλώ επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Σφάλμα υποβολής εργασίας βαθμολογίας"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Πληκτρολογήστε μια σημείωση για αυτήν την απάντηση"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Πληκτρολογήστε μια σημείωση για αυτή την αξιολόγηση"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr ""
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Αντιμετωπίσαμε ένα πρόβλημα κατά την αποθήκευση της βαθμολογίας σας. Παρακαλώ ξαναπροσπαθήστε. Εάν το πρόβλημα παραμένει, επικοινωνήστε με την ομάδα υποστήριξής μας για βοήθεια."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Πίσω"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Κύρια πλοήγηση"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Βαθμοί"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Είστε σίγουροι ότι θέλετε να φύγετε?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Οι βαθμοί σας θα αποθηκευτούν και θα είστε σε θέση να συνεχίσετε την αξιολόγηση αργότερα."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Αποστολή βαθμολογιών"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "συνεχίστε την ταξινόμηση"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "αποθήκευση και αποχώρηση"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Βαθμολογία"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Απόκρυψη επισήμανσης"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Εμφάνιση επισήμανσης"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Σελίδα σφάλματος"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Χειροκίνητη Βαθμολόγηση"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Εκτενές όνομα χρήστη"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Σύντομο όνομα χρήστη"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Απαγορευμένος χαρακτήρας στο όνομα χρήστη"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Κενό συνθηματικό"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Σύντομος κωδικός πρόσβασης"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Εκτενής κωδικός πρόσβασης"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Κενός ρόλος"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Έχει ήδη ανατεθεί"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Δε βρέθηκε"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Κενό κριτήριο εκχώρησης"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Διένεξη χρήστη συστήματος"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Ο ρόλος δεν υπάρχει στην επιλεγμένη στρατηγική βαθμολόγησης"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Μη έγκυρες δηλώσεις αποτελεσμάτων"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Η παράδοση φαίνεται να έχει ρυθμιστεί για μια \"ομάδα στοιχείων\" στρατηγική ανάθεσης έργου"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Η παράδοση φαίνεται να έχει ρυθμιστεί για μια \"ομάδα δοκιμαστών\" στρατηγική ανάθεσης έργου"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Λυπούμαστε, δεν μπορούμε να βρούμε τις απαντήσεις για να βαθμολογήσουμε. Επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Δεν υπάρχουν απαντήσεις προς το σκορ ακόμα. Περιμένετε και προσπαθήστε ξανά."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Η ταξινόμηση δεν είναι διαθέσιμη."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Παρακαλώ επικοινωνήστε με το διαχειριστή."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Δεν βρέθηκαν απαντήσεις."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Δεν μπορούν να βρεθούν εκτελέσεις παράδοσης με τα ακόλουθα παιδιά: <br><strong>%s</strong><br>Παρακαλούμε επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Οι εκτελέσεις παράδοσης με τα ακόλουθα id δεν είναι έγκυρες: <br><strong>%s</strong><br>Παρακαλούμε επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Οι παραδόσεις με τα ακόλουθα id δεν είναι έγκυρες: <br><strong>%s</strong><br>Παρακαλούμε επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Η βαθμολογία δεν είναι διαθέσιμη αυτή τη στιγμή, επειδή δεν βρέθηκαν απαντήσεις."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Αυτό μπορεί να συμβεί αν ένας μαθητής έχει μόλις υποβάλει τη δοκιμή. Παρακαλώ δοκιμάστε ξανά αργότερα. Αν το πρόβλημα επιμείνει, παρακαλώ επικοινωνήστε με το διαχειριστή του συστήματός σας. Δοκιμή λήπτες παιδιά που δεν βρέθηκαν: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Πάρα πολλές εργασίες για να σκοράρει."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Στοιχεία εκτέλεσης παράδοσης: <strong>%s</strong><br>Αριθμός εργασιών βαθμολογίας: <strong>%s</strong><br>Επιτρέπεται μέγιστος αριθμός εργασιών: <strong>%s</strong><br>Παρακαλώ επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Στοιχεία παράδοσης: <strong>%s</strong><br>Στοιχεία δοκιμαστών: <strong>%s</strong><br>Αριθμός εργασιών βαθμολογίας: <strong>%s</strong><br>Επιτρέπεται μέγιστος αριθμός εργασιών: <strong>%s</strong><br>Παρακαλώ επικοινωνήστε με το διαχειριστή του συστήματός σας."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr ""
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Τα ID Παράδοσης και τα ID Ελέγχου Taker είναι κενά ή δεν έχουν οριστεί."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Τα ID παράδοσης είναι κενά ή δεν έχουν οριστεί."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Δοκιμαστικό ID Taker είναι κενό ή δεν έχει οριστεί."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Η αξιολόγηση απέτυχε: Ο κριτής δεν μπορεί να είναι ο ίδιος χρήστης με τον αρχικό σκορ."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Παρακαλώ εκχωρήστε έναν διαφορετικό κριτή για να εξασφαλίσει μια ανεξάρτητη εξέταση της βαθμολογίας."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Μη Έγκυρη Κατηγορία Βαθμολόγησης"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Παρακαλώ ελέγξτε την τιμή της κατηγορίας.Πρέπει να είναι έγκυρη και δεν μπορεί να είναι κενή."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Μη έγκυρη προσαρμοσμένη αξίωση."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Μη έγκυρη παράμετρος, η αξίωση απαιτεί [%s] δεν πρέπει να είναι κενή και, πληκτρολογήστε [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Απαιτούμενη προσαρμοσμένη αξίωση."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Η παράμετρος που λείπει, ο ισχυρισμός απαιτεί την παρουσία της παραμέτρου [%s]."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Λείπει κόμμα(α), θα πρέπει να υπάρχει ακριβώς %d στήλη στη σειρά \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Το αρχείο που ανεβάσατε περιέχει διπλά ονόματα χρηστών. Καταργήστε τα διπλότυπα ονόματα χρηστών και προσπαθήστε ξανά."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "Το αναγνωριστικό βαθμολογίας:%s έχει ήδη βαθμολογηθεί και κατατεθεί."
+

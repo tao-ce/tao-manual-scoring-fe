@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: is\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Veldu dagsetningu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "sun"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "mán"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "þri"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "mið"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "fim"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "fös"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "lau"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Sunnudagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Mánudagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "Þriðjudagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Miðvikudagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Fimmtudagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Föstudagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Laugardagur"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "Jan"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Feb"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Mar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "Apr"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "Maí"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "Jún"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Júl"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Ágú"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Sep"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "Okt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "Nóv"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "Des"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "Janúar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "Febrúar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "Mars"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "Apríl"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "Júní"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "Júlí"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "Ágúst"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "September"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "Október"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "Nóvember"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "Desember"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Vika"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "F.h"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "E. h"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Ár"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Efni er að hlaðast"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Stigagjöf"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Valinn af öðrum markaskorara."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Hafnað."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Útvarpshnappur"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textasvæði"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr ""
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr ""
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Stigagjöf ekki í boði."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Vinsamlegast hafðu samband við kerfisstjórann þinn."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Skorunum hefur verið skilað inn"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "stigagangur þinn hefur verið uppfærður."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Einn eða fleiri nemendur hafa sent inn svör sín að nýju. Því miður þarf að skora aftur uppfærðu svörin sem þegar voru skoruð."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Próf yfirlit"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Staða verkefna"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Spurning"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Heildarstig"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Allt"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Ósvarað"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Merkt"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Leiðrétt heildareinkunn"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Athugið"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Skýrsla"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Atriði"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Merkt"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Ýttu á til að sýna verkskýrslu"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s af %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Engu skori bætt við"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Ýttu á til að sýna minnismiða"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "Pörun \"%s\" og markaskorara \"%s %s\" við notandanafnið \"%s\" hefur verið tilkynnt af eftirfarandi ástæðum:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Ástæða ekki gefin"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Verkefni er skorað"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Úps! Síða fannst ekki"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Síðan sem þú ert að leita að er ekki til."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Farðu heim"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Þetta verkefni er nú óvirkt"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Þér verður nú vísað á verkefnalistann"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Allt í lagi"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Loka glugga"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Tilkynna þessa spurningu/skorarapar fyrir stig sem ekki uppfyllir kröfur?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Ef þú gerir það munu öll svörin fyrir parið, %j og skorarann %j verða fyrir endurskoðunarverkefni. Ekki er hægt að afturkalla þessa aðgerð."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Sláðu inn athugasemd fyrir þessa skýrslu"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Tilkynna og halda áfram"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Tilkynnt vegna vanefnda"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "Tilkynnt hefur verið um pörun %j og markaskorara %j við notandanafnið %j af eftirfarandi ástæðum:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "hleðsla"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Svar er að hlaðast"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Atriði svar"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Stigaviðmið er að hlaða"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Loka stigaskilyrði"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Stigaviðmið"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Tillaga að útskýringu á stigagjöf"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Reyndu aftur"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Nota stig"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Henda"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Sýna stiga tillögur"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Fá tillögu að stigum"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "sjá viðmið fyrir %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "sjá viðmið"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Grunur um svindl"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Athugasemd valfrjáls"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "af %d stöfum eftir"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Athugasemd (valfrjáls)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Athugasemd hjá matsmanni:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Skila inn stigunum?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Öll stig verða send inn í kerfið þitt. Ef þú hefur áður skorað og endurstigað svör verður þeim skipt út fyrir nýju stigin."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Sendu inn stigin"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Stigagjöf"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Dragðu saman stigatöflu"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Opið stigatöflu"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Stig gefin af %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "skýrslu"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Svaraðu %s af %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Svar"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Farðu í fyrra svar"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "SJÁ Yfirlit"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Farðu í næsta svar"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Frágangur: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Viðbrögð próftakanda"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Ekki tókst að hlaða verkefni. Vinsamlegast hafðu samband við kerfisstjórann þinn."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Villa við skil á skori"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Sláðu inn athugasemd við þetta svar"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Sláðu inn athugasemd fyrir þessa umsögn"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr ""
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Það kom upp vandamál við vistun stigagjafar. Vinsamlegast reynið aftur. Ef vandamálið er viðvarandi, hafðu samband við þjónustuaðila."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Til baka"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Aðalleiðsögn"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Stig"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Ertu viss um að þú viljir fara?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Einkunnir þínar verða vistaðar og þú munt geta haldið áfram að gefa einkunn síðar."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Sendu stig"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Verkfæri"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "halda áfram að gefa einkunn"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "spara og fara"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Skora"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Fela highlighter"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Sýna hápunktur"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Villusíða"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Handvirk stigagjöf"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Langt notendanafn"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Stutt notendanafn"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Bannaður stafur í notendanafni"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Tómt lykilorð"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Stutt lykilorð"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Langt lykilorð"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Tómt hlutverk"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Þegar úthlutað"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Fannst ekki"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Verkefnaviðmið er tómt"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Kerfisnotendaárekstrar"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Hlutverkið er ekki til í valinni stigagjafarstefnu"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Ógildar niðurstöðuyfirlýsingar"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Fyrirlagnarútgáfan er sett upp fyrir \"spurningahóp\" í verkefnaskipulagi"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Fyrirlagnarútgáfan er sett upp fyrir \"próftakahóp\" í verkefnaskipulagi"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Því miður, við finnum ekki svörin til að skora. Vinsamlegast hafðu samband við kerfisstjórann þinn."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Það eru engin svör við því að skora ennþá. Vinsamlegast bíddu og reyndu aftur."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Einkunnagjöf ekki í boði."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Vinsamlegast hafðu samband við stjórnanda þinn."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Engin svör fundust."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Framkvæmd fyrirlagnar með eftirfarandi auðkennum finnst ekki: <br><strong>%s</strong><br>Vinsamlegast hafðu samband við kerfisstjóra."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Framkvæmd fyrirlagnar með eftirfarandi auðkennum eru ógildar: <br><strong>%s</strong><br>Vinsamlegast hafðu samband við kerfisstjóra."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Fyrirlagnarútgáfur með eftirfarandi auðkenni eru ógildar: <br><strong>%s</strong><br>Vinsamlegast hafðu samband við kerfisstjóra."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr ""
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr ""
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Of mörg verkefni til að skora."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Afhendingarauðkenni: <strong>%s</strong><br>Fjöldi stigaverkefna: <strong>%s</strong><br>Leyfilegt hámarksfjöldi verkefna: <strong>%s</strong><br>Vinsamlegast hafðu samband við kerfisstjórann þinn."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Afhendingarauðkenni: <strong>%s</strong><br>Auðkenni próftakenda: <strong>%s</strong><br>Fjöldi stiga verkefni: <strong>%s</strong><br>Leyfilegur hámarksfjöldi verkefna: <strong>%s</strong><br>Vinsamlegast hafðu samband við kerfisstjórann þinn."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Fyrirlagnarútgáfur og próftakar með eftirfarandi auðkenni finnast ekki. <br>Fyrirlagnarútgáfur: <strong>%s</strong>, <br>Próftakar: <strong>%s</strong>. <br>Vinsamlegast hafðu samband við kerfisstjóra."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Auðkenni fyrirlagnarútgáfu og próftaka eru tóm eða óskilgreind."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Auðkenni fyrirlagnarútgáfu er tómt eða óskilgreint."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Auðkenni próftaka er tómt eða óskilgreint."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Ritrýni mistókst: Ritrýnir getur ekki verið sami notandi og upprunalegur matsmaður."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Vinsamlegast skipaðu annan ritrýni til að tryggja samræmi milli matsmanna."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr ""
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr ""
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Ógild sérkrafa."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Ógild breyta, krafan þarfnast [%s] sem má ekki vera tóm og verður að vera af gerð [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Nauðsynleg sérkrafa."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Vantar breytu, krafan þarfnast [%s] breytu."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Vantar kommu, það ætti að vera nákvæmlega %d dálkur í línu \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Skráin sem hlaðið var upp inniheldur tvöföld notendanöfn. Vinsamlegast fjarlægðu tvöföld notendanöfn og reyndu aftur."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "Auðkenni stigagjafar:%s er þegar skorað og sent inn."
+

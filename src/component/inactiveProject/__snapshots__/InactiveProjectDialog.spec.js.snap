@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InactiveProjectDialog it renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="modal-wrapper"
+    >
+      <div
+        class="modal-background"
+      />
+       
+      <div
+        aria-modal="true"
+        class="modal-positioning"
+      >
+        <div
+          aria-labelledby="heading"
+          class="dialog inverted"
+          role="dialog"
+          tabindex="-1"
+        >
+           
+          <h2
+            class="ui-heading"
+            id="heading"
+          >
+            This project is now inactive
+          </h2>
+           
+           
+          <p>
+            You will be now redirected to the projects list
+          </p>
+           
+          <div
+            class="actions aligned-end"
+          >
+            <button
+              class="actionable primary pill medium fullwidth"
+              type="button"
+            >
+               
+               
+              Ok
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</body>
+`;

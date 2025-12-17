@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: da\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Vælg en dato"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "Søn"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Mon"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "Tir"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "Ons"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Thu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "Fre"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "Lør"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Søndag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Mandag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Fredag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Lørdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "Jan"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Feb"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Mar."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "April"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "Maj"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "Juni"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Juli"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Aug."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Sep."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "Okt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "Nov."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "Dec."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "Januar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "Februar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "Marts"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "April"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "Juni"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "Juli"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "August"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "September"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "Oktober"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "November"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "December"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Uge"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "AM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "PM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "År"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "gemt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "gemt for 1 minut siden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "gemt %d minutter siden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "gemt for 1 time siden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "gemt %d timer siden"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "sidst gemt på %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Indholdet indlæses"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Scoring input"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Valgt af en anden scorer."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Afvist"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Radioknap"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Du kan læse mere om dette i vores"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "og"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Cookie- Politik"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Dette websted bruger cookies til at forbedre din browseroplevelse og til at udføre analyser og forskning. For at ændre dine præferencer, skal du klikke på Administrer præferencer. Ellers ved at klikke på Accepter alle cookies angiver, at du accepterer vores brug af cookies på din enhed. Ved at klikke på Afvis alle cookies betyder at du ikke accepterer vores brug af ikke-strengt nødvendige cookies på din enhed."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Væsentlige Cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Strengt nødvendig Cookie skal være aktiveret til enhver tid, så vi kan gemme dine præferencer til cookie-indstillinger."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Analyse Cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Disse cookies giver os mulighed for at tælle besøg og forskellige andre analytiske data, så vi kan måle og forbedre effektiviteten af vores hjemmeside. De hjælper os med at vide, hvilke sider der er de mest og mindst populære og se, hvordan besøgende bevæger sig rundt på webstedet. Hvis du ikke tillader disse cookies, vil vi ikke vide, når du har besøgt vores hjemmeside, og vil ikke være i stand til at overvåge sin præstation."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Privat Politik"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Scoring ikke tilgængelig."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Kontakt venligst din systemadministrator."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Scoren er blevet indsendt med succes"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "Din scorestatus er blevet opdateret."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "En eller flere studerende har genindsendt deres svar. Desværre skal de opdaterede svar, der allerede blev scoret, scores igen."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Test oversigt"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Status for opgaver"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Spørgsmål"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Samlet score"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Alle"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Ufuldstændig"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Bogmærket"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Korrigeret total score"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Bemærkning"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Rapport"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Varer"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Bogmærke"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Tryk for at vise opgavenote"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s af %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Ingen score tilføjet"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Tryk for at vise note"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "Parring af \"%s\" og scorer \"%s %s\" med brugernavnet \"%s\" er blevet rapporteret af følgende grunde:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Årsag ikke givet"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Opgaven er scoret"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Ups! Siden blev ikke fundet"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Siden du leder efter findes ikke."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Gå til hjem"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Dette projekt er nu inaktivt"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Du vil nu blive omdirigeret til listen over projekter"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "OK"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Luk Dialog"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Rapporter dette spørgsmål/scorer par for ikke-kompatibel scoring?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Hvis du gør det, vil alle svarene for det par, %j og scorer %j blive udsat for en revisionsopgave. Denne handling kan ikke fortrydes."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Skriv en note for denne rapport"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Annuller"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Rapporter og fortsæt"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Anmeldt for manglende overholdelse"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "Parring af %j og scorer %j med brugernavnet %j er blevet rapporteret af følgende årsager:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "indlæser"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Respons indlæses"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Element svar"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Scoring kriterier er lastning"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Tæt scorekriterier"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Scoring kriterier"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Foreslået pointforklaring"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Prøv igen"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Brug scoren"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Kassér"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Vis score-forslag"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Hent score forslag"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "se kriterier for %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "se kriterier"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Mistænkes for snyd"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Kommentar valgfri"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "af %d tegn tilbage"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Kommentar (valgfri)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Scorers note:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Indsend scorerne?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Alle resultater vil blive indsendt til dit system. Hvis du tidligere har scoret og regraderet svar, vil de blive erstattet med de nye score."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Indsend scoringer"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Scoring"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Sammenfold scoringspanel"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Åbn scoringspanel"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Scores givet af %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "rapportér"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Svar %s af %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Respons"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Gå til forrige svar"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "Se Oversigt"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Gå til næste svar"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Færdiggørelse: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Svaret på prøvebrugeren"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Opgave kunne ikke indlæses. Kontakt venligst din systemadministrator."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Scoring task submission error"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Skriv en note for dette svar"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Skriv en note til denne anmeldelse"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Denne scoring opgave kunne ikke initieres mest sandsynligt, fordi en anden scoring session blev initieret i et andet vindue eller browser.<br>For at løse dette problem:<br><ul><li>Sørg for, at du ikke scorer forskellige sessioner i et andet vindue eller browser.</li><li>Luk alle andre faner eller browservinduer, hvor dette eller et andet pointlink kan være åbent.</li></ul>Hvis du allerede har kontrolleret disse trin og stadig se denne besked, kontakt venligst support eller din administrator for yderligere hjælp."
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Vi stødte på et problem under lagring af din score. Prøv igen. Hvis problemet fortsætter, kontakt vores supportteam for hjælp."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Tilbage"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Hoved navigation"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Scorer"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Er du sikker på, at du vil forlade?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Dine karakterer vil blive gemt, og du vil kunne genoptage karaktereringen på et senere tidspunkt."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Send resultater"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Værktøjer"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "fortsæt klassificering"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "gem og aflad"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Score"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Skjul fremhævning"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Vis fremhævning"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Fejl side"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Manuel Scoring"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Langt brugernavn"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Kort brugernavn"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Forbudt tegn i brugernavn"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Tom adgangskode"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Kort adgangskode"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Lang adgangskode"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Tom rolle"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Allerede tildelt"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Ikke fundet"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Tomt tildelingskriterium"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Konflikt for systembruger"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Rollen findes ikke i den valgte scoringsstrategi"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Ugyldige resultatangivelser"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Leveringen ser ud til at være konfigureret til en \"element gruppe\" projekttildelingsstrategi"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Leveringen synes at være konfigureret til en \"test taker gruppe\" projekttildelingsstrategi"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Beklager, vi kan ikke finde svarene til score. Kontakt venligst din systemadministrator."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Der er ingen svar at score endnu. Vent og prøv igen."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Klassificering ikke tilgængelig."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Kontakt venligst din administrator."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Ingen svar blev fundet."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Levering eksekveringer med følgende id'er kan ikke findes: <br><strong>%s</strong><br>Kontakt din systemadministrator."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Leveringsekveringer med følgende id'er er ugyldige: <br><strong>%s</strong><br>Kontakt venligst din systemadministrator."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Leveringer med følgende id'er er ugyldige: <br><strong>%s</strong><br>Kontakt venligst din systemadministrator."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Scoring er ikke tilgængelig lige nu, fordi der ikke blev fundet svar."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Dette kan ske, hvis en elev lige har indsendt testen. Prøv igen senere. Hvis problemet fortsætter, bedes du kontakte din systemadministrator. Test takers IDs, som ikke blev fundet: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "For mange opgaver at score."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Levering udførelse ids: <strong>%s</strong><br>Antal scoring opgaver: <strong>%s</strong><br>Tilladte maksimale antal opgaver: <strong>%s</strong><br>Kontakt venligst din systemadministrator."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Levering ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Antal scoring opgaver: <strong>%s</strong><br>Tilladt maksimale antal opgaver: <strong>%s</strong><br>Kontakt din systemadministrator."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Leveringer og testbrugere med følgende id'er kan ikke findes.<br>Leveringer: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Kontakt venligst din systemadministrator."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Leverings-ID(er) og test-ID(er) er tomme eller ikke defineret."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Leverings ID(er) er tom eller ikke defineret."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Test Taker ID(er) er tom eller ikke defineret."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Anmeldelse mislykkedes: Anmelderen kan ikke være den samme bruger som den oprindelige scorer."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Tildel en anden anmelder for at sikre en uafhængig gennemgang af score."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Ugyldig Scoring Kategori"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Tjek venligst scoringCategory værdien. Den skal være gyldig og må ikke være tom."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Ugyldigt brugerdefineret krav."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Ugyldig parameter, påstand kræver [%s] må ikke være tom og skriv [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Påkrævet brugerdefineret krav."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Manglende parameter, fordring kræver, at [%s] parameter er til stede."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Manglende komma(er), der skal være præcis %d kolonne i række \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Den uploadede fil indeholder duplikerede brugernavne. Fjern duplikerede brugernavne, og prøv igen."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "Scoringopgave-ID:%s er allerede scoret og indsendt."
+

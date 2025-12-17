@@ -1,0 +1,1389 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:47
+msgid "%d enrollments already present"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:31
+msgid "%d enrollments ignored"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:36
+msgid "%d new enrollments"
+msgstr ""
+
+#: ../component/deliveryDetails/ScoringCriteria.svelte:37
+#: ../component/deliveryDetails/ScoringCriteria.svelte:40
+msgid "%d unassigned"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:69
+msgid "%d% done"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:59
+msgid "%d% scored"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:44
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:46
+msgid "%d%"
+msgstr ""
+
+#: ../controller/page.js:65
+msgid "%s - Manual Scoring"
+msgstr ""
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:14
+msgid "%s of %s"
+msgstr ""
+
+#: ../controller/users/users.js:108
+msgid "%s users were imported, %s users were updated and %s were skipped"
+msgstr ""
+
+#: ../controller/users/users.js:97
+msgid ""
+"%s users were imported, %s users were updated and %s were skipped. Errors "
+"found for the following users: %s"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:40
+msgid "(%d missing enrollments solved)"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:39
+msgid "(1 missing enrollment solved)"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:30
+msgid "(left to %s)"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:46
+msgid "1 enrollment already present"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:29
+msgid "1 enrollment ignored"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidationDetails.svelte:36
+msgid "1 new enrollment"
+msgstr ""
+
+#: ../component/monitoringDetails/ProgressItemsTable.svelte:57
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:51
+#: ../component/scoringproject/view/manager/monitoring/MonitoringTable.svelte:34
+#: ../component/scoringproject/view/scorer/ScoringProjectTable.svelte:38
+#: ../component/scoringprojects/ScoringProjects.svelte:24
+#: ../component/users/UsersList.svelte:64
+msgid "Action"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:103
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:102
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:22
+#: ../component/scoringprojects/ScoringProjects.svelte:24
+msgid "Actions"
+msgstr ""
+
+#: ../component/panel/Panel.svelte:197
+msgid "All rights reserved"
+msgstr ""
+
+#: ../component/task/SubmitDialog.svelte:38
+msgid ""
+"All scores will be submitted to your system. If you have previously scored "
+"and regraded responses they will be replaced with the new scores."
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:35
+#: ../component/delivery/Delivery.svelte:60
+#: ../component/reassignment/EligibleUsersTable.svelte:41
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:106
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:29
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:43
+msgid "All"
+msgstr ""
+
+#: ../core/utils/response.js:42
+msgid "Already assigned"
+msgstr ""
+
+#: ../component/task/Task.svelte:489
+msgid "Answer %s of %s"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:136
+#: ../component/enrollments/EnrollmentValidation.svelte:137
+msgid "Apply changes"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:112
+msgid "Are you sure you want to leave?"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:235
+msgid "Assignment strategy"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:25
+msgid "Back to Scoring project"
+msgstr ""
+
+#: ../component/deliveryDetails/DeliveryDetails.svelte:19
+#: ../controller/deliveryDetails/delivery-details.js:135
+#: ../controller/deliveryDetails/delivery-details.selectors.js:56
+#: ../controller/deliveryDetails/delivery-details.selectors.js:67
+msgid "Back to deliveries"
+msgstr ""
+
+#: ../controller/deliveryDetails/delivery-details.js:105
+#: ../controller/deliveryDetails/delivery-details.selectors.js:60
+msgid "Back to link deliveries to %s"
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:192
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:94
+#: ../controller/deliveryDetails/delivery-details.js:106
+#: ../controller/deliveryDetails/delivery-details.selectors.js:64
+msgid "Back to project %s"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:168
+#: ../component/scoringproject/create/CreateScoringProject.svelte:55
+msgid "Back to scoring projects"
+msgstr ""
+
+#: ../controller/monitoringDetails/monitoring-details.js:75
+msgid "Back to user detailed view %s"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:69
+msgid "Back to user detailed view"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:25
+msgid "Back"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:42
+#: ../component/reassignment/EligibleUsersTable.svelte:43
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:44
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:45
+msgid "Below %d%"
+msgstr ""
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:14
+#: ../component/task/Task.svelte:454
+msgid "Bookmark"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:69
+#: ../component/delivery/DeliveryTable.svelte:54
+msgid "Bookmarked"
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:26
+#: ../component/enrollments/EnrollmentValidation.svelte:130
+#: ../component/enrollments/EnrollmentValidation.svelte:131
+#: ../component/task/ComplaintDialog.svelte:88
+#: ../component/task/SubmitDialog.svelte:16
+msgid "Cancel"
+msgstr ""
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr ""
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:37
+msgid "Completion %"
+msgstr ""
+
+#: ../component/monitoringDetails/ProgressItemsTable.svelte:56
+#: ../component/scoringproject/view/manager/monitoring/MonitoringTable.svelte:33
+#: ../component/scoringproject/view/scorer/ScoringProjectTable.svelte:37
+#: ../component/scoringprojects/ScoringProjects.svelte:23
+msgid "Completion"
+msgstr ""
+
+#: ../component/task/Task.svelte:535
+msgid "Completion: %s %"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:110
+msgid "Corrected total score"
+msgstr ""
+
+#: ../controller/scoringproject/create/createscoringproject.js:37
+msgid "Create a scoring project"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:19
+#: ../component/scoringproject/create/CreateScoringProject.svelte:20
+#: ../component/scoringprojects/ScoringProjects.svelte:113
+#: ../component/scoringprojects/ScoringProjects.svelte:114
+msgid "Create new scoring project"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:62
+msgid "Created at"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:194
+#: ../component/scoringproject/create/CreateScoringProject.svelte:216
+msgid "Defined"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:45
+msgid "Delete"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:192
+#: ../component/deliveries/Deliveries.svelte:106
+#: ../component/panel/Panel.svelte:32
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:43
+#: ../controller/deliveries/deliveries.js:35
+msgid "Deliveries"
+msgstr ""
+
+#: ../component/deliveryDetails/DeliveryDetailsHeader.svelte:72
+#: ../controller/deliveryDetails/delivery-details.js:90
+msgid "Delivery details"
+msgstr ""
+
+#: ../controller/scoringproject/linkdelivery/linkdelivery.js:123
+msgid "Delivery linked"
+msgstr ""
+
+#: ../component/deliveryDetails/Details.svelte:22
+msgid "Delivery resource ID"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:99
+#: ../component/monitoringDetails/ProgressItemsTable.svelte:53
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:99
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:20
+msgid "Delivery test title"
+msgstr ""
+
+#: ../controller/scoringproject/view/manager/scoringproject.js:131
+msgid "Delivery unlinked"
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:72
+#: ../component/scoringproject/view/manager/monitoring/MonitoringTable.svelte:22
+msgid "Detailed view"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:76
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:43
+msgid "Details"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:29
+msgid "Dismiss"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:64
+msgid "Done & Submitted"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:65
+msgid "Done"
+msgstr ""
+
+#: ../controller/scoringproject/edit/edit-scoring-project.js:58
+msgid "Edit a scoring project"
+msgstr ""
+
+#: ../component/scoringprojects/ScoringProjects.svelte:36
+msgid "Edit configuration"
+msgstr ""
+
+#: ../controller/scoringproject/edit/edit-scoring-project.js:68
+msgid "Edit scoring project %s"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:171
+msgid "Eligible %s"
+msgstr ""
+
+#: ../core/utils/response.js:48
+msgid "Empty assignment criterion"
+msgstr ""
+
+#: ../core/utils/response.js:30
+msgid "Empty password"
+msgstr ""
+
+#: ../core/utils/response.js:39
+msgid "Empty role"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:72
+#: ../component/deliveries/Deliveries.svelte:73
+#: ../component/reassignment/EligibleUsersTable.svelte:91
+#: ../component/reassignment/EligibleUsersTable.svelte:93
+#: ../component/reassignment/EligibleUsersTable.svelte:104
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:69
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:25
+#: ../component/scoringproject/view/manager/monitoring/MonitoringTable.svelte:15
+#: ../component/scoringprojects/ScoringProjects.svelte:57
+#: ../component/scoringprojects/ScoringProjects.svelte:59
+#: ../component/users/UsersList.svelte:43
+msgid "Empty"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:213
+#: ../component/scoringprojects/ScoringProjects.svelte:22
+msgid "End date"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:125
+msgid "Enroll users"
+msgstr ""
+
+#: ../controller/scoringproject/view/manager/scoringproject.js:173
+msgid "Enrollment dismissed"
+msgstr ""
+
+#: ../controller/enrollmentValidation/enrollment-validation.js:57
+msgid "Enrollment validation"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:47
+msgid "Enrollments"
+msgstr ""
+
+#: ../component/scoringprojects/ScoringProjects.svelte:45
+msgid "Enter"
+msgstr ""
+
+#: ../controller/scoringproject/create/createscoringproject.js:67
+#: ../controller/scoringproject/edit/edit-scoring-project.js:51
+msgid "Error happened: %s"
+msgstr ""
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:60
+msgid "First Name"
+msgstr ""
+
+#: ../core/utils/response.js:27
+msgid "Forbidden character in username"
+msgstr ""
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr ""
+
+#: ../component/task/Task.svelte:527
+msgid "Go to next answer"
+msgstr ""
+
+#: ../component/task/Task.svelte:512
+msgid "Go to previous answer"
+msgstr ""
+
+#: ../component/inactiveProject/InactiveProjectScreen.svelte:67
+msgid "Go to projects page"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:43
+msgid "Grade"
+msgstr ""
+
+#: ../services/launchService.js:80
+msgid "Grading not available."
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:50
+msgid "Hide highlighter"
+msgstr ""
+
+#: ../component/PasswordInput.svelte:13
+msgid "Hide password"
+msgstr ""
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid ""
+"If you do, all the responses for that pair, %j and scorer %j will be "
+"subjected to a review task. This action cannot be undone."
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:64
+msgid "Incomplete"
+msgstr ""
+
+#: ../core/utils/response.js:57
+msgid "Invalid outcome declarations"
+msgstr ""
+
+#: ../services/enrollmentService.js:86
+msgid "Invalid role"
+msgstr ""
+
+#: ../services/enrollmentService.js:80
+msgid "Invalid scoring category"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:29
+msgid "Item group"
+msgstr ""
+
+#: ../component/task/ItemPreviewer.svelte:171
+msgid "Item response"
+msgstr ""
+
+#: ../component/deliveryDetails/ItemsTable.svelte:20
+msgid "Item test ID"
+msgstr ""
+
+#: ../component/deliveryDetails/ItemsTable.svelte:21
+msgid "Item title & outcome declarations"
+msgstr ""
+
+#: ../component/delivery/SideItemBar.svelte:48
+msgid "Items"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:61
+msgid "Last Name"
+msgstr ""
+
+#: ../component/monitoringDetails/Details.svelte:29
+#: ../component/scoringproject/view/manager/monitoring/MonitoringTable.svelte:32
+msgid "Last login"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:56
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:66
+msgid "Left to do"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:95
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:96
+#: ../controller/scoringproject/linkdelivery/linkdelivery.js:134
+msgid "Link deliveries"
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:33
+msgid "Link the delivery"
+msgstr ""
+
+#: ../component/deliveryDetails/DeliveryDetailsHeader.svelte:86
+#: ../component/deliveryDetails/DeliveryDetailsHeader.svelte:87
+#: ../component/deliveryDetails/MenuButton.svelte:38
+#: ../component/deliveryDetails/MenuButton.svelte:39
+msgid "Link to scoring project"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:84
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:80
+msgid "Link"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:37
+msgid "Linked"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:203
+msgid "Loading deliveries"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:78
+msgid "Loading project"
+msgstr ""
+
+#: ../component/scoringprojects/ScoringProjects.svelte:121
+msgid "Loading scoring projects"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:118
+msgid "Loading users"
+msgstr ""
+
+#: ../component/deliveryDetails/DeliveryDetails.svelte:67
+#: ../component/monitoringDetails/MonitoringDetails.svelte:104
+#: ../component/reassignment/ReassignmentDetails.svelte:154
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:88
+#: ../controller/enrollmentValidation/enrollment-validation.js:42
+msgid "Loading"
+msgstr ""
+
+#: ../component/login/Login.svelte:101
+msgid "Log in"
+msgstr ""
+
+#: ../component/panel/Panel.svelte:186
+msgid "Log out"
+msgstr ""
+
+#: ../component/login/Login.svelte:85
+msgid "Login again to continue"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:89
+#: ../component/reassignment/EligibleUsersTable.svelte:35
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:47
+#: ../component/scoringproject/view/manager/monitoring/MonitoringTable.svelte:31
+#: ../component/users/UsersList.svelte:59 ../controller/login/login.js:34
+msgid "Login"
+msgstr ""
+
+#: ../core/utils/response.js:36
+msgid "Long password"
+msgstr ""
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr ""
+
+#: ../component/panel/Panel.svelte:160
+msgid "Main menu"
+msgstr ""
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr ""
+
+#: ../services/enrollmentService.js:97
+msgid "Missing role"
+msgstr ""
+
+#: ../services/enrollmentService.js:103
+msgid "Missing scoring category"
+msgstr ""
+
+#: ../services/enrollmentService.js:92
+msgid "Missing user"
+msgstr ""
+
+#: ../component/monitoringDetails/MonitoringDetails.svelte:44
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:52
+msgid "Monitoring & reassignment"
+msgstr ""
+
+#: ../controller/monitoringDetails/monitoring-details.js:41
+msgid "Monitoring details"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:176
+#: ../component/scoringproject/create/CreateScoringProject.svelte:181
+#: ../component/scoringproject/view/scorer/ScoringProjectTable.svelte:35
+#: ../component/scoringprojects/ScoringProjects.svelte:20
+msgid "Name"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:26
+msgid "No deliveries are linked to this scoring project"
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:209
+msgid "No deliveries available"
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:213
+msgid "No deliveries found for this search"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:208
+msgid "No deliveries found"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:25
+msgid "No deliveries were found for this search"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:64
+msgid "No enrollments found"
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:107
+msgid "No responses"
+msgstr ""
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:17
+msgid "No user monitoring found"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:16
+msgid "No users found for this search"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:16
+#: ../component/users/UsersList.svelte:21
+msgid "No users were found for this search"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:195
+#: ../component/scoringproject/create/CreateScoringProject.svelte:217
+msgid "None"
+msgstr ""
+
+#: ../core/utils/response.js:45
+msgid "Not found"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:36
+msgid "Not linked"
+msgstr ""
+
+#: ../component/delivery/DeliveryTable.svelte:55
+#: ../component/task/ComplaintDialog.svelte:75
+#: ../component/task/ComplaintDialog.svelte:77
+#: ../component/task/ScoringForm.svelte:147
+msgid "Note"
+msgstr ""
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr ""
+
+#: ../component/task/SubmitDialog.svelte:38
+msgid "Once you do, you won't be able to come back and change your work."
+msgstr ""
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr ""
+
+#: ../component/panel/Panel.svelte:195
+msgid "Open Assessment Technologies SA"
+msgstr ""
+
+#: ../component/PasswordInput.svelte:67
+msgid "Password"
+msgstr ""
+
+#: ../services/launchService.js:81
+msgid "Please contact your administrator."
+msgstr ""
+
+#: ../component/LtiError/LtiError.svelte:12 ../services/launchService.js:86
+msgid "Please contact your system administrator."
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:210
+msgid ""
+"Please make sure that the delivery which you would like to link is published "
+"in tao."
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:209
+msgid "Please make sure that you have published the delivery in tao."
+msgstr ""
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr ""
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:29
+msgid "Project workload"
+msgstr ""
+
+#: ../component/scoringproject/view/scorer/ScoringProjectTable.svelte:36
+msgid "Questions"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:167
+msgid "Radio button"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:262
+msgid "Read behind sampling ratio"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:24
+msgid "Read behind"
+msgstr ""
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:160
+msgid "Reassign responses for %s %s"
+msgstr ""
+
+#: ../component/monitoringDetails/ProgressItemsTable.svelte:41
+#: ../component/reassignment/ReassignmentDetails.svelte:184
+msgid "Reassign"
+msgstr ""
+
+#: ../controller/reassignment/reassignment-details.js:87
+msgid "Reassignment details"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:98
+#: ../component/deliveryDetails/Details.svelte:20
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:98
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:19
+msgid "Received time"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr ""
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr ""
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr ""
+
+#: ../component/delivery/DeliveryTable.svelte:58
+msgid "Report"
+msgstr ""
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr ""
+
+#: ../component/task/ItemPreviewer.svelte:161
+msgid "Response is loading"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:101
+#: ../component/deliveryDetails/Details.svelte:21
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:101
+msgid "Responses"
+msgstr ""
+
+#: ../component/scoringproject/view/scorer/tableCells/DeliveryActionCell.svelte:27
+msgid "Resume"
+msgstr ""
+
+#: ../component/scoringproject/view/scorer/ScoringProject.svelte:68
+msgid "Review tasks"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:31
+msgid "Reviewer"
+msgstr ""
+
+#: ../component/monitoringDetails/Details.svelte:27
+msgid "Role enrollment"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:90
+#: ../component/monitoringDetails/ProgressItemsTable.svelte:54
+#: ../component/reassignment/ReassignmentDetails.svelte:164
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:48
+msgid "Role"
+msgstr ""
+
+#: ../component/task/Task.svelte:517 ../component/task/Task.svelte:518
+msgid "SEE Overview"
+msgstr ""
+
+#: ../controller/scoringproject/edit/edit-scoring-project.js:69
+msgid "Save changes"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:51
+msgid "Scored"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:142
+msgid "Scorer's note:"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:30
+msgid "Scorer"
+msgstr ""
+
+#: ../component/task/Task.svelte:464
+msgid "Scores given by %s"
+msgstr ""
+
+#: ../component/deliveryDetails/ScoringCriteria.svelte:33
+msgid "Scoring Criteria: "
+msgstr ""
+
+#: ../component/monitoringDetails/MonitoringDetails.svelte:37
+#: ../component/panel/Panel.svelte:27
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:35
+#: ../component/scoringproject/view/scorer/ScoringProject.svelte:21
+#: ../component/scoringprojects/ScoringProjects.svelte:108
+#: ../component/scoringprojects/ScoringProjects.svelte:27
+msgid "Scoring Projects"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:92
+#: ../component/reassignment/ReassignmentDetails.svelte:165
+msgid "Scoring category"
+msgstr ""
+
+#: ../component/monitoringDetails/Details.svelte:28
+msgid "Scoring criteria enrollment"
+msgstr ""
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:100
+#: ../component/deliveryDetails/ItemsTable.svelte:22
+#: ../component/monitoringDetails/ProgressItemsTable.svelte:55
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:100
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:21
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:50
+#: ../component/task/ScoringCriteria.svelte:11
+#: ../component/task/Task.svelte:539
+msgid "Scoring criteria"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr ""
+
+#: ../component/LtiError/LtiError.svelte:11 ../services/launchService.js:68
+#: ../services/launchService.js:75 ../services/launchService.js:85
+msgid "Scoring not available."
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:102
+#: ../component/users/UsersList.svelte:63
+#: ../controller/scoringproject/view/viewscoringproject.js:49
+msgid "Scoring project"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:31
+#: ../controller/scoringprojects/scoringprojects.js:80
+msgid "Scoring projects"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:248
+msgid "Scoring strategy"
+msgstr ""
+
+#: ../component/scoringproject/view/scorer/ScoringProject.svelte:59
+msgid "Scoring tasks"
+msgstr ""
+
+#: ../component/task/Task.svelte:447
+msgid "Scoring"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:100
+msgid "Search for Enrollments"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:195
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:199
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:89
+msgid "Search for deliveries"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:173
+msgid "Search for login.."
+msgstr ""
+
+#: ../component/scoringproject/view/manager/monitoring/Monitoring.svelte:68
+msgid "Search for user"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:129
+msgid "Search for users"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+#: ../component/scoringproject/create/CreateScoringProject.svelte:204
+#: ../component/scoringproject/create/CreateScoringProject.svelte:226
+msgid "Select a date"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:143
+#: ../component/task/TaskHeader.svelte:144
+msgid "Send scores"
+msgstr ""
+
+#: ../core/utils/response.js:33
+msgid "Short password"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:50
+msgid "Show highlighter"
+msgstr ""
+
+#: ../component/PasswordInput.svelte:13
+msgid "Show password"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:23
+msgid "Single"
+msgstr ""
+
+#: ../services/enrollmentService.js:62
+msgid "Solves missing assignment"
+msgstr ""
+
+#: ../controller/enrollmentValidation/enrollment-validation.js:103
+msgid ""
+"Some new tasks have been created since the latest preview. Please ensure the "
+"resulting workload is still viable, or alternatively, use another .csv file "
+"with more enrollments."
+msgstr ""
+
+#: ../services/launchService.js:69
+msgid ""
+"Sorry, we cannot find the responses to score. Please contact your system "
+"administrator."
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:191
+#: ../component/scoringprojects/ScoringProjects.svelte:21
+msgid "Start date"
+msgstr ""
+
+#: ../component/scoringproject/view/scorer/tableCells/DeliveryActionCell.svelte:25
+msgid "Start"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:88
+msgid "Status"
+msgstr ""
+
+#: ../component/task/SubmitDialog.svelte:22
+msgid "Submit the scores"
+msgstr ""
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "Submit the scores?"
+msgstr ""
+
+#: ../core/utils/response.js:51
+msgid "System user conflict"
+msgstr ""
+
+#: ../component/task/Task.svelte:570
+msgid "Task failed to load. Please contact your system administrator."
+msgstr ""
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:400
+msgid "Tasks status"
+msgstr ""
+
+#: ../component/deliveryDetails/Details.svelte:24
+msgid "Test ID"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:396
+msgid "Test overview"
+msgstr ""
+
+#: ../component/deliveryDetails/Details.svelte:23
+msgid "Test resource ID"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:28
+msgid "Test taker group"
+msgstr ""
+
+#: ../component/task/Task.svelte:539
+msgid "Test taker response"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:163
+msgid "Test"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:28
+msgid "Textarea"
+msgstr ""
+
+#: ../store/scoring-project-form.js:62 ../store/scoring-project-form.js:76
+msgid ""
+"The Scoring project has some enrollments or it has some scorable item "
+"attempts"
+msgstr ""
+
+#: ../store/scoring-project-form.js:69
+msgid "The Scoring project has some scorable item attempts"
+msgstr ""
+
+#: ../core/utils/validations.js:46
+msgid ""
+"The delivery seems to be configured for a \"test taker group\" project "
+"assignment strategy"
+msgstr ""
+
+#: ../core/utils/validations.js:44
+msgid ""
+"The delivery seems to be configured for an \"item group\" project assignment "
+"strategy"
+msgstr ""
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid ""
+"The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been "
+"reported for the following reasons:"
+msgstr ""
+
+#: ../component/task/CompliantNote.svelte:17
+msgid ""
+"The pairing of %j and scorer %j with the username %j has been reported for "
+"the following reasons:"
+msgstr ""
+
+#: ../core/utils/response.js:54
+msgid "The role does not exist in the selected scoring strategy"
+msgstr ""
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:6
+msgid "The scores have been successfully submitted"
+msgstr ""
+
+#: beMessages.js:4
+msgid ""
+"The uploaded file contains duplicate usernames. Please remove duplicate "
+"usernames and try again."
+msgstr ""
+
+#: ../component/scoringproject/view/scorer/ScoringProject.svelte:53
+msgid "There are no responses to score yet"
+msgstr ""
+
+#: ../services/launchService.js:76
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:18
+msgid "This delivery contains scoring categories"
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:19
+msgid "This delivery doesn't contain scoring categories"
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:42
+msgid ""
+"This project has as %s assignment strategy. Are you sure you still want to "
+"link that delivery nonetheless?"
+msgstr ""
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+#: ../component/inactiveProject/InactiveProjectScreen.svelte:65
+msgid "This project is now inactive"
+msgstr ""
+
+#: ../services/enrollmentService.js:110
+msgid "This user cannot be enrolled"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:51
+#: ../component/delivery/Delivery.svelte:110
+msgid "Total score"
+msgstr ""
+
+#: ../component/scoringproject/create/CreateScoringProject.svelte:183
+msgid "Type a name for this project"
+msgstr ""
+
+#: ../component/task/Task.svelte:96
+msgid "Type a note for this answer"
+msgstr ""
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr ""
+
+#: ../component/task/Task.svelte:102
+msgid "Type a note for this review"
+msgstr ""
+
+#: ../component/PasswordInput.svelte:70 ../component/login/Login.svelte:96
+msgid "Type here"
+msgstr ""
+
+#: ../controller/login/login.js:59
+msgid "Unexpected error happened"
+msgstr ""
+
+#: ../component/deliveryDetails/DeliveryDetailsHeader.svelte:77
+#: ../component/deliveryDetails/DeliveryDetailsHeader.svelte:78
+msgid "Unlink delivery"
+msgstr ""
+
+#: ../component/deliveries/Deliveries.svelte:84
+#: ../component/scoringproject/view/manager/deliveries/ScoringProjectDeliveries.svelte:51
+msgid "Unlink"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:93
+msgid "Updating enrollments from file"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:111
+msgid "Updating users from file"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:107
+msgid "Upload enrollments"
+msgstr ""
+
+#: ../component/fileUpload/FileUpload.svelte:9
+msgid "Upload file"
+msgstr ""
+
+#: ../component/users/UsersList.svelte:125
+#: ../component/users/UsersList.svelte:130
+msgid "Upload users"
+msgstr ""
+
+#: ../component/monitoringDetails/MonitoringDetails.svelte:22
+msgid "User detailed view"
+msgstr ""
+
+#: ../services/enrollmentService.js:74
+msgid "User doesn’t exist"
+msgstr ""
+
+#: ../controller/login/login.js:54
+msgid "Username or password is incorrect"
+msgstr ""
+
+#: ../component/login/Login.svelte:95
+msgid "Username"
+msgstr ""
+
+#: ../component/panel/Panel.svelte:37 ../component/users/UsersList.svelte:109
+#: ../component/users/UsersList.svelte:67 ../controller/users/users.js:33
+msgid "Users"
+msgstr ""
+
+#: ../controller/deliveryDetails/delivery-details.selectors.js:39
+msgid ""
+"Warning: The delivery seems to be configured for a \"test taker group\" "
+"project assignment strategy since it doesn't contain scoring categories."
+msgstr ""
+
+#: ../controller/deliveryDetails/delivery-details.selectors.js:35
+msgid ""
+"Warning: The delivery seems to be configured for an \"item group\" project "
+"assignment strategy since it contains scoring categories."
+msgstr ""
+
+#: ../component/tableCells/WithWarningCell/WithWarningCell.svelte:21
+msgid "Warning:"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:60
+msgid ""
+"When reassigning, the remaining responses to %s for the chosen %s will be "
+"even. Non-submitted responses will be reassigned as well and this action "
+"doesn't dismiss the user. Comments, bookmarks and %s will be reset."
+msgstr ""
+
+#: ../component/scoringproject/linkdelivery/LinkDelivery.svelte:108
+msgid "With responses"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:91
+msgid "Workload outcome"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:49
+msgid "Workload"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:17
+msgid "You have no eligible users yet"
+msgstr ""
+
+#: ../component/scoringprojects/ScoringProjects.svelte:124
+msgid "You have no scoring projects."
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/ScoringProjectEnrolments.svelte:63
+msgid "You have no users enrolled for this project yet."
+msgstr ""
+
+#: ../component/users/UsersList.svelte:22
+msgid "You have no users yet"
+msgstr ""
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr ""
+
+#: ../component/inactiveProject/InactiveProjectScreen.svelte:66
+msgid "You will be now redirected to the projects list."
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:113
+msgid ""
+"Your grades will be saved and you'll be able to resume grading at a later "
+"time."
+msgstr ""
+
+#: ../component/login/Login.svelte:87
+msgid ""
+"Your session has expired and requires you to login again. You'll be back to "
+"where you were"
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:14
+msgid "a \"test taker group\""
+msgstr ""
+
+#: ../services/enrollmentService.js:31
+msgid "already present"
+msgstr ""
+
+#: ../component/common/ConfirmDeliveryLinkDialog.svelte:15
+msgid "an \"item category\""
+msgstr ""
+
+#: ../component/scoringproject/view/manager/ScoringProject.svelte:39
+msgid "completed"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:30
+msgid "continue grading"
+msgstr ""
+
+#: ../services/enrollmentService.js:32
+msgid "ignored"
+msgstr ""
+
+#: ../component/task/ItemPreviewer.svelte:160
+#: ../component/task/ScoringCriteria.svelte:78
+msgid "loading"
+msgstr ""
+
+#: ../services/enrollmentService.js:30
+msgid "new"
+msgstr ""
+
+#: ../component/tableCells/CompletionCell/CompletionCell.svelte:95
+msgid "no responses"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:157
+msgid "of %d characters remaining"
+msgstr ""
+
+#: ../component/task/Task.svelte:472
+msgid "report"
+msgstr ""
+
+#: ../component/monitoringDetails/MonitoringDetails.svelte:108
+msgid "responses"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:21
+#: ../component/reassignment/ReassignmentDetails.svelte:45
+msgid "review"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:40
+#: ../component/reassignment/ReassignmentDetails.svelte:27
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:18
+msgid "reviewer"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:36
+msgid "reviewers"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:35
+msgid "save and leave"
+msgstr ""
+
+#: ../component/reassignment/EligibleUsersTable.svelte:20
+#: ../component/reassignment/ReassignmentDetails.svelte:42
+msgid "score"
+msgstr ""
+
+#: ../component/enrollments/EnrollmentValidation.svelte:37
+#: ../component/reassignment/ReassignmentDetails.svelte:24
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:15
+msgid "scorer"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:33
+msgid "scorers"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:54
+msgid "scores state (approved/changed)"
+msgstr ""
+
+#: ../component/reassignment/ReassignmentDetails.svelte:51
+msgid "scores"
+msgstr ""
+
+#: ../component/tableCells/OutcomeDeclarationsCell/OutcomeDeclarationsCell.svelte:40
+#: ../component/task/ScoringForm.svelte:120
+msgid "see criteria for %s"
+msgstr ""
+
+#: ../component/tableCells/OutcomeDeclarationsCell/OutcomeDeclarationsCell.svelte:44
+#: ../component/task/ScoringForm.svelte:126
+msgid "see criteria"
+msgstr ""
+
+#: ../component/scoringproject/view/manager/enrolments/EnrollmentsTable.svelte:23
+msgid "unassigned"
+msgstr ""
+
+#: ../component/common/LoadingScreen.svelte:9
+msgid "updating"
+msgstr ""
+
+#: ../component/panel/Panel.svelte:193
+msgid "© TAO 1.0: 2019-2020"
+msgstr ""

@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: fi\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Valitse päivämäärä"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "Su"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Mon"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "Ti"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "Ke"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Thu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "Pe"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "La"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Maanantai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Torstai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Perjantai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "Tammi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Helmi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Maalis"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "Huhti"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "Toukokuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "Kesä"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Heinä"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Elo"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Syys"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "Loka"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "Marras"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "Joulu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "Tammikuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "Helmikuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "Maaliskuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "Huhtikuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "Kesäkuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "Heinäkuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "Elokuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "Syyskuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "Lokakuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "Marraskuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "Joulukuu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Vk"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "AM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "PM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Vuosi"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "tallennettu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "tallennettu minuutti sitten"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "tallennettu %d minuuttia sitten"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "tallennettu tunti sitten"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "Tallennettu %d tuntia sitten"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "viimeksi tallennettu %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Sisältö ladataan"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Pisteytys syöte"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Valittu toinen maalintekijä."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Hylättiin."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Radion painike"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Voit lukea lisää tästä meidän"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "ja"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Evästeiden Käytäntö"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Tämä sivusto käyttää evästeitä parantaakseen selauskokemustasi ja tehdäkseen analytiikkaa ja tutkimusta. Voit muuttaa asetuksiasi, klikkaa Hallitse asetuksia. Muussa tapauksessa klikkaamalla Hyväksy kaikki evästeet osoittavat, että hyväksyt evästeiden käytön laitteessasi. Klikkaamalla Evästeiden hylkääminen tarkoittaa, että et hyväksy sitä, että käytät laitteellasi ei-ehdottoman välttämättömiä evästeitä."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Olennaiset Evästeet"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Tarpeeton Eväste tulisi ottaa käyttöön kaikkina aikoina, jotta voimme tallentaa mieltymyksesi evästeasetuksille."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Analytiikka Evästeet"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Näiden evästeiden avulla voimme laskea käyntejä ja muita analyyttisiä tietoja, jotta voimme mitata ja parantaa sivustomme suorituskykyä. Ne auttavat meitä tietämään mitkä sivut ovat eniten ja vähiten suosittuja ja kuinka kävijät liikkuvat sivustolla. Jos et salli näitä evästeitä, emme tiedä, milloin olet käynyt sivustollamme, ja ei voi seurata sen suorituskykyä."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Yksityisyyden Suoja"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Pisteytys ei ole käytettävissä."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Tulokset on lähetetty onnistuneesti"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "Pisteiden edistyminen on päivitetty."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Yksi tai useampi opiskelija on uudelleen lähettänyt vastauksensa. Valitettavasti päivitetyt vastaukset, jotka oli jo pisteytetty, on pisteytettävä uudelleen."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Testaa yleiskatsaus"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Tehtävien tila"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Kysymys"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Pisteet yhteensä"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Kaikki"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Keskeneräinen"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Kirjanmerkattu"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Korjattu kokonaispistemäärä"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Huomautus"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Raportoi"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Kohteet"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Kirjanmerkki"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Paina näyttääksesi tehtävän merkinnän"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s / %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Pisteitä ei lisätty"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Paina näyttääksesi merkinnän"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" on raportoitu seuraavista syistä:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Syytä ei annettu"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Tehtävä on pisteet"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Hups! Sivua ei löytynyt"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Sivua, jota etsit ei ole olemassa."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Siirry kotiin"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Tämä projekti ei ole nyt aktiivinen"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Sinut ohjataan nyt uudelleen projektilistalle"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "OK"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Sulje Ikkuna"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Ilmoita tästä kysymyksestä / maalintekijä pari vaatimustenvastaisen pisteytyksen?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Jos teet, kaikki vastaukset että pari, %j ja scorer %j tehdään arviointitehtävä. Tätä toimintoa ei voi peruuttaa."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Kirjoita muistilappu tähän raporttiin"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Raportoi ja jatka"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Ilmoitettu säännösten noudattamatta jättämisestä"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "%j ja maalintekijän %j yhdistäminen käyttäjänimen %j kanssa on raportoitu seuraavista syistä:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "ladataan"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Vastaus ladataan"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Kohteen vastaus"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Pisteytys kriteerit lastaus"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Sulje pisteytyskriteerit"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Pisteytys kriteerit"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Ehdotettu pisteytyksen selitys"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Yritä uudelleen"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Käytä pisteitä"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Hylkää"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Näytä pisteet"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Hanki pisteehdotus"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "katso kriteerit %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "ks. kriteerit"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Epäillään huijaavan"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Kommentti valinnainen"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "of %d merkkiä jäljellä"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Kommentti (valinnainen)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Scorerin huomautus:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Lähetä pisteet?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Kaikki tulokset lähetetään järjestelmääsi. Jos olet aiemmin pisteytetty ja regraded vastauksia ne korvataan uusilla pisteillä."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Lähetä pisteet"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Pisteytys"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Tiivistä pisteytys paneeli"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Avaa pisteytyspaneeli"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "%s antamat pisteet"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "raportti"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Vastaus %s %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Vastaus"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Siirry edelliseen vastaukseen"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "SEE Yleiskatsaus"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Siirry seuraavaan vastaukseen"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Valmistuminen: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Testinottajan vastaus"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Tehtävä ei voitu ladata. Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Pisteytys tehtävän lähetys virhe"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Kirjoita muistiinpano tähän vastaukseen"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Kirjoita muistiinpano tälle tarkastelulle"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Tätä pisteytystehtävää ei voitu käynnistää todennäköisimmin, koska toinen pisteytysistunto aloitettiin toisessa ikkunassa tai selaimessa.<br>Ratkaistaksesi tämän ongelman:<br><ul><li>Varmista, että et tee toista istuntoa toisessa ikkunassa tai selaimessa.</li><li>Sulje kaikki muut välilehdet tai selaimen ikkunat, joissa tämä tai jokin muu pisteytyslinkki voi olla auki.</li></ul>Jos olet jo valinnut nämä vaiheet ja näet vielä tämän viestin, ota yhteyttä tukeen tai järjestelmänvalvojaan saadaksesi lisäapua."
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Kohtasimme ongelman tallentaessamme pisteitä. Yritä uudelleen. Jos ongelma jatkuu, ota yhteyttä tukitiimiimme saadaksesi apua."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Takaisin"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Tärkein navigointi"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Tulokset"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Oletko varma, että haluat lähteä?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Sinun arvosanasi tallennetaan ja voit jatkaa luokitusta myöhemmässä vaiheessa."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Lähetä pisteet"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Työkalut"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "jatka luokitusta"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "tallenna ja jätä"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Pisteet"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Piilota korostus"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Näytä korostus"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Virhe sivu"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Manuaalinen Pisteytys"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Pitkä käyttäjätunnus"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Lyhyt käyttäjänimi"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Käyttäjätunnuksessa kielletty merkki"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Tyhjä salasana"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Lyhyt salasana"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Pitkä salasana"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Tyhjä rooli"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Jo määritetty"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Ei löydy"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Tyhjä harjoitusperuste"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Järjestelmän käyttäjän ristiriita"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Roolia ei ole valitussa pisteytysstrategiassa"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Virheelliset lopputulosilmoitukset"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Toimitus näyttää olevan konfiguroitu \"nimiryhmä\" projektin harjoitusstrategialle"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Toimitus näyttää olevan määritetty \"testi taker ryhmä\" projektin tehtävästrategia"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Valitettavasti emme löydä vastauksia pisteisiin. Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Pisteitä ei ole vielä. Odota ja yritä uudelleen."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Luokitus ei ole käytettävissä."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Vastauksia ei löytynyt."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Toimituksen suorituksia seuraavilla tiedoilla ei löydy: <br><strong>%s</strong><br>Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Toimituksen suoritukset seuraavilla tiedoilla ovat virheellisiä: <br><strong>%s</strong><br>Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Toimitukset seuraavilla tiedoilla ovat virheellisiä: <br><strong>%s</strong><br>Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Pisteytys ei ole saatavilla juuri nyt, koska vastauksia ei löytynyt."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Näin voi tapahtua, jos opiskelija on juuri lähettänyt testin. Yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota yhteyttä järjestelmänvalvojaan. Testi ottajat ids joita ei löytynyt: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Liian monta tehtävää pisteytykseen."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Toimituksen suoritustunnisteet: <strong>%s</strong><br>Pisteytystehtävien määrä: <strong>%s</strong><br>Sallittu tehtävien enimmäismäärä: <strong>%s</strong><br>Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Toimituksen idit: <strong>%s</strong><br>Testaa taker ids: <strong>%s</strong><br>Pisteytystehtävien määrä: <strong>%s</strong><br>Sallittu tehtävien enimmäismäärä: <strong>%s</strong><br>Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Toimituksia ja kokeiden ottajia seuraavilla tunnisteilla ei löytynyt.<br>Toimitukset: <strong>%s</strong>, <br>Testejä: <strong>%s</strong>. <br>Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Toimitustunnus (t) ja testikuljettajan tunnus (tunnukset) ovat tyhjiä tai niitä ei ole määritelty."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Toimitustunnus (t) on tyhjä tai sitä ei ole määritelty."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Testi Takerin tunnukset ovat tyhjiä tai niitä ei ole määritelty."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Arvostelu epäonnistui: arvostelija ei voi olla sama käyttäjä kuin alkuperäinen maalintekijä."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Ole hyvä ja määritä eri katselmoija varmistaaksesi riippumattoman arvion pisteet."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Virheellinen Pisteytys Kategoria"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Tarkista pisteytysKategorian arvo. Sen on oltava kelvollinen eikä se voi olla tyhjä."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Virheellinen mukautettu vaatimus."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Virheellinen parametri, väite vaatii [%s] ei saa olla tyhjä ja kirjoita [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Vaadittu mukautettu korvausvaatimus."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Puuttuva parametri, väite vaatii [%s] -parametrin olevan läsnä."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Puuttuvat pilkut, täsmälleen %d sarake rivillä \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Ladattu tiedosto sisältää kaksoiskappaleita käyttäjänimiä. Poista kaksoiskappaleet käyttäjätunnukset ja yritä uudelleen."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "Pisteytystehtävän tunnus:%s on jo tehty ja lähetetty."
+

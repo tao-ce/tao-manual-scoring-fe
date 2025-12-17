@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:27\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Selecteer een datum"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "zo"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Mon"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "di"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "woe"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Thu"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "vr"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "za"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "zondag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "maandag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "dinsdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "woensdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "donderdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "vrijdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "zaterdag"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "jan"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "feb"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "maa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "apr"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "mei"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "jun"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "jul"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "aug"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "sep"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "okt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "nov"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "dec"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "januari"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "februari"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "maart"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "april"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "juni"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "juli"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "augustus"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "september"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "oktober"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "november"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "december"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "wk"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "VK"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "PM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "jaar"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "opgeslagen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "1 minuut geleden bespaard"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "%d minuten geleden opgeslagen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "1 uur geleden bespaard"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "%d uur geleden opgeslagen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "laatst opgeslagen op %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Inhoud wordt geladen"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Invoer scoren"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Geselecteerd door een andere scorer."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Geweigerd."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Radio knop"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "U kunt hier meer over lezen in onze"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "en"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Cookie beleid"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Deze website maakt gebruik van cookies om uw surfervaring te verbeteren en om analytics en onderzoek uit te voeren. Klik op Beheer voorkeuren om uw voorkeuren te wijzigen. Als u anders op 'Accepteren alle cookie' klikt, gaat u akkoord met ons gebruik van cookies op uw apparaat. Door op alle cookies te klikken stemt u niet in met ons gebruik van niet-strikt noodzakelijke cookies op uw apparaat."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Noodzakelijke cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Strikt Noodzakelijk Cookie moet altijd ingeschakeld zijn, zodat we uw voorkeuren voor cookieinstellingen kunnen opslaan."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Analytics Cookies"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Met deze cookies kunnen we bezoeken en verschillende andere analytische gegevens tellen, zodat we de prestaties van onze site kunnen meten en verbeteren. Ze helpen ons te weten welke pagina's het meest populair zijn en zien hoe bezoekers zich door de site verplaatsen. Indien u deze cookies niet toestaat, weten we niet wanneer u onze site hebt bezocht en zal niet in staat zijn de prestaties te controleren."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Privacy Beleid"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Scoren niet beschikbaar."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Neem contact op met uw systeembeheerder."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "De scores zijn succesvol verzonden"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "De score voortgang is bijgewerkt."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Een of meer leerlingen hebben hun reacties opnieuw ingediend. Helaas moeten de geactualiseerde antwoorden die al gescoord waren, opnieuw gescoord worden."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Test overzicht"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Taken status"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Vraag"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Totale score"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Allemaal"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Onvolledig"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Gemarkeerd"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Totale score gecorrigeerd"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Notitie"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Rapporteren"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Artikelen"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Bladwijzer"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Druk om taaknotitie te tonen"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s van %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Geen score toegevoegd"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Druk om notitie te tonen"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "De koppeling van \"%s\" and scorer \"%s %s\" met de gebruikersnaam \"%s\" is gerapporteerd om de volgende redenen:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Reden niet gegeven"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Taak is gescoord"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Oeps! Pagina niet gevonden"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "De pagina die je zoekt bestaat niet."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Ga naar huis"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Dit project is nu inactief"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "U wordt nu doorgestuurd naar de lijst met projecten"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "OK"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Dialoogvenster sluiten"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Meld dit vraag/scorer paar voor niet-conforme scoren?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Als je dit doet, zullen alle reacties voor dat koppel, %j en scorer %j worden onderworpen aan een beoordelingstaak. Deze actie kan niet ongedaan worden gemaakt."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Typ een notitie voor dit rapport"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "annuleren"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Rapporteren en doorgaan"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Gerapporteerd voor niet-naleving"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "De koppeling van %j en scorer %j met de gebruikersnaam %j is gerapporteerd om de volgende redenen:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "laden"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Antwoord wordt geladen"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Item reactie"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Scoringcriteria worden geladen"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Sluit scoringcriteria"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Scoring criteria"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr "Voorgestelde score uitleg"
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Opnieuw proberen"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr "Gebruik de score"
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr "Weggooien"
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr "Suggestie score weergeven"
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Krijg score suggestie"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "zie criteria voor %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "zie criteria"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Vermoedelijk van vals spelen"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Opmerking optioneel"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "van %d resterende tekens"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Commentaar (optioneel)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Scorer notitie:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "De scores indienen?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Alle scores worden naar uw systeem verzonden. Als u eerder gescoorde en gehercodeerde antwoorden hebt gescoord, worden ze vervangen door de nieuwe scores."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Verstuur de scores"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Scoren"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Beoordelingspaneel samenvouwen"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Open scoringpaneel"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Scores gegeven door %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "rapporteren"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr ""
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Antwoord"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Ga naar het vorige antwoord"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "Overzicht ZIEKEN"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Ga naar het volgende antwoord"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Voltooiing: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Test taker reactie"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Taak kan niet worden geladen. Neem contact op met uw systeembeheerder."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Fout in Scoringtaak indienen"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Typ een notitie voor dit antwoord"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Typ een notitie voor deze review"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Deze scoringtaak kon niet zeer waarschijnlijk worden geïnitieerd omdat een andere scoringsessie was gestart in een ander venster of browser.<br>Om dit probleem op te lossen:<br><ul><li>Zorg ervoor dat je geen andere sessie scoort in een ander venster of browser.</li><li>Sluit alle tabbladen of browservensters waar deze of een andere score link geopend kan zijn.</li></ul>Als u deze stappen al heeft aangevinkt en dit bericht nog steeds ziet, neem dan contact op met support of uw beheerder voor verdere hulp."
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "We hebben een probleem ondervonden tijdens het opslaan van uw score. Probeer het opnieuw. Als het probleem aanhoudt, neem contact op met ons ondersteuningsteam voor hulp."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Achterzijde"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Hoofd navigatie"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Score"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Weet je zeker dat je wilt vertrekken?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Uw beoordelingen zullen worden opgeslagen en u kunt op een later tijdstip doorgaan met beoordelen."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Verstuur scores"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Hulpmiddelen"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "doorgaan met beoordelen"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "opslaan en verlaten"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Beoordeling"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Verberg markeerstift"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Toon markeerstift"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Fout pagina"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Handmatige Scoring"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Lange gebruikersnaam"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Korte gebruikersnaam"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Verboden teken in gebruikersnaam"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Wachtwoord is leeg"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Korte wachtwoord"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Lang wachtwoord"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Lege rol"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Al toegewezen"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Leeg toewijzingscriterium"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Systeem gebruikersconflict"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "De rol bestaat niet in de geselecteerde beoordelingsstrategie"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Ongeldige resultaatdeclaraties"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "De levering lijkt geconfigureerd te zijn voor een \"item groep\" project toewijzingsstrategie"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Het lijkt erop dat de levering is geconfigureerd voor een projecttoewijzingsstrategie van de \"testtaker groep\""
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Sorry, we kunnen de antwoorden op de score niet vinden. Neem contact op met de systeembeheerder."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Er zijn nog geen antwoorden om te scoren. Wacht en probeer het opnieuw."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Beoordeling niet beschikbaar."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Neem contact op met uw beheerder."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Er zijn geen antwoorden gevonden."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Uitleveringsexecuties met de volgende id's kunnen niet worden gevonden: <br><strong>%s</strong><br>Neem contact op met uw systeembeheerder."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Uitleveringsexecuties met de volgende id's zijn ongeldig: <br><strong>%s</strong><br>Neem contact op met uw systeembeheerder."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Leveringen met de volgende id's zijn ongeldig: <br><strong>%s</strong><br>Neem contact op met uw systeembeheerder."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Scoren is nu niet beschikbaar, omdat er geen antwoorden zijn gevonden."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Dit kan gebeuren als een student de test net heeft ingediend. Probeer het later opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met uw systeembeheerder. Test takers ids die niet werden gevonden: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Te veel taken om te scoren."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Uitvoer-ids: <strong>%s</strong><br>Aantal scorende taken: <strong>%s</strong><br>Toegestaan maximum aantal taken: <strong>%s</strong><br>Neem contact op met uw systeembeheerder."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Leverings-IDs: <strong>%s</strong><br>Test ids: <strong>%s</strong><br>Aantal scoring taken: <strong>%s</strong><br>Toegestaan maximum aantal taken: <strong>%s</strong><br>Neem contact op met uw systeembeheerder."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Leveringen en testnemers met de volgende id's kunnen niet worden gevonden.<br>Leveringen: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Neem contact op met uw systeembeheerder."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Leverings-ID(s) en test-ID(s) zijn leeg of niet gedefinieerd."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Leverings-ID(s) is leeg of niet gedefinieerd."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Test Taker ID(s) is leeg of niet gedefinieerd."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Beoordeling mislukt: De beoordelaar kan niet dezelfde gebruiker zijn als de oorspronkelijke scorer."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Wijs een andere beoordelaar toe om een onafhankelijke beoordeling van de score te waarborgen."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Ongeldige beoordelingscategorie"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Controleer de score categoriewaarde. Het moet geldig zijn en mag niet leeg zijn."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Ongeldige aangepaste claim."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Ongeldige parameter, claim vereist [%s] mag niet leeg zijn en type [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Vereiste aangepaste claim."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Ontbrekende parameter, claim vereist [%s] parameter aanwezig te zijn."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Ontbrekende comma(s), er moet precies %d kolom op rij \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Het geüploade bestand bevat dubbele gebruikersnamen. Verwijder dubbele gebruikersnamen en probeer het opnieuw."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "De score taak ID:%s is al gescoord en ingediend."
+

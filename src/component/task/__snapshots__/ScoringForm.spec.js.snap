@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoringForm renders correctly 1`] = `
+<body>
+  <div>
+    <form>
+       
+      <div
+        class="score"
+      >
+        <div
+          class="score-header"
+        >
+          <h5
+            class="field-header"
+          >
+            interpretation
+          </h5>
+           
+          <a
+            arialabel="see criteria for id"
+            class="score-criteria"
+            href="longInterpretation"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            see criteria
+          </a>
+        </div>
+         
+        <div
+          aria-roledescription="Scoring input"
+          class="container"
+          role="application"
+        >
+          <label>
+            0
+             
+            <input
+              aria-label="Score 0."
+              name="id"
+              type="radio"
+              value="0"
+            />
+          </label>
+          <label
+            class="selected"
+          >
+            1
+             
+            <input
+              aria-label="Score 1."
+              name="id"
+              type="radio"
+              value="1"
+            />
+          </label>
+           
+        </div>
+      </div>
+       
+      <label>
+         
+        <input
+          aria-checked="false"
+          aria-label=""
+          class="checkbox"
+          type="checkbox"
+        />
+         
+        <span
+          class="selection-container"
+        />
+         
+        <span
+          class="selection"
+        />
+         
+        <span
+          class="label"
+        >
+          Suspected of cheating
+        </span>
+      </label>
+       
+      <a
+        aria-label="Comment (optional)"
+        class="button-link"
+        href="#"
+      >
+         
+        Comment (optional)
+         
+      </a>
+      
+       
+       
+      <label
+        class="fullwidth"
+      >
+        <div
+          class="label-text visually-hidden"
+        >
+          Note
+           
+        </div>
+         
+        <div
+          class="positioning-wrapper"
+        >
+          <textarea
+            class="resize-vertical"
+            cols="25"
+            maxlength="500"
+            name="note"
+            rows="4"
+          />
+        </div>
+      </label>
+       
+      <p
+        class="counter"
+      >
+        <strong>
+          500
+        </strong>
+         
+        of 500 characters remaining
+      </p>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`ScoringForm renders with scoring suggestion button 1`] = `
+<body>
+  <div>
+    <form>
+      <div
+        class="score-suggestion"
+      >
+        <button
+          aria-label="Get score suggestion"
+          class="actionable primary medium"
+          type="button"
+        >
+           
+           
+          Get score suggestion
+        </button>
+      </div>
+      
+       
+      <div
+        class="score"
+      >
+        <div
+          class="score-header"
+        >
+          <h5
+            class="field-header"
+          >
+            interpretation
+          </h5>
+           
+          <a
+            arialabel="see criteria for id"
+            class="score-criteria"
+            href="longInterpretation"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            see criteria
+          </a>
+        </div>
+         
+        <div
+          aria-roledescription="Scoring input"
+          class="container"
+          role="application"
+        >
+          <label>
+            0
+             
+            <input
+              aria-label="Score 0."
+              name="id"
+              type="radio"
+              value="0"
+            />
+          </label>
+          <label
+            class="selected"
+          >
+            1
+             
+            <input
+              aria-label="Score 1."
+              name="id"
+              type="radio"
+              value="1"
+            />
+          </label>
+           
+        </div>
+      </div>
+       
+       
+       
+      <label
+        class="fullwidth"
+      >
+        <div
+          class="label-text visually-hidden"
+        >
+          Note
+           
+        </div>
+         
+        <div
+          class="positioning-wrapper"
+        >
+          <textarea
+            class="resize-vertical"
+            cols="25"
+            maxlength="500"
+            name="note"
+            rows="4"
+          />
+        </div>
+      </label>
+       
+      <p
+        class="counter"
+      >
+        <strong>
+          500
+        </strong>
+         
+        of 500 characters remaining
+      </p>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`ScoringForm renders without note box 1`] = `
+<body>
+  <div>
+    <form>
+       
+      <div
+        class="score"
+      >
+        <div
+          class="score-header"
+        >
+          <h5
+            class="field-header"
+          >
+            interpretation
+          </h5>
+           
+          <a
+            arialabel="see criteria for id"
+            class="score-criteria"
+            href="longInterpretation"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            see criteria
+          </a>
+        </div>
+         
+        <div
+          aria-roledescription="Scoring input"
+          class="container"
+          role="application"
+        >
+          <label>
+            0
+             
+            <input
+              aria-label="Score 0."
+              name="id"
+              type="radio"
+              value="0"
+            />
+          </label>
+          <label
+            class="selected"
+          >
+            1
+             
+            <input
+              aria-label="Score 1."
+              name="id"
+              type="radio"
+              value="1"
+            />
+          </label>
+           
+        </div>
+      </div>
+       
+       
+       
+    </form>
+  </div>
+</body>
+`;
+
+exports[`ScoringForm renders without suspicious fields 1`] = `
+<body>
+  <div>
+    <form>
+      <div
+        class="score-suggestion"
+      >
+        <button
+          aria-label="Get score suggestion"
+          class="actionable primary medium"
+          type="button"
+        >
+           
+           
+          Get score suggestion
+        </button>
+      </div>
+      
+       
+      <div
+        class="score"
+      >
+        <div
+          class="score-header"
+        >
+          <h5
+            class="field-header"
+          >
+            interpretation
+          </h5>
+           
+          <a
+            arialabel="see criteria for id"
+            class="score-criteria"
+            href="longInterpretation"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            see criteria
+          </a>
+        </div>
+         
+        <div
+          aria-roledescription="Scoring input"
+          class="container"
+          role="application"
+        >
+          <label>
+            0
+             
+            <input
+              aria-label="Score 0."
+              name="id"
+              type="radio"
+              value="0"
+            />
+          </label>
+          <label
+            class="selected"
+          >
+            1
+             
+            <input
+              aria-label="Score 1."
+              name="id"
+              type="radio"
+              value="1"
+            />
+          </label>
+           
+        </div>
+      </div>
+       
+       
+       
+      <label
+        class="fullwidth"
+      >
+        <div
+          class="label-text visually-hidden"
+        >
+          Note
+           
+        </div>
+         
+        <div
+          class="positioning-wrapper"
+        >
+          <textarea
+            class="resize-vertical"
+            cols="25"
+            maxlength="500"
+            name="note"
+            rows="4"
+          />
+        </div>
+      </label>
+       
+      <p
+        class="counter"
+      >
+        <strong>
+          500
+        </strong>
+         
+        of 500 characters remaining
+      </p>
+    </form>
+  </div>
+</body>
+`;

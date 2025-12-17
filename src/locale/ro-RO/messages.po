@@ -1,0 +1,832 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2025-08-18 09:30\n"
+"PO-Revision-Date: 2025-08-29 16:26\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Selectați o dată"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "salvat"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "salvat cu 1 minut în urmă"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "salvat %d minute în urmă"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "salvat cu o oră în urmă"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "salvat %d ore în urmă"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "ultima dată salvată pe %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Conținutul se încarcă"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Intrare punctaj"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Selectat de un alt scor."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Respins."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Buton radio"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Textarea"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Puteți citi mai multe despre acest lucru în"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "şi"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Politica privind cookie-urile"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Acest site folosește cookie-uri pentru a vă îmbunătăți experiența de navigare și pentru a efectua analize și cercetare. Pentru a vă schimba preferințele, faceți clic pe Gestionare preferințe. Altfel, apăsând pe Acceptați toate cookie-urile indică faptul că sunteți de acord cu utilizarea cookie-urilor pe dispozitivul dvs. Apăsând pe Respingere toate cookie-urile înseamnă că nu ești de acord cu folosirea cookie-urilor non-strict necesare pe dispozitivul tău."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Cookie-uri esențiale"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Cookie strict necesar ar trebui să fie activat în orice moment, astfel încât să putem salva preferințele dvs. pentru setările cookie."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Cookie-uri analitice"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Aceste cookie-uri ne permit să numărăm vizite și diverse alte date analitice pentru a putea măsura și îmbunătăți performanța site-ului nostru. Ei ne ajută să ştim care pagini sunt cele mai puţin populare şi să vedem cum se deplasează vizitatorii în jurul site-ului. Dacă nu permiteți aceste cookie-uri, nu vom ști când ați vizitat site-ul nostru, şi nu va putea monitoriza performanţele acestuia."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Politica de confidenţialitate"
+
+#: ../component/LtiError/LtiError.svelte:11
+msgid "Scoring not available."
+msgstr "Punctaj indisponibil."
+
+#: ../component/LtiError/LtiError.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Vă rugăm să contactaţi administratorul de sistem."
+
+#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Punctajele au fost trimise cu succes"
+
+#: ../component/TaskPage/TaskPage.svelte:76
+msgid "Your scoring progress has been updated."
+msgstr "Progresul dvs. de notare a fost actualizat."
+
+#: ../component/TaskPage/TaskPage.svelte:81
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Unul sau mai mulţi elevi şi-au retrimis răspunsurile. Din păcate răspunsurile actualizate care au fost deja marcate trebuie să fie înregistrate din nou."
+
+#: ../component/delivery/Delivery.svelte:501
+msgid "Test overview"
+msgstr "Prezentare test"
+
+#: ../component/delivery/Delivery.svelte:505
+msgid "Tasks status"
+msgstr "Statusul sarcinilor"
+
+#: ../component/delivery/Delivery.svelte:509
+msgid "Question"
+msgstr "Întrebare"
+
+#: ../component/delivery/Delivery.svelte:54
+#: ../component/delivery/Delivery.svelte:122
+msgid "Total score"
+msgstr "Scor total"
+
+#: ../component/delivery/Delivery.svelte:63
+msgid "All"
+msgstr "Toate"
+
+#: ../component/delivery/Delivery.svelte:67
+msgid "Incomplete"
+msgstr "Incomplet"
+
+#: ../component/delivery/Delivery.svelte:72
+msgid "Bookmarked"
+msgstr "Marcat"
+
+#: ../component/delivery/Delivery.svelte:122
+msgid "Corrected total score"
+msgstr "Scor total corectat"
+
+#: ../component/delivery/DeliveryTable.svelte:60
+msgid "Note"
+msgstr "Notă"
+
+#: ../component/delivery/DeliveryTable.svelte:63
+msgid "Report"
+msgstr "Raport"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Items"
+msgstr "Articole"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Marcaj"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Apăsați pentru a afișa nota de activitate"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:35
+msgid "%s of %s"
+msgstr "%s din %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:41
+msgid "No score added"
+msgstr "Nici un scor adăugat"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Apăsați pentru a afișa nota"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "Asocierea \"%s\" şi scorul \"%s %s\" cu numele de utilizator \"%s\" a fost raportată din următoarele motive:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Motivul nu este dat"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Sarcină cu scor"
+
+#: ../component/error/Error.svelte:36
+msgid "Oops! Page not found"
+msgstr "Ups! Pagina nu a fost găsită"
+
+#: ../component/error/Error.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Pagina pe care o cauţi nu există."
+
+#: ../component/error/Error.svelte:38
+msgid "Go to home"
+msgstr "Mergi la casă"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Acest proiect este acum inactiv"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Acum veți fi redirecționat către lista de proiecte"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Ok"
+
+#: ../component/task/ComplaintDialog.svelte:66
+msgid "Close Dialog"
+msgstr "Închide dialogul"
+
+#: ../component/task/ComplaintDialog.svelte:71
+msgid "Report this question/scorer pair for non-compliant scoring?"
+msgstr "Raportați această pereche de întrebări/punctaje pentru scoruri neconforme?"
+
+#: ../component/task/ComplaintDialog.svelte:73
+msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
+msgstr "Dacă faceți acest lucru, toate răspunsurile pentru acea pereche, %j și %j vor fi supuse unei sarcini de revizuire. Această acțiune nu poate fi anulată."
+
+#: ../component/task/ComplaintDialog.svelte:79
+msgid "Type a note for this report"
+msgstr "Introduceți o notă pentru acest raport"
+
+#: ../component/task/ComplaintDialog.svelte:88
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../component/task/ComplaintDialog.svelte:97
+msgid "Report and continue"
+msgstr "Raportează și continuă"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Raportat pentru neconformitate"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "Asocierea %j și a marcatorului %j cu numele de utilizator %j a fost raportată din următoarele motive:"
+
+#: ../component/task/ItemPreviewer.svelte:141
+msgid "loading"
+msgstr "încărcare"
+
+#: ../component/task/ItemPreviewer.svelte:142
+msgid "Response is loading"
+msgstr "Răspunsul se încarcă"
+
+#: ../component/task/ItemPreviewer.svelte:152
+msgid "Item response"
+msgstr "Răspuns articol"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Criteriile de punctaj se încarcă"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Criterii de notare apropiate"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Criterii de punctaj"
+
+#: ../component/task/ScoringForm.svelte:239
+msgid "Suggested scoring explanation"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:257
+#: ../component/task/ScoringForm.svelte:258
+msgid "Try again"
+msgstr "Încercați din nou"
+
+#: ../component/task/ScoringForm.svelte:264
+#: ../component/task/ScoringForm.svelte:265
+msgid "Use the score"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:271
+#: ../component/task/ScoringForm.svelte:272
+msgid "Discard"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:283
+#: ../component/task/ScoringForm.svelte:284
+msgid "Show score suggestion"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:292
+#: ../component/task/ScoringForm.svelte:293
+msgid "Get score suggestion"
+msgstr "Obține sugestie de scor"
+
+#: ../component/task/ScoringForm.svelte:308
+msgid "see criteria for %s"
+msgstr "vezi criteriile pentru %s"
+
+#: ../component/task/ScoringForm.svelte:315
+msgid "see criteria"
+msgstr "vezi criteriile"
+
+#: ../component/task/ScoringForm.svelte:337
+msgid "Suspected of cheating"
+msgstr "Suspectat de trişare"
+
+#: ../component/task/ScoringForm.svelte:347
+msgid "Comment optional"
+msgstr "Comentariu opțional"
+
+#: ../component/task/ScoringForm.svelte:355
+#: ../component/task/ScoringForm.svelte:385
+msgid "of %d characters remaining"
+msgstr "din caractere %d rămase"
+
+#: ../component/task/ScoringForm.svelte:359
+msgid "Comment (optional)"
+msgstr "Comentariu (opţional)"
+
+#: ../component/task/ScoringForm.svelte:367
+msgid "Scorer's note:"
+msgstr "Nota scorului:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Trimiteti punctajul?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Toate scorurile vor fi trimise la sistemul dvs. Dacă ați obținut anterior punctaje și răspunsuri, acestea vor fi înlocuite cu noile scoruri."
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Trimite scorurile"
+
+#: ../component/task/Task.svelte:667
+msgid "Scoring"
+msgstr "Punctaj"
+
+#: ../component/task/Task.svelte:673
+msgid "Collapse scoring panel"
+msgstr "Panou de punctaj colaps"
+
+#: ../component/task/Task.svelte:673
+msgid "Open scoring panel"
+msgstr "Deschide panoul de punctaj"
+
+#: ../component/task/Task.svelte:698
+msgid "Scores given by %s"
+msgstr "Scoruri date de %s"
+
+#: ../component/task/Task.svelte:711
+msgid "report"
+msgstr "raportează"
+
+#: ../component/task/Task.svelte:730
+msgid "Answer %s of %s"
+msgstr "Răspunde la %s din %s"
+
+#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:751
+msgid "Response"
+msgstr "Răspuns"
+
+#: ../component/task/Task.svelte:760
+msgid "Go to previous answer"
+msgstr "Mergeți la răspunsul anterior"
+
+#: ../component/task/Task.svelte:767
+#: ../component/task/Task.svelte:768
+msgid "SEE Overview"
+msgstr "VEZI Prezentare"
+
+#: ../component/task/Task.svelte:779
+msgid "Go to next answer"
+msgstr "Du-te la următorul răspuns"
+
+#: ../component/task/Task.svelte:788
+msgid "Completion: %s %"
+msgstr "Completare: %s%"
+
+#: ../component/task/Task.svelte:792
+msgid "Test taker response"
+msgstr "Răspuns la test"
+
+#: ../component/task/Task.svelte:827
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Încărcarea sarcinii a eșuat. Vă rugăm să contactați administratorul de sistem."
+
+#: ../component/task/Task.svelte:837
+msgid "Scoring task submission error"
+msgstr "Eroare de transmitere a sarcinii"
+
+#: ../component/task/Task.svelte:119
+msgid "Type a note for this answer"
+msgstr "Introduceți o notă pentru acest răspuns"
+
+#: ../component/task/Task.svelte:125
+msgid "Type a note for this review"
+msgstr "Introduceți o notă pentru această revizuire"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Această sarcină de notare nu a putut fi inițiată cel mai probabil deoarece o altă sesiune de notare a fost inițiată într-o fereastră sau un browser diferit.<br>Pentru a rezolva această problemă:<br><ul><li>Asigurați-vă că nu înscrieți o sesiune diferită în altă fereastră sau browser.</li><li>Închide orice alte file sau ferestre de browser unde acest link de notare sau alt link ar putea fi deschis.</li></ul>Dacă aţi verificat deja aceşti paşi şi veţi vedea acest mesaj, vă rugăm să contactaţi serviciul de suport sau administratorul pentru asistenţă suplimentară."
+
+#: ../component/task/Task.svelte:181
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Am întâmpinat o problemă în timp ce salvați scorul dvs. Încercați din nou. Dacă problema persistă, contactați echipa noastră de asistență pentru asistență."
+
+#: ../component/task/Task.svelte:190
+msgid "Back"
+msgstr "Înapoi"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Main navigation"
+msgstr "Navigare principală"
+
+#: ../component/task/TaskHeader.svelte:119
+msgid "Scores"
+msgstr "Scoruri"
+
+#: ../component/task/TaskHeader.svelte:127
+msgid "Are you sure you want to leave?"
+msgstr "Ești sigur că vrei să părăsești?"
+
+#: ../component/task/TaskHeader.svelte:128
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Notele tale vor fi salvate și vei putea relua clasificarea mai târziu."
+
+#: ../component/task/TaskHeader.svelte:148
+#: ../component/task/TaskHeader.svelte:149
+msgid "Send scores"
+msgstr "Trimite scoruri"
+
+#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:157
+msgid "Tools"
+msgstr "Unelte"
+
+#: ../component/task/TaskHeader.svelte:31
+msgid "continue grading"
+msgstr "continuă clasificarea"
+
+#: ../component/task/TaskHeader.svelte:36
+msgid "save and leave"
+msgstr "salvează și părăsește"
+
+#: ../component/task/TaskHeader.svelte:47
+msgid "Score"
+msgstr "Scor"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Hide highlighter"
+msgstr "Ascunde contor"
+
+#: ../component/task/TaskHeader.svelte:53
+msgid "Show highlighter"
+msgstr "Afișare evidențiator"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Pagina de eroare"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Punctaj manual"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Nume utilizator"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Nume utilizator scurt"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Caracter interzis în numele de utilizator"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Parolă goală"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Parolă scurtă"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Parola lungă"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Golire rol"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Deja atribuit"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Nu a fost găsit"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Criteriu de atribuire gol"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Conflict între utilizatorul sistemului"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Rolul nu există în strategia de notare selectată"
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Declarații de rezultat nevalide"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Realizarea pare a fi configurată pentru strategia de alocare a proiectului „grup de elemente”"
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Realizarea pare să fie configurată pentru o strategie de atribuire a proiectului de „grup de teste”"
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Ne pare rău, nu putem găsi răspunsurile la scor. Vă rugăm să contactaţi administratorul de sistem."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Nu există încă niciun răspuns de punctaj. Vă rugăm să aşteptaţi şi să încercaţi din nou."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Grading nu este disponibil."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Vă rugăm să contactaţi administratorul."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Nu au fost găsite răspunsuri."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Executările de livrare cu următoarele mijloace electronice nu pot fi găsite: <br><strong>%s</strong><br>Vă rugăm să contactaţi administratorul sistemului."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Executările de livrare cu următoarele mijloace electronice sunt invalide: <br><strong>%s</strong><br>Vă rugăm să contactaţi administratorul de sistem."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Livrările cu următoarele oferte sunt invalide: <br><strong>%s</strong><br>Vă rugăm să contactaţi administratorul sistemului."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Scorarea nu este disponibilă momentan, pentru că nu au fost găsite răspunsuri."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Acest lucru se poate întâmpla dacă un elev tocmai a trimis testul. Vă rugăm să încercați din nou mai târziu. Dacă problema persistă, contactați administratorul sistemului. Mijloace de testare care nu au fost găsite: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Prea multe sarcini de înscris."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Id de execuție a livrării: <strong>%s</strong><br>Numărul de sarcini de notare: <strong>%s</strong><br>permite numărul maxim de sarcini: <strong>%s</strong><br>Vă rugăm să contactați administratorul sistemului."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "ID-uri de livrare: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Numărul de sarcini de notare: <strong>%s</strong><br>Numărul maxim permis de activităţi: <strong>%s</strong><br>Vă rugăm să contactaţi administratorul sistemului."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr ""
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "ID (ID-uri) de livrare şi ID-ul (ID-urile) de încercare ale akerului sunt goale sau nu sunt definite."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "ID-ul de livrare este gol sau nu este definit."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "ID-ul producătorului de teste este gol sau nu este definit."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Recenzia a eșuat: Recenzorul nu poate fi același utilizator ca scorul original."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Atribuie un examinator diferit pentru a asigura o evaluare independentă a scorului."
+
+#: ../services/launchService.js:196
+msgid "Invalid Scoring Category"
+msgstr "Categorie de punctaj invalidă"
+
+#: ../services/launchService.js:197
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Vă rugăm să verificaţi valoarea categoriei. Aceasta trebuie să fie validă şi nu poate fi goală."
+
+#: ../services/launchService.js:201
+msgid "Invalid custom claim."
+msgstr "Solicitare personalizată nevalidă."
+
+#: ../services/launchService.js:202
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Parametru nevalid, revendicarea necesită [%s] nu trebuie să fie goală și să tasteze [%s]."
+
+#: ../services/launchService.js:210
+msgid "Required custom claim."
+msgstr "Solicitare personalizată necesară."
+
+#: ../services/launchService.js:211
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Parametrul lipsă, revendicarea necesită parametrul [%s] pentru a fi prezent."
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Lipsă virgulă(uri), ar trebui să existe exact %d coloana la rândul \"%s\""
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Fişierul încărcat conţine nume de utilizator duplicat. Vă rugăm să eliminaţi numele de utilizator duplicat şi să încercaţi din nou."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "ID-ul sarcinii de notare:%s este deja înscris și trimis."
+

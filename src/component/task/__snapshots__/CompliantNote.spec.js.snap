@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompliantNote should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <button
+        class="clickable"
+        tabindex="0"
+      >
+        <span
+          class="text"
+        >
+          Reported for non-compliance
+        </span>
+         
+        <span
+          class="dots"
+        >
+          ...
+        </span>
+      </button>
+       
+      <div
+        class="dialog-container"
+      >
+        
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CompliantNote should show popup 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <button
+        class="clickable"
+        tabindex="0"
+      >
+        <span
+          class="text"
+        >
+          Reported for non-compliance
+        </span>
+         
+        <span
+          class="dots"
+        >
+          ...
+        </span>
+      </button>
+       
+      <div
+        class="dialog-container"
+      >
+        <div
+          class="dialog inverted inline"
+          role="dialog"
+          tabindex="-1"
+        >
+           
+           
+           
+          <p>
+            The pairing of "Question 1" and scorer "John doe" with the username "john_doe_1" has been reported for the following reasons:
+          </p>
+           
+          <p>
+            Lotem ipsum dolar sit amet
+          </p>
+           
+          <div
+            class="actions aligned-end"
+          />
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+`;

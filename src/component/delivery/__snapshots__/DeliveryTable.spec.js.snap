@@ -1,0 +1,1619 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delivery overview renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="table"
+    >
+      <table
+        class="fullwidth"
+      >
+        <thead>
+          <tr>
+            
+            <th
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    outcome-name-1
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Total score
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Bookmarked
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Note
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Report
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+          </tr>
+        </thead>
+         
+        <tbody>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                1 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                1 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                3 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                3 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="false"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark inactive icon
+                  </title>
+                  <path
+                    d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              <button
+                aria-label="Press to show task note"
+                class="icon-bar-btn actionable base-16 default"
+                title="Press to show task note"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Notepad icon
+                  </title>
+                  <path
+                    d="M13 1h-3V0H9v1H7V0H6v1H3a1 1 0 00-1 1v13a1 1 0 001 1h10a1 1 0 001-1V2a1 1 0 00-1-1zm0 14H3V2h3v1h1V2h2v1h1V2h3z"
+                  />
+                  <path
+                    d="M4 5h8v1H4zm0 2h8v1H4zm0 2h8v1H4zm0 2h4v1H4z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                0 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                0 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                0 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                0 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="true"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark active icon
+                  </title>
+                  <path
+                    d="M13 0H3a1 1 0 00-1 1v14a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V1a1 1 0 00-1-1z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                2 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                2 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                2 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                2 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="false"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark inactive icon
+                  </title>
+                  <path
+                    d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+        </tbody>
+      </table>
+       
+      <div
+        aria-live="polite"
+        class="visually-hidden"
+      >
+        
+      </div>
+       
+      <div
+        class="pagination-container"
+      />
+    </div>
+     
+    
+  </div>
+</body>
+`;
+
+exports[`Delivery overview renders selected row correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="table"
+    >
+      <table
+        class="fullwidth"
+      >
+        <thead>
+          <tr>
+            
+            <th
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    outcome-name-1
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Total score
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Bookmarked
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Note
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Report
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+          </tr>
+        </thead>
+         
+        <tbody>
+          <tr
+            class="currentrow focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                1 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                1 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                3 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                3 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="false"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark inactive icon
+                  </title>
+                  <path
+                    d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              <button
+                aria-label="Press to show task note"
+                class="icon-bar-btn actionable base-16 default"
+                title="Press to show task note"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Notepad icon
+                  </title>
+                  <path
+                    d="M13 1h-3V0H9v1H7V0H6v1H3a1 1 0 00-1 1v13a1 1 0 001 1h10a1 1 0 001-1V2a1 1 0 00-1-1zm0 14H3V2h3v1h1V2h2v1h1V2h3z"
+                  />
+                  <path
+                    d="M4 5h8v1H4zm0 2h8v1H4zm0 2h8v1H4zm0 2h4v1H4z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                0 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                0 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                0 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                0 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="true"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark active icon
+                  </title>
+                  <path
+                    d="M13 0H3a1 1 0 00-1 1v14a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V1a1 1 0 00-1-1z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                2 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                2 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                2 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                2 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="false"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark inactive icon
+                  </title>
+                  <path
+                    d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+        </tbody>
+      </table>
+       
+      <div
+        aria-live="polite"
+        class="visually-hidden"
+      >
+        
+      </div>
+       
+      <div
+        class="pagination-container"
+      />
+    </div>
+     
+    
+  </div>
+</body>
+`;
+
+exports[`Delivery overview show and hide note 1`] = `
+<body>
+  <div>
+    <div
+      class="table"
+    >
+      <table
+        class="fullwidth"
+      >
+        <thead>
+          <tr>
+            
+            <th
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    outcome-name-1
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Total score
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Bookmarked
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Note
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+            
+            <th
+              class="fitcontent"
+              scope="col"
+            >
+              <div
+                class="cell-wrapper"
+              >
+                 
+                <div>
+                  <div>
+                    Report
+                  </div>
+                   
+                   
+                </div>
+                 
+              </div>
+               
+            </th>
+            
+          </tr>
+        </thead>
+         
+        <tbody>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                1 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                1 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                3 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                3 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="false"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark inactive icon
+                  </title>
+                  <path
+                    d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              <button
+                aria-label="Press to show task note"
+                class="icon-bar-btn actionable base-16 default"
+                title="Press to show task note"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Notepad icon
+                  </title>
+                  <path
+                    d="M13 1h-3V0H9v1H7V0H6v1H3a1 1 0 00-1 1v13a1 1 0 001 1h10a1 1 0 001-1V2a1 1 0 00-1-1zm0 14H3V2h3v1h1V2h2v1h1V2h3z"
+                  />
+                  <path
+                    d="M4 5h8v1H4zm0 2h8v1H4zm0 2h8v1H4zm0 2h4v1H4z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                0 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                0 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                0 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                0 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="true"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark active icon
+                  </title>
+                  <path
+                    d="M13 0H3a1 1 0 00-1 1v14a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V1a1 1 0 00-1-1z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+          <tr
+            class="focusable"
+            tabindex="0"
+          >
+            <td>
+              <div
+                class="visually-hidden"
+              >
+                2 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                2 / 5
+              </span>
+               
+              
+              
+              
+            </td>
+            <td>
+              <span
+                class="visually-hidden"
+              >
+                Task is scored
+              </span>
+               
+              <svg
+                aria-hidden="true"
+                class="icon medium"
+                viewBox="0 0 16 16"
+              >
+                <title>
+                  Check mark icon
+                </title>
+                <path
+                  d="M14.73 1.91L16 3.18 5.09 14.09 0 9l1.27-1.27 3.82 3.82z"
+                />
+              </svg>
+               
+              <div
+                class="visually-hidden"
+              >
+                2 of 5
+              </div>
+               
+              <span
+                aria-hidden="true"
+              >
+                2 / 5
+              </span>
+              
+              
+            </td>
+            <td>
+              <button
+                aria-label="Bookmark"
+                aria-pressed="false"
+                class="icon-bar-btn actionable base-16 default"
+                title="Bookmark"
+              >
+                <svg
+                  aria-hidden="false"
+                  class="icon medium"
+                  viewBox="0 0 16 16"
+                >
+                  <title>
+                    Bookmark inactive icon
+                  </title>
+                  <path
+                    d="M12 0H4a2.15 2.15 0 00-2 2v13a1 1 0 00.67.94A1 1 0 003 16a1 1 0 00.78-.38L8 10.6l4.22 5a1 1 0 00.78.4 1 1 0 00.33-.06A1 1 0 0014 15V2a2.15 2.15 0 00-2-2zm0 13L8 8l-4 5V2h8z"
+                  />
+                </svg>
+                 
+                 
+              </button>
+              
+            </td>
+            <td>
+              
+              
+            </td>
+            <td>
+              <div
+                class="container"
+              >
+                <button
+                  aria-label="Press to show note"
+                  class="icon-bar-btn actionable base-16 default"
+                  title="Press to show note"
+                >
+                  <svg
+                    aria-hidden="false"
+                    class="icon medium"
+                    viewBox="0 0 16 16"
+                  >
+                    <title>
+                      Warning icon
+                    </title>
+                    <path
+                      d="M8 1a7 7 0 11-7 7 7 7 0 017-7m0-1a8 8 0 108 8 8 8 0 00-8-8z"
+                    />
+                    <path
+                      d="M7 3h2v6H7zm0 8h2v2H7z"
+                    />
+                  </svg>
+                   
+                   
+                </button>
+                 
+                <div
+                  class="dialog-container"
+                >
+                  
+                </div>
+              </div>
+              
+              
+            </td>
+             
+          </tr>
+        </tbody>
+      </table>
+       
+      <div
+        aria-live="polite"
+        class="visually-hidden"
+      >
+        
+      </div>
+       
+      <div
+        class="pagination-container"
+      />
+    </div>
+     
+    <div
+      class="modal-wrapper"
+      style="animation: __svelte_4004126939_0 150ms linear 0ms 1 both;"
+    >
+      <div
+        class="modal-background"
+      />
+       
+      <div
+        aria-modal="true"
+        class="modal-positioning"
+        style="top:16px; bottom:unset; left:unset; right:0px; transform:none ; position:absolute;"
+      >
+        <div
+          aria-describedby="description"
+          class="dialog inverted"
+          role="dialog"
+          tabindex="-1"
+        >
+           
+           
+          <div
+            id="description"
+          >
+            <p>
+              note-1
+            </p>
+          </div>
+           
+           
+          <div
+            class="actions aligned-end"
+          />
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</body>
+`;

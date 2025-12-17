@@ -1,0 +1,33 @@
+{
+    "paths": {
+        "@/*": [
+            "src/*"
+        ],
+        "core/*": [
+            "node_modules/@oat-sa/tao-core-sdk/src/core/*"
+        ],
+        "core/moduleLoader": [
+            "src/core/moduleLoader"
+        ]
+    },
+    "project": [
+        "src/**/*.{js,svelte}!"
+    ],
+    "ignore": [
+        "src/**/__mocks__/**",
+        "src/core/moduleLoader.js",
+        "src/module.js",
+        "src/services/deliveryService.js",
+        "src/services/taskService.js",
+        "src/services/userConfigurationService.js",
+        "src/services/launchService.js",
+        "src/services/ltiService.js"
+    ],
+    "svelte": {
+        "entry": [
+            "svelte.config.js",
+            "src/index.js!"
+        ]
+    },
+    "ignoreDependencies": ["core/*"]
+}

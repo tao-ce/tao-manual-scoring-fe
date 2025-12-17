@@ -1,0 +1,36 @@
+<!--
+SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+
+SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+-->
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <base href="${process.env.STATIC_URL}" />
+  <title>Manual Scoring</title>
+  <link rel="icon" href="/favicon/favicon-32.png" sizes="32x32" />
+  <link rel="icon" href="/favicon/favicon-128.png" sizes="128x128" />
+  <link rel="icon" href="/favicon/favicon-192.png" sizes="192x192" />
+  <link rel="shortcut icon" sizes="196x196" href="/favicon/favicon-196.png" />
+  <link rel="apple-touch-icon" href="/favicon/favicon-180.png" sizes="180x180" />
+</head>
+<body>
+  <script src="scripts/checker.js"></script>
+  <h1 id="page-title" class="visually-hidden" aria-live="polite"></h1>
+  <div id="page"></div>
+  <script>
+    env = {
+        API_URL: '${process.env.API_URL}',
+        APP_NAMESPACE: '${process.env.APP_NAMESPACE}',
+        AUTH_SERVER_URL: '${process.env.AUTH_SERVER_URL}',
+        REFRESH_TOKEN_URI: '${process.env.REFRESH_TOKEN_URI}',
+        STATIC_URL: '${process.env.STATIC_URL}',
+        TENANTS: '${process.env.TENANTS}',
+        USERPILOT_TOKEN: '${process.env.USERPILOT_TOKEN}',
+        GA_TAG: '${process.env.GA_TAG}'
+    };
+  </script>
+  <script type="module" src="index.js" crossorigin="true"></script>
+</body>

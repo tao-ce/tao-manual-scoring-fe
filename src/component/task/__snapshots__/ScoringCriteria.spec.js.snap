@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoringCriteria scoring criteria renders correctly with no data 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <div
+        class="loader-container"
+      >
+        <div
+          aria-live="assertive"
+          class="loading-wrapper "
+          role="alert"
+        >
+          <div
+            class="loading"
+          />
+           
+          <div
+            class="content"
+          >
+            <p
+              class="text"
+            >
+              loading
+            </p>
+          </div>
+        </div>
+         
+        <p
+          class="loader-hint"
+        >
+          Scoring criteria is loading
+        </p>
+      </div>
+       
+      <div
+        class="criteria-top-panel"
+      >
+        <button
+          aria-label="Close scoring criteria"
+          class="icon-bar-btn actionable base-24 default"
+          title="Close scoring criteria"
+        >
+          <svg
+            aria-hidden="false"
+            class="icon medium"
+            viewBox="0 0 16 16"
+          >
+            <title>
+              Remove icon
+            </title>
+            <path
+              d="M1 0l7 7 7-7 1 1-7 7 7 7-1 1-7-7-7 7-1-1 7-7-7-7 1-1z"
+            />
+          </svg>
+           
+           
+        </button>
+      </div>
+       
+      <iframe
+        allow="fullscreen"
+        allowfullscreen=""
+        class="criteria hide"
+        title="Scoring criteria"
+      />
+    </div>
+  </div>
+</body>
+`;
