@@ -1,5 +1,5 @@
 // SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
-// Copyright (C) 2020 (original work) Open Assessment Technologies SA ;
+// Copyright (C) 2020-2025 (original work) Open Assessment Technologies SA ;
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
@@ -12,7 +12,7 @@ jest.mock('@/config/env', () => variableName => {
     return environmentConfig[variableName];
 });
 jest.mock(
-    '@/component/error/Error',
+    '@/routes/error/+page.svelte',
     () =>
         function() {
             this.$on = jest.fn();
@@ -22,7 +22,7 @@ jest.mock(
 
 import errorControllerFactory from './error';
 
-describe('Tasks controller', () => {
+describe('Error controller', () => {
     test('controller is a factory', () => {
         expect(typeof errorControllerFactory).toBe('function');
         expect(errorControllerFactory()).not.toBe(errorControllerFactory());

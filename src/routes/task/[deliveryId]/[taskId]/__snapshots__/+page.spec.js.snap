@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskPage opens and closes overview with animation 1`] = `
+<body>
+  <div>
+    <div
+      aria-live="polite"
+      class="task-page"
+    >
+      <div>
+        Task 
+        <button
+          class="mock-show-overview-button"
+        >
+          SEE Overview
+        </button>
+      </div>
+       
+      <div
+        aria-label="Overview"
+        class="overview-container"
+        role="dialog"
+        style="animation: __svelte_3507109844_0 400ms linear 0ms 1 both;"
+      >
+        <div>
+          Delivery overview 
+          <button
+            class="mock-close-overview-button"
+          >
+            Test overview
+          </button>
+        </div>
+      </div>
+      
+       
+      
+    </div>
+  </div>
+</body>
+`;
+
+exports[`TaskPage opens and closes overview with animation 2`] = `
+<body>
+  <div>
+    <div
+      aria-live="polite"
+      class="task-page"
+    >
+      <div>
+        Task 
+        <button
+          class="mock-show-overview-button"
+        >
+          SEE Overview
+        </button>
+      </div>
+       
+      
+       
+      
+    </div>
+  </div>
+</body>
+`;
+
+exports[`TaskPage renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      aria-live="polite"
+      class="task-page"
+    >
+      <div
+        class="loader-container"
+      >
+        <div
+          aria-live="assertive"
+          class="loading-wrapper "
+          role="alert"
+        >
+          <div
+            class="loading"
+          />
+           
+          <div
+            class="content"
+          >
+            <p
+              class="visually-hidden"
+            >
+              Content is loading
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

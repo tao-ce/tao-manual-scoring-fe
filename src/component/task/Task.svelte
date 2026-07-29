@@ -8,7 +8,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     // Licensed under Gnu Public Licence version 2
     // Copyright (c) 2020-2025 (original work) Open Assessment Technologies SA ;
 
-    import { createEventDispatcher, onMount, onDestroy } from 'svelte';
+    import { createEventDispatcher, onMount } from 'svelte';
     import { __ } from '@oat-sa-private/ui-core';
     import { Button, Progressbar, IconBarButton } from '@oat-sa-private/ui-elements';
     import { breakpoints } from '@oat-sa-private/ui-identity';
@@ -17,38 +17,64 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     import { log } from '@/core/utils';
     import { TASK_DATA_TYPE, saveLocalTaskData, removeLocalTaskData } from '@/core/utils/task';
     import { Ribbon, ModalDialog } from '@oat-sa-private/ui-components';
-    import { getUser } from '@/services/authService';
-    import InactiveProjectDialog from '../inactiveProject/InactiveProjectDialog';
-    import ItemPreviewer from './ItemPreviewer';
+    import InactiveProjectDialog from '../inactiveProject/InactiveProjectDialog.svelte';
+    import ItemPreviewer from './ItemPreviewer.svelte';
     import ScoringForm from './ScoringForm.svelte';
-    import CompliantNote from './CompliantNote';
-    import ComplaintDialog from './ComplaintDialog';
-    import { TASK_STATUS, TASK_TYPE } from '../../constants/task';
+    import CompliantNote from './CompliantNote.svelte';
+    import { TASK_TYPE } from '../../constants/task';
     import TaskHeader from './TaskHeader.svelte';
+    import TaskAdminMode from './TaskAdminMode.svelte';
     import * as taskService from '../../services/taskService';
     import * as ltiService from '../../services/ltiService';
     import ScoringCriteria from './ScoringCriteria.svelte';
     import { taskStore } from '../../store/taskStore';
     import { debounce } from 'lodash';
     import { getLiveSaveStore, liveSaveStatuses } from '@oat-sa-private/ui-components/livesave/liveSaveStore.js';
+    import { ScoringModes } from '../../constants/scoring-mode.js';
+    import { getConfig } from '../../services/userConfigurationService';
+    import {
+        highlighterToolStore,
+        inlineCommentsToolStore,
+        markingSymbolsToolStore
+    } from '@/store/deliverToolsStore.js';
+    import { getUser } from '@/services/authService';
+    import { ERROR_CODES } from '@/constants/error-codes.js';
+    const userConfig = getConfig();
+    const {
+        isMarkAsNotEnoughBasisForAssessment: isMarkAsNotEnoughBasisForAssessmentEnabled,
+        is_item_review_marking_symbols_enabled = false,
+        is_item_review_highlighter_enabled = false
+    } = userConfig;
 
     export let taskId;
-    export let deliveryId;
     export let isDeliveryOverviewOpen;
+    export let scoringMode = ScoringModes.ITEM;
 
     $: task = $taskStore.task;
     $: meta = $taskStore.meta;
 
+    $: testTitle = task.test?.title ?? task.delivery?.testTitle ?? '';
+    $: itemTitle = task.item?.title ?? '';
+
+    $: adminReviewList = $taskStore.adminReviewList;
+    $: adminReviewListActiveTab = $taskStore.adminReviewListActiveTab;
+    $: hasAdminReviews = adminReviewList.length > 0;
+    // If administrative and read-only, we consider the launch an administrative read-only
+    // in this mode, we must load and show all the info (scores, notes, etc) from all previous scorers and reviewers
+    //$: isAdminReviewMode = (!(meta?.isAdministrative && !meta?.isReadOnly));
+    $: isAdminReviewMode = (meta?.isAdministrative ?? false) && !(meta?.isReadOnly ?? false);
+
     const autoSaveStatus = getLiveSaveStore('autosave');
 
+    let itemPreviewer;
     let isTaskFieldsChanged = false;
-    let isSuspiciousFieldsChanged = false;
+    let wasSuspiciousCheckboxChanged = false;
+    let wasNotEnoughBasisCheckboxChanged = false;
     let taskType;
     let position;
     let prevTask = null;
     let nextTask = null;
     let deliveryExecutionScoring = null;
-    let numberOfTasks;
     // previous scores data
     let previousScores = []; // scores data of previous users (e.g. in review mode)
     // custom props
@@ -67,17 +93,47 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     let isScoringPanelOpen = false;
     let testTakerName = '';
     let isReview = false;
+    let isReadOnly = false;
     let deliveryExecutionIds = [];
 
     let criteriaPdfUrl;
     let showCriteriaPdf = false;
     let previewLoading = true;
 
-    let highlights;
+    let highlights = $taskStore?.task?.highlights;
     let outcomeDeclarations;
-    let taskIdToComplain;
-    let scorerToComplain;
-    let showHighlighter = false;
+
+    const getActiveUserHighlights = () => (isUsersOwnTabSelected ? highlights : $taskStore.task?.highlights || []);
+
+    function updateTools() {
+        highlighterToolStore.update(store => {
+            store.installed = is_item_review_highlighter_enabled;
+            store.disabled = isReadOnly || (store.installed && !isUsersOwnTabSelected);
+            return store;
+        });
+        inlineCommentsToolStore.update(store => {
+            store.disabled = isReadOnly || !isUsersOwnTabSelected;
+            return store;
+        });
+        markingSymbolsToolStore.update(store => {
+            store.installed = is_item_review_marking_symbols_enabled;
+            store.disabled = isReadOnly || (store.installed && !isUsersOwnTabSelected);
+            return store;
+        });
+    }
+
+    $: isUsersOwnTabSelected = $taskStore && $taskStore.isUsersOwnTabSelected;
+
+    $: hasUnsavedChanges = isTaskFieldsChanged || wasSuspiciousCheckboxChanged || wasNotEnoughBasisCheckboxChanged;
+
+    // react to initial config read / initial ltiConfig.isReadOnly / isUsersOwnTabSelected change
+    $: updateTools(
+        is_item_review_highlighter_enabled,
+        is_item_review_marking_symbols_enabled,
+        isReadOnly,
+        isUsersOwnTabSelected
+    );
+
     let errorLoading = false;
     let submitErrorActionLabel;
     let submitErrorHeadLabel = __('Scoring task submission error');
@@ -87,18 +143,99 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
     let isPreviousBtnDisabled = false;
     let isNextBtnDisabled = false;
+    let currentUserUsername = null;
 
-    $: isScoringUIDisabled = previewLoading || errorLoading;
+    $: scoringHeaderString = [testTitle, itemTitle, testTakerName].filter(Boolean).join(' / ');
+    $: currentScorer = hasAdminReviews ? adminReviewList.find(s => s.key === adminReviewListActiveTab) : null;
 
-    $: hasNullScore = outcomeDeclarations && !!outcomeDeclarations.find(s => s.value === null);
+    $: isCurrentUserTab = (() => {
+        if (!currentScorer) return false;
+        // `isAdmin` marks the UI entry for the current user's final score
+        // (My final score). Treat that entry as the current user's tab.
+        if (currentScorer.isAdmin) return true;
+        // Otherwise compare keys (previous scorer entries use IDs/usernames)
+        return currentScorer?.key === currentUserUsername;
+    })();
 
-    $: totalScoredExceptCurrent = task && meta && meta.totalScored - (task.status === TASK_STATUS.SCORED ? 1 : 0);
+    $: displayNote = isCurrentUserTab ? task.note : currentScorer?.note ?? '';
 
-    $: totalScored = totalScoredExceptCurrent + (hasNullScore ? 0 : 1);
+    function resolveLtiItemPreviewerLink(params) {
+        const {
+            currentScorer: currentScorerParam,
+            previousScores: previousScoresParam,
+            adminReviewListActiveTab: adminReviewListActiveTabParam,
+            currentUserUsername: currentUserUsernameParam,
+            task: taskParam
+        } = params;
 
-    $: completion = Math.floor((totalScored / numberOfTasks) * 100);
+        const taskLocal = taskParam;
 
-    $: isSubmitEnabled = completion === 100;
+        if (!taskLocal) {
+            return null;
+        }
+
+        if (!task) {
+            return null;
+        }
+
+        let userKey = null;
+
+        // When tabs are rendered (currentScorer exists), always resolve based on the selected tab
+        if (currentScorerParam) {
+            if (currentScorerParam.isAdmin) {
+                // For admin tab, use current user's username
+                userKey = currentUserUsernameParam;
+            } else {
+                // For reviewer/scorer tab, try to find the corresponding user
+                // First try previousScores (linked tasks data with username info)
+                if (previousScoresParam?.length > 0) {
+                    const previousScore = previousScoresParam.find(ps => ps.id === adminReviewListActiveTabParam);
+                    userKey = previousScore?.username || null;
+                }
+                // If not found in previousScores, use the currentScorer's key/label (userId)
+                if (!userKey) {
+                    userKey = currentScorerParam.key || currentScorerParam.label;
+                }
+            }
+        } else {
+            // No tabs rendered, use current user's username
+            userKey = currentUserUsernameParam;
+        }
+
+        if (userKey && taskLocal.ltiItemPreviewerLinks?.[userKey]) {
+            return taskLocal.ltiItemPreviewerLinks[userKey];
+        }
+
+        // Fallback to a single preview link when per-user links are not available.
+        if (taskLocal.ltiItemPreviewerLink) {
+            return taskLocal.ltiItemPreviewerLink;
+        }
+
+        return null;
+    }
+
+    $: ltiItemPreviewerLink = resolveLtiItemPreviewerLink({
+        isAdminReviewMode,
+        currentScorer,
+        previousScores,
+        // Use the store value directly to ensure the key used by the
+        // `{#key $taskStore.adminReviewListActiveTab}` block and the value
+        // used to resolve the previewer link are the same reactive source.
+        adminReviewListActiveTab: $taskStore.adminReviewListActiveTab,
+        currentUserUsername,
+        task
+    });
+
+    $: isScoringUIDisabled = isReadOnly || previewLoading || errorLoading;
+
+    $: numberOfTasks = $taskStore.meta.numberOfTasks;
+    $: totalScored = $taskStore.meta.totalScored;
+
+    $: completion = numberOfTasks > 0 ? Math.floor((totalScored / numberOfTasks) * 100) : 0;
+
+    $: isScoringCompleted = completion === 100;
+
+    $: isNotEnoughBasisChecked = deliveryExecutionScoring?.notEnoughBasisForAssessment ?? false;
 
     $: smallWidth = windowWidth <= breakpoints.width.medium + 1;
 
@@ -113,12 +250,16 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
         if (meta) {
             previousScores = meta.previousScores;
-            numberOfTasks = meta.numberOfTasks;
             position = meta.position;
             prevTask = meta.prevTask;
             nextTask = meta.nextTask;
             taskType = meta.taskType;
             deliveryExecutionScoring = meta.deliveryExecutionScoring;
+
+            // Show the interrupted dialog if the session is interrupted, and we haven't shown it yet
+            if (meta?.interrupted === true && !$taskStore.interrupted) {
+                taskStore.setAsInterrupted();
+            }
         }
 
         // Update component own properties
@@ -144,6 +285,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         testTakerName = ltiConfig.testTakerName || '';
         hideNoteBox = ltiConfig.hideNoteBox || false;
         isReview = ltiConfig.isReview || false;
+        isReadOnly = ltiConfig.isReadOnly || false;
         deliveryExecutionIds = ltiConfig.deliveryExecutionIds?.length ? ltiConfig.deliveryExecutionIds : [];
         /**
          * Create breadcrumb for taskHeader for users coming via lti launch
@@ -164,23 +306,20 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         }
     }
 
-    onMount(() => {
-        taskStore.loadTask(taskId, __.getLocale());
-    });
-
-    onDestroy(() => {
-        taskStore.reset();
-    });
-
     const handleRequestError = error => {
         if (error.error?.message?.endsWith(taskId)) {
             submitErrorHeadLabel = __('Scoring task could not be started');
-            error.error.message = __('This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance.');
+            error.error.message = __(
+                'This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance.'
+            );
             error.allowResubmit = false;
         }
 
         if (error.responseStatus === 409) {
-            taskStore.setInactiveProject();
+            let isInterruptedByUnknownReasons = error.error?.message === ERROR_CODES.NULL_SESSION_TOKEN_ID;
+
+            taskStore.setAsInterrupted(isInterruptedByUnknownReasons);
+
             return;
         }
         submitErrorMessage =
@@ -200,26 +339,39 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         }
     };
 
-    const updateSuspicious = async () => {
-        await taskStore.updateSuspicious(deliveryExecutionScoring);
-        isSuspiciousFieldsChanged = false;
-    }
+    const saveDeliveryExecutionScoring = async () => {
+        await taskStore.saveDeliveryExecutionScoring(deliveryExecutionScoring);
+        wasSuspiciousCheckboxChanged = false;
+        wasNotEnoughBasisCheckboxChanged = false;
+    };
 
     const updateTask = async (id, data) => {
         try {
+            if ($taskStore.ltiConfig?.isReadOnly) {
+                return { data: $taskStore.task, _meta: $taskStore.meta };
+            }
+
             autoSaveStatus.reset(liveSaveStatuses.waiting);
+
+            if (
+                wasSuspiciousCheckboxChanged ||
+                wasNotEnoughBasisCheckboxChanged ||
+                (scoringMode === ScoringModes.TEST && isNotEnoughBasisChecked)
+            ) {
+                await saveDeliveryExecutionScoring();
+            }
+
             const response = await taskStore.submitTasks(id, {
                 bookmarked: data.bookmarked,
-                highlights,
+                highlights: data.highlights,
                 note: data.note,
                 outcomeDeclarations: data.outcomeDeclarations
             });
-            if (isSuspiciousFieldsChanged) {
-                await updateSuspicious();
-            }
+
             if (response.redirectTask) {
                 taskStore.updateRedirectTask(response.redirectTask);
             }
+            isTaskFieldsChanged = false;
             autoSaveStatus.reset(liveSaveStatuses.saved);
             return response;
         } catch (error) {
@@ -254,13 +406,23 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     }
 
     async function redirectToTask(nextTaskId) {
+        if (isCurrentUserTab) {
+            taskStore.updateNote(displayNote);
+        }
+
         const taskUpdated = {
             ...task,
-            highlights
+            highlights: getActiveUserHighlights()
         };
-        if (isSuspiciousFieldsChanged) {
-            await updateSuspicious();
+
+        if (
+            wasSuspiciousCheckboxChanged ||
+            wasNotEnoughBasisCheckboxChanged ||
+            (scoringMode === ScoringModes.TEST && isNotEnoughBasisChecked)
+        ) {
+            await saveDeliveryExecutionScoring();
         }
+
         await taskStore.loadNextTask(taskId, taskUpdated, nextTaskId).catch(error => {
             handleRequestError(error);
             isTaskFieldsChanged = false;
@@ -274,7 +436,13 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
             return;
         }
         isOverviewBtnDisabled = true;
-        const data = taskService.formatTaskData(task);
+        if (isCurrentUserTab) {
+            taskStore.updateNote(displayNote);
+        }
+        const data = taskService.formatTaskData({
+            ...task,
+            highlights: getActiveUserHighlights()
+        });
 
         showCriteriaPdf = false;
 
@@ -291,12 +459,18 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     /**
      * Handles exit from scoring task
      * @param {string} target - target url
+     * @param isInterrupted
      */
-    async function onExit(target) {
-        const data = taskService.formatTaskData(task);
+    async function onExit(target, isInterrupted = false) {
+        const data = taskService.formatTaskData({
+            ...task,
+            highlights: getActiveUserHighlights()
+        });
 
         try {
-            await debouncedUpdate(taskId, data);
+            if (!isReadOnly && !isInterrupted) {
+                await debouncedUpdate(taskId, data);
+            }
 
             removeLocalTaskData(taskId);
 
@@ -322,42 +496,68 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     }
 
     async function onScoreChange({ detail }) {
-        const { index, score } = detail;
+        const { score, outcomeDeclarationId } = detail;
 
         isTaskFieldsChanged = true;
-        taskStore.updateScore({ index, score });
-        const data = taskService.formatTaskData(task);
+        taskStore.updateScore({ score, outcomeDeclarationId });
+
+        const data = taskService.formatTaskData({
+            ...task,
+            note: hasAdminReviews ? displayNote : task.note,
+            highlights: getActiveUserHighlights()
+        });
 
         await debouncedUpdate(taskId, data);
     }
 
-    function onNoteChange() {
+    function onNoteChange(evt) {
+        const noteValue = evt.detail ?? '';
+        taskStore.updateNote(noteValue);
+		taskStore.persistHighlights(taskId, getActiveUserHighlights());
+        deliveryExecutionScoring = {
+            ...(deliveryExecutionScoring || {}),
+            note: noteValue
+        };
+        taskStore.storeDeliveryExecutionScoring(deliveryExecutionScoring);
+
         isTaskFieldsChanged = true;
     }
 
     async function onSubmitScores() {
         try {
-            if (!isSubmitEnabled) {
+            const shouldBlockSubmission = isMarkAsNotEnoughBasisForAssessmentEnabled
+                ? !isScoringCompleted && !isNotEnoughBasisChecked
+                : !isScoringCompleted;
+
+            if (shouldBlockSubmission) {
                 return;
             }
 
-            isSubmitEnabled = false;
+            isScoringCompleted = false;
 
-            const data = taskService.formatTaskData(task);
+            if (isCurrentUserTab) {
+                taskStore.updateNote(displayNote);
+            }
+            taskStore.storeDeliveryExecutionScoring(deliveryExecutionScoring);
 
-            await debouncedUpdate(taskId, data);
+            const data = taskService.formatTaskData({
+                ...task,
+                highlights: getActiveUserHighlights()
+            });
+
+            debouncedUpdate.cancel();
+            await updateTask(taskId, data);
             if (isReview) {
-                const user = await getUser();
-                const deliveries = deliveryExecutionIds?.length ? deliveryExecutionIds.join(', ') : '';
-                log.log(`Reviewer/scorer: ${user.sub} submitted scores for a session: ${deliveries} for a test taker: ${testTakerName}`);
+                log.log('Reviewer/scorer submitted scores for a session');
             }
 
-            if ($taskStore.redirectTask !== null) {
+            if ($taskStore.redirectTask !== null || isReadOnly) {
                 return;
             }
+            const response = await taskService.submitLTITasks(taskType, taskId);
+
             removeLocalTaskData(taskId);
 
-            const response = await taskService.submitLTITasks(taskType, taskId);
             if (response.redirectTask) {
                 taskStore.updateRedirectTask(response.redirectTask);
                 return;
@@ -372,7 +572,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
             throw err;
         } finally {
-            isSubmitEnabled = true;
+            isScoringCompleted = true;
         }
     }
 
@@ -381,54 +581,33 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         taskStore.toggleBookmark();
     }
 
-    function onComplaintDialogOpened(previousTaskId, user) {
-        if (!isScoringUIDisabled) {
-            taskIdToComplain = previousTaskId;
-            scorerToComplain = user;
-            isComplaintDialogOpened = true;
-        }
-    }
-
-    function onComplaintDialogClosed() {
-        isComplaintDialogOpened = false;
-        complaint.error = '';
-    }
-
-    function onComplaintDialogAction(event) {
-        const { complaintTaskId, complaintNote } = event.detail;
-
-        taskService
-            .complainItemScorerPair(complaintTaskId, complaintNote)
-            .then(() => {
-                const clonePrevScores = [...previousScores];
-
-                clonePrevScores.find(s => s.id === complaintTaskId).scoringViolation = {
-                    description: complaintNote
-                };
-
-                previousScores = clonePrevScores;
-                complaint = {
-                    enabled: false,
-                    error: ''
-                };
-                isComplaintDialogOpened = false;
-            })
-            .catch(error => {
-                complaint = {
-                    enabled: true,
-                    error: error.error.message
-                };
-            });
-    }
-
     function onClickHighlighter(event) {
-        showHighlighter = event.detail.show;
+        const show = event.detail.show;
         isScoringPanelOpen = false;
 
-        self.postMessage({ event: showHighlighter ? 'highlighter-show' : 'highlighter-hide' }, '*');
+        self.postMessage({ event: show ? 'highlighter-show' : 'highlighter-hide' }, '*');
+    }
+
+    function onClickMarkingSymbols(event) {
+        const show = event.detail.show;
+        isScoringPanelOpen = false;
+
+        self.postMessage({ event: show ? 'markingSymbols-show' : 'markingSymbols-hide' }, '*');
+    }
+
+    function onMarkingSymbolsState(event) {
+        const open = !!event.detail.open;
+        markingSymbolsToolStore.update(store => ({
+            ...store,
+            open
+        }));
     }
 
     function validateRender(event) {
+        if (scoringMode === ScoringModes.TEST) {
+            return;
+        }
+
         if (task.item.qtiIdentifier !== event.detail.parameters.itemIdentifier) {
             handleRequestError({});
         }
@@ -462,15 +641,64 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         isScoringPanelOpen = !isScoringPanelOpen;
     };
 
-    const onSuspiciousFieldsChange = (e) => {
-        if (deliveryExecutionScoring) {
-            const { suspicious, suspiciousNote, note } = e.detail
-            isSuspiciousFieldsChanged = true;
-            deliveryExecutionScoring.suspicious = suspicious;
-            deliveryExecutionScoring.suspiciousNote = suspiciousNote;
-            deliveryExecutionScoring.note = note;
+    const onSuspiciousChange = async event => {
+        wasSuspiciousCheckboxChanged = true;
+        const { suspicious, suspiciousNote } = event.detail;
+
+        deliveryExecutionScoring = {
+            ...(deliveryExecutionScoring || {}),
+            suspicious,
+            suspiciousNote,
+            note: task.note
+        };
+
+        taskStore.storeDeliveryExecutionScoring(deliveryExecutionScoring);
+    };
+
+    const onNotEnoughBasisChange = async event => {
+        wasNotEnoughBasisCheckboxChanged = true;
+        const { notEnoughBasisForAssessment, notEnoughBasisForAssessmentNote } = event.detail;
+
+        deliveryExecutionScoring = {
+            ...(deliveryExecutionScoring || {}),
+            notEnoughBasisForAssessment,
+            notEnoughBasisForAssessmentNote,
+            note: task.note
+        };
+
+        taskStore.storeDeliveryExecutionScoring(deliveryExecutionScoring);
+    };
+
+    const handleHighlighterUpdate = e => {
+        const { reset } = e.detail;
+        itemPreviewer.updateHighlighter(reset);
+    };
+
+    const getNotEnoughBasisForAssessmentNoteFromDeliveryExecutionScoring = isAdmin => {
+        if (isAdmin) {
+            return deliveryExecutionScoring?.notEnoughBasisForAssessmentNote ?? '';
         }
-    }
+
+        return currentScorer?.deliveryExecutionScoring?.notEnoughBasisForAssessmentNote ?? '';
+    };
+
+    const getSuspiciousNoteFromDeliveryExecutionScoring = isAdmin => {
+        if (isAdmin) {
+            return deliveryExecutionScoring?.suspiciousNote ?? '';
+        }
+
+        return currentScorer?.deliveryExecutionScoring?.suspiciousNote ?? '';
+    };
+
+    onMount(async () => {
+        try {
+            const user = await getUser();
+            currentUserUsername = user?.userData?.login || null;
+        } catch (error) {
+            log.error('Failed to get current user:', error);
+            currentUserUsername = null;
+        }
+    });
 </script>
 
 <style>
@@ -513,6 +741,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         display: flex;
         flex: 1;
         height: calc(100vh - var(--header-height) - var(--ribbon-height));
+        min-height: 0;
 
         &.inaccessible {
             visibility: hidden;
@@ -616,13 +845,17 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     }
 
     @media screen and (--mq-maxwidth-medium) {
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
         aside {
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 15rem;
+            height: 16rem;
             z-index: var(--layer-5);
-            box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.25);
 
             &.open {
                 height: calc(100% - 4rem);
@@ -661,38 +894,49 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 </svelte:head>
 <svelte:window bind:innerWidth={windowWidth} />
 
-{#if task}
-    {#if !smallPdfView}
-        <div class="header">
-            <TaskHeader
-                {taskHeaderBreadcrumbItems}
-                {showBackButton}
-                {onExit}
-                {isSubmitEnabled}
-                {isDeliveryOverviewOpen}
-                on:highlighter={onClickHighlighter}
-                on:submitScores={onSubmitScores}
-            />
-        </div>
+{#if !smallPdfView}
+    <div class="header">
+        <TaskHeader
+            {isAdminReviewMode}
+            {taskHeaderBreadcrumbItems}
+            {showBackButton}
+            {onExit}
+            {isScoringCompleted}
+            {isReadOnly}
+            {hasUnsavedChanges}
+            {isNotEnoughBasisChecked}
+            notEnoughBasisNote={deliveryExecutionScoring?.notEnoughBasisForAssessmentNote ?? ''}
+            {isDeliveryOverviewOpen}
+            on:highlighter={onClickHighlighter}
+            on:markingSymbols={onClickMarkingSymbols}
+            on:submitScores={onSubmitScores}
+        />
+    </div>
+{/if}
+
+<div class="wrapper" class:smallPdfView>
+    {#if hasAdminReviews}
+        <TaskAdminMode bind:highlights on:updateHighlighter={handleHighlighterUpdate} />
     {/if}
-    <div class="wrapper" class:smallPdfView>
-        <div class="content" class:inaccessible={isDeliveryOverviewOpen}>
-            <aside aria-label={__('Scoring')} class:open={isScoringPanelOpen}>
-                <span class="collapse-button">
-                    <Button
-                        skin="secondary"
-                        shape="circular"
-                        icon={isScoringPanelOpen ? 'chevron-bottom-16' : 'chevron-top-16'}
-                        ariaLabel={isScoringPanelOpen ? __('Collapse scoring panel') : __('Open scoring panel')}
-                        on:click={toggleScoringPanel}
-                    />
-                </span>
-                <div class="collapsable-container">
-                    <div class="sidebarhead">
-                        <div class="titles">
+
+    <div class="content" class:inaccessible={isDeliveryOverviewOpen}>
+        <aside aria-label={__('Scoring')} class:open={isScoringPanelOpen}>
+            <span class="collapse-button">
+                <Button
+                    skin="secondary"
+                    shape="circular"
+                    icon={isScoringPanelOpen ? 'chevron-bottom-16' : 'chevron-top-16'}
+                    ariaLabel={isScoringPanelOpen ? __('Collapse scoring panel') : __('Open scoring panel')}
+                    on:click={toggleScoringPanel}
+                />
+            </span>
+            <div class="collapsable-container">
+                <div class="sidebarhead">
+                    <div class="titles">
+                        {#if !hasAdminReviews}
                             <div class="scoring-header">
                                 <h4>
-                                    {task.test.title} / {task.item.title}{testTakerName ? ` / ${testTakerName}` : ''}
+                                    {scoringHeaderString}
                                 </h4>
                                 <div>
                                     <IconBarButton
@@ -709,23 +953,6 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                                 {#if previousScore.fullname}
                                     <p>
                                         {__('Scores given by %s', previousScore.fullname)}
-                                        {#if complaint.enabled && !previousScore.scoringViolation}
-                                            <span class="report" class:disabled={isScoringUIDisabled}>
-                                                (
-                                                <a
-                                                    href={window.location.origin}
-                                                    on:click|preventDefault={() =>
-                                                        onComplaintDialogOpened(
-                                                            previousScore.id,
-                                                            previousScore.fullname
-                                                        )}
-                                                    class:disabled={isScoringUIDisabled}
-                                                >
-                                                    {__('report')}
-                                                </a>
-                                                )
-                                            </span>
-                                        {/if}
                                         :
                                     </p>
                                     {#if previousScore.scoringViolation}
@@ -733,7 +960,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                                             <CompliantNote
                                                 scorerName={previousScore.fullname}
                                                 scorerUsername={previousScore.username}
-                                                itemTitle={task.item.title}
+                                                {itemTitle}
                                                 note={previousScore.scoringViolation.description}
                                             />
                                         </div>
@@ -741,9 +968,55 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                                 {/if}
                             {/each}
                             <p>{__('Answer %s of %s', position, numberOfTasks)}</p>
-                        </div>
+                        {:else}
+                            {@const scorer = isAdminReviewMode ? task : currentScorer}
+                            <div class="scoring-header">
+                                <h4>
+                                    {scoringHeaderString}
+                                </h4>
+                                <div>
+                                    <IconBarButton
+                                        label={__('Bookmark')}
+                                        size="base-16"
+                                        icon={scorer?.bookmarked ? 'bookmark-fill-16' : 'bookmark-outline-16'}
+                                        ariaPressed={scorer?.bookmarked}
+                                        disabled={!isCurrentUserTab || isScoringUIDisabled}
+                                        on:click={onBookmark}
+                                    />
+                                </div>
+                            </div>
+                        {/if}
                     </div>
-                    <div class="form-container">
+                </div>
+                <div class="form-container">
+                    {#if hasAdminReviews}
+                        {#if currentScorer}
+                            <ScoringForm
+                                taskId={currentScorer?.key}
+                                outcomeDeclarations={currentScorer.outcomeDeclarations}
+                                previousScores={isCurrentUserTab ? previousScores : []}
+                                {notePlaceholder}
+                                {showSelectionStatus}
+                                {hideNoteBox}
+                                deliveryExecutionScoring={isAdminReviewMode
+                                    ? deliveryExecutionScoring
+                                    : currentScorer?.deliveryExecutionScoring}
+                                notEnoughBasisNote={getNotEnoughBasisForAssessmentNoteFromDeliveryExecutionScoring(
+                                    isCurrentUserTab
+                                )}
+                                suspiciousNote={getSuspiciousNoteFromDeliveryExecutionScoring(isCurrentUserTab)}
+                                note={displayNote}
+                                disabled={!isCurrentUserTab || isScoringUIDisabled}
+                                {isAdminReviewMode}
+                                bind:isNotEnoughBasisChecked
+                                on:score-change={onScoreChange}
+                                on:note-change={onNoteChange}
+                                on:toggleCriteriaView={handleSeeCriteriaClick}
+                                on:suspicious-change={onSuspiciousChange}
+                                on:not-enough-basis-change={onNotEnoughBasisChange}
+                            />
+                        {/if}
+                    {:else}
                         <ScoringForm
                             {taskId}
                             {outcomeDeclarations}
@@ -752,97 +1025,90 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                             {showSelectionStatus}
                             {hideNoteBox}
                             {deliveryExecutionScoring}
-                            bind:note={task.note}
+                            notEnoughBasisNote={deliveryExecutionScoring?.notEnoughBasisForAssessmentNote ?? ''}
+                            suspiciousNote={deliveryExecutionScoring?.suspiciousNote ?? ''}
+                            {isAdminReviewMode}
+                            note={task.note}
                             disabled={isScoringUIDisabled}
+                            bind:isNotEnoughBasisChecked
                             on:score-change={onScoreChange}
                             on:note-change={onNoteChange}
                             on:toggleCriteriaView={handleSeeCriteriaClick}
-                            on:suspicious-change={onSuspiciousFieldsChange}
+                            on:suspicious-change={onSuspiciousChange}
+                            on:not-enough-basis-change={onNotEnoughBasisChange}
                         />
-                    </div>
+                    {/if}
                 </div>
-                <nav label={__('Response')} aria-label={__('Response')}>
-                    <div class="controls">
-                        <Button
-                            skin="secondary"
-                            shape="circular"
-                            size={smallWidth ? 'small' : 'medium'}
-                            icon="arrow-left-16"
-                            inverted
-                            disabled={prevTask === null || isPreviousBtnDisabled}
-                            ariaLabel={__('Go to previous answer')}
-                            on:click={onPreviousClick}
-                        />
-                        <Button
-                            skin="secondary"
-                            shape="pill"
-                            size={smallWidth ? 'small' : 'medium'}
-                            label={__('SEE Overview')}
-                            ariaLabel={__('SEE Overview')}
-                            inverted
-                            disabled={isOverviewBtnDisabled || isDeliveryOverviewOpen}
-                            on:click={onOverviewClick}
-                        />
-                        <Button
-                            skin="secondary"
-                            shape="circular"
-                            icon="arrow-right-16"
-                            size={smallWidth ? 'small' : 'medium'}
-                            disabled={nextTask === null || isNextBtnDisabled}
-                            ariaLabel={__('Go to next answer')}
-                            inverted
-                            on:click={onNextClick}
-                        />
-                    </div>
+            </div>
+            <nav label={__('Response')} aria-label={__('Response')}>
+                <div class="controls">
+                    <Button
+                        skin="secondary"
+                        shape="circular"
+                        size={smallWidth ? 'small' : 'medium'}
+                        icon="arrow-left-16"
+                        inverted
+                        disabled={prevTask === null || isPreviousBtnDisabled}
+                        ariaLabel={__('Go to previous answer')}
+                        on:click={onPreviousClick}
+                    />
+                    <Button
+                        skin="secondary"
+                        shape="pill"
+                        size={smallWidth ? 'small' : 'medium'}
+                        label={__('SEE Overview')}
+                        ariaLabel={__('SEE Overview')}
+                        inverted
+                        disabled={isOverviewBtnDisabled || isDeliveryOverviewOpen}
+                        on:click={onOverviewClick}
+                    />
+                    <Button
+                        skin="secondary"
+                        shape="circular"
+                        icon="arrow-right-16"
+                        size={smallWidth ? 'small' : 'medium'}
+                        disabled={nextTask === null || isNextBtnDisabled}
+                        ariaLabel={__('Go to next answer')}
+                        inverted
+                        on:click={onNextClick}
+                    />
+                </div>
 
-                    <Progressbar
-                        value={totalScored}
-                        max={numberOfTasks}
-                        valueLabel={__('Completion: %s %', completion)}
-                    />
-                </nav>
-            </aside>
-            <main aria-label={showCriteriaPdf ? __('Scoring criteria') : __('Test taker response')}>
-                {#if scorerToComplain}
-                    <ComplaintDialog
-                        complaintTaskId={taskIdToComplain}
-                        scorerName={scorerToComplain}
-                        item={task.item.title}
-                        error={complaint.error}
-                        open={complaint.enabled && isComplaintDialogOpened}
-                        on:close={onComplaintDialogClosed}
-                        on:action={onComplaintDialogAction}
-                    />
-                {/if}
-                {#if showCriteriaPdf}
-                    <ScoringCriteria url={criteriaPdfUrl} on:toggleCriteriaView={handleSeeCriteriaClick} />
-                {/if}
-                {#if task.ltiItemPreviewerLink}
+                <Progressbar value={totalScored} max={numberOfTasks} valueLabel={__('Completion: %s %', completion)} />
+            </nav>
+        </aside>
+        <main aria-label={showCriteriaPdf ? __('Scoring criteria') : __('Test taker response')}>
+            {#if showCriteriaPdf}
+                <ScoringCriteria url={criteriaPdfUrl} on:toggleCriteriaView={handleSeeCriteriaClick} />
+            {/if}
+            {#if ltiItemPreviewerLink}
+                {#key $taskStore.adminReviewListActiveTab}
                     <ItemPreviewer
                         on:success={handleItemPreviewLoaded}
                         on:error={handleError}
                         on:renderitem={validateRender}
                         bind:loading={previewLoading}
-                        url={task.ltiItemPreviewerLink.url}
-                        parameters={task.ltiItemPreviewerLink.parameters}
+                        url={ltiItemPreviewerLink.url}
+                        parameters={ltiItemPreviewerLink.parameters}
                         taskId={task.id}
-                        itemId={task.item.qtiIdentifier}
+                        itemId={task?.item?.qtiIdentifier}
                         hidden={isComplaintDialogOpened || showCriteriaPdf}
-                        {showHighlighter}
                         bind:highlights
+                        bind:this={itemPreviewer}
+                        on:markingSymbolsState={onMarkingSymbolsState}
                     />
-                {/if}
-            </main>
-        </div>
-        {#if errorLoading && !(smallWidth && showCriteriaPdf)}
-            <Ribbon
-                type="warning"
-                message={__('Task failed to load. Please contact your system administrator.')}
-                icon="warning-16"
-            />
-        {/if}
+                {/key}
+            {/if}
+        </main>
     </div>
-{/if}
+    {#if errorLoading && !(smallWidth && showCriteriaPdf)}
+        <Ribbon
+            type="warning"
+            message={__('Task failed to load. Please contact your system administrator.')}
+            icon="warning-16"
+        />
+    {/if}
+</div>
 <InactiveProjectDialog open={$taskStore.isProjectInactive} on:confirm-inactive={handleConfirmInactive} />
 {#if submitErrorMessage}
     <ModalDialog
@@ -855,5 +1121,21 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         disableEscape
     >
         <p>{@html submitErrorMessage}</p>
+    </ModalDialog>
+{/if}
+{#if $taskStore.interrupted}
+    <ModalDialog
+        open={$taskStore.interrupted}
+        heading={__('Session Interrupted')}
+        disableClosing={true}
+        buttons={[{ key: 'ok', label: __('Return to session'), skin: 'primary', initialFocus: true, autoClose: true }]}
+        on:action={() => onExit(ltiBackLink, true)}
+        initialFocus
+    >
+        <p>
+            {__(
+                'This scoring session has been interrupted because the test taker’s session was reopened by an administrator. Please go back and restart scoring.'
+            )}
+        </p>
     </ModalDialog>
 {/if}

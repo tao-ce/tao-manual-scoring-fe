@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:04\n"
 "Last-Translator: \n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -184,7 +184,7 @@ msgstr "F.h"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
 msgid "PM"
-msgstr "E. h"
+msgstr "E.h."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
 msgid "Year"
@@ -192,27 +192,27 @@ msgstr "Ár"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
 msgid "saved"
-msgstr ""
+msgstr "vistað"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
 msgid "saved 1 minute ago"
-msgstr ""
+msgstr "vistað fyrir 1 mínútu"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
 msgid "saved %d minutes ago"
-msgstr ""
+msgstr "vistað fyrir %d mínútum"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
 msgid "saved 1 hour ago"
-msgstr ""
+msgstr "vistað fyrir 1 klukkustund"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
 msgid "saved %d hours ago"
-msgstr ""
+msgstr "vistað fyrir %d klukkustundum"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
 msgid "last saved on %s"
-msgstr ""
+msgstr "síðast vistað þann %s"
 
 #: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
 msgid "Content is loading"
@@ -240,105 +240,101 @@ msgstr "Textasvæði"
 
 #: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
 msgid "You can read more about this in our"
-msgstr ""
+msgstr "Þú getur lesið meira um þetta í"
 
 #: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
 msgid "and"
-msgstr ""
+msgstr "og"
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
 msgid "Cookie Policy"
-msgstr ""
+msgstr "Vafrakökustefna"
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
 msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
-msgstr ""
+msgstr "Þessi síða notar vafrakökur til að gera upplifun þína betri og til að framkvæma greiningar og rannsóknir. Til að breyta stillingum skaltu smella á Stjórna stillingum. Annars samþykkir þú notkun okkar á vafrakökum á tækinu þínu með því að smella á Samþykkja allar vafrakökur. Með því að smella á Hafna öllum vafrakökum samþykkir þú ekki notkun á ónauðsynlegum vafrakökum á tækinu þínu."
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
 msgid "Essential Cookies"
-msgstr ""
+msgstr "Nauðsynlegar vafrakökur"
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
 msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
-msgstr ""
+msgstr "Aðeins nauðsynlegar vafrakökur verða virkar svo hægt sé að vista vafrakökustillingar."
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
 msgid "Analytics Cookies"
-msgstr ""
+msgstr "Greiningarkökur"
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
 msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
-msgstr ""
+msgstr "Þessar vefkökur gera okkur kleift að telja heimsóknir og ýmis önnur greiningargögn svo við getum mælt og bætt frammistöðu vefsvæðisins. Þær sýna okkur hvaða síður eru vinsælastar og hverjar eru óvinsælastar og sjá hvernig gestir vafra um síðurnar okkar. Ef þú leyfir ekki þessar kökur vitum við ekki hvenær þú hefur heimsótt síðuna, og getum því ekki fylgst með frammistöðu vefsins."
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Persónuverndarstefna"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "Stigagjöf ekki í boði."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "sjá viðmið fyrir %s"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "Vinsamlegast hafðu samband við kerfisstjórann þinn."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "sjá viðmið um stigagjöf"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "Skorunum hefur verið skilað inn"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr "stigagangur þinn hefur verið uppfærður."
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr "Einn eða fleiri nemendur hafa sent inn svör sín að nýju. Því miður þarf að skora aftur uppfærðu svörin sem þegar voru skoruð."
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
-msgstr "Próf yfirlit"
+msgstr "Yfirlit prófs"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
 msgstr "Staða verkefna"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr "Spurning"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
 msgstr "Heildarstig"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "Allt"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "Ósvarað"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "Merkt"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Atriði"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "Próf"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
 msgstr "Leiðrétt heildareinkunn"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
 msgstr "Athugið"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
 msgstr "Skýrsla"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "Atriði"
+msgid "Delivery contents"
+msgstr "Innihald fyrirlagnarútgáfu"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,11 +344,11 @@ msgstr "Merkt"
 msgid "Press to show task note"
 msgstr "Ýttu á til að sýna verkskýrslu"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
 msgstr "%s af %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
 msgstr "Engu skori bætt við"
 
@@ -372,18 +368,6 @@ msgstr "Ástæða ekki gefin"
 msgid "Task is scored"
 msgstr "Verkefni er skorað"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "Úps! Síða fannst ekki"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "Síðan sem þú ert að leita að er ekki til."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "Farðu heim"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "Þetta verkefni er nú óvirkt"
@@ -396,30 +380,6 @@ msgstr "Þér verður nú vísað á verkefnalistann"
 msgid "Ok"
 msgstr "Allt í lagi"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "Loka glugga"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "Tilkynna þessa spurningu/skorarapar fyrir stig sem ekki uppfyllir kröfur?"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "Ef þú gerir það munu öll svörin fyrir parið, %j og skorarann %j verða fyrir endurskoðunarverkefni. Ekki er hægt að afturkalla þessa aðgerð."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "Sláðu inn athugasemd fyrir þessa skýrslu"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "Hætta við"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "Tilkynna og halda áfram"
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "Tilkynnt vegna vanefnda"
@@ -428,15 +388,15 @@ msgstr "Tilkynnt vegna vanefnda"
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr "Tilkynnt hefur verið um pörun %j og markaskorara %j við notandanafnið %j af eftirfarandi ástæðum:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
-msgstr "hleðsla"
+msgstr "hleður"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
 msgstr "Svar er að hlaðast"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
 msgstr "Atriði svar"
 
@@ -452,61 +412,64 @@ msgstr "Loka stigaskilyrði"
 msgid "Scoring criteria"
 msgstr "Stigaviðmið"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr "Tillaga að útskýringu á stigagjöf"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr "Reyndu aftur"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr "Nota stig"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr "Henda"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr "Sýna stiga tillögur"
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "Fá tillögu að stigum"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "sjá viðmið fyrir %s"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "Virkja skorun á alla"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "sjá viðmið"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "Grunur um svindl"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "Athugasemd valfrjáls"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
 msgstr "af %d stöfum eftir"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "Athugasemd (valfrjáls)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "Ekki nægur grundvöllur fyrir mati"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
 msgstr "Athugasemd hjá matsmanni:"
 
@@ -518,133 +481,153 @@ msgstr "Skila inn stigunum?"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "Öll stig verða send inn í kerfið þitt. Ef þú hefur áður skorað og endurstigað svör verður þeim skipt út fyrir nýju stigin."
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Hætta við"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "Sendu inn stigin"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
 msgstr "Stigagjöf"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
-msgstr "Dragðu saman stigatöflu"
+msgstr "Loka stigatöflu"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr "Opið stigatöflu"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
 msgstr "Stig gefin af %s"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "skýrslu"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
 msgstr "Svaraðu %s af %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr "Svar"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
 msgstr "Farðu í fyrra svar"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
 msgstr "SJÁ Yfirlit"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
 msgstr "Farðu í næsta svar"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
 msgstr "Frágangur: %s%"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
 msgstr "Viðbrögð próftakanda"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "Ekki tókst að hlaða verkefni. Vinsamlegast hafðu samband við kerfisstjórann þinn."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
 msgstr "Villa við skil á skori"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
 msgstr "Sláðu inn athugasemd við þetta svar"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
 msgstr "Sláðu inn athugasemd fyrir þessa umsögn"
 
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "Ekki hægt að hefja skorunarverkefni"
+
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
-msgstr ""
+msgstr "Þetta stigagjafarverkefni var líklega ekki hægt að hefja vegna þess að önnur stigagjöf var hafin í öðrum glugga eða vafra.<br>Til að leysa þetta vandamál:<br><ul><li>Gakktu úr skugga um að þú sért ekki að gefa einkunn fyrir aðra próffyrirlögn í öðrum glugga eða vafra.</li><li>Lokaðu öllum öðrum flipum eða vafragluggum þar sem þessi eða annar stigagjafartengill gæti verið opinn.</li></ul>Ef þú hefur þegar farið yfir þessi skref og sérð enn þessi skilaboð, vinsamlegast hafðu samband við þjónustudeild eða kerfisstjóra fyrir frekari aðstoð."
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "Það kom upp vandamál við vistun stigagjafar. Vinsamlegast reynið aftur. Ef vandamálið er viðvarandi, hafðu samband við þjónustuaðila."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
 msgstr "Til baka"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "Vantar umsögn"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "Stöðluð stigagjöf"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "Áfrýja stilgagjöf"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr "Aðalleiðsögn"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr "Stig"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
 msgstr "Ertu viss um að þú viljir fara?"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "Einkunnir þínar verða vistaðar og þú munt geta haldið áfram að gefa einkunn síðar."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
 msgstr "Sendu stig"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr "Verkfæri"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
 msgstr "halda áfram að gefa einkunn"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
-msgstr "spara og fara"
+msgstr "vista og fara"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr "Skora"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
-msgstr "Fela highlighter"
+msgstr "Fela áherslupenna"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
-msgstr "Sýna hápunktur"
+msgstr "Sýna áherslupenna"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "Ekki nægur grundvöllur fyrir mati"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
@@ -714,6 +697,38 @@ msgstr "Fyrirlagnarútgáfan er sett upp fyrir \"spurningahóp\" í verkefnaskip
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "Fyrirlagnarútgáfan er sett upp fyrir \"próftakahóp\" í verkefnaskipulagi"
 
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Úps! Síða fannst ekki"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Síðan sem þú ert að leita að er ekki til."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Farðu heim"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "Stigagjöf ekki í boði."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Vinsamlegast hafðu samband við kerfisstjórann þinn."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Skorunum hefur verið skilað inn"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "stigagangur þinn hefur verið uppfærður."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Einn eða fleiri nemendur hafa sent inn svör sín að nýju. Því miður þarf að skora aftur uppfærðu svörin sem þegar voru skoruð."
+
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
 msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
@@ -752,11 +767,11 @@ msgstr "Fyrirlagnarútgáfur með eftirfarandi auðkenni eru ógildar: <br><stro
 
 #: ../services/launchService.js:129
 msgid "Scoring is not available right now, because no responses were found."
-msgstr ""
+msgstr "Stigagjöf er ekki tiltæk eins og er, þar sem engin svör fundust."
 
 #: ../services/launchService.js:130
 msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
-msgstr ""
+msgstr "Þetta getur gerst ef nemandi hefur nýlega skilað inn prófi. Reynið aftur síðar. Hafðu samband við kerfisstjóra ef vandamálið heldur áfram. Auðkenni próftaka sem fundust ekki: <br><strong>%s</strong>"
 
 #: ../services/launchService.js:140
 msgid "Too many tasks to score."
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "Vinsamlegast skipaðu annan ritrýni til að tryggja samræmi milli matsmanna."
 
 #: ../services/launchService.js:196
-msgid "Invalid Scoring Category"
-msgstr ""
+msgid "Review failed: Invalid scorer user."
+msgstr "Yfirferð mistókst: Ógildur notandi."
 
 #: ../services/launchService.js:197
-msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
-msgstr ""
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "Ekki var hægt að finna einn eða fleiri matsmenn. Vinsamlegast veljið aðeins matsmenn sem hafa komið að skorun í þessu prófi."
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:203
+msgid "Invalid Scoring Category"
+msgstr "Ógildur stigaflokkur"
+
+#: ../services/launchService.js:204
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Athugið gildið fyrir skorunarflokk. Verður að vera gilt og má ekki vera tómt."
+
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "Ógild sérkrafa."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "Ógild breyta, krafan þarfnast [%s] sem má ekki vera tóm og verður að vera af gerð [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "Nauðsynleg sérkrafa."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "Vantar breytu, krafan þarfnast [%s] breytu."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "Áfrýja"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "Staðlað"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "Lokaeinkunn"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "Mínar áfrýjanir (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "Mínar áfrýjanir"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

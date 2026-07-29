@@ -12,11 +12,30 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     import { Breadcrumb, ModalDialog } from '@oat-sa-private/ui-components';
     import { breakpoints } from '@oat-sa-private/ui-identity';
     import { createEventDispatcher } from 'svelte';
-    import SubmitDialog from './SubmitDialog';
+    import SubmitDialog from './SubmitDialog.svelte';
     import LiveSaveIndicator from '@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte';
+    import { getConfig } from '../../services/userConfigurationService';
+    import { highlighterToolStore, markingSymbolsToolStore } from '@/store/deliverToolsStore.js';
 
-    export let isSubmitEnabled = false;
+    const { isMarkAsNotEnoughBasisForAssessment } = getConfig();
+
+    /**
+     * TaskHeader component properties
+     * @property {boolean} isScoringCompleted - Indicates whether the scoring is completed
+     * @property {boolean} isDeliveryOverviewOpen - Indicates whether the delivery overview is open
+     * @property {boolean} isReadOnly - Indicates whether the task is read-only
+     * @property {boolean} hasUnsavedChanges - Indicates whether the task has unsaved changes
+     * @property {boolean} isNotEnoughBasisChecked - Indicates whether the NBA checkbox is checked
+     * @property {boolean} isAdminReviewMode - Indicates whether the task is in admin review mode
+     * @property {string | undefined} notEnoughBasisNote - Note when NBA is checked. Mandatory when isAdminReviewMode is true.
+     */
+    export let isScoringCompleted = false;
     export let isDeliveryOverviewOpen = false;
+    export let isReadOnly = false;
+    export let isNotEnoughBasisChecked = false;
+    export let isAdminReviewMode = false;
+    export let hasUnsavedChanges = false;
+    export let notEnoughBasisNote = '';
     let open = false;
     let submitButtonWidth = 0;
     let exitTarget = '';
@@ -50,26 +69,47 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
     $: smallWidth = windowWidth <= breakpoints.width.medium + 1;
 
-    $: breadcrumb = taskHeaderBreadcrumbItems?.length ? [...taskHeaderBreadcrumbItems, { label: __('Score') }] : [];
+    $: isNotEnoughBasisCheckedWithoutNote = isNotEnoughBasisChecked && (notEnoughBasisNote ?? '').trim() === '';
 
+    $: isDisabled =
+        isReadOnly ||
+        (isAdminReviewMode
+            ? !((isScoringCompleted || isNotEnoughBasisChecked) && !isNotEnoughBasisCheckedWithoutNote)
+            : isMarkAsNotEnoughBasisForAssessment
+            ? !isScoringCompleted && !isNotEnoughBasisChecked
+            : !isScoringCompleted);
+
+    $: breadcrumb = taskHeaderBreadcrumbItems?.length ? [...taskHeaderBreadcrumbItems, { label: __('Score') }] : [];
+    $: hasTools = $highlighterToolStore.installed || $markingSymbolsToolStore.installed;
     const dispatch = createEventDispatcher();
 
-    let highlighterShown = false;
-
-    $: highlighterLabel = highlighterShown ? __('Hide highlighter') : __('Show highlighter');
+    $: highlighterLabel = $highlighterToolStore.open ? __('Hide highlighter') : __('Show highlighter');
 
     function onClickHighlighter() {
-        highlighterShown = !highlighterShown;
+        $highlighterToolStore.open = !$highlighterToolStore.open;
 
-        dispatch('highlighter', { show: highlighterShown });
+        dispatch('highlighter', { show: $highlighterToolStore.open });
+    }
+    function onClickMarkingSymbols() {
+        $markingSymbolsToolStore.open = !$markingSymbolsToolStore.open;
+
+        dispatch('markingSymbols', { show: $markingSymbolsToolStore.open });
     }
     function onBackClick() {
+        if (isReadOnly || !hasUnsavedChanges) {
+            onExit(exitTarget);
+            return;
+        }
         exitDialogOpen = true;
     }
     function onBreadcrumbClick(e) {
         const { href } = e.target;
 
         if (href) {
+            if (isReadOnly || !hasUnsavedChanges) {
+                onExit(href);
+                return;
+            }
             exitTarget = href;
             exitDialogOpen = true;
         }
@@ -101,7 +141,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         display: flex;
         position: absolute;
         top: 0;
-        right: calc( var(--submit-button-width) + var(--space-1x) );
+        right: calc(var(--submit-button-width) + var(--space-1x));
     }
     .link {
         color: var(--color-text-default);
@@ -134,7 +174,8 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                     message={__("Your grades will be saved and you'll be able to resume grading at a later time.")}
                     open={exitDialogOpen}
                     caller={dialogCaller}
-                    {buttons} />
+                    {buttons}
+                />
             </div>
         {/if}
         {#if breadcrumb}
@@ -157,18 +198,44 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                 iconSide="right"
                 skin="primary"
                 on:click={handleSubmit}
-                disabled={!isSubmitEnabled} />
+                disabled={isDisabled}
+            />
         </div>
     </nav>
-    <div class="tools-container" label={__('Tools')} aria-label={__('Tools')} style={`--submit-button-width:${submitButtonWidth}px`}>
-        <div class="highlighter" class:hidden={isDeliveryOverviewOpen}>
-            <IconBarButton
-                label={highlighterLabel}
-                size="base-24"
-                icon="highlighter-24"
-                on:click={onClickHighlighter} />
+    {#if hasTools}
+        <div
+            class="tools-container"
+            label={__('Tools')}
+            aria-label={__('Tools')}
+            style={`--submit-button-width:${submitButtonWidth}px`}
+        >
+            {#if $highlighterToolStore.installed}
+                <div class="highlighter" class:hidden={isDeliveryOverviewOpen || isReadOnly}>
+                    <IconBarButton
+                        label={highlighterLabel}
+                        size="base-24"
+                        icon="highlighter-24"
+                        disabled={$highlighterToolStore.disabled}
+                        ariaPressed={$highlighterToolStore.open}
+                        on:click={onClickHighlighter}
+                    />
+                </div>
+            {/if}
+            {#if $markingSymbolsToolStore.installed}
+                <div class="markingSymbols" class:hidden={isDeliveryOverviewOpen}>
+                    <IconBarButton
+                        label={__('Marking symbols')}
+                        size="base-24"
+                        icon="highlighter-24"
+                        disabled={$markingSymbolsToolStore.disabled}
+                        ariaPressed={$markingSymbolsToolStore.open}
+                        on:click={onClickMarkingSymbols}
+                        showLabelText={true}
+                    />
+                </div>
+            {/if}
         </div>
-    </div>
+    {/if}
 </div>
 
 <SubmitDialog bind:open on:submitScores />

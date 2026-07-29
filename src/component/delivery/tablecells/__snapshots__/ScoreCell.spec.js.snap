@@ -1,5 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ScoreCell it renders correctly for administrative readonly 1`] = `
+<body>
+  <div>
+    <div
+      class="visually-hidden"
+    >
+      3 of 5
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      2 / 5
+    </span>
+     
+    
+    
+  </div>
+</body>
+`;
+
 exports[`ScoreCell it renders correctly for reviewer 1`] = `
 <body>
   <div>
@@ -42,6 +63,55 @@ exports[`ScoreCell it renders correctly for scorer 1`] = `
     >
       -
     </span>
+    
+  </div>
+</body>
+`;
+
+exports[`ScoreCell it renders correctly with scoring scale 1`] = `
+<body>
+  <div>
+    <div
+      class="visually-hidden"
+    >
+      A2 of B2
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      A2 (max: B2)
+    </span>
+     
+    <span
+      class="crossed"
+    >
+      (
+      2
+      )
+    </span>
+    
+    
+  </div>
+</body>
+`;
+
+exports[`ScoreCell it renders correctly with scoring scale for administrative readonly 1`] = `
+<body>
+  <div>
+    <div
+      class="visually-hidden"
+    >
+      A2 of B2
+    </div>
+     
+    <span
+      aria-hidden="true"
+    >
+      2 (max: B2)
+    </span>
+     
+    
     
   </div>
 </body>

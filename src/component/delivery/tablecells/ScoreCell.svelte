@@ -12,11 +12,35 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
     export let data;
 
-    // For now we support only scoring and review mode => get just one of the previous scores
+    let visibleScoreText = '';
+
+    // CEFR tests need a different representation for the scores
+    let isScoringScaleOutcomeDeclaration = false;
+
+    // For non-administrative and non-read-only we support only scoring and review mode => get just one of the previous scores
+    // For administrative and readOnly, we consider that both scorer and reviewer have already scored, so we use both values
     let previousValue;
 
-    $: if (data.previousValues) {
-        previousValue = data.previousValues[0];
+    const isAdministrativeReadOnly = data.isReadOnly && data.isAdministrative;
+    const score = isAdministrativeReadOnly ? data.outcomeDeclaration.previousValues[0] : data.outcomeDeclaration.value;
+
+    $: if (isAdministrativeReadOnly) {
+        visibleScoreText = data.outcomeDeclaration.previousValues[0];
+        previousValue = data.outcomeDeclaration.previousValues[1];
+        isScoringScaleOutcomeDeclaration = 'scoringScale' in data.outcomeDeclaration;
+    } else {
+        if (data.outcomeDeclaration.previousValues) {
+            previousValue = data.outcomeDeclaration.previousValues[0];
+            isScoringScaleOutcomeDeclaration = 'scoringScale' in data.outcomeDeclaration;
+        }
+    }
+
+    $: {
+        if (isScoringScaleOutcomeDeclaration) {
+            visibleScoreText = __('%s (max: %s)', score, data.outcomeDeclaration.maximumValue);
+        } else {
+            visibleScoreText = `${score} / ${data.outcomeDeclaration.maximumValue}`;
+        }
     }
 </script>
 
@@ -37,10 +61,10 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     }
 </style>
 
-{#if data.value !== null}
-    <div class="visually-hidden">{__('%s of %s', data.value, data.maximumValue)}</div>
-    <span aria-hidden="true">{`${data.value} / ${data.maximumValue}`}</span>
-    {#if typeof previousValue !== 'undefined' && previousValue !== data.value}
+{#if data.outcomeDeclaration.value !== null || isAdministrativeReadOnly}
+    <div class="visually-hidden">{__('%s of %s', data.outcomeDeclaration.value, data.outcomeDeclaration.maximumValue)}</div>
+    <span aria-hidden="true">{visibleScoreText}</span>
+    {#if typeof previousValue !== 'undefined' && previousValue !== data.outcomeDeclaration.value}
         <span class="crossed">({previousValue})</span>
     {/if}
 {:else}

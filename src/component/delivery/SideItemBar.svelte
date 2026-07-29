@@ -6,17 +6,17 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
 <script>
     // Licensed under Gnu Public Licence version 2
-    // Copyright (c) 2022 (original work) Open Assessment Technologies SA ;
+    // Copyright (c) 2022-2025 (original work) Open Assessment Technologies SA ;
     import { __ } from '@oat-sa-private/ui-core';
-    export let items;
+    export let contents = [];
     export let activeItem;
-    export let handleChangeActiveItem;
+    export let handleChangeActiveItem = () => {};
 </script>
 
 <style>
     .items-bar {
         min-width: var(--sidebar-width);
-        padding: var(--space-4x) var(--space-2x) var(--space-4x) 0;
+        padding: var(--space-4x) var(--space-2x);
         background-color: var(--color-bg-info);
         overflow: auto;
 
@@ -54,14 +54,17 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     }
 </style>
 
-<aside class="items-bar" aria-label={__('Items')}>
-    {#if items.length > 0}
+<aside class="items-bar" aria-label={__('Delivery contents')}>
+    {#each contents as content}
+        {#if content.items.length > 0}
+        <h5>{content.group}</h5>
         <ul>
-            {#each items as item (`${item.id}_${item.deliveryId}`)}
+            {#each content.items as item (`${item.id}_${item.deliveryId}`)}
                 <li class:active={activeItem && activeItem.id === item.id && activeItem.deliveryId === item.deliveryId}>
-                    <a href on:click={e => handleChangeActiveItem(e, item)}>{item.title}</a>
+                    <a href on:click|preventDefault={() => handleChangeActiveItem(item)}>{item.title}</a>
                 </li>
             {/each}
         </ul>
-    {/if}
+        {/if}
+    {/each}
 </aside>

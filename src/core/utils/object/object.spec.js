@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
-import { keyById } from './object';
+import { keyById, getNotNullableValues } from './object';
 
 test('keyById should return correct data', () => {
     const users = [
@@ -44,5 +44,23 @@ test('keyById should return correct data', () => {
     };
 
     const result = keyById(users);
+    expect(result).toEqual(expected);
+});
+
+test('getNotNullableValues should return correct data', () => {
+    const data = {
+        id: 4,
+        createdAt: 1603896052,
+        firstName: null,
+        lastName: '',
+        relatedScoringProjects: undefined // eslint-disable-line no-undefined
+    };
+    const expected = {
+        id: 4,
+        createdAt: 1603896052,
+        lastName: ''
+    };
+
+    const result = getNotNullableValues(data);
     expect(result).toEqual(expected);
 });

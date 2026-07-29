@@ -6,21 +6,21 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
 <script>
     // Licensed under Gnu Public Licence version 2
-    // Copyright (c) 2019-2021 (original work) Open Assessment Technologies SA ;
+    // Copyright (c) 2019-2026 (original work) Open Assessment Technologies SA ;
 
     import { onMount, onDestroy, createEventDispatcher } from 'svelte';
     import { __ } from '@oat-sa-private/ui-core';
     import { Loading } from '@oat-sa-private/ui-components';
-    import ErrorMessage from '../ErrorMessage/ErrorMessage.svelte';
+    import FinalMessage from '../FinalMessage/FinalMessage.svelte';
     import { LONG_TIME_REQUEST } from '@/config/request';
-    import { taskStore } from '../../store/taskStore';
+    import { highlighterToolStore, markingSymbolsToolStore } from '@/store/deliverToolsStore.js';
+    import { FINAL_MESSAGES } from '@/constants/error-messages';
 
     export let url;
     export let parameters = {};
     export let highlights;
     export let hidden;
     export let loading = true;
-    export let showHighlighter = false;
     export let itemId;
 
     const dispatch = createEventDispatcher();
@@ -30,15 +30,41 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     let timeOut;
 
     $: if (iframe) {
-        iframe.contentWindow.postMessage({ event: showHighlighter ? 'highlighter-show' : 'highlighter-hide' }, '*');
+        iframe.contentWindow.postMessage(
+            { event: $highlighterToolStore.open ? 'highlighter-show' : 'highlighter-hide' },
+            '*'
+        );
+    }
+    $: if (iframe) {
+        iframe.contentWindow.postMessage(
+            { event: $markingSymbolsToolStore.open ? 'markingSymbols-show' : 'markingSymbols-hide' },
+            '*'
+        );
+    }
+
+    /**
+     * Function to set previous users highlights on Admin mode
+     * @param reset
+     */
+    export function updateHighlighter(reset = false) {
+        if (reset && iframe && Array.isArray(highlights)) {
+            // send highlight saved to test-runner on renderitem event
+            const { deliverData } = highlights[0] || {};
+            deliverData &&
+                iframe.contentWindow.postMessage(
+                    {
+                        event: 'highlighter-restoreHighlights',
+                        payload: deliverData,
+                        itemId
+                    },
+                    '*'
+                );
+        }
     }
 
     onMount(() => {
         window.addEventListener('message', onMessage);
         timeOut = setTimeout(onError, LONG_TIME_REQUEST);
-
-        // initialize with saved highlights
-        highlights = $taskStore?.task?.highlights;
 
         const urlWithParams = new URL(url);
 
@@ -82,16 +108,25 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
             dispatch('renderitem', e.data);
             // send highlight saved to test-runner on renderitem event
             const { deliverData } = highlights[0] || {};
-            deliverData && iframe.contentWindow.postMessage({
-                event: 'highlighter-restoreHighlights',
-                payload: deliverData,
-                itemId
-            }, '*');
+            deliverData &&
+                iframe.contentWindow.postMessage(
+                    {
+                        event: 'highlighter-restoreHighlights',
+                        payload: deliverData,
+                        itemId
+                    },
+                    '*'
+                );
             onSuccess();
         }
 
         if (e.data.event === 'error') {
             onError();
+        }
+
+        if (e.data.event === 'markingSymbols-state') {
+            const open = Boolean(e.data.payload?.open ?? e.data.open);
+            dispatch('markingSymbolsState', { open });
         }
     }
 </script>
@@ -149,7 +184,10 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         </div>
     {:else if error}
         <div class="center">
-            <ErrorMessage title="" description="" />
+            <FinalMessage
+                title={FINAL_MESSAGES.default?.title || ''}
+                description={FINAL_MESSAGES.default?.description || ''}
+            />
         </div>
     {/if}
     <iframe
@@ -158,5 +196,6 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         title={__('Item response')}
         name="itemresponse"
         bind:this={iframe}
-        class:hide={loading || error} />
+        class:hide={loading || error}
+    />
 </div>

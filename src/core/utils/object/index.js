@@ -2,4 +2,4 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
-export { getIn, isEqual, keyById } from './object';
+export { getIn, isEqual, keyById, getNotNullableValues } from './object';

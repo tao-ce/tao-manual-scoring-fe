@@ -11,6 +11,9 @@ jest.mock('@oat-sa-private/ui-core', () => ({
 
 import { render, waitFor, fireEvent } from '@testing-library/svelte';
 import DeliveryTable from './DeliveryTable.svelte';
+import {getConfig} from '@/services/ltiService';
+
+jest.mock('@/services/ltiService');
 
 const taskGroup = {
     deliveryId: 'task-delivery-id-1',
@@ -92,11 +95,49 @@ const taskGroup = {
                 value: 2,
                 maximumValue: 5
             }
+        },
+        {
+            id: 'task-id-4',
+            note: '',
+            bookmarked: false,
+            itemId: 'item-4',
+            outcomeDeclarations: [
+                {
+                    id: 'outcome-name-4',
+                    minimumValue: 0,
+                    maximumValue: 5,
+                    value: null,
+                    previousValues: [],
+                    scoringScale: {
+                        scale: {
+                            1: 'Under A1',
+                            2: 'A1',
+                            3: 'A2',
+                            4: 'B1',
+                            5: 'B2'
+                        }
+                    }
+                }
+            ],
+            totalScore: {
+                value: 2,
+                maximumValue: 5
+            }
         }
+
     ]
 };
 
 describe('Delivery overview', () => {
+    beforeEach(() => {
+        jest.clearAllMocks();
+
+        getConfig.mockReturnValue({
+            isReadOnly: false,
+            isAdministrative: false,
+        });
+    });
+
     it('renders correctly', async () => {
         const { container } = render(DeliveryTable, {
             props: {
@@ -163,6 +204,21 @@ describe('Delivery overview', () => {
             }
         });
         expect(scrollIntoViewMock).toHaveBeenCalled();
+
+        expect(container).toMatchSnapshot();
+    });
+    it('renders correctly for administrative readonly', async () => {
+        getConfig.mockReturnValue({
+            isReadOnly: true,
+            isAdministrative: true,
+        });
+
+        const { container } = render(DeliveryTable, {
+            props: {
+                totalScoreText: 'Total score',
+                taskGroup
+            }
+        });
 
         expect(container).toMatchSnapshot();
     });

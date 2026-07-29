@@ -10,5 +10,6 @@ export const log = {
     /* eslint-disable no-console */
     error: console.error,
     log: console.log,
+    debug: console.debug,
     warn: console.warn
 };

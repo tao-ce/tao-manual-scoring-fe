@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -275,70 +275,66 @@ msgstr "Te pliki cookie pozwalają nam liczyć wizyty i różne inne dane analit
 msgid "Privacy Policy"
 msgstr "Polityka prywatności"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "Ocena niedostępna."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "zobacz kryteria dla %s"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "Skontaktuj się z administratorem systemu."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "zob. kryteria punktowe"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "Wyniki zostały pomyślnie przesłane"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr "Twój postęp punktacji został zaktualizowany."
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr "Jeden lub więcej uczniów ponownie przesłało swoje odpowiedzi. Niestety zaktualizowane odpowiedzi, które zostały już ocenione, muszą zostać ponownie ocenione."
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
 msgstr "Przegląd testu"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
 msgstr "Status zadań"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr "Pytanie"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
 msgstr "Całkowity wynik"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "Wszystkie"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "Niekompletny"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "Zakładki zaznaczone"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Przedmioty"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "Badania"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
 msgstr "Skorygowany całkowity wynik"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
 msgstr "Uwaga"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
 msgstr "Zgłoszenie"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "Przedmioty"
+msgid "Delivery contents"
+msgstr "Zawartość dostawy"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,11 +344,11 @@ msgstr "Zakładka"
 msgid "Press to show task note"
 msgstr "Naciśnij, aby wyświetlić notatkę zadań"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
 msgstr "%s z %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
 msgstr "Nie dodano wyniku"
 
@@ -372,18 +368,6 @@ msgstr "Powód nie podany"
 msgid "Task is scored"
 msgstr "Zadanie jest oceniane"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "Ups! Nie znaleziono strony"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "Strona, której szukasz nie istnieje."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "Przejdź do domu"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "Ten projekt jest teraz nieaktywny"
@@ -396,30 +380,6 @@ msgstr "Zostaniesz przekierowany do listy projektów"
 msgid "Ok"
 msgstr "Ok"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "Zamknij okno dialogowe"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "Zgłosić tę parę pytań i punktów dla oceny niezgodności?"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "Jeśli zrobisz, wszystkie odpowiedzi dla tej pary, %j i wyniki %j zostaną poddane zadaniu weryfikacyjnemu. Tej akcji nie można cofnąć."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "Wpisz notatkę dla tego raportu"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "Anuluj"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "Zgłoś i kontynuuj"
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "Zgłaszane z powodu niezgodności"
@@ -428,15 +388,15 @@ msgstr "Zgłaszane z powodu niezgodności"
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr "Parowanie %j i wyniku %j z nazwą użytkownika %j zostało zgłoszone z następujących powodów:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
 msgstr "ładowanie"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
 msgstr "Wczytywanie odpowiedzi"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
 msgstr "Odpowiedź na element"
 
@@ -452,61 +412,64 @@ msgstr "Zamknij kryteria punktacji"
 msgid "Scoring criteria"
 msgstr "Kryteria punktacji"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr "Sugerowane wyjaśnienie punktacji"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr "Spróbuj ponownie"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr "Użyj wyniku"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr "Odrzuć"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr "Pokaż sugestię wyniku"
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "Uzyskaj sugestię wyniku"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "zobacz kryteria dla %s"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "Zastosuj wynik do wszystkich"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "zobacz kryteria"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "Podejrzewa się, że oszukuje"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "Komentarz opcjonalny"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
 msgstr "Pozostało %d znaków"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "Komentarz (opcjonalnie)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "Brak wystarczających podstaw do oceny"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
 msgstr "Notatka punktu:"
 
@@ -518,133 +481,153 @@ msgstr "Przesłać wyniki?"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "Wszystkie wyniki zostaną przesłane do systemu. Jeśli poprzednio oceniłeś i oceniono odpowiedzi, zostaną one zastąpione nowymi wynikami."
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Anuluj"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "Prześlij wyniki"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
 msgstr "Punkty"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
 msgstr "Zwiń panel punktacji"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr "Otwórz panel punktacji"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
 msgstr "Wyniki podane przez %s"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "Zgłoś"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
 msgstr "Odpowiedź %s z %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr "Odpowiedź"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
 msgstr "Przejdź do poprzedniej odpowiedzi"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
 msgstr "SPRAWDŹ Podgląd"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
 msgstr "Przejdź do następnej odpowiedzi"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
 msgstr "Ukończenie: %s%"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
 msgstr "Reakcja na pobranie próbek"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "Nie udało się załadować zadania. Skontaktuj się z administratorem systemu."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
 msgstr "Błąd zgłoszenia zadania punktowego"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
 msgstr "Wpisz notatkę dla tej odpowiedzi"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
 msgstr "Wpisz notatkę dla tej recenzji"
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "Nie można uruchomić zadania punktacji"
 
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
 msgstr "To zadanie punktowe nie może zostać zainicjowane najprawdopodobniej dlatego, że inna sesja punktowa została zainicjowana w innym oknie lub przeglądarce.<br>Aby rozwiązać ten problem:<br><ul><li>Upewnij się, że nie oceniasz innej sesji w innym oknie lub przeglądarce.</li><li>Zamknij wszystkie inne karty lub okna przeglądarki, gdzie ten lub inny link punktowy może być otwarty.</li></ul>Jeśli już sprawdziłeś te kroki i nadal widzisz tę wiadomość, skontaktuj się z pomocą techniczną lub administratorem, aby uzyskać dalszą pomoc."
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "Napotkaliśmy problem podczas zapisywania Twojego wyniku. Spróbuj ponownie. Jeśli problem będzie się powtarzał, skontaktuj się z naszym zespołem pomocy technicznej, aby uzyskać pomoc."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
 msgstr "Powrót"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "Wymagana recenzja"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "Standardowe wyniki"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "Punkty odwoławcze"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr "Główna nawigacja"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr "Punkty"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
 msgstr "Czy na pewno chcesz wyjść?"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "Twoje oceny zostaną zapisane i będziesz mógł wznowić ocenę w późniejszym czasie."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
 msgstr "Wyślij wyniki"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
 msgstr "kontynuuj ocenianie"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
 msgstr "zapisz i wyjdź"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr "Wynik"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
 msgstr "Ukryj podświetlenie"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
 msgstr "Pokaż podświetlenie"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "Brak wystarczającej podstawy do oceny"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
@@ -713,6 +696,38 @@ msgstr "Wygląda na to, że dostawa jest skonfigurowana dla strategii przypisani
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "Wydaje się, że dostawa jest skonfigurowana dla strategii przypisania projektu \"grupa testowa\""
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Ups! Nie znaleziono strony"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Strona, której szukasz nie istnieje."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Przejdź do domu"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "Ocena niedostępna."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Skontaktuj się z administratorem systemu."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Wyniki zostały pomyślnie przesłane"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "Twój postęp punktacji został zaktualizowany."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Jeden lub więcej uczniów ponownie przesłało swoje odpowiedzi. Niestety zaktualizowane odpowiedzi, które zostały już ocenione, muszą zostać ponownie ocenione."
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "Proszę przypisać innego recenzenta, aby zapewnić niezależną recenzję wyniku."
 
 #: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "Sprawdzenie nie powiodło się: nieprawidłowy użytkownik wyniku."
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "Nie można odnaleźć jednego lub większej liczby użytkowników wyników. Proszę wybrać tylko punktarzy, którzy już ocenili ten test."
+
+#: ../services/launchService.js:203
 msgid "Invalid Scoring Category"
 msgstr "Nieprawidłowa kategoria punktowa"
 
-#: ../services/launchService.js:197
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr "Proszę sprawdzić wartość skoringKategoria. Musi być prawidłowa i nie może być pusta."
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "Nieprawidłowe niestandardowe roszczenie."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "Nieprawidłowy parametr, włącz [%s] nie może być pusty i wpisz [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "Wymagane niestandardowe roszczenie."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "Brakujący parametr, włości wymagają parametru [%s] aby był obecny."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "Odwołanie"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "Standardowy"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "Mój ostatni wynik"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "Moja ocena apelacji (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "Moja ocena apelacji"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

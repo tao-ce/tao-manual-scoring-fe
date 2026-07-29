@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:04\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian Nynorsk\n"
 "Language: nn_NO\n"
@@ -190,29 +190,53 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr ""
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr ""
+
 #: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
 msgid "Content is loading"
-msgstr "Svaret lastar"
+msgstr ""
 
 #: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
 msgid "Scoring input"
-msgstr "Poengsumsinnspill"
+msgstr ""
 
 #: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
 msgid "Selected by another scorer."
-msgstr "Valgt av en annen målscorer."
+msgstr ""
 
 #: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
 msgid "Rejected."
-msgstr "Avvist."
+msgstr ""
 
 #: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
 msgid "Radio button"
-msgstr "Radioknapp"
+msgstr ""
 
 #: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
 msgid "Textarea"
-msgstr "Tekstområde"
+msgstr ""
 
 #: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
 msgid "You can read more about this in our"
@@ -251,391 +275,371 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "Skåring ikkje tilgjengeleg."
-
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "Kontakt systemadministrator."
-
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "Alle skåringar blei registrert"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
 msgstr ""
 
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
 msgstr ""
 
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
-msgstr "Oversikt"
+msgstr ""
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
-msgstr "Status oppgåver"
+msgstr ""
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr ""
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
-msgstr "Totalskår"
+msgstr ""
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
-msgstr "Alle"
+msgstr ""
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
-msgstr "Ubesvart"
+msgstr ""
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
-msgstr "Bokmerka"
+msgstr ""
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
-msgstr "Retta total skår"
+msgstr ""
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
-msgstr "Notat"
+msgstr ""
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
-msgstr "Rapport"
+msgstr ""
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "Oppgåver"
+msgid "Delivery contents"
+msgstr ""
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
-msgstr "Bokmerke"
+msgstr ""
 
 #: ../component/delivery/tablecells/HasNoteCell.svelte:15
 msgid "Press to show task note"
-msgstr "Trykk for å vise oppgåveskår"
+msgstr ""
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
-msgstr "%s av %s"
+msgstr ""
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
-msgstr "Ingen skår lagt til"
+msgstr ""
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
 msgid "Press to show note"
-msgstr "Trykk for å vise skår"
+msgstr ""
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
 msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
-msgstr "Koblinga av \"%s\" og skårar \"%s %s\" med brukernamn \"%s\" har blitt rapportert av følgande årsaker:"
+msgstr ""
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
 msgid "Reason not given"
-msgstr "Årsak ikkje oppgitt"
+msgstr ""
 
 #: ../component/delivery/tablecells/TotalScoreCell.svelte:12
 msgid "Task is scored"
-msgstr "Oppgåva er skåra"
-
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "Sida finst ikkje"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "Sida du leitar etter finst ikkje."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "Gå til startsida"
+msgstr ""
 
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
-msgstr "Dette prosjektet er nå inaktivt"
+msgstr ""
 
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:33
 msgid "You will be now redirected to the projects list"
-msgstr "Du vil nå bli omdirigert til arrangementslista"
+msgstr ""
 
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:14
 msgid "Ok"
-msgstr "Ok"
-
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "Lukk dialog"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "Rapporter dette skårarparet for ikkje samsvarande skåring?"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "Hvis du fortsett, vil alle svara for det paret, %j og skårar %j, bli gjenstand for ei evaluering. Denne handlinga kan ikkje angras."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "Skriv eit notat for denne rapporten"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "Rapporter og fortset"
+msgstr ""
 
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
-msgstr "Rapportert for ueinigheit"
+msgstr ""
 
 #: ../component/task/CompliantNote.svelte:17
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
-msgstr "Koblinga av %j og skårar %j med brukernamn %j har blitt rapportert av følgande årsaker:"
+msgstr ""
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
-msgstr "lastar"
+msgstr ""
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
-msgstr "Svaret lastar"
+msgstr ""
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
-msgstr "Oppgåvesvar"
+msgstr ""
 
 #: ../component/task/ScoringCriteria.svelte:79
 msgid "Scoring criteria is loading"
-msgstr "Skåringskriteriar lastar"
+msgstr ""
 
 #: ../component/task/ScoringCriteria.svelte:85
 msgid "Close scoring criteria"
-msgstr "Lukk skåringskriteria"
+msgstr ""
 
 #: ../component/task/ScoringCriteria.svelte:11
 msgid "Scoring criteria"
-msgstr "Skåringskriteria"
+msgstr ""
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "se kriteria for %s"
-
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "sjå kriteria"
-
-#: ../component/task/ScoringForm.svelte:311
-msgid "Scorer's note:"
-msgstr "Skårars notat:"
-
-#: ../component/task/ScoringForm.svelte:328
-msgid "of %d characters remaining"
-msgstr "av %d teikn står att"
-
-#: ../component/task/ScoringForm.svelte:351
-msgid "Scorer's notes"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:357
-msgid "Type a note"
-msgstr ""
-
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
+msgid "of %d characters remaining"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:573
+msgid "Scorer's note:"
 msgstr ""
 
 #: ../component/task/SubmitDialog.svelte:34
 msgid "Submit the scores?"
-msgstr "Vil du avslutte og bekrefte skåring?"
+msgstr ""
 
 #: ../component/task/SubmitDialog.svelte:36
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
-msgstr "Alle skår vil bli sendt inn. Du kan ikkje gå tilbake å gjere endringar i ettertid."
+msgstr ""
+
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr ""
 
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
-msgstr "Bekreft skåring"
+msgstr ""
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
-msgstr "Skåring"
+msgstr ""
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
 msgstr ""
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr ""
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
-msgstr "Skåring gjort av %s"
+msgstr ""
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "rapport"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
-msgstr "Svar %s av %s"
+msgstr ""
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr ""
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
-msgstr "Gå til føregåande oppgåve"
+msgstr ""
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
-msgstr "Sjå oversikt"
+msgstr ""
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
-msgstr "Gå til neste oppgåve"
+msgstr ""
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
-msgstr "Fullført: %s %"
+msgstr ""
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
-msgstr "Elevsvar"
+msgstr ""
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
-msgstr "Oppgåva kunne ikkje lastas inn. Ta kontakt med systemadministrator."
+msgstr ""
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
-msgstr "Feil ved innsending av skåring"
+msgstr ""
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
-msgstr "Skriv eit notat for dette svaret"
+msgstr ""
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
-msgstr "Skriv eit notat for denne gjennomgangen"
+msgstr ""
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr ""
 
 #: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr ""
+
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "Det oppsto et problem under lagring av poengsummen din. Vennligst prøv igjen. Hvis problemet vedvarer, kontakt supportteamet vårt for å få hjelp."
 
-#: ../component/task/Task.svelte:185
+#: ../component/task/Task.svelte:197
 msgid "Back"
-msgstr "Tilbake"
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr ""
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr ""
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr ""
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr ""
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
-msgstr "Er du sikker på at du vil avslutte?"
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
-msgstr "Skåringane dine har blitt lagra, og du vil kunne ta opp igjen skåringa på eit seinare tidspunkt."
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
-msgstr "Send skåringsresultatar"
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr ""
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
-msgstr "fortsett skåring"
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
-msgstr "lagre og avslutt"
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr ""
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
-msgstr "Skjul markeringspenn"
+msgstr ""
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
-msgstr "Vis markeringspenn"
+msgstr ""
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr ""
 
 #: ../controller/error/error.js:31
 msgid "Error page"
-msgstr "Feilside"
+msgstr ""
 
 #: ../controller/page.js:79
 msgid "%s - Manual Scoring"
-msgstr "%s - Manuell skåring"
+msgstr ""
 
 #: ../core/utils/response.js:24
 msgid "Long username"
-msgstr "Langt brukarnamn"
+msgstr ""
 
 #: ../core/utils/response.js:27
 msgid "Short username"
@@ -643,72 +647,104 @@ msgstr ""
 
 #: ../core/utils/response.js:30
 msgid "Forbidden character in username"
-msgstr "Ugyldig teikn i brukarnamnet"
+msgstr ""
 
 #: ../core/utils/response.js:33
 msgid "Empty password"
-msgstr "Tomt passord"
+msgstr ""
 
 #: ../core/utils/response.js:36
 msgid "Short password"
-msgstr "Kort passord"
+msgstr ""
 
 #: ../core/utils/response.js:39
 msgid "Long password"
-msgstr "Langt passord"
+msgstr ""
 
 #: ../core/utils/response.js:42
 msgid "Empty role"
-msgstr "Tom rolle"
+msgstr ""
 
 #: ../core/utils/response.js:45
 msgid "Already assigned"
-msgstr "Allereie tildelt"
+msgstr ""
 
 #: ../core/utils/response.js:48
 msgid "Not found"
-msgstr "Ikkje funne"
+msgstr ""
 
 #: ../core/utils/response.js:51
 msgid "Empty assignment criterion"
-msgstr "Tomt oppgåvekriterium"
+msgstr ""
 
 #: ../core/utils/response.js:54
 msgid "System user conflict"
-msgstr "Systembrukarkonflikt"
+msgstr ""
 
 #: ../core/utils/response.js:57
 msgid "The role does not exist in the selected scoring strategy"
-msgstr "Rollen finst ikkje i den valde skåringsstrategien"
+msgstr ""
 
 #: ../core/utils/response.js:60
 msgid "Invalid outcome declarations"
-msgstr "Ugyldig svar"
+msgstr ""
 
 #: ../core/utils/validations.js:44
 msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
-msgstr "Innleveringa ser ut til å være konfigurert for ei \"oppgåvegruppe\" prosjektoppgåvestrategi"
+msgstr ""
 
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
-msgstr "Innleveringa ser ut til å være konfigurert for ei \"elevgruppegruppe\" prosjektoppgavestrategi"
+msgstr ""
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr ""
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr ""
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr ""
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr ""
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr ""
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr ""
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr ""
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
 msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
-msgstr "Vi finn ikkje svara som skal skåras. Kontakt systemadministrator."
+msgstr ""
 
 #: ../services/launchService.js:80
 msgid "There are no responses to score yet. Please wait and try again."
-msgstr "Det er ingenting å skåre ennå. Prøv igjen seinare."
+msgstr ""
 
 #: ../services/launchService.js:84
 msgid "Grading not available."
-msgstr "Karakter ikkje tilgjengeleg."
+msgstr ""
 
 #: ../services/launchService.js:85
 msgid "Please contact your administrator."
-msgstr "Kontakt administrator."
+msgstr ""
 
 #: ../services/launchService.js:94
 #: ../services/launchService.js:106
@@ -774,37 +810,66 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr ""
 
 #: ../services/launchService.js:196
-msgid "Invalid Scoring Category"
+msgid "Review failed: Invalid scorer user."
 msgstr ""
 
 #: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr ""
+
+#: ../services/launchService.js:203
+msgid "Invalid Scoring Category"
+msgstr ""
+
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr ""
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "Ugyldig tilpassa krav."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "Ugyldig parameter, kravet krev at [%s] ikkje er tom og har typen [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "Påkravd tilpassa krav."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "Manglande parameter, kravet krev at parameteren [%s] er til stades."
 
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr ""
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr ""
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr ""
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr ""
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr ""
+
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
-msgstr "Mangler komma(r), det skal være nøyaktig %d kolonne på rad “%s”"
+msgstr ""
 
 #: beMessages.js:4
 msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
-msgstr "Den opplastede filen inneholder dupliserte brukernavn. Fjern dupliserte brukernavn og prøv igjen."
+msgstr ""
 
 #: beMessages.js:5
 msgid "The scoring task ID:%s is already scored and submitted."
 msgstr ""
+

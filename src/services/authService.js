@@ -9,12 +9,13 @@ import jwtTokenHandlerFactory from 'core/jwt/jwtTokenHandler';
 import jwtTokenRegistry from 'core/jwt/jwtTokenRegistry';
 import * as userConfigurationService from './userConfigurationService';
 
+import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/constants/jwtToken.js';
+
 export const ROLE_SCORING_PROJECT_MANAGER = 'ROLE_SPM';
 export const ROLE_WORKFLOW_USER = 'ROLE_WORKFLOW_USER';
 export const ROLE_LTI_USER = 'ROLE_LTI_USER';
 export const ROLE_NOT_LOGGED_IN = 'ROLE_NOT_LOGGED_IN';
 
-export const JWT_TOKEN_HANDLER_SERVICE_NAME = 'tao-manual-scoring';
 
 /**
  * @typedef User
@@ -44,12 +45,19 @@ export const registerJwtTokenHandler = (userId) => {
     return jwtTokenHandler;
 }
 
-/**
- * Returns authorized user
- * @async
- * @returns {Promise<User|null>}
- */
-export const getUser = async () => {
+let _userPromise = null;
+let _authReadyResolve;
+const _authReadyPromise = new Promise(resolve => {
+    _authReadyResolve = resolve;
+});
+
+export const setAuthReady = () => {
+    _authReadyResolve();
+};
+
+async function getToken() {
+    await _authReadyPromise;
+
     let jwtTokenRegistryService = jwtTokenRegistry.get(JWT_TOKEN_HANDLER_SERVICE_NAME);
 
     if (!jwtTokenRegistryService) {
@@ -73,6 +81,13 @@ export const getUser = async () => {
     };
 }
 
+export const getUser = () => {
+    if (!_userPromise) {
+        _userPromise = getToken();
+    }
+    return _userPromise;
+};
+
 /**
  * Returns the tenant ID from the stored access token
  * @async
@@ -91,7 +106,7 @@ const getTenantId = async () => {
  */
 export const exchangeToken = async (sessionToken) => {
     const tenantId = await getTenantId();
-    
+
     const res = await request(getEndpointUrl('exchangeToken'), {
         method: 'POST',
         headers: {
@@ -106,6 +121,8 @@ export const exchangeToken = async (sessionToken) => {
     const userConfiguration = await request(getEndpointUrl('tenantConfiguration'));
 
     userConfigurationService.setConfig(userConfiguration);
+
+    setAuthReady();
 
     return res;
 }

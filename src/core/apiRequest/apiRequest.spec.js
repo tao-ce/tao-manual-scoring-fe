@@ -3,6 +3,8 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
+import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/constants/jwtToken.js';
+
 jest.mock('module');
 jest.mock('@/core/router');
 jest.mock('@/config', () => ({
@@ -28,7 +30,7 @@ jest.mock('@/config/env', () => variableName => {
     return environmentConfig[variableName];
 });
 jest.mock('@oat-sa-private/ui-core', () => ({
-    __: (message, params) => `${message},${params.join(',')}`
+    __: (message, params) => `${message},${params?.join(',')}`
 }));
 
 import config from '@/config';
@@ -36,7 +38,6 @@ import jwtTokenRegistry from 'core/jwt/jwtTokenRegistry';
 import jwtTokenHandlerFactory from 'core/jwt/jwtTokenHandler';
 import request, { getEndpointUrl } from './apiRequest';
 import router from '@/core/router';
-import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/services/authService';
 
 describe('API Request', () => {
     beforeAll(() => {

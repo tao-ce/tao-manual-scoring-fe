@@ -4,7 +4,7 @@
   "engines": {
     "node": ">=22"
   },
-  "version": "6.10.0",
+  "version": "8.1.0",
   "private": true,
   "description": "Tao Manual Scoring frontend application",
   "main": "src/index.js",
@@ -13,6 +13,7 @@
     "test:watchAll": "npm test -- --coverage --watchAll",
     "test:watch": "npm test -- --watch",
     "test:cov": "npm test -- --coverage",
+    "test:update:unstaged": "dirs=$(git diff --name-only --diff-filter=AM | while read -r path; do [ -z \"$path\" ] && continue; dir=$(dirname \"$path\"); [ \"$dir\" = '.' ] && continue; [[ \"$dir\" == *__snapshots__* ]] && continue; printf '%s\n' \"$dir\"; done | sort -u); [ -z \"$dirs\" ] && exit 0; npm run test -- -u $dirs",
     "coverage:html": "open-cli coverage/index.html",
     "prepare": "npm run build",
     "build": "npm run generate:locale && run-p build:*",
@@ -28,6 +29,7 @@
     "lint": "eslint --ext svelte,js --ignore-pattern **/dist .",
     "lint:fix": "npm run lint -- --fix",
     "prettier:write": "prettier --write .",
+    "prettier:unstaged": "files=$(git diff --name-only --diff-filter=AM | grep -E '\\.(js|ts|css|scss|html|json|svelte)$'); [ -z \"$files\" ] && exit 0; printf '%s\n' \"$files\" | xargs -n1 -I{} prettier --write \"{}\"",
     "knip": "knip"
   },
   "repository": {
@@ -119,7 +121,7 @@
     "extends @oat-sa/browserslist-config-tao"
   ],
   "dependencies": {
-    "@oat-sa-private/ui-components": "^17.7.0",
+    "@oat-sa-private/ui-components": "^17.7.0-1",
     "@oat-sa-private/ui-core": "^1.3.0",
     "@oat-sa-private/ui-elements": "^12.0.5",
     "@oat-sa-private/ui-identity": "^6.1.3",

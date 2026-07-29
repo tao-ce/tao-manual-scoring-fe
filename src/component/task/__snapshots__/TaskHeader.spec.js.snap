@@ -144,6 +144,35 @@ exports[`TaskHeader renders correctly 1`] = `
              
           </button>
         </div>
+         
+        <div
+          class="markingSymbols"
+        >
+          <button
+            aria-label="Marking symbols"
+            class="icon-bar-btn actionable base-24 default with-label"
+          >
+            <svg
+              aria-hidden="false"
+              class="icon large"
+              viewBox="0 0 24 24"
+            >
+              <title>
+                Highlighter tool icon
+              </title>
+              <path
+                d="M23.5 23H6l.63-1.36 4.56-3.07a1 1 0 00.39-.44.49.49 0 000-.09L17 4.11a2 2 0 00-1-2.65L13.33.19a2 2 0 00-2.66 1L3.49 14.22a.93.93 0 00-.15.63l.57 5.53-1.31 2.8a.74.74 0 00-.1.32.5.5 0 00.5.5h20.5a.5.5 0 000-1zM11.58 1.58a1 1 0 011.32-.49l2.72 1.27a1 1 0 01.49 1.33L11 16.77l-6.23-2.9zm-.91 16.13L5.84 21l-.9-.42-.61-5.8zm-6.16 3.74l.91.43L4.9 23H3.79z"
+              />
+            </svg>
+             
+            <span
+              class="label"
+            >
+              Marking symbols
+            </span>
+             
+          </button>
+        </div>
       </div>
     </div>
      

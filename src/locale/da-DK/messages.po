@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -275,70 +275,66 @@ msgstr "Disse cookies giver os mulighed for at tælle besøg og forskellige andr
 msgid "Privacy Policy"
 msgstr "Privat Politik"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "Scoring ikke tilgængelig."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "se kriterier for %s"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "Kontakt venligst din systemadministrator."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "se scoringskriterier"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "Scoren er blevet indsendt med succes"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr "Din scorestatus er blevet opdateret."
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr "En eller flere studerende har genindsendt deres svar. Desværre skal de opdaterede svar, der allerede blev scoret, scores igen."
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
 msgstr "Test oversigt"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
 msgstr "Status for opgaver"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr "Spørgsmål"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
 msgstr "Samlet score"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "Alle"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "Ufuldstændig"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "Bogmærket"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Varer"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "Prøvninger"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
 msgstr "Korrigeret total score"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
 msgstr "Bemærkning"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
 msgstr "Rapport"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "Varer"
+msgid "Delivery contents"
+msgstr "Levering indhold"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,11 +344,11 @@ msgstr "Bogmærke"
 msgid "Press to show task note"
 msgstr "Tryk for at vise opgavenote"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
 msgstr "%s af %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
 msgstr "Ingen score tilføjet"
 
@@ -372,18 +368,6 @@ msgstr "Årsag ikke givet"
 msgid "Task is scored"
 msgstr "Opgaven er scoret"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "Ups! Siden blev ikke fundet"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "Siden du leder efter findes ikke."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "Gå til hjem"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "Dette projekt er nu inaktivt"
@@ -396,30 +380,6 @@ msgstr "Du vil nu blive omdirigeret til listen over projekter"
 msgid "Ok"
 msgstr "OK"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "Luk Dialog"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "Rapporter dette spørgsmål/scorer par for ikke-kompatibel scoring?"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "Hvis du gør det, vil alle svarene for det par, %j og scorer %j blive udsat for en revisionsopgave. Denne handling kan ikke fortrydes."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "Skriv en note for denne rapport"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "Annuller"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "Rapporter og fortsæt"
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "Anmeldt for manglende overholdelse"
@@ -428,15 +388,15 @@ msgstr "Anmeldt for manglende overholdelse"
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr "Parring af %j og scorer %j med brugernavnet %j er blevet rapporteret af følgende årsager:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
 msgstr "indlæser"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
 msgstr "Respons indlæses"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
 msgstr "Element svar"
 
@@ -452,61 +412,64 @@ msgstr "Tæt scorekriterier"
 msgid "Scoring criteria"
 msgstr "Scoring kriterier"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr "Foreslået pointforklaring"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr "Prøv igen"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr "Brug scoren"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr "Kassér"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr "Vis score-forslag"
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "Hent score forslag"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "se kriterier for %s"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "Anvend score til alle"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "se kriterier"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "Mistænkes for snyd"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "Kommentar valgfri"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
 msgstr "af %d tegn tilbage"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "Kommentar (valgfri)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "Ikke nok grundlag for vurdering"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
 msgstr "Scorers note:"
 
@@ -518,133 +481,153 @@ msgstr "Indsend scorerne?"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "Alle resultater vil blive indsendt til dit system. Hvis du tidligere har scoret og regraderet svar, vil de blive erstattet med de nye score."
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Annuller"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "Indsend scoringer"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
 msgstr "Scoring"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
 msgstr "Sammenfold scoringspanel"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr "Åbn scoringspanel"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
 msgstr "Scores givet af %s"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "rapportér"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
 msgstr "Svar %s af %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr "Respons"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
 msgstr "Gå til forrige svar"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
 msgstr "Se Oversigt"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
 msgstr "Gå til næste svar"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
 msgstr "Færdiggørelse: %s%"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
 msgstr "Svaret på prøvebrugeren"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "Opgave kunne ikke indlæses. Kontakt venligst din systemadministrator."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
 msgstr "Scoring task submission error"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
 msgstr "Skriv en note for dette svar"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
 msgstr "Skriv en note til denne anmeldelse"
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "Pointopgave kunne ikke startes"
 
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
 msgstr "Denne scoring opgave kunne ikke initieres mest sandsynligt, fordi en anden scoring session blev initieret i et andet vindue eller browser.<br>For at løse dette problem:<br><ul><li>Sørg for, at du ikke scorer forskellige sessioner i et andet vindue eller browser.</li><li>Luk alle andre faner eller browservinduer, hvor dette eller et andet pointlink kan være åbent.</li></ul>Hvis du allerede har kontrolleret disse trin og stadig se denne besked, kontakt venligst support eller din administrator for yderligere hjælp."
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "Vi stødte på et problem under lagring af din score. Prøv igen. Hvis problemet fortsætter, kontakt vores supportteam for hjælp."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
 msgstr "Tilbage"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "Gennemgang nødvendig"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "Standard score"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "Appel score"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr "Hoved navigation"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr "Scorer"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
 msgstr "Er du sikker på, at du vil forlade?"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "Dine karakterer vil blive gemt, og du vil kunne genoptage karaktereringen på et senere tidspunkt."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
 msgstr "Send resultater"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr "Værktøjer"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
 msgstr "fortsæt klassificering"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
 msgstr "gem og aflad"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr "Score"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
 msgstr "Skjul fremhævning"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
 msgstr "Vis fremhævning"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "Ikke tilstrækkeligt grundlag for vurdering"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
@@ -713,6 +696,38 @@ msgstr "Leveringen ser ud til at være konfigureret til en \"element gruppe\" pr
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "Leveringen synes at være konfigureret til en \"test taker gruppe\" projekttildelingsstrategi"
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Ups! Siden blev ikke fundet"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Siden du leder efter findes ikke."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Gå til hjem"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "Scoring ikke tilgængelig."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Kontakt venligst din systemadministrator."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Scoren er blevet indsendt med succes"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "Din scorestatus er blevet opdateret."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "En eller flere studerende har genindsendt deres svar. Desværre skal de opdaterede svar, der allerede blev scoret, scores igen."
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "Tildel en anden anmelder for at sikre en uafhængig gennemgang af score."
 
 #: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "Anmeldelse mislykkedes: Ugyldig scorer bruger."
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "En eller flere scorer brugere kunne ikke findes. Vælg kun scorere, der allerede har scoret denne test."
+
+#: ../services/launchService.js:203
 msgid "Invalid Scoring Category"
 msgstr "Ugyldig Scoring Kategori"
 
-#: ../services/launchService.js:197
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr "Tjek venligst scoringCategory værdien. Den skal være gyldig og må ikke være tom."
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "Ugyldigt brugerdefineret krav."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "Ugyldig parameter, påstand kræver [%s] må ikke være tom og skriv [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "Påkrævet brugerdefineret krav."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "Manglende parameter, fordring kræver, at [%s] parameter er til stede."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "Appel"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "Standard"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "Min endelige score"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "Min appel score (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "Min appel score"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

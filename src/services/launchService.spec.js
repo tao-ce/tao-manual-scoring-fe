@@ -23,6 +23,7 @@ import config from '../config';
 import * as authService from './authService';
 import * as ltiService from './ltiService';
 import * as launchService from './launchService';
+import { ERROR_CODES } from '@/constants/error-codes';
 
 jest.mock('./authService', () => ({
     exchangeToken: jest.fn(),
@@ -51,7 +52,7 @@ describe('Launch service', () => {
 
         await launchService.validateSessionToken(invalidToken);
 
-        expect(router.redirect).toBeCalledWith(config.routes.ltiError);
+        expect(router.redirect).toHaveBeenCalledWith(config.routes.ltiError);
     });
 
     it('Returns valid response and redirects users to the task page', async () => {
@@ -70,7 +71,47 @@ describe('Launch service', () => {
 
         await launchService.validateSessionToken(validToken);
 
-        expect(localeSpy).toBeCalledWith(DEFAULT_LOCALE_ID);
+        expect(localeSpy).toHaveBeenCalledWith(DEFAULT_LOCALE_ID);
+        expect(router.replace).toHaveBeenCalledWith('/task/testDeliveryId/testTaskId');
+    });
+
+    it('returns valid response and redirects users to the task page with setConfig parameters', async () => {
+        const validToken = 'validSessionToken';
+        const localeSpy = jest.spyOn(locale, 'setCode');
+
+        authService.exchangeToken.mockResolvedValue({
+            _meta: {
+                internalDeliveryId: 'testDeliveryId',
+                taskId: 'testTaskId',
+                ltiResourceLink: 'testLtiResourceLink',
+                ltiResourceLabel: 'testLtiResourceLink',
+                language: DEFAULT_LOCALE_ID,
+                breadcrumbs: [],
+                testTakerName: 'test',
+                hideNoteBox: false,
+                isReview: false,
+                isReadOnly: true,
+                isAppeal: false,
+                scorersToReview: {},
+                isAdministrative: true
+            }
+        });
+
+        await launchService.validateSessionToken(validToken);
+
+        expect(localeSpy).toHaveBeenCalledWith(DEFAULT_LOCALE_ID);
+        expect(ltiService.setConfig).toBeCalledWith({
+            ltiResourceLink: 'testLtiResourceLink',
+            ltiResourceLabel: 'testLtiResourceLink',
+            breadcrumbs: [],
+            testTakerName: 'test',
+            hideNoteBox: false,
+            isReview: false,
+            isReadOnly: true,
+            isAppeal: false,
+            scorersToReview: {},
+            isAdministrative: true
+        });
         expect(router.replace).toBeCalledWith('/task/testDeliveryId/testTaskId');
     });
 
@@ -89,7 +130,7 @@ describe('Launch service', () => {
         });
 
         await launchService.validateSessionToken(validToken);
-        expect(localeSpy).toBeCalledWith(LT_LANG_CODE);
+        expect(localeSpy).toHaveBeenCalledWith(LT_LANG_CODE);
         authService.exchangeToken.mockResolvedValue({
             _meta: {
                 internalDeliveryId: 'testDeliveryId',
@@ -100,7 +141,7 @@ describe('Launch service', () => {
         });
 
         await launchService.validateSessionToken(validToken);
-        expect(localeSpy).toBeCalledWith(DEFAULT_LOCALE_ID);
+        expect(localeSpy).toHaveBeenCalledWith(DEFAULT_LOCALE_ID);
     });
 
     it('Returns valid response without task identifiers', async () => {
@@ -114,7 +155,7 @@ describe('Launch service', () => {
 
         await launchService.validateSessionToken(validToken);
 
-        expect(router.replace).toBeCalledWith(config.routes.ltiError);
+        expect(router.replace).toHaveBeenCalledWith(`${config.routes.ltiError}?reason=${ERROR_CODES.NO_TASKS_TO_SCORE}`);
     });
 
     it('throw an error when the user exchanges an invalid token', async () => {
@@ -124,8 +165,8 @@ describe('Launch service', () => {
 
         await launchService.validateSessionToken(invalidToken);
 
-        expect(log.error).toBeCalledWith('Token exchange is not valid');
-        expect(router.redirect).toBeCalledWith(config.routes.ltiError);
+        expect(log.error).toHaveBeenCalledWith('Token exchange is not valid');
+        expect(router.redirect).toHaveBeenCalledWith(config.routes.ltiError);
     });
 
     it.each([
@@ -162,6 +203,14 @@ describe('Launch service', () => {
             {
                 title: 'Review failed: The reviewer cannot be the same user as the original scorer.',
                 description: 'Please assign a different reviewer to ensure an independent review of the score.'
+            }
+        ],
+        [
+            'scorer_not_found',
+            {
+                title: 'Review failed: Invalid scorer user.',
+                description:
+                    'One or more scorer users could not be found. Please select only scorers who have already scored this test.'
             }
         ],
         [
@@ -214,7 +263,7 @@ describe('Launch service', () => {
             description: 'Please contact your system administrator.'
         };
         expect(launchRecoverableError).toEqual(expectedObject);
-        expect(localeSpy).toBeCalledWith(LT_LANG_CODE);
+        expect(localeSpy).toHaveBeenCalledWith(LT_LANG_CODE);
     });
 
     it('generates error from user session exchanges token when have invalid Ids and default lang', async () => {
@@ -234,7 +283,7 @@ describe('Launch service', () => {
             description: 'Please contact your system administrator.'
         };
         expect(launchRecoverableError).toEqual(expectedObject);
-        expect(localeSpy).toBeCalledWith(DEFAULT_LOCALE_ID);
+        expect(localeSpy).toHaveBeenCalledWith(DEFAULT_LOCALE_ID);
     });
 
     it('Redirect on home page for unknown error', async () => {
@@ -252,7 +301,7 @@ describe('Launch service', () => {
 
         await launchService.validateSessionToken('QWERTY12345');
 
-        expect(router.redirect).toBeCalledWith(config.routes.ltiError);
+        expect(router.redirect).toHaveBeenCalledWith(config.routes.ltiError);
     });
 
     it('Not redirect to lti error page if return_url provided', async () => {
@@ -277,10 +326,10 @@ describe('Launch service', () => {
         });
 
         await launchService.validateSessionToken('QWERTY12345');
-        expect(ltiService.redirectToReturnUrl).not.toBeCalledWith(
+        expect(ltiService.redirectToReturnUrl).not.toHaveBeenCalledWith(
             'http://example.com/?lti_errormsg=Scoring+not+available.Sorry%2C+we+cannot+find+the+responses+to+score.+Please+contact+your+system+administrator.&lti_errorlog=%5BRECOVERABLE%5D+Lorem+ipsum+dolor+sit+amet'
         );
 
-        expect(localeSpy).toBeCalledWith(DEFAULT_LOCALE_ID);
+        expect(localeSpy).toHaveBeenCalledWith(DEFAULT_LOCALE_ID);
     });
 });

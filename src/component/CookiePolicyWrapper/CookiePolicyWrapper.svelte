@@ -6,7 +6,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
 <script>
     // Licensed under Gnu Public License version 2
-    // Copyright (c) 2025 (original work) Open Assessment Technologies SA
+    // Copyright (c) 2025-2026 (original work) Open Assessment Technologies SA
 
     import { __ } from '@oat-sa-private/ui-core';
     import { ButtonLink } from '@oat-sa-private/ui-elements';
@@ -14,6 +14,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
     import { initialize as initializeAnalyticsService } from '@/services/analyticsService';
     import { getUser } from '@/services/authService';
+    import { getConfig } from '@/services/userConfigurationService';
     import { onMount } from 'svelte';
 
     import { cookiePolicyConfig } from '@/component/CookiePolicyWrapper/cookiePolicyConfig';
@@ -21,22 +22,27 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
     const storage = createCookieStorage({ domainLevel: 2 });
     const config = cookiePolicyConfig();
+    const userConfig = getConfig();
+    const display = userConfig?.cookiePolicy?.display !== false;
 
+    let userData = null;
     let storageId = '';
 
     function handleInitializeCookies(event) {
         if (event.detail?.analytics) {
-            initializeAnalyticsService();
+            initializeAnalyticsService(userData);
         }
     }
 
     onMount(async () => {
-        const userData = await getUser();
-        storageId = `${userData?.tenantId}-${userData?.sub}`;
+        userData = await getUser();
+        if (userData?.tenantId && userData?.sub) {
+            storageId = `${userData.tenantId}-${userData.sub}`;
+        }
     });
 </script>
 
-{#if storageId && config}
+{#if storageId && config && display}
     <CookiePolicy
         {storageId}
         {storage}

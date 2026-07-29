@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -275,70 +275,66 @@ msgstr "これらのCookieは、アクセス数やその他の分析データを
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "採点は利用できません。"
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "%sの基準を見る"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "システム管理者にお問い合わせください"
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "得点の基準を見る"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "スコアが正常に送信されました"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr "得点の進行状況が更新されました。"
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr "1人以上の学生が回答を再提出しました．残念ながら，既に得点していた回答は再度採点する必要があります．"
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
 msgstr "テスト概要"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
 msgstr "タスクの状況"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr "問題"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
 msgstr "合計スコア"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "全て"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "未解答"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "ブックマーク済"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "アイテム"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "テスト"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
 msgstr "調整後の合計スコア"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
 msgstr "ノート"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
 msgstr "レポート"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "アイテム"
+msgid "Delivery contents"
+msgstr "配信内容"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,11 +344,11 @@ msgstr "ブックマーク"
 msgid "Press to show task note"
 msgstr "押してタスクを表示"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
 msgstr "%s ／ %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
 msgstr "スコアが追加されていません"
 
@@ -372,18 +368,6 @@ msgstr "理由が指定されていません"
 msgid "Task is scored"
 msgstr "タスクは採点済みです"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "ページが見つかりません"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "お探しのページは存在しません。"
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "ホームへ戻る"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "このプロジェクトは現在非アクティブです"
@@ -396,30 +380,6 @@ msgstr "プロジェクト一覧にリダイレクトされます"
 msgid "Ok"
 msgstr "OK"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "閉じる"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "非準拠の採点について、この問題と採点者の組み合わせを報告しますか？"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "その組み合わせに対するすべての解答、 %j 採点者 %j がレビュータスクを受けます。この操作は元に戻せません。"
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "このレポートのメモを入力してください"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "レポートして続ける"
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "不適格として報告されました"
@@ -428,15 +388,15 @@ msgstr "不適格として報告されました"
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr "%j と採点者 %j の組み合わせ、ユーザー名 %j は、以下の理由で報告されました:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
 msgstr "読み込み中"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
 msgstr "解答が読み込まれています"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
 msgstr "アイテムレスポンス"
 
@@ -452,61 +412,64 @@ msgstr "採点基準を閉じる"
 msgid "Scoring criteria"
 msgstr "採点基準"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr "提案された採点の説明"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr "もう一度試してください"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr "スコアを使用"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr "破棄する"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "スコアの提案を取得"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "%sの基準を見る"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "すべてにスコアを適用"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "基準を見る"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "不正行為の疑いがある"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "コメントは省略可能"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
 msgstr "残り%d文字"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "コメント (オプション)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "テストの基礎が不足しています"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
 msgstr "採点者のメモ:"
 
@@ -518,133 +481,153 @@ msgstr "スコアを提出しますか？"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "すべてのスコアがシステムに提出されます。もし以前にスコアを付けた解答を再評価した場合は、新しいスコアに置き換えられます。"
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "キャンセル"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "スコアを提出する"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
 msgstr "採点"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
 msgstr "採点パネルを閉じる"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr "採点パネルを開く"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
 msgstr "%sによって与えられたスコア"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "レポート"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
 msgstr "解答 %s ／ %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr "解答"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
 msgstr "前の解答へ"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
 msgstr "概要を見る"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
 msgstr "次の解答へ"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
 msgstr "完了: %s %"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
 msgstr "受験者の解答"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "タスクの読み込みに失敗しました。システム管理者にお問い合わせください。"
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
 msgstr "採点タスクの送信エラー"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
 msgstr "この解答のノートを入力してください"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
 msgstr "このレビューのメモを入力してください"
 
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "採点タスクを開始できませんでした"
+
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
-msgstr ""
+msgstr "この採点タスクを開始できなかったのは、おそらく別のウィンドウまたはブラウザで別の採点セッションが開始されたためです。<br>この問題を解決するには：<br><ul><li>別のウィンドウやブラウザで異なるセッションの採点を行っていないことを確認してください。</li><li>この採点リンクまたは別の採点リンクが開かれている可能性のある他のタブやブラウザウィンドウをすべて閉じてください。</li></ul>これらの手順を確認してもこのメッセージが表示される場合は、サポートまたは管理者にお問い合わせください。"
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "スコアを保存中に問題が発生しました。もう一度やり直してください。問題が解決しない場合は、サポートチームにお問い合わせください。"
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
 msgstr "戻る"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "レビューが必要です"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "標準スコア"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "アピールスコア"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr "メインナビゲーション"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr "スコア"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
 msgstr "本当に終了しますか？"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "成績は保存され、あとで採点を再開することができます。"
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
 msgstr "スコアを送信"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr "ツール"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
 msgstr "採点を続ける"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
 msgstr "セーブして終了"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr "スコア"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
 msgstr "ハイライト表示を隠す"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
 msgstr "ハイライトを表示"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "評価に十分な基盤がありません"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
@@ -714,6 +697,38 @@ msgstr "「アイテムグループ」プロジェクトに割り当てられた
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "「受験者グループ」プロジェクトに割り当てられたストラテジーにデリバリが構成されているようですグループ"
 
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "ページが見つかりません"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "お探しのページは存在しません。"
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "ホームへ戻る"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "採点は利用できません。"
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "システム管理者にお問い合わせください"
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "スコアが正常に送信されました"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "得点の進行状況が更新されました。"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "1人以上の学生が回答を再提出しました．残念ながら，既に得点していた回答は再度採点する必要があります．"
+
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
 msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
@@ -740,15 +755,15 @@ msgstr "回答が見つかりませんでした。"
 
 #: ../services/launchService.js:95
 msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
-msgstr "次のIDを持つ配信実行が見つかりません: <br><strong>%s</strong><br>システム管理者に連絡してください。"
+msgstr "次のIDのデリバリが見つかりません: <br><strong>%s</strong><br>システム管理者に連絡してください。"
 
 #: ../services/launchService.js:107
 msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
-msgstr "次のIDを持つ配信実行は無効です: <br><strong>%s</strong><br>システム管理者に問い合わせてください。"
+msgstr "次のIDのデリバリは無効です: <br><strong>%s</strong><br>システム管理者に問い合わせてください。"
 
 #: ../services/launchService.js:119
 msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
-msgstr "以下のIDの配信は無効です: <br><strong>%s</strong><br>システム管理者に問い合わせてください。"
+msgstr "以下のIDのデリバリは無効です: <br><strong>%s</strong><br>システム管理者に問い合わせてください。"
 
 #: ../services/launchService.js:129
 msgid "Scoring is not available right now, because no responses were found."
@@ -780,7 +795,7 @@ msgstr "納品IDと受験者IDは空か定義されていません。"
 
 #: ../services/launchService.js:181
 msgid "Delivery ID(s) is empty or not defined."
-msgstr "配信IDが空か定義されていません。"
+msgstr "デリバリIDが空、または定義されていません。"
 
 #: ../services/launchService.js:186
 msgid "Test Taker ID(s) is empty or not defined."
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "スコアの独立した評価を確保するため、別のレビュアーを割り当ててください。"
 
 #: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "レビューに失敗しました: スコアラーユーザーが無効です。"
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "1人以上の得点ユーザーが見つかりませんでした。すでにこのテストを獲得した得点者のみを選択してください。"
+
+#: ../services/launchService.js:203
 msgid "Invalid Scoring Category"
 msgstr "無効なスコアカテゴリー"
 
-#: ../services/launchService.js:197
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr "scoringCategory値を確認してください。有効でなければならず、空にすることはできません。"
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "無効なカスタム要求です。"
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "パラメータが無効です。要求には [%s] が必要です。空ではなく、 [%s]と入力してください。"
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "必要なカスタムクレーム。"
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "パラメータがありません。要求には [%s] パラメータが必要です。"
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "嘆願書"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "標準"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "私の最終スコア"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "アピールスコア（%s）"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "アピールスコア"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

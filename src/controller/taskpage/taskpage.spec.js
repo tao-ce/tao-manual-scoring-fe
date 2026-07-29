@@ -21,7 +21,7 @@ jest.mock('@/config', () => ({
     }
 }));
 jest.mock(
-    '@/component/TaskPage/TaskPage',
+    '@/routes/task/[deliveryId]/[taskId]/+page.svelte',
     () =>
         function ({ props }) {
             this.$on = jest.fn();

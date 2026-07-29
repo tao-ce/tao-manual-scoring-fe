@@ -1,16 +1,15 @@
 // SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
-// Copyright (C) 2020-2025 (original work) Open Assessment Technologies SA ;
+// Copyright (C) 2020-2022 (original work) Open Assessment Technologies SA ;
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
 import { __ } from '@oat-sa-private/ui-core';
 import jwtTokenRegistry from 'core/jwt/jwtTokenRegistry';
-import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/services/authService.js';
 import config from '@/config';
 import request from 'core/fetchRequest';
 import router from '@/core/router';
 import { compile } from 'path-to-regexp';
-import { log } from '@/core/utils/logger';
+import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/constants/jwtToken.js';
 
 export const getEndpointUrl = (endpointName, variables = {}, parameters = {}, baseUrl = null) => {
     // get endpoint

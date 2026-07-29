@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:04\n"
 "Last-Translator: \n"
 "Language-Team: Valencian\n"
 "Language: val\n"
@@ -23,172 +23,172 @@ msgstr ""
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
 msgid "Select a date"
-msgstr ""
+msgstr "Seleccionar data"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
 msgid "Sun"
-msgstr ""
+msgstr "dg."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
 msgid "Mon"
-msgstr ""
+msgstr "dl."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
 msgid "Tue"
-msgstr ""
+msgstr "dt."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
 msgid "Wed"
-msgstr ""
+msgstr "dc."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
 msgid "Thu"
-msgstr ""
+msgstr "dj."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
 msgid "Fri"
-msgstr ""
+msgstr "dv."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
 msgid "Sat"
-msgstr ""
+msgstr "ds."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
 msgid "Sunday"
-msgstr ""
+msgstr "Diumenge"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
 msgid "Monday"
-msgstr ""
+msgstr "Dilluns"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
 msgid "Tuesday"
-msgstr ""
+msgstr "Dimarts"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
 msgid "Wednesday"
-msgstr ""
+msgstr "Dimecres"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
 msgid "Thursday"
-msgstr ""
+msgstr "Dijous"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
 msgid "Friday"
-msgstr ""
+msgstr "Divendres"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
 msgid "Saturday"
-msgstr ""
+msgstr "Dissabte"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
 msgid "Jan"
-msgstr ""
+msgstr "gen."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
 msgid "Feb"
-msgstr ""
+msgstr "febr."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
 msgid "Mar"
-msgstr ""
+msgstr "març"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
 msgid "Apr"
-msgstr ""
+msgstr "abr."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
 msgid "May"
-msgstr ""
+msgstr "maig"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
 msgid "Jun"
-msgstr ""
+msgstr "juny"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
 msgid "Jul"
-msgstr ""
+msgstr "jul."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
 msgid "Aug"
-msgstr ""
+msgstr "ag."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
 msgid "Sep"
-msgstr ""
+msgstr "set."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
 msgid "Oct"
-msgstr ""
+msgstr "oct."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
 msgid "Nov"
-msgstr ""
+msgstr "nov."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
 msgid "Dec"
-msgstr ""
+msgstr "des."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
 msgid "January"
-msgstr ""
+msgstr "Gener"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
 msgid "February"
-msgstr ""
+msgstr "Febrer"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
 msgid "March"
-msgstr ""
+msgstr "Març"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
 msgid "June"
-msgstr ""
+msgstr "Juny"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
 msgid "July"
-msgstr ""
+msgstr "Juliol"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
 msgid "August"
-msgstr ""
+msgstr "Agost"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
 msgid "September"
-msgstr ""
+msgstr "Setembre"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
 msgid "October"
-msgstr ""
+msgstr "Octubre"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
 msgid "December"
-msgstr ""
+msgstr "Desembre"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
 msgid "Wk"
-msgstr ""
+msgstr "Setmana"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
 msgid "AM"
-msgstr ""
+msgstr "a. m"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
 msgid "PM"
-msgstr ""
+msgstr "p.m."
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
 msgid "Year"
-msgstr ""
+msgstr "Any"
 
 #: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
 msgid "saved"
@@ -216,27 +216,27 @@ msgstr "última vegada guardat el %s"
 
 #: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
 msgid "Content is loading"
-msgstr ""
+msgstr "El contingut està carregant"
 
 #: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
 msgid "Scoring input"
-msgstr ""
+msgstr "Entrada de puntuació"
 
 #: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
 msgid "Selected by another scorer."
-msgstr ""
+msgstr "Seleccionat per un altre corrector."
 
 #: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
 msgid "Rejected."
-msgstr ""
+msgstr "Rebutjat."
 
 #: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
 msgid "Radio button"
-msgstr ""
+msgstr "Botó d'opció"
 
 #: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
 msgid "Textarea"
-msgstr ""
+msgstr "Àrea de text"
 
 #: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
 msgid "You can read more about this in our"
@@ -275,384 +275,367 @@ msgstr "Estes cookies ens permeten comptabilitzar les visites i altres dades ana
 msgid "Privacy Policy"
 msgstr "Política de privacitat"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr ""
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "consulta els criteris per a %s"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr ""
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "consulta els criteris de puntuació"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr ""
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr ""
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr ""
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
-msgstr ""
+msgstr "Vista general de la prova"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
-msgstr ""
+msgstr "Estat de les tasques"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
-msgstr ""
+msgstr "Pregunta"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
-msgstr ""
+msgstr "Puntuació total"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
-msgstr ""
+msgstr "Tot"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
-msgstr ""
+msgstr "Incomplet"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
-msgstr ""
+msgstr "Afegit als marcadors"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Ítems"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "Proves"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
-msgstr ""
+msgstr "Puntuació total corregida"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
-msgstr ""
+msgstr "Informe"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr ""
+msgid "Delivery contents"
+msgstr "Contingut del lliurament"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
-msgstr ""
+msgstr "Marcador"
 
 #: ../component/delivery/tablecells/HasNoteCell.svelte:15
 msgid "Press to show task note"
-msgstr ""
+msgstr "Prem per mostrar la nota de la tasca"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
-msgstr ""
+msgstr "%s de %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
-msgstr ""
+msgstr "No s’ha afegit cap puntuació"
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
 msgid "Press to show note"
-msgstr ""
+msgstr "Prem per mostrar la nota"
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
 msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
-msgstr ""
+msgstr "S’ha informat de l’aparellament de \"%s\" i del corrector \"%s %s\" amb el nom d’usuari \"%s\" per les raons següents:"
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
 msgid "Reason not given"
-msgstr ""
+msgstr "Motiu no especificat"
 
 #: ../component/delivery/tablecells/TotalScoreCell.svelte:12
 msgid "Task is scored"
-msgstr ""
-
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr ""
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr ""
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr ""
+msgstr "La tasca està puntuada"
 
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
-msgstr ""
+msgstr "Este projecte està inactiu"
 
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:33
 msgid "You will be now redirected to the projects list"
-msgstr ""
+msgstr "Ara seràs redirigit a la llista de projectes"
 
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:14
 msgid "Ok"
-msgstr ""
-
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr ""
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr ""
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr ""
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr ""
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr ""
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr ""
+msgstr "D’acord"
 
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
-msgstr ""
+msgstr "S’ha informat per incompliment"
 
 #: ../component/task/CompliantNote.svelte:17
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
-msgstr ""
+msgstr "S’ha informat de l’aparellament de %j i el corrector %j amb el nom d’usuari %j per les raons següents:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
-msgstr ""
+msgstr "carregant"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
-msgstr ""
+msgstr "S'està carregant la resposta"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
-msgstr ""
+msgstr "Resposta d'ítem"
 
 #: ../component/task/ScoringCriteria.svelte:79
 msgid "Scoring criteria is loading"
-msgstr ""
+msgstr "S'estan carregant els criteris de puntuació"
 
 #: ../component/task/ScoringCriteria.svelte:85
 msgid "Close scoring criteria"
-msgstr ""
+msgstr "Tanca els criteris de puntuació"
 
 #: ../component/task/ScoringCriteria.svelte:11
 msgid "Scoring criteria"
-msgstr ""
+msgstr "Criteris de puntuació"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
-msgstr ""
+msgstr "Explicació de puntuació suggerida"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
-msgstr ""
+msgstr "Intentar una altra vegada"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
-msgstr ""
+msgstr "Usar la puntuació"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
-msgstr ""
+msgstr "Rebutjar"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
-msgstr ""
+msgstr "Mostrar suggeriment de puntuació"
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "Obtindre suggeriment de puntuació"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr ""
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "Aplicar puntuació a tots"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr ""
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "Sospitós de fer trampa"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "Comentari opcional"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
-msgstr ""
+msgstr "de %d caràcters restants"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "Comentari (opcional)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "No hi ha prou base per a l’avaluació"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
-msgstr ""
+msgstr "Nota del corrector:"
 
 #: ../component/task/SubmitDialog.svelte:34
 msgid "Submit the scores?"
-msgstr ""
+msgstr "Enviar les puntuacions?"
 
 #: ../component/task/SubmitDialog.svelte:36
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
-msgstr ""
+msgstr "Totes les puntuacions s’enviaran al teu sistema. Si ja has puntuat i tornat a avaluar respostes anteriorment, seran substituïdes per les noves puntuacions."
+
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Cancelar"
 
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
-msgstr ""
+msgstr "Enviar les puntuacions"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
-msgstr ""
+msgstr "Puntuació"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
-msgstr ""
+msgstr "Reduir el panell de puntuació"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
-msgstr ""
+msgstr "Obrir el panell de puntuació"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
-msgstr ""
+msgstr "Puntuacions donades per %s"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr ""
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
-msgstr ""
+msgstr "Resposta %s de %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
-msgstr ""
+msgstr "Resposta"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
-msgstr ""
+msgstr "Ves a la resposta anterior"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
-msgstr ""
+msgstr "Vista general de SEE"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
-msgstr ""
+msgstr "Ves a la resposta següent"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
-msgstr ""
+msgstr "Finalització: %s %"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
-msgstr ""
+msgstr "Resposta de l’examinat"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
-msgstr ""
+msgstr "No s’ha pogut carregar la tasca. Per favor, contacta amb l’administrador del sistema."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
-msgstr ""
+msgstr "Error en l’enviament de la tasca de puntuació"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
-msgstr ""
+msgstr "Introdueix una nota per a esta resposta"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
-msgstr ""
+msgstr "Introdueix una nota per a esta revisió"
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "No es va poder iniciar la tasca de puntuació"
 
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
-msgstr ""
+msgstr "És molt probable que esta tasca de puntuació no s'haja pogut iniciar perquè es va iniciar una altra sessió de puntuació en una finestra o navegador diferent.<br>Per a resoldre este problema:<br><ul><li>Assegure's de no estar puntuant una sessió diferent en una altra finestra o navegador.</li><li>Tancament qualsevol altra pestanya o finestra del navegador on este o un altre enllaç de puntuació puga estar obert.</li></ul>Si ja ha revisat estos passos i encara veu este missatge, comunique's amb el suport tècnic o amb el seu administrador per a obtindre més ajuda."
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
-msgstr ""
+msgstr "Vam tindre un problema en guardar la teua puntuació. Intenta-ho de nou. Si el problema persistix, contacta amb el nostre equip de suport per a obtindre ajuda."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
-msgstr ""
+msgstr "Arrere"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "Revisió necessària"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "Puntuacions estàndard"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "Puntuacions en apel·lació"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
-msgstr ""
+msgstr "Navegació principal"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
-msgstr ""
+msgstr "Puntuacions"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
-msgstr ""
+msgstr "Estàs segur que vols eixir?"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
-msgstr ""
+msgstr "Les teues qualificacions es guardaran i podràs reprendre la correcció més tard."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
-msgstr ""
+msgstr "Enviar puntuacions"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
-msgstr ""
+msgstr "Eines"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
-msgstr ""
+msgstr "continua corregint"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
-msgstr ""
+msgstr "guarda i ix"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
-msgstr ""
+msgstr "Puntuació"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
-msgstr ""
+msgstr "Amaga el ressaltador"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
-msgstr ""
+msgstr "Mostra el ressaltador"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "No hi ha suficient informació per a l'avaluació"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
-msgstr ""
+msgstr "Pàgina d'error"
 
 #: ../controller/page.js:79
 msgid "%s - Manual Scoring"
-msgstr ""
+msgstr "%s - Puntuació manual"
 
 #: ../core/utils/response.js:24
 msgid "Long username"
@@ -696,59 +679,91 @@ msgstr "Criteri d'assignació buit"
 
 #: ../core/utils/response.js:54
 msgid "System user conflict"
-msgstr ""
+msgstr "Conflicte entre usuaris del sistema"
 
 #: ../core/utils/response.js:57
 msgid "The role does not exist in the selected scoring strategy"
-msgstr ""
+msgstr "El rol no existeix en l’estratègia de puntuació seleccionada"
 
 #: ../core/utils/response.js:60
 msgid "Invalid outcome declarations"
-msgstr ""
+msgstr "Declaracions de resultats no vàlides"
 
 #: ../core/utils/validations.js:44
 msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
-msgstr ""
+msgstr "El lliurament pareix estar configurat per a una estratègia d’assignació de projecte per “grup d’ítems”"
 
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
-msgstr ""
+msgstr "El lliurament pareix estar configurat per a una estratègia d’assignació de projecte per “grup de participants”"
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Vaja! Pàgina no trobada"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "La pàgina que busques no existeix."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Anar al inici"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "La puntuació no està disponible."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Per favor, contacta amb l'administrador del sistema."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Les puntuacions s’han enviat correctament"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "El nostre progrés de puntuació s'ha actualitzat."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Un o més estudiants han tornat a enviar les seues respostes. Lamentablement, les respostes actualitzades que ja van ser qualificades han de tornar a qualificar-se."
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
 msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
-msgstr ""
+msgstr "Ho sentim, no podem trobar les respostes per puntuar. Si us plau, contacta amb el teu administrador del sistema."
 
 #: ../services/launchService.js:80
 msgid "There are no responses to score yet. Please wait and try again."
-msgstr ""
+msgstr "Encara no hi ha respostes per puntuar. Per favor, espereu i torneu-ho a intentar."
 
 #: ../services/launchService.js:84
 msgid "Grading not available."
-msgstr ""
+msgstr "Qualificació no disponible."
 
 #: ../services/launchService.js:85
 msgid "Please contact your administrator."
-msgstr ""
+msgstr "Per favor, contacta amb el teu administrador."
 
 #: ../services/launchService.js:94
 #: ../services/launchService.js:106
 #: ../services/launchService.js:118
 #: ../services/launchService.js:163
 msgid "No responses were found."
-msgstr ""
+msgstr "No se encontraron respuestas."
 
 #: ../services/launchService.js:95
 msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
-msgstr ""
+msgstr "No es poden trobar execucions de lliurament amb els següents identificadors: <br><strong>%s</strong><br>Comunique's amb l'administrador del sistema."
 
 #: ../services/launchService.js:107
 msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
-msgstr ""
+msgstr "Les execucions de lliurament amb els següents identificadors no són vàlides: <br><strong>%s</strong><br>Comunique's amb l'administrador del sistema."
 
 #: ../services/launchService.js:119
 msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
-msgstr ""
+msgstr "Els lliuraments amb els següents Ids són invàlids: <br><strong>%s</strong><br>Comunique's amb l'administrador del sistema."
 
 #: ../services/launchService.js:129
 msgid "Scoring is not available right now, because no responses were found."
@@ -756,35 +771,35 @@ msgstr "La puntuació no està disponible en este moment, perquè no es van trob
 
 #: ../services/launchService.js:130
 msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
-msgstr "Això pot ocórrer si un estudiant acaba d'enviar l'examen. Intente-ho de nou més tard. Si el problema persistix, pose's en contacte amb l'administrador del sistema. ANEU dels examinats que no es van trobar: <br><strong>%s</strong>"
+msgstr "Això pot ocórrer si un estudiant acaba d'enviar l'examen. Intente-ho de nou més tard. Si el problema persistix, pose's en contacte amb l'administrador del sistema. Identificadors de participants en la prova que no s’han trobat:<br><strong>%s</strong>"
 
 #: ../services/launchService.js:140
 msgid "Too many tasks to score."
-msgstr ""
+msgstr "Massa tasques per a puntuar."
 
 #: ../services/launchService.js:142
 msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
-msgstr ""
+msgstr "Ids d’execució del lliurament: <strong>%s</strong><br>Nombre de tasques de puntuació: <strong>%s</strong><br>Nombre màxim de tasques permès: <strong>%s</strong><br>Per favor, contacta amb l’administrador del sistema."
 
 #: ../services/launchService.js:149
 msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
-msgstr ""
+msgstr "Ids del lliurament: <strong>%s</strong><br>Ids dels examinats: <strong>%s</strong><br>Nombre de tasques de puntuació: <strong>%s</strong><br>Nombre màxim de tasques permès: <strong>%s</strong><br>Per favor, contacta amb l’administrador del sistema."
 
 #: ../services/launchService.js:164
 msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
-msgstr ""
+msgstr "No es poden trobar els lliuraments i els examinats amb els següents IDs.<br>Lliuraments: <strong>%s</strong>, <br>Examinats: <strong>%s</strong>. <br>Per favor, contacta amb l’administrador del sistema."
 
 #: ../services/launchService.js:176
 msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
-msgstr ""
+msgstr "Els ID(s) del lliurament i els ID(s) dels examinats estan buits o no estan definits."
 
 #: ../services/launchService.js:181
 msgid "Delivery ID(s) is empty or not defined."
-msgstr ""
+msgstr "Els ID(s) del lliurament està buit o no està definit."
 
 #: ../services/launchService.js:186
 msgid "Test Taker ID(s) is empty or not defined."
-msgstr ""
+msgstr "L’ID(s) dels examinats està buit o no està definit."
 
 #: ../services/launchService.js:191
 msgid "Review failed: The reviewer cannot be the same user as the original scorer."
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "Assigne un revisor diferent per a garantir una revisió independent de la puntuació."
 
 #: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "Revisió fallida: Usuari corrector no vàlid."
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "No s’ha pogut trobar un o més usuaris correctors. Per favor, selecciona només correctors que ja hagen corregit esta prova."
+
+#: ../services/launchService.js:203
 msgid "Invalid Scoring Category"
 msgstr "Categoria de puntuació no vàlida"
 
-#: ../services/launchService.js:197
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr "Per favor, revise el valor de la categoria de puntuació. Ha de ser vàlid i no pot estar buit."
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "Reclamació personalitzada no vàlida."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "Paràmetre no vàlid, la reclamació requerix que [%s] no estiga buit i, tipus [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "Reclamació personalitzada requerida."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "Paràmetre que manca, la reclamació requerix que el paràmetre [%s] siga present."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "Apel·lació"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "Estàndard"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "Si "
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "La meua puntuació d’apel·lació (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "La meua puntuació de l’apel·lació"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

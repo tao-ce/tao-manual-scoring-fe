@@ -6,11 +6,12 @@
 import router from '@/core/router';
 import { __ } from '@oat-sa-private/ui-core';
 import jwtTokenRegistry from 'core/jwt/jwtTokenRegistry';
-import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/services/authService.js';
 import config from '@/config';
 import { useRoute } from '../core/utils';
 import * as analyticsService from '@/services/analyticsService';
 import CookiePolicyWrapper from '@/component/CookiePolicyWrapper/CookiePolicyWrapper.svelte';
+
+import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/constants/jwtToken.js';
 
 let container;
 
@@ -46,7 +47,7 @@ export default controller =>
 
         /**
          * @readonly
-         * @type {Router} Router instance
+         * @returns {Object} Router instance
          * Router object
          */
         get router() {

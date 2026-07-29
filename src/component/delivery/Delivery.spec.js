@@ -32,55 +32,62 @@ import { tick } from 'svelte';
 
 const deliveryData = {
     data: {
-        id: 'delivery-id-1',
         items: [
             {
-                id: 'item-1',
-                title: 'MANUAL',
-                numTasks: 2,
-                hasIncomplete: true,
-                hasBookmarked: true
+                id: 'delivery-id-1',
+                items: [
+                    {
+                        id: 'item-1',
+                        title: 'MANUAL',
+                        numTasks: 2,
+                        hasIncomplete: true,
+                        hasBookmarked: true
+                    }
+                ],
+                workProgress: {
+                    scoring: {
+                        numTasksBookmarked: 0,
+                        numTasksUnscored: 1,
+                        numTasksScored: 1,
+                        numTasksSubmitted: 0
+                    }
+                }
             }
-        ],
-
-        workProgress: {
-            scoring: {
-                numTasksBookmarked: 0,
-                numTasksUnscored: 1,
-                numTasksScored: 1,
-                numTasksSubmitted: 0
-            }
-        }
+        ]
     }
 };
 const deliveryData2 = {
     data: {
-        id: 'delivery-id-2',
         items: [
             {
-                id: 'item-1',
-                title: 'item-1-title',
-                numTasks: 2,
-                hasIncomplete: true,
-                hasBookmarked: false
-            },
-            {
-                id: 'item-2',
-                title: 'item-2-title',
-                numTasks: 1,
-                hasIncomplete: false,
-                hasBookmarked: true
-            }
-        ],
+                id: 'delivery-id-2',
+                items: [
+                    {
+                        id: 'item-1',
+                        title: 'item-1-title',
+                        numTasks: 2,
+                        hasIncomplete: true,
+                        hasBookmarked: false
+                    },
+                    {
+                        id: 'item-2',
+                        title: 'item-2-title',
+                        numTasks: 1,
+                        hasIncomplete: false,
+                        hasBookmarked: true
+                    }
+                ],
 
-        workProgress: {
-            scoring: {
-                numTasksBookmarked: 1,
-                numTasksUnscored: 0,
-                numTasksScored: 3,
-                numTasksSubmitted: 0
+                workProgress: {
+                    scoring: {
+                        numTasksBookmarked: 1,
+                        numTasksUnscored: 0,
+                        numTasksScored: 3,
+                        numTasksSubmitted: 0
+                    }
+                }
             }
-        }
+        ]
     }
 };
 const getTasksByDeliveryValue2 = {
@@ -130,15 +137,20 @@ describe('Delivery overview', () => {
                 item: {
                     qtiIdentifier: 'item-1'
                 }
+            },
+            ltiConfig: {
+                isReadOnly: false
             }
         });
     });
 
     it('renders correctly after LTI launch', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest
-            .fn()
-            .mockResolvedValue({ data: [deliveryData.data, deliveryData2.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({
+            data: {
+                items: [...deliveryData.data.items, ...deliveryData2.data.items]
+            }
+        });
 
         const { container, findByTestId } = render(Delivery, {
             props: {
@@ -148,18 +160,20 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
-                    itemId: deliveryData.data.items[0].id,
+                    itemId: deliveryData.data.items[0].items[0].id,
                     taskType: 'scoring',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 100 }
         );
 
-        expect(deliveryService.getDeliveriesLTI).toBeCalled();
+        expect(deliveryService.getDeliveriesLTI).toHaveBeenCalled();
         await findByTestId('DeliveryTable');
         expect(container).toMatchSnapshot();
     });
@@ -173,7 +187,7 @@ describe('Delivery overview', () => {
                 numTotal: 31
             }
         });
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
 
         const deliveryId = 'Example delivery I';
         const { container, findByTestId } = render(Delivery, {
@@ -185,13 +199,15 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     itemId: 'item-1',
                     taskType: 'scoring',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 100 }
         );
@@ -202,7 +218,7 @@ describe('Delivery overview', () => {
 
     it('renders correcly with different task types', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
 
         const deliveryId = 'Example delivery I';
         const { container, findByTestId } = render(Delivery, {
@@ -215,24 +231,26 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     itemId: 'item-1',
                     taskType: 'scoring',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 100 }
         );
-        expect(deliveryService.getDeliveriesLTI).toBeCalled();
+        expect(deliveryService.getDeliveriesLTI).toHaveBeenCalled();
         await findByTestId('DeliveryTable');
         expect(container).toMatchSnapshot();
     });
 
     it('change to incomplete tab', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
 
         const deliveryId = 'Example delivery I';
         const { getByText, container, findByText } = render(Delivery, {
@@ -244,13 +262,15 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     taskType: 'scoring',
                     itemId: 'item-1',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 1000 }
         );
@@ -259,13 +279,16 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'incomplete',
                     currentPage: 1,
                     itemId: 'item-1',
                     taskType: 'scoring',
-                    deliveryId: deliveryData.data.id,
-                    currentTask: 'task-1'
+                    deliveryId: deliveryData.data.items[0].id,
+                    currentTask: 'task-1',
+                    selectedTaskId: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 1000 }
         );
@@ -274,7 +297,7 @@ describe('Delivery overview', () => {
 
     it('change to bookmarked tab', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
 
         const deliveryId = 'Example delivery I';
         const { getByText, findByText } = render(Delivery, {
@@ -285,13 +308,15 @@ describe('Delivery overview', () => {
         });
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     taskType: 'scoring',
                     itemId: 'item-1',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 1000 }
         );
@@ -301,13 +326,16 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'bookmarked',
                     taskType: 'scoring',
                     itemId: 'item-1',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     currentPage: 1,
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    selectedTaskId: 'task-1',
+                    isReadOnly: false
                 }),
             { timeout: 1000 }
         );
@@ -315,7 +343,7 @@ describe('Delivery overview', () => {
 
     it('bookmark test', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
         taskService.bookmarkTask = jest.fn().mockResolvedValue({ bookmarked: true });
 
         const deliveryId = 'Example delivery I';
@@ -332,16 +360,18 @@ describe('Delivery overview', () => {
                 detail: { name: 'bookmark', key: 'task-1', bookmarked: true }
             })
         );
-        expect(taskService.bookmarkTask).toBeCalled();
+        expect(taskService.bookmarkTask).toHaveBeenCalled();
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     taskType: 'scoring',
                     itemId: 'item-1',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 1000 }
         );
@@ -352,7 +382,7 @@ describe('Delivery overview', () => {
 
     it('bookmark test unexpected task key', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
         taskService.bookmarkTask = jest.fn().mockRejectedValue({ responseStatus: 409 });
 
         const deliveryId = 'Example delivery I';
@@ -365,13 +395,15 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     taskType: 'scoring',
                     itemId: 'item-1',
-                    deliveryId: deliveryData.data.id,
+                    deliveryId: deliveryData.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 1000 }
         );
@@ -385,14 +417,14 @@ describe('Delivery overview', () => {
             })
         );
 
-        expect(taskService.bookmarkTask).toBeCalledWith('unexpected task key', true);
+        expect(taskService.bookmarkTask).toHaveBeenCalledWith('unexpected task key', true);
 
         expect(container).toMatchSnapshot();
     });
 
     it('redirect to task page', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
         router.redirect = jest.fn();
         const deliveryId = 'Example delivery I';
         const { getByTestId, findByTestId } = render(Delivery, {
@@ -407,14 +439,14 @@ describe('Delivery overview', () => {
             new CustomEvent('click', { detail: { name: 'rowClick', id: 'task-id', deliveryId: 'task-delivery-id' } })
         );
 
-        await waitFor(() => expect(router.redirect).toBeCalledWith('/task/task-delivery-id/task-id'), {
+        await waitFor(() => expect(router.redirect).toHaveBeenCalledWith('/task/task-delivery-id/task-id'), {
             timeout: 1000
         });
     });
 
     it('active item change', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue2);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData2.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData2);
 
         const deliveryId = 'Example delivery I';
         const { container, getByText, findByTestId } = render(Delivery, {
@@ -426,26 +458,31 @@ describe('Delivery overview', () => {
 
         await waitFor(
             () =>
-                expect(taskService.getTasksByDelivery).toBeCalledWith({
+                expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
                     activeTab: 'all',
                     taskType: 'scoring',
                     itemId: 'item-1',
-                    deliveryId: deliveryData2.data.id,
+                    deliveryId: deliveryData2.data.items[0].id,
                     selectedTaskId: 'task-1',
-                    currentTask: 'task-1'
+                    currentTask: 'task-1',
+                    scope: 'item',
+                    isReadOnly: false
                 }),
             { timeout: 100 }
         );
-        expect(deliveryService.getDeliveriesLTI).toBeCalled();
+        expect(deliveryService.getDeliveriesLTI).toHaveBeenCalled();
         getByText('item-2-title').click();
         await waitFor(() =>
-            expect(taskService.getTasksByDelivery).toBeCalledWith({
-                deliveryId: deliveryData2.data.id,
+            expect(taskService.getTasksByDelivery).toHaveBeenCalledWith({
+                deliveryId: deliveryData2.data.items[0].id,
                 itemId: 'item-2',
                 activeTab: 'all',
                 taskType: 'scoring',
                 currentPage: 1,
-                currentTask: 'task-1'
+                currentTask: 'task-1',
+                selectedTaskId: 'task-1',
+                scope: 'item',
+                isReadOnly: false
             })
         );
         await findByTestId('DeliveryTable');
@@ -456,7 +493,7 @@ describe('Delivery overview', () => {
 
     it('close overview', async () => {
         taskService.getTasksByDelivery = jest.fn().mockResolvedValue(getTasksByDeliveryValue);
-        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue({ data: [deliveryData.data] });
+        deliveryService.getDeliveriesLTI = jest.fn().mockResolvedValue(deliveryData);
         const eventListener = jest.fn();
 
         const deliveryId = 'Example delivery I';
@@ -469,6 +506,6 @@ describe('Delivery overview', () => {
         component.$on('closeDeliveryOverview', eventListener);
         fireEvent.click(getByText('Test overview'));
 
-        expect(eventListener).toBeCalled();
+        expect(eventListener).toHaveBeenCalled();
     });
 });

@@ -51,3 +51,15 @@ export function keyById(data = []) {
         return res;
     }, {});
 }
+
+/**
+ * Gets all the not nullable values of an object
+ *
+ * @param {Object} obj
+ *
+ * @returns {Object}
+ */
+export const getNotNullableValues = obj =>
+    Object.fromEntries(
+        Object.entries(obj).filter(([, v]) => v != null) // removes null AND undefined
+    );

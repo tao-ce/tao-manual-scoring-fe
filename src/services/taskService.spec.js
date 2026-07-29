@@ -12,6 +12,9 @@ jest.mock('@/core/apiRequest/apiRequest', () => ({
 
 import * as taskService from './taskService';
 import apiRequest from '@/core/apiRequest/apiRequest';
+import {getConfig} from '@/services/ltiService';
+
+jest.mock('@/services/ltiService');
 
 const taskResponse = {
     id: '01FCR9ZB8N0YXH4W794YRA5B8Y',
@@ -38,8 +41,7 @@ const taskResponse = {
         title: 'ms'
     },
     ltiItemPreviewerLink: {
-        url:
-            'https://sds-tao-1.docker.localhost/ltiOutcomeUi/ItemResultPreviewer/launch?resultId=https%3A%2F%2Fsds-tao-1.docker.localhost%2Fontologies%2Ftao.rdf%23i61129769cf0778fd81ba7d21d72532&itemRef=item-1',
+        url: 'https://sds-tao-1.docker.localhost/ltiOutcomeUi/ItemResultPreviewer/launch?resultId=https%3A%2F%2Fsds-tao-1.docker.localhost%2Fontologies%2Ftao.rdf%23i61129769cf0778fd81ba7d21d72532&itemRef=item-1',
         parameters: {
             lti_message_type: 'basic-lti-launch-request',
             lti_version: 'LTI-1p0',
@@ -67,7 +69,8 @@ describe('Task service', () => {
             status: 1,
             bookmarked: false,
             limit: 1,
-            offset: 1
+            offset: 1,
+            isReadOnly: false,
         });
 
         expect(result).toStrictEqual({ id: 1 });
@@ -168,8 +171,7 @@ describe('Task service', () => {
                 title: 'ms'
             },
             ltiItemPreviewerLink: {
-                url:
-                    'https://sds-tao-1.docker.localhost/ltiOutcomeUi/ItemResultPreviewer/launch?resultId=https%3A%2F%2Fsds-tao-1.docker.localhost%2Fontologies%2Ftao.rdf%23i61129769cf0778fd81ba7d21d72532&itemRef=item-1',
+                url: 'https://sds-tao-1.docker.localhost/ltiOutcomeUi/ItemResultPreviewer/launch?resultId=https%3A%2F%2Fsds-tao-1.docker.localhost%2Fontologies%2Ftao.rdf%23i61129769cf0778fd81ba7d21d72532&itemRef=item-1',
                 parameters: {
                     lti_message_type: 'basic-lti-launch-request',
                     lti_version: 'LTI-1p0',
@@ -186,5 +188,180 @@ describe('Task service', () => {
                 }
             }
         });
+    });
+    it('transformData', async () => {
+        getConfig.mockReturnValue({
+            isReadOnly: false,
+            isAdministrative: false,
+        });
+
+        const task = {
+            'id': 1,
+            'note': 'my note',
+            'bookmarked': false,
+            'item-id': 'item-id1',
+            'testId': null,
+            'outcomeDeclarations': [],
+            'totalScore': {
+                'value': 1,
+                'maximumValue': 5,
+            }
+        };
+
+        const item = {'title': 'item-title'};
+
+        const linkedTasks = [
+            {
+                'id': 2,
+                'note': 'my note',
+                'bookmarked': false,
+                'item-id': 'item-id1',
+                'testId': null,
+                'outcomeDeclarations': [],
+                'type': 'review',
+                'totalScore': {
+                    'value': 3,
+                    'maximumValue': 5,
+                },
+            }
+        ]
+
+        const result = taskService.transformTask(task, item, linkedTasks);
+
+        expect(result).toStrictEqual({
+            "bookmarked": false,
+            "id": 1,
+            "item-id": "item-id1",
+            "itemTitle": "item-title",
+            "note": "my note",
+            "outcomeDeclarations": [],
+            "scoringViolation": null,
+            "testId": null,
+            "totalScore": {
+                "maximumValue": 5,
+                "value": 1
+            }
+        })
+    });
+    it('transformData and replace total score by scorer\'s score on administrative readonly', async () => {
+        getConfig.mockReturnValue({
+            isReadOnly: true,
+            isAdministrative: true,
+        });
+
+        const task = {
+            'id': 1,
+            'note': 'my note',
+            'bookmarked': false,
+            'item-id': 'item-id1',
+            'testId': null,
+            'outcomeDeclarations': [],
+            'totalScore': {
+                'value': 1,
+                'maximumValue': 5,
+            }
+        };
+
+        const item = {'title': 'item-title'};
+
+        const linkedTasks = [
+            {
+                'id': 2,
+                'note': 'my note',
+                'bookmarked': false,
+                'item-id': 'item-id1',
+                'testId': null,
+                'outcomeDeclarations': [],
+                'type': 'scoring',
+                'totalScore': {
+                    'value': 3,
+                    'maximumValue': 5,
+                },
+            }
+        ]
+
+        const result = taskService.transformTask(task, item, linkedTasks);
+
+        expect(result).toStrictEqual({
+            "bookmarked": false,
+            "id": 1,
+            "item-id": "item-id1",
+            "itemTitle": "item-title",
+            "note": "my note",
+            "outcomeDeclarations": [],
+            "scoringViolation": null,
+            "testId": null,
+            "totalScore": {
+                "maximumValue": 5,
+                "value": 3
+            }
+        })
+    });
+    it('transformData and replace total score by reviewer\'s score on administrative readonly', async () => {
+        getConfig.mockReturnValue({
+            isReadOnly: true,
+            isAdministrative: true,
+        });
+
+        const task = {
+            'id': 1,
+            'note': 'my note',
+            'bookmarked': false,
+            'item-id': 'item-id1',
+            'testId': null,
+            'outcomeDeclarations': [],
+            'totalScore': {
+                'value': 1,
+                'maximumValue': 5,
+            }
+        };
+
+        const item = {'title': 'item-title'};
+
+        const linkedTasks = [
+            {
+                'id': 2,
+                'note': 'my note',
+                'bookmarked': false,
+                'item-id': 'item-id1',
+                'testId': null,
+                'outcomeDeclarations': [],
+                'type': 'scoring',
+                'totalScore': {
+                    'value': 3,
+                    'maximumValue': 5,
+                },
+            },
+            {
+                'id': 3,
+                'note': 'my note',
+                'bookmarked': false,
+                'item-id': 'item-id1',
+                'testId': null,
+                'outcomeDeclarations': [],
+                'type': 'review',
+                'totalScore': {
+                    'value': 5,
+                    'maximumValue': 5,
+                },
+            }
+        ]
+
+        const result = taskService.transformTask(task, item, linkedTasks);
+
+        expect(result).toStrictEqual({
+            "bookmarked": false,
+            "id": 1,
+            "item-id": "item-id1",
+            "itemTitle": "item-title",
+            "note": "my note",
+            "outcomeDeclarations": [],
+            "scoringViolation": null,
+            "testId": null,
+            "totalScore": {
+                "maximumValue": 5,
+                "value": 5
+            }
+        })
     });
 });

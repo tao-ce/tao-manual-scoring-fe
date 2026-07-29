@@ -124,9 +124,13 @@ exports[`Delivery overview active item change 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class=""
@@ -136,7 +140,6 @@ exports[`Delivery overview active item change 1`] = `
               >
                 item-1-title
               </a>
-               
             </li>
             <li
               class="active"
@@ -146,9 +149,11 @@ exports[`Delivery overview active item change 1`] = `
               >
                 item-2-title
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>
@@ -283,9 +288,13 @@ exports[`Delivery overview bookmark test 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class="active"
@@ -295,9 +304,11 @@ exports[`Delivery overview bookmark test 1`] = `
               >
                 MANUAL
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>
@@ -433,9 +444,13 @@ exports[`Delivery overview bookmark test unexpected task key 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class="active"
@@ -445,9 +460,11 @@ exports[`Delivery overview bookmark test unexpected task key 1`] = `
               >
                 MANUAL
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>
@@ -597,9 +614,13 @@ exports[`Delivery overview change to incomplete tab 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class="active"
@@ -609,9 +630,11 @@ exports[`Delivery overview change to incomplete tab 1`] = `
               >
                 MANUAL
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>
@@ -747,9 +770,13 @@ exports[`Delivery overview renders correcly with different task types 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class="active"
@@ -759,9 +786,11 @@ exports[`Delivery overview renders correcly with different task types 1`] = `
               >
                 MANUAL
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>
@@ -896,9 +925,13 @@ exports[`Delivery overview renders correctly after LTI launch 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class="active"
@@ -908,7 +941,6 @@ exports[`Delivery overview renders correctly after LTI launch 1`] = `
               >
                 MANUAL
               </a>
-               
             </li>
             <li>
               <a
@@ -916,7 +948,6 @@ exports[`Delivery overview renders correctly after LTI launch 1`] = `
               >
                 item-1-title
               </a>
-               
             </li>
             <li>
               <a
@@ -924,9 +955,11 @@ exports[`Delivery overview renders correctly after LTI launch 1`] = `
               >
                 item-2-title
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>
@@ -1229,9 +1262,13 @@ exports[`Delivery overview renders correctly with paginator 1`] = `
         </main>
          
         <aside
-          aria-label="Items"
+          aria-label="Delivery contents"
           class="items-bar"
         >
+          <h5>
+            Items
+          </h5>
+           
           <ul>
             <li
               class="active"
@@ -1241,9 +1278,11 @@ exports[`Delivery overview renders correctly with paginator 1`] = `
               >
                 MANUAL
               </a>
-               
             </li>
+             
           </ul>
+          
+          
         </aside>
       </div>
     </div>

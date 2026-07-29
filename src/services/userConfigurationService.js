@@ -12,7 +12,9 @@
  */
 export const DEFAULT_USER_CONFIG = {
     isSuggestedScoringEnabled: true,
-    isMarkAsSuspiciousForCheatingEnabled: false
+    isMarkAsSuspiciousForCheatingEnabled: false,
+    is_item_review_marking_symbols_enabled: false,
+    is_item_review_highlighter_enabled: false
 };
 
 /**

@@ -22,11 +22,19 @@ jest.mock('core/jwt/jwtTokenRegistry', () => ({
     register() {}
 }));
 
-import { parseJwtPayload } from 'core/jwt/jwtToken';
 import { log } from '../core/utils';
-import * as authService from './authService';
 
 describe('authService', () => {
+    let authService;
+    let parseJwtPayload;
+
+    beforeEach(() => {
+        jest.resetModules();
+        authService = require('./authService');
+        parseJwtPayload = require('core/jwt/jwtToken').parseJwtPayload;
+        authService.setAuthReady();
+    });
+
     it('user has manager role', async () => {
         parseJwtPayload.mockReturnValue({
             roles: [authService.ROLE_SCORING_PROJECT_MANAGER]

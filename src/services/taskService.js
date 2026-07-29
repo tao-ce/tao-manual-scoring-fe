@@ -6,6 +6,7 @@
 import request, { getEndpointUrl } from '@/core/apiRequest/apiRequest';
 import { DELIVERY_TAB, PAGE_SIZE } from '../constants/delivery';
 import { TASK_STATUS } from '../constants/task';
+import { getConfig } from '@/services/ltiService';
 
 /**
  * @typedef {import('../constants/task').TASK_TYPE} TASK_TYPE
@@ -40,6 +41,7 @@ import { TASK_STATUS } from '../constants/task';
  * @property {string|null} note
  * @property {boolean} bookmarked
  * @property {string} itemId
+ * @property {string|null} testId
  * @property {OutcomeDeclaration[]} outcomeDeclarations
  * @property {Object} totalScore
  * @property {number} totalScore.value
@@ -68,17 +70,24 @@ import { TASK_STATUS } from '../constants/task';
  * @param {number} [params.currentPage]
  * @param {string} [params.selectedTaskId]
  * @param {string} [params.currentTask]
+ * @param {string} [params.isReadOnly]
  * @returns {TasksRequestParams}
  */
 const getTasksParams = params => {
     const offset = params.currentPage ? (params.currentPage - 1) * PAGE_SIZE : 0;
+    const isReadOnly = params.isReadOnly ?? false;
+    const status = isReadOnly ? `${TASK_STATUS.SCORED},${TASK_STATUS.UNSCORED},${TASK_STATUS.SUBMITTED}`
+        : `${TASK_STATUS.SCORED},${TASK_STATUS.UNSCORED}`;
+
     const resultParams = {
         deliveryId: params.deliveryId,
         itemId: params.itemId,
+        taskId: params.taskId,
+        scope: params.scope,
         type: params.taskType,
         limit: PAGE_SIZE,
         offset,
-        status: `${TASK_STATUS.SCORED},${TASK_STATUS.UNSCORED}`
+        status
     };
 
     if (params.currentTask) {
@@ -324,7 +333,7 @@ export const formatTaskData = data => {
  *
  * @returns {Object[]}
  */
-const transformTask = (task, item, linkedTasks) => {
+export const transformTask = (task, item, linkedTasks) => {
     // TODO: When double blind strategy is implemented,
     // we need to show scoring violation only for scoring task,
     // right now we'll always have only one linked task
@@ -341,6 +350,15 @@ const transformTask = (task, item, linkedTasks) => {
                 username
             }
         };
+    }
+
+    const config = getConfig();
+    // If admin or group manager is on read only review, the reviewer's score should the total score
+    // If it wasn't reviewed yet, consider the scorer's score
+    if (config.isReadOnly && config.isAdministrative) {
+        const latestScore = linkedTasks.find(linkedTask => linkedTask.type === 'review') ??
+            linkedTasks.find(linkedTask => linkedTask.type === 'scoring')
+        task.totalScore = latestScore.totalScore;
     }
 
     return {
@@ -376,7 +394,7 @@ const transformTask = (task, item, linkedTasks) => {
     }
 
     let taskGroup = tasks
-        .filter(task => task.itemId === item.id)
+        .filter(task => task.itemId === item.id || task.testId === item.id)
         .map(task => {
             const linkedTasks = allLinkedTasks ? allLinkedTasks[task.id] : [];
 

@@ -76,10 +76,10 @@ describe('router', () => {
             'https://sds-fe-terre.docker.localhost/scoringprojects'
         );
         /* eslint-enable no-undefined */
-        expect(guardedRoute.guard).toBeCalled();
+        expect(guardedRoute.guard).toHaveBeenCalled();
     });
 
-    it('router starts controller', () => {
+    it('router starts controller', async () => {
         const controller = {
             prepare: jest.fn(),
             start: jest.fn(),
@@ -87,8 +87,8 @@ describe('router', () => {
         };
         const params = { param1: '1', param2: '2' };
 
-        router.startController(controller, params);
-        expect(controller.start).toBeCalledWith(params);
+        await router.startController(controller, params);
+        expect(controller.start).toHaveBeenCalledWith(params);
         expect(controller.mountCookiePolicyWrapper).toBeCalled();
     });
 });

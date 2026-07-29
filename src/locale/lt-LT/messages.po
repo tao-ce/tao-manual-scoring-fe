@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-04-10 14:32\n"
+"PO-Revision-Date: 2026-04-13 07:46\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -20,6 +20,39 @@ msgstr ""
 "X-Crowdin-Language: lt\n"
 "X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
 "X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:248
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:41
+msgid "Manage Preferences"
+msgstr "Slapukų nustatymai"
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:250
+msgid "Customize your cookie preferences. You can choose which types of cookies you want to allow to improve your experience."
+msgstr "Tinkinti slapukų pasirinkimus. Kad pagerinti jūsų naršymo patirtį, galite pasirinkti, su kokių slapukų naudojimu jūs sutinkate."
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:262
+msgid "Always Active"
+msgstr "Visada įjungta"
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:279
+msgid "Confirm Choices"
+msgstr "Patvirtinti pasirinkimus"
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:29
+msgid "Cookie Policy"
+msgstr "Slapukų politika"
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:30
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Siekdami užtikrinti geriausią Jūsų naršymo patirtį, šioje svetainėje naudojame slapukus. Norėdami pakeisti savo slapukų nustatymus, spustelėkite „Slapukų nustatymai“. Jei spustelėsite „Priimti visus“ – tai reiškia, kad sutinkate, jog Jūsų įrenginyje būtų naudojami visi slapukai. Spustelėję „Atsisakyti visų“ nustatote, kad nesutinkate, jog Jūsų įrenginyje būtų naudojami slapukai, kurie nėra būtini."
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:46
+msgid "Reject All"
+msgstr "Atsisakyti visų"
+
+#: ../../node_modules/@oat-sa-private/ui-components/cookiePolicy/CookiePolicy.svelte:52
+msgid "Accept All"
+msgstr "Priimti visus"
 
 #: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
 msgid "Select a date"
@@ -238,107 +271,86 @@ msgstr "Parinkties akutė"
 msgid "Textarea"
 msgstr "Teksto vieta"
 
-#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:49
 msgid "You can read more about this in our"
-msgstr ""
+msgstr "Apie tai galite daugiau perskaityti"
 
-#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:51
 msgid "and"
-msgstr ""
-
-#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
-#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
-msgid "Cookie Policy"
-msgstr ""
-
-#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
-msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
 msgstr ""
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
 msgid "Essential Cookies"
-msgstr ""
+msgstr "Būtinieji slapukai"
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
 msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
-msgstr ""
+msgstr "Būtinieji slapukai turėtų būti visada įjungti tam, kad galėtume išsaugoti jūsų slapukų nustatymus."
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
 msgid "Analytics Cookies"
-msgstr ""
+msgstr "Analitikos slapukai"
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
 msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
-msgstr ""
+msgstr "Šie slapukai mums leidžia skaičiuoti apsilankymus į puslapį ir kitokius analitinius duomenis tam, kad galėtume matuoti ir tobulinti tinklapio veiklą. Šių slapukų pagalba mes galime įvertinti labiausiai ir mažiausiai lankomus puslapius bei lankytojų judėjimą tinklapyje. Nesutinkant su šiais slapukais, mes nežinosime, kada apsilankėte mūsų tinklapyje ir negalėsime stebėti jo rezultatų."
 
 #: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privatumo politika"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "Vertinti dar negalima."
-
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "Susisiekite su sistemos administratoriumi."
-
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "Įvertinimai buvo sėkmingai pateikti."
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr ""
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr ""
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:588
 msgid "Test overview"
 msgstr "Testo suvestinė"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:592
 msgid "Tasks status"
 msgstr "Užduočių būsena"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:596
 msgid "Question"
 msgstr "Klausimas"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:176
 msgid "Total score"
 msgstr "Bendras taškų skaičius"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "Viskas"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "Nebaigta"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "Pasižymėta"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Klausimai"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr ""
+
+#: ../component/delivery/Delivery.svelte:176
 msgid "Corrected total score"
 msgstr "Patikslintas bendras taškų skaičius"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:62
 msgid "Note"
 msgstr "Pastaba"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:65
 msgid "Report"
 msgstr "Pranešti"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "Klausimai"
+msgid "Delivery contents"
+msgstr ""
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,13 +360,17 @@ msgstr "Žymelė"
 msgid "Press to show task note"
 msgstr "Paspauskite, kad būtų parodyta pastaba."
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:59
 msgid "%s of %s"
 msgstr "%s iš %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:65
 msgid "No score added"
 msgstr "Nepateiktas joks įvertinimas"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:34
+msgid "%s (max: %s)"
+msgstr ""
 
 #: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
 msgid "Press to show note"
@@ -372,18 +388,6 @@ msgstr "Priežastis nepateikta"
 msgid "Task is scored"
 msgstr "Darbai įvertinti"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "Oi! Puslapis nerastas."
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "Puslapis, kurio ieškote, neegzistuoja."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "Eiti į pradžią"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "Šis projektas yra išjungtas."
@@ -396,30 +400,6 @@ msgstr "Jūs pereisite į pojektų sąrašą"
 msgid "Ok"
 msgstr "Gerai"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "Uždaryti dialogą"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "Ar pranešti apie šį klausimo / vertintojo atvejį dėl netinkamo vertinimo?"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "Jei patvirtinate, visi %j vertintojo %j įvertinti atsakymai bus pateikti pervertinti. Šio veiksmo atšaukti negalima."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "Įrašykite pastabą dėl šio pranešimo."
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "Atšaukti"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "Praneškite ir tęskite."
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "Pranešta apie neatitikimą."
@@ -428,15 +408,15 @@ msgstr "Pranešta apie neatitikimą."
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr "Apie %j ir vertintoją %j, kurio naudotojo vardas „%j“, buvo pranešta dėl tokių priežasčių:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:167
 msgid "loading"
 msgstr "įkeliama"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:168
 msgid "Response is loading"
 msgstr "Atsakymas įkeliamas"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:178
 msgid "Item response"
 msgstr "Atsakymas į klausimą"
 
@@ -452,61 +432,70 @@ msgstr "Uždaryti vertinimo kriterijus"
 msgid "Scoring criteria"
 msgstr "Vertinimo kriterijai"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:415
 msgid "Suggested scoring explanation"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:433
+#: ../component/task/ScoringForm.svelte:434
 msgid "Try again"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:440
+#: ../component/task/ScoringForm.svelte:441
 msgid "Use the score"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:447
+#: ../component/task/ScoringForm.svelte:448
 msgid "Discard"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:459
+#: ../component/task/ScoringForm.svelte:460
 msgid "Show score suggestion"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:468
+#: ../component/task/ScoringForm.svelte:469
 msgid "Get score suggestion"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "žiūrėti %s kriterijus"
+#: ../component/task/ScoringForm.svelte:491
+msgid "Apply score to all"
+msgstr ""
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "žiūrėti kriterijus"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:516
 msgid "Suspected of cheating"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:347
-msgid "Comment optional"
-msgstr ""
-
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
-msgid "of %d characters remaining"
-msgstr "liko iš %d simbolių"
-
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:527
+#: ../component/task/ScoringForm.svelte:541
+#: ../component/task/ScoringForm.svelte:558
+#: ../component/task/ScoringForm.svelte:574
 msgid "Comment (optional)"
 msgstr ""
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:537
+#: ../component/task/ScoringForm.svelte:570
+#: ../component/task/ScoringForm.svelte:600
+msgid "of %d characters remaining"
+msgstr "liko iš %d simbolių"
+
+#: ../component/task/ScoringForm.svelte:547
+msgid "Not Enough Basis for Assessment"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:558
+#: ../component/task/ScoringForm.svelte:574
+msgid "Comment"
+msgstr ""
+
+#: ../component/task/ScoringForm.svelte:566
+msgid "Type a note for this review"
+msgstr "Įrašykite pastabą dėl šio pervertinimo."
+
+#: ../component/task/ScoringForm.svelte:580
 msgid "Scorer's note:"
 msgstr "Vertintojo pastaba:"
 
@@ -518,139 +507,171 @@ msgstr "Ar pateikti įvertinimus?"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "Visi įvertinimai bus pateikti į sistemą. Jeigu jūs anksčiau jau vertinote ir dabar keitėte įvertinimus, sistemoje jie bus pakeisti naujais."
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Atšaukti"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "Pateikti įvertinimus"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:885
 msgid "Scoring"
 msgstr "Vertinimas"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:891
 msgid "Collapse scoring panel"
 msgstr "Slėpti vertinimo įrankius"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:891
 msgid "Open scoring panel"
 msgstr "Atverti vertinimo įrankius"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:917
 msgid "Scores given by %s"
 msgstr "Taškai pagal %s"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "ataskaita"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:932
 msgid "Answer %s of %s"
 msgstr "%s iš %s atsakymas"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:1001
+#: ../component/task/Task.svelte:1001
 msgid "Response"
 msgstr "Atsakymas"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:1010
 msgid "Go to previous answer"
 msgstr "Grįžti prie ankstesnio atsakymo"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:1017
+#: ../component/task/Task.svelte:1018
 msgid "SEE Overview"
 msgstr "ŽIŪRĖTI suvestinę"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:1029
 msgid "Go to next answer"
 msgstr "Eiti prie kito atsakymo"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:1035
 msgid "Completion: %s %"
 msgstr "Baigtumas: %s %"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:1038
 msgid "Test taker response"
 msgstr "Kandidato atsakymas"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:1065
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "Užduoties nepavyko įkelti. Prašome kreiptis į sistemos administratorių."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:1087
+msgid "Session Interrupted"
+msgstr ""
+
+#: ../component/task/Task.svelte:1089
+msgid "Return to session"
+msgstr ""
+
+#: ../component/task/Task.svelte:1094
+msgid "This scoring session has been interrupted because the test taker’s session was reopened by an administrator. Please go back and restart scoring."
+msgstr ""
+
+#: ../component/task/Task.svelte:128
 msgid "Scoring task submission error"
 msgstr "Vertinimo užduoties pateikimo klaida."
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:258
 msgid "Type a note for this answer"
 msgstr "Įrašykite pastabą dėl šio atsakymo."
 
-#: ../component/task/Task.svelte:125
-msgid "Type a note for this review"
-msgstr "Įrašykite pastabą dėl šio pervertinimo."
+#: ../component/task/Task.svelte:302
+msgid "Scoring task could not be started"
+msgstr ""
 
-#: ../component/task/Task.svelte:175
+#: ../component/task/Task.svelte:303
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
 msgstr ""
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:315
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "Išsaugant jūsų rezultatą iškilo problema. Bandykite dar kartą. Jei problema išlieka, kreipkitės pagalbos į mūsų palaikymo komandą."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:325
 msgid "Back"
 msgstr "Grįžti"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:100
+msgid "Review needed"
+msgstr ""
+
+#: ../component/task/TaskAdminMode.svelte:111
+msgid "Standard scores"
+msgstr ""
+
+#: ../component/task/TaskAdminMode.svelte:115
+msgid "Appeal scores"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:155
 msgid "Main navigation"
 msgstr "Pagrindinis valdymas"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:155
 msgid "Scores"
 msgstr "Įvertinimai"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:163
 msgid "Are you sure you want to leave?"
 msgstr "Ar Jūs tikrai norite išeiti?"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:164
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "Jūsų parašyti taškai bus išsaugoti ir jūs galėsite tęsti vertinimą vėliau."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:185
+#: ../component/task/TaskHeader.svelte:186
 msgid "Send scores"
 msgstr "Išsiųsti įvertinimus"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:198
+#: ../component/task/TaskHeader.svelte:199
 msgid "Tools"
 msgstr "Įrankiai"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:217
+msgid "Marking symbols"
+msgstr ""
+
+#: ../component/task/TaskHeader.svelte:48
 msgid "continue grading"
 msgstr "tęskite vertinimą"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:53
 msgid "save and leave"
 msgstr "išsaugoti ir išeiti"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:72
 msgid "Score"
 msgstr "Taškai"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:76
 msgid "Hide highlighter"
 msgstr "Paslėpti žymeklius"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:76
 msgid "Show highlighter"
 msgstr "Rodyti žymeklius"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr ""
 
 #: ../controller/error/error.js:31
 msgid "Error page"
 msgstr "Klaidos puslapis"
 
-#: ../controller/page.js:79
+#: ../controller/page.js:80
 msgid "%s - Manual Scoring"
 msgstr "%s - Rankinis vertinimas"
 
@@ -713,6 +734,58 @@ msgstr "Panašu, kad užduočiai vertinti yra nustatytas klausimų grupių prisk
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "Panašu, kad užduočiai vertinti yra nustatytas kandidatų grupių priskyrimo modelis."
+
+#: ../lib/components/OutcomeDeclaration/OutcomeDeclaration.svelte:96
+msgid "see criteria for %s"
+msgstr "žiūrėti %s kriterijus"
+
+#: ../lib/components/OutcomeDeclaration/OutcomeDeclaration.svelte:101
+msgid "see scoring criteria"
+msgstr ""
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Oi! Puslapis nerastas."
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Puslapis, kurio ieškote, neegzistuoja."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Eiti į pradžią"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "Vertinti dar negalima."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Susisiekite su sistemos administratoriumi."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Įvertinimai buvo sėkmingai pateikti."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr ""
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr ""
+
+#: ../routes/taskNotFoundError/+page.svelte:43
+msgid "Oops! We can't start the scoring process"
+msgstr ""
+
+#: ../routes/taskNotFoundError/+page.svelte:44
+msgid "Maybe this happened because it isn't ready yet. Please try again in a few minutes."
+msgstr ""
+
+#: ../routes/taskNotFoundError/+page.svelte:46
+msgid "Go back"
+msgstr ""
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
@@ -795,27 +868,68 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr ""
 
 #: ../services/launchService.js:196
-msgid "Invalid Scoring Category"
+msgid "Review failed: Invalid scorer user."
 msgstr ""
 
 #: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr ""
+
+#: ../services/launchService.js:203
+msgid "Invalid Scoring Category"
+msgstr ""
+
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr ""
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr ""
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr ""
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr ""
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr ""
+
+#: ../services/launchService.js:224
+#: ../services/launchService.js:236
+msgid "Unable to load tasks preview. Tasks are not yet scored."
+msgstr ""
+
+#: ../services/launchService.js:226
+msgid "Delivery execution ids: <strong>%s</strong><br>Please contact your system administrator."
+msgstr ""
+
+#: ../services/launchService.js:238
+msgid "Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr ""
+
+#: ../store/taskStore.js:268
+msgid "Appeal"
+msgstr ""
+
+#: ../store/taskStore.js:270
+msgid "Standard"
+msgstr ""
+
+#: ../store/taskStore.js:305
+msgid "My final score"
+msgstr "Mano galutinis įvertinimas"
+
+#: ../store/taskStore.js:309
+msgid "My appeal score (%s)"
+msgstr ""
+
+#: ../store/taskStore.js:311
+msgid "My appeal score"
 msgstr ""
 
 #: beMessages.js:3

@@ -1,5 +1,5 @@
 // SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
-// Copyright (C) 2019-2025 (original work) Open Assessment Technologies SA
+// Copyright (C) 2019-2026 (original work) Open Assessment Technologies SA
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
@@ -87,7 +87,7 @@ const router = {
      * @param {PageController} controller
      * @param {Object} [parameters] - parameters to be given to the controller
      */
-    startController(controller, parameters = {}) {
+    async startController(controller, parameters = {}) {
         if (this.activeController) {
             this.stopActiveController();
         }
@@ -95,7 +95,7 @@ const router = {
         this.activeController = controller;
         controller.prepare();
         controller.mountCookiePolicyWrapper();
-        controller.start(parameters);
+        await controller.start(parameters);
     },
 
     /**

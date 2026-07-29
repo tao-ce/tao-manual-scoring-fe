@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:27\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -275,70 +275,66 @@ msgstr "Näiden evästeiden avulla voimme laskea käyntejä ja muita analyyttisi
 msgid "Privacy Policy"
 msgstr "Yksityisyyden Suoja"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "Pisteytys ei ole käytettävissä."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "katso kriteerit %s"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "Ota yhteyttä järjestelmänvalvojaan."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "katso pisteytyskriteerit"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "Tulokset on lähetetty onnistuneesti"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr "Pisteiden edistyminen on päivitetty."
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr "Yksi tai useampi opiskelija on uudelleen lähettänyt vastauksensa. Valitettavasti päivitetyt vastaukset, jotka oli jo pisteytetty, on pisteytettävä uudelleen."
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
 msgstr "Testaa yleiskatsaus"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
 msgstr "Tehtävien tila"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr "Kysymys"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
 msgstr "Pisteet yhteensä"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "Kaikki"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "Keskeneräinen"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "Kirjanmerkattu"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Kohteet"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "Testit"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
 msgstr "Korjattu kokonaispistemäärä"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
 msgstr "Huomautus"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
 msgstr "Raportoi"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "Kohteet"
+msgid "Delivery contents"
+msgstr "Toimituksen sisältö"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,11 +344,11 @@ msgstr "Kirjanmerkki"
 msgid "Press to show task note"
 msgstr "Paina näyttääksesi tehtävän merkinnän"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
 msgstr "%s / %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
 msgstr "Pisteitä ei lisätty"
 
@@ -372,18 +368,6 @@ msgstr "Syytä ei annettu"
 msgid "Task is scored"
 msgstr "Tehtävä on pisteet"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "Hups! Sivua ei löytynyt"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "Sivua, jota etsit ei ole olemassa."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "Siirry kotiin"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "Tämä projekti ei ole nyt aktiivinen"
@@ -396,30 +380,6 @@ msgstr "Sinut ohjataan nyt uudelleen projektilistalle"
 msgid "Ok"
 msgstr "OK"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "Sulje Ikkuna"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "Ilmoita tästä kysymyksestä / maalintekijä pari vaatimustenvastaisen pisteytyksen?"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "Jos teet, kaikki vastaukset että pari, %j ja scorer %j tehdään arviointitehtävä. Tätä toimintoa ei voi peruuttaa."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "Kirjoita muistilappu tähän raporttiin"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "Raportoi ja jatka"
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "Ilmoitettu säännösten noudattamatta jättämisestä"
@@ -428,15 +388,15 @@ msgstr "Ilmoitettu säännösten noudattamatta jättämisestä"
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr "%j ja maalintekijän %j yhdistäminen käyttäjänimen %j kanssa on raportoitu seuraavista syistä:"
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
 msgstr "ladataan"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
 msgstr "Vastaus ladataan"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
 msgstr "Kohteen vastaus"
 
@@ -452,61 +412,64 @@ msgstr "Sulje pisteytyskriteerit"
 msgid "Scoring criteria"
 msgstr "Pisteytys kriteerit"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr "Ehdotettu pisteytyksen selitys"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr "Yritä uudelleen"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr "Käytä pisteitä"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr "Hylkää"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr "Näytä pisteet"
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "Hanki pisteehdotus"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "katso kriteerit %s"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "Lisää pisteet kaikille"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "ks. kriteerit"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "Epäillään huijaavan"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "Kommentti valinnainen"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
 msgstr "of %d merkkiä jäljellä"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "Kommentti (valinnainen)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "Ei tarpeeksi perusta arviointia varten"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
 msgstr "Scorerin huomautus:"
 
@@ -518,133 +481,153 @@ msgstr "Lähetä pisteet?"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "Kaikki tulokset lähetetään järjestelmääsi. Jos olet aiemmin pisteytetty ja regraded vastauksia ne korvataan uusilla pisteillä."
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Peruuta"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "Lähetä pisteet"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
 msgstr "Pisteytys"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
 msgstr "Tiivistä pisteytys paneeli"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr "Avaa pisteytyspaneeli"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
 msgstr "%s antamat pisteet"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "raportti"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
 msgstr "Vastaus %s %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr "Vastaus"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
 msgstr "Siirry edelliseen vastaukseen"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
 msgstr "SEE Yleiskatsaus"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
 msgstr "Siirry seuraavaan vastaukseen"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
 msgstr "Valmistuminen: %s%"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
 msgstr "Testinottajan vastaus"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "Tehtävä ei voitu ladata. Ota yhteyttä järjestelmänvalvojaan."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
 msgstr "Pisteytys tehtävän lähetys virhe"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
 msgstr "Kirjoita muistiinpano tähän vastaukseen"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
 msgstr "Kirjoita muistiinpano tälle tarkastelulle"
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "Pisteytys tehtävää ei voitu käynnistää"
 
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
 msgstr "Tätä pisteytystehtävää ei voitu käynnistää todennäköisimmin, koska toinen pisteytysistunto aloitettiin toisessa ikkunassa tai selaimessa.<br>Ratkaistaksesi tämän ongelman:<br><ul><li>Varmista, että et tee toista istuntoa toisessa ikkunassa tai selaimessa.</li><li>Sulje kaikki muut välilehdet tai selaimen ikkunat, joissa tämä tai jokin muu pisteytyslinkki voi olla auki.</li></ul>Jos olet jo valinnut nämä vaiheet ja näet vielä tämän viestin, ota yhteyttä tukeen tai järjestelmänvalvojaan saadaksesi lisäapua."
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "Kohtasimme ongelman tallentaessamme pisteitä. Yritä uudelleen. Jos ongelma jatkuu, ota yhteyttä tukitiimiimme saadaksesi apua."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
 msgstr "Takaisin"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "Arvostelu tarvitaan"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "Vakiotulokset"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "Muutoksenhakutulokset"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr "Tärkein navigointi"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr "Tulokset"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
 msgstr "Oletko varma, että haluat lähteä?"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "Sinun arvosanasi tallennetaan ja voit jatkaa luokitusta myöhemmässä vaiheessa."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
 msgstr "Lähetä pisteet"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr "Työkalut"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
 msgstr "jatka luokitusta"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
 msgstr "tallenna ja jätä"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr "Pisteet"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
 msgstr "Piilota korostus"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
 msgstr "Näytä korostus"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "Ei tarpeeksi perusteita arvioinnille"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
@@ -713,6 +696,38 @@ msgstr "Toimitus näyttää olevan konfiguroitu \"nimiryhmä\" projektin harjoit
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "Toimitus näyttää olevan määritetty \"testi taker ryhmä\" projektin tehtävästrategia"
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Hups! Sivua ei löytynyt"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Sivua, jota etsit ei ole olemassa."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Siirry kotiin"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "Pisteytys ei ole käytettävissä."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Ota yhteyttä järjestelmänvalvojaan."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Tulokset on lähetetty onnistuneesti"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "Pisteiden edistyminen on päivitetty."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Yksi tai useampi opiskelija on uudelleen lähettänyt vastauksensa. Valitettavasti päivitetyt vastaukset, jotka oli jo pisteytetty, on pisteytettävä uudelleen."
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "Ole hyvä ja määritä eri katselmoija varmistaaksesi riippumattoman arvion pisteet."
 
 #: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "Arvostelu epäonnistui: Virheellinen maalintekijän käyttäjä."
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "Yhtä tai useampaa maalintekijän käyttäjää ei löytynyt. Valitse vain maalintekijät, jotka ovat jo tehneet tämän testin."
+
+#: ../services/launchService.js:203
 msgid "Invalid Scoring Category"
 msgstr "Virheellinen Pisteytys Kategoria"
 
-#: ../services/launchService.js:197
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr "Tarkista pisteytysKategorian arvo. Sen on oltava kelvollinen eikä se voi olla tyhjä."
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "Virheellinen mukautettu vaatimus."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "Virheellinen parametri, väite vaatii [%s] ei saa olla tyhjä ja kirjoita [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "Vaadittu mukautettu korvausvaatimus."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "Puuttuva parametri, väite vaatii [%s] -parametrin olevan läsnä."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "Muutoksenhaku"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "Normaali"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "Lopulliset pisteet"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "Minun valituspisteeni (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "Minun valituspisteeni"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

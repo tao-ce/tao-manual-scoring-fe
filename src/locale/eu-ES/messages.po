@@ -1,0 +1,875 @@
+# SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tao-ignite\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:03\n"
+"Last-Translator: \n"
+"Language-Team: Basque\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tao-i18n-tools\n"
+"X-Crowdin-Project: tao-ignite\n"
+"X-Crowdin-Project-ID: 590903\n"
+"X-Crowdin-Language: eu\n"
+"X-Crowdin-File: /[oat-sa.tao-manual-scoring-fe] develop/src/locale/messages.pot\n"
+"X-Crowdin-File-ID: 988\n"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/DateTimePicker.svelte:22
+msgid "Select a date"
+msgstr "Hautatu data bat"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:23
+msgid "Sun"
+msgstr "Eguzkia"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:24
+msgid "Mon"
+msgstr "Astelehena"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:25
+msgid "Tue"
+msgstr "Asteartea"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:26
+msgid "Wed"
+msgstr "Asteazkena"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:27
+msgid "Thu"
+msgstr "Osteguna"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:28
+msgid "Fri"
+msgstr "Ostirala"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:29
+msgid "Sat"
+msgstr "Larunbata"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:32
+msgid "Sunday"
+msgstr "Igandea"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:33
+msgid "Monday"
+msgstr "Astelehena"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:34
+msgid "Tuesday"
+msgstr "Asteartea"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:35
+msgid "Wednesday"
+msgstr "Asteazkena"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:36
+msgid "Thursday"
+msgstr "Osteguna"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:37
+msgid "Friday"
+msgstr "Ostirala"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:38
+msgid "Saturday"
+msgstr "Larunbata"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:43
+msgid "Jan"
+msgstr "Urt"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:44
+msgid "Feb"
+msgstr "Otsaila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:45
+msgid "Mar"
+msgstr "Martxoa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:46
+msgid "Apr"
+msgstr "Apirila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:47
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:61
+msgid "May"
+msgstr "Maiatza"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:48
+msgid "Jun"
+msgstr "Ekaina"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:49
+msgid "Jul"
+msgstr "Uzt."
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:50
+msgid "Aug"
+msgstr "Abuztua"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:51
+msgid "Sep"
+msgstr "Iraila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:52
+msgid "Oct"
+msgstr "Urria"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:53
+msgid "Nov"
+msgstr "Azaroa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:54
+msgid "Dec"
+msgstr "Abendua"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:57
+msgid "January"
+msgstr "Urtarrila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:58
+msgid "February"
+msgstr "Otsaila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:59
+msgid "March"
+msgstr "Martxoa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:60
+msgid "April"
+msgstr "Apirila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:62
+msgid "June"
+msgstr "Ekaina"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:63
+msgid "July"
+msgstr "Uztaila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:64
+msgid "August"
+msgstr "Abuztua"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:65
+msgid "September"
+msgstr "Iraila"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:66
+msgid "October"
+msgstr "Urria"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:67
+msgid "November"
+msgstr "Azaroa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:68
+msgid "December"
+msgstr "Abendua"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:71
+msgid "Wk"
+msgstr "Astea"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "AM"
+msgstr "AM"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:72
+msgid "PM"
+msgstr "Lehen Ministroa"
+
+#: ../../node_modules/@oat-sa-private/ui-components/dateTimePicker/defaultLocale.js:73
+msgid "Year"
+msgstr "Urtea"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/LiveSaveIndicator.svelte:66
+msgid "saved"
+msgstr "gordeta"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:32
+msgid "saved 1 minute ago"
+msgstr "duela minutu bat gordeta"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:33
+msgid "saved %d minutes ago"
+msgstr "duela %d minutu gordeta"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:34
+msgid "saved 1 hour ago"
+msgstr "duela ordubete gordeta"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:35
+msgid "saved %d hours ago"
+msgstr "duela %d ordu gordeta"
+
+#: ../../node_modules/@oat-sa-private/ui-components/livesave/time.js:45
+msgid "last saved on %s"
+msgstr "azkenekoz gordeta %s"
+
+#: ../../node_modules/@oat-sa-private/ui-components/loading/Loading.svelte:98
+msgid "Content is loading"
+msgstr "Edukia kargatzen ari da"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:304
+msgid "Scoring input"
+msgstr "Puntuazio sarrera"
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:40
+msgid "Selected by another scorer."
+msgstr "Beste goleatzaile batek hautatua."
+
+#: ../../node_modules/@oat-sa-private/ui-components/scoringInput/ScoringInput.svelte:45
+msgid "Rejected."
+msgstr "Baztertua."
+
+#: ../../node_modules/@oat-sa-private/ui-elements/radiogroup/RadioGroup.svelte:156
+msgid "Radio button"
+msgstr "Irrati-botoia"
+
+#: ../../node_modules/@oat-sa-private/ui-elements/textarea/Textarea.svelte:31
+msgid "Textarea"
+msgstr "Testu-eremua"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:43
+msgid "You can read more about this in our"
+msgstr "Honi buruz gehiago irakur dezakezu gurean"
+
+#: ../component/CookiePolicyWrapper/CookiePolicyWrapper.svelte:45
+msgid "and"
+msgstr "eta"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:28
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:55
+msgid "Cookie Policy"
+msgstr "Cookien politika"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:29
+msgid "This site uses cookies to improve your browsing experience and to perform analytics and research. To change your preferences, click Manage preferences. Otherwise, clicking Accept all cookies indicates you agree to our use of cookies on your device. Clicking Reject all cookies means you do not agree to our use of non-strictly necessary cookies on your device."
+msgstr "Gune honek cookieak erabiltzen ditu zure nabigazio esperientzia hobetzeko eta analisiak eta ikerketak egiteko. Zure lehentasunak aldatzeko, egin klik Kudeatu lehentasunak aukeran. Bestela, Onartu cookie guztiak aukeran klik egiteak esan nahi du onartzen duzula zure gailuan cookieak erabiltzea. Baztertu cookie guztiak aukeran klik egiteak esan nahi du ez duzula onartzen zure gailuan beharrezkoak ez diren cookieak erabiltzea."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:34
+msgid "Essential Cookies"
+msgstr "Ezinbesteko cookieak"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:36
+msgid "Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings."
+msgstr "Beharrezko Cookieak uneoro gaituta eduki behar dira, cookien ezarpenen lehentasunak gorde ahal izateko."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:42
+msgid "Analytics Cookies"
+msgstr "Analisi cookieak"
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:44
+msgid "These cookies allow us to count visits and various other analytical data so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Cookie hauek bisitak eta beste hainbat datu analitiko zenbatzea ahalbidetzen digute, gure webgunearen errendimendua neurtu eta hobetu ahal izateko. Zein orrialde diren ezagunenak eta gutxien ezagunak jakiten eta bisitariak webgunean nola mugitzen diren ikusten laguntzen digute. Cookie hauek onartzen ez badituzu, ez dugu jakingo noiz bisitatu duzun gure webgunea, eta ezingo dugu haren errendimendua kontrolatu."
+
+#: ../component/CookiePolicyWrapper/cookiePolicyConfig.js:51
+msgid "Privacy Policy"
+msgstr "Pribatutasun Politika"
+
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "ikusi %s-ren irizpideak"
+
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "ikusi puntuazio irizpideak"
+
+#: ../component/delivery/Delivery.svelte:582
+msgid "Test overview"
+msgstr "Probaren ikuspegi orokorra"
+
+#: ../component/delivery/Delivery.svelte:586
+msgid "Tasks status"
+msgstr "Zereginen egoera"
+
+#: ../component/delivery/Delivery.svelte:590
+msgid "Question"
+msgstr "Galdera"
+
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
+msgid "Total score"
+msgstr "Puntuazio osoa"
+
+#: ../component/delivery/Delivery.svelte:80
+msgid "All"
+msgstr "Guztiak"
+
+#: ../component/delivery/Delivery.svelte:84
+msgid "Incomplete"
+msgstr "Osatu gabe"
+
+#: ../component/delivery/Delivery.svelte:89
+msgid "Bookmarked"
+msgstr "Gogokoetan gordeta"
+
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "Elementuak"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "Probak"
+
+#: ../component/delivery/Delivery.svelte:175
+msgid "Corrected total score"
+msgstr "Zuzendutako puntuazio osoa"
+
+#: ../component/delivery/DeliveryTable.svelte:61
+msgid "Note"
+msgstr "Oharra"
+
+#: ../component/delivery/DeliveryTable.svelte:64
+msgid "Report"
+msgstr "Txostena"
+
+#: ../component/delivery/SideItemBar.svelte:51
+msgid "Delivery contents"
+msgstr "Bidalketaren edukia"
+
+#: ../component/delivery/tablecells/BookmarkCell.svelte:23
+msgid "Bookmark"
+msgstr "Laster-marka"
+
+#: ../component/delivery/tablecells/HasNoteCell.svelte:15
+msgid "Press to show task note"
+msgstr "Sakatu zereginaren oharra erakusteko"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
+msgid "%s of %s"
+msgstr "%s -tik %s"
+
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
+msgid "No score added"
+msgstr "Ez da puntuaziorik gehitu"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:41
+msgid "Press to show note"
+msgstr "Sakatu oharra erakusteko"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:46
+msgid "The pairing of \"%s\" and scorer \"%s %s\" with the username \"%s\" has been reported for the following reasons:"
+msgstr "\"%s\" eta \"%s %s\" puntuatzailea \"%s\" erabiltzaile-izenarekin parekatzea arrazoi hauengatik salatu da:"
+
+#: ../component/delivery/tablecells/ScoringViolationCell.svelte:48
+msgid "Reason not given"
+msgstr "Arrazoia ez da eman"
+
+#: ../component/delivery/tablecells/TotalScoreCell.svelte:12
+msgid "Task is scored"
+msgstr "Zeregina puntuatzen da"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:27
+msgid "This project is now inactive"
+msgstr "Proiektu hau orain inaktibo dago"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:33
+msgid "You will be now redirected to the projects list"
+msgstr "Orain proiektuen zerrendara birbideratuko zara"
+
+#: ../component/inactiveProject/InactiveProjectDialog.svelte:14
+msgid "Ok"
+msgstr "Ados"
+
+#: ../component/task/CompliantNote.svelte:9
+msgid "Reported for non-compliance"
+msgstr "Ez-betetzeagatik salatua"
+
+#: ../component/task/CompliantNote.svelte:17
+msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
+msgstr "%j eta %j puntuatzailea %j erabiltzaile-izenarekin parekatzea arrazoi hauengatik salatu da:"
+
+#: ../component/task/ItemPreviewer.svelte:153
+msgid "loading"
+msgstr "kargatzen"
+
+#: ../component/task/ItemPreviewer.svelte:154
+msgid "Response is loading"
+msgstr "Erantzuna kargatzen ari da"
+
+#: ../component/task/ItemPreviewer.svelte:164
+msgid "Item response"
+msgstr "Elementuaren erantzuna"
+
+#: ../component/task/ScoringCriteria.svelte:79
+msgid "Scoring criteria is loading"
+msgstr "Puntuazio irizpideak kargatzen ari dira"
+
+#: ../component/task/ScoringCriteria.svelte:85
+msgid "Close scoring criteria"
+msgstr "Puntuazio irizpide itxiak"
+
+#: ../component/task/ScoringCriteria.svelte:11
+msgid "Scoring criteria"
+msgstr "Puntuazio irizpideak"
+
+#: ../component/task/ScoringForm.svelte:410
+msgid "Suggested scoring explanation"
+msgstr "Puntuazio azalpen iradokia"
+
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
+msgid "Try again"
+msgstr "Saiatu berriro"
+
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
+msgid "Use the score"
+msgstr "Erabili puntuazioa."
+
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
+msgid "Discard"
+msgstr "Baztertu"
+
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
+msgid "Show score suggestion"
+msgstr "Erakutsi puntuazio iradokizuna"
+
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
+msgid "Get score suggestion"
+msgstr "Lortu puntuazio iradokizuna"
+
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "Aplikatu puntuazioa guztiei"
+
+#: ../component/task/ScoringForm.svelte:511
+msgid "Suspected of cheating"
+msgstr "Iruzur egiteaz susmatuta."
+
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
+msgid "Comment optional"
+msgstr "Iruzkina aukerakoa"
+
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
+msgid "of %d characters remaining"
+msgstr "%d karaktere geratzen dira"
+
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
+msgid "Comment (optional)"
+msgstr "Iruzkina (aukerakoa)"
+
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "Ez dago nahikoa oinarri ebaluaziorako"
+
+#: ../component/task/ScoringForm.svelte:573
+msgid "Scorer's note:"
+msgstr "Goleatzailearen oharra:"
+
+#: ../component/task/SubmitDialog.svelte:34
+msgid "Submit the scores?"
+msgstr "Bidali puntuazioak?"
+
+#: ../component/task/SubmitDialog.svelte:36
+msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
+msgstr "Puntuazio guztiak zure sistemara bidaliko dira. Aurretik erantzunak puntuatu eta berriro kalifikatu badituzu, puntuazio berriekin ordezkatuko dira."
+
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "Utzi"
+
+#: ../component/task/SubmitDialog.svelte:20
+msgid "Submit the scores"
+msgstr "Bidali puntuazioak."
+
+#: ../component/task/Task.svelte:719
+msgid "Scoring"
+msgstr "Puntuazioa"
+
+#: ../component/task/Task.svelte:725
+msgid "Collapse scoring panel"
+msgstr "Tolestu puntuazio-panela"
+
+#: ../component/task/Task.svelte:725
+msgid "Open scoring panel"
+msgstr "Puntuazio panel irekia"
+
+#: ../component/task/Task.svelte:751
+msgid "Scores given by %s"
+msgstr "%s-ek emandako puntuazioak"
+
+#: ../component/task/Task.svelte:766
+msgid "Answer %s of %s"
+msgstr "%s erantzuna, guztira %s"
+
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
+msgid "Response"
+msgstr "Erantzuna"
+
+#: ../component/task/Task.svelte:843
+msgid "Go to previous answer"
+msgstr "Joan aurreko erantzunera"
+
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
+msgid "SEE Overview"
+msgstr "IKUSI ikuspegi orokorra"
+
+#: ../component/task/Task.svelte:862
+msgid "Go to next answer"
+msgstr "Joan hurrengo erantzunera"
+
+#: ../component/task/Task.svelte:868
+msgid "Completion: %s %"
+msgstr "Osatze-data: %s%"
+
+#: ../component/task/Task.svelte:871
+msgid "Test taker response"
+msgstr "Azterketaren egilearen erantzuna"
+
+#: ../component/task/Task.svelte:898
+msgid "Task failed to load. Please contact your system administrator."
+msgstr "Zeregina kargatu ezin izan da. Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../component/task/Task.svelte:85
+msgid "Scoring task submission error"
+msgstr "Zereginaren bidalketa puntuatzean errorea"
+
+#: ../component/task/Task.svelte:131
+msgid "Type a note for this answer"
+msgstr "Idatzi ohar bat erantzun honetarako"
+
+#: ../component/task/Task.svelte:137
+msgid "Type a note for this review"
+msgstr "Idatzi ohar bat berrikuspen honetarako"
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "Ezin izan da puntuazio-zeregina hasi"
+
+#: ../component/task/Task.svelte:175
+msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
+msgstr "Puntuazio-zeregin hau ezin izan da hasi, ziurrenik beste puntuazio-saio bat beste leiho edo arakatzaile batean hasi delako.<br>Arazo hau konpontzeko:<br><ul><li>Ziurtatu ez zarela beste saio bat beste leiho edo arakatzaile batean puntuatzen ari.</li><li>Itxi puntuazio-esteka hau edo beste bat irekita egon daitekeen beste fitxa edo arakatzaile-leiho guztiak.</li></ul>Urrats hauek egiaztatu badituzu eta mezu hau oraindik ikusten baduzu, jarri harremanetan laguntza-zerbitzuarekin edo zure administratzailearekin laguntza gehiago jasotzeko."
+
+#: ../component/task/Task.svelte:187
+msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
+msgstr "Arazo bat izan dugu zure puntuazioa gordetzean. Saiatu berriro. Arazoak jarraitzen badu, jarri harremanetan gure laguntza-taldearekin laguntza jasotzeko."
+
+#: ../component/task/Task.svelte:197
+msgid "Back"
+msgstr "Atzera"
+
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "Berrikuspena beharrezkoa da"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "Puntuazio estandarrak"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "Helegite puntuazioak"
+
+#: ../component/task/TaskHeader.svelte:124
+msgid "Main navigation"
+msgstr "Nabigazio nagusia"
+
+#: ../component/task/TaskHeader.svelte:124
+msgid "Scores"
+msgstr "Puntuazioak"
+
+#: ../component/task/TaskHeader.svelte:132
+msgid "Are you sure you want to leave?"
+msgstr "Ziur zaude alde egin nahi duzula?"
+
+#: ../component/task/TaskHeader.svelte:133
+msgid "Your grades will be saved and you'll be able to resume grading at a later time."
+msgstr "Zure kalifikazioak gordeko dira eta geroago berriro kalifikatzen jarraitu ahal izango duzu."
+
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
+msgid "Send scores"
+msgstr "Bidali puntuazioak"
+
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
+msgid "Tools"
+msgstr "Tresnak"
+
+#: ../component/task/TaskHeader.svelte:34
+msgid "continue grading"
+msgstr "jarraitu kalifikazioa"
+
+#: ../component/task/TaskHeader.svelte:39
+msgid "save and leave"
+msgstr "gorde eta alde egin"
+
+#: ../component/task/TaskHeader.svelte:52
+msgid "Score"
+msgstr "Puntuazioa"
+
+#: ../component/task/TaskHeader.svelte:58
+msgid "Hide highlighter"
+msgstr "Ezkutatu nabarmentzailea"
+
+#: ../component/task/TaskHeader.svelte:58
+msgid "Show highlighter"
+msgstr "Erakutsi nabarmentzailea"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "Ez da nahikoa oinarri ebaluaziorako"
+
+#: ../controller/error/error.js:31
+msgid "Error page"
+msgstr "Errore orria"
+
+#: ../controller/page.js:79
+msgid "%s - Manual Scoring"
+msgstr "%s - Eskuzko puntuazioa"
+
+#: ../core/utils/response.js:24
+msgid "Long username"
+msgstr "Erabiltzaile-izen luzea"
+
+#: ../core/utils/response.js:27
+msgid "Short username"
+msgstr "Erabiltzaile-izen laburra"
+
+#: ../core/utils/response.js:30
+msgid "Forbidden character in username"
+msgstr "Debekatutako karakterea erabiltzaile-izenaren barruan"
+
+#: ../core/utils/response.js:33
+msgid "Empty password"
+msgstr "Pasahitz hutsa"
+
+#: ../core/utils/response.js:36
+msgid "Short password"
+msgstr "Pasahitz laburra"
+
+#: ../core/utils/response.js:39
+msgid "Long password"
+msgstr "Pasahitz luzea"
+
+#: ../core/utils/response.js:42
+msgid "Empty role"
+msgstr "Rol hutsa"
+
+#: ../core/utils/response.js:45
+msgid "Already assigned"
+msgstr "Jada esleituta"
+
+#: ../core/utils/response.js:48
+msgid "Not found"
+msgstr "Ez da aurkitu"
+
+#: ../core/utils/response.js:51
+msgid "Empty assignment criterion"
+msgstr "Esleipen irizpide hutsa"
+
+#: ../core/utils/response.js:54
+msgid "System user conflict"
+msgstr "Sistemaren erabiltzaileen gatazka"
+
+#: ../core/utils/response.js:57
+msgid "The role does not exist in the selected scoring strategy"
+msgstr "Rol hori ez dago hautatutako puntuazio estrategian."
+
+#: ../core/utils/response.js:60
+msgid "Invalid outcome declarations"
+msgstr "Emaitzen adierazpen baliogabeak"
+
+#: ../core/utils/validations.js:44
+msgid "The delivery seems to be configured for an \"item group\" project assignment strategy"
+msgstr "Badirudi entrega \"elementu talde\" proiektu esleipen estrategia baterako konfiguratuta dagoela."
+
+#: ../core/utils/validations.js:46
+msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
+msgstr "Badirudi entrega \"azterketa-talde\" proiektu-esleipen estrategia baterako konfiguratuta dagoela."
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "Ups! Ez da orrialdea aurkitu"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "Bilatzen ari zaren orrialdea ez da existitzen."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "Joan etxera."
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "Puntuazioa ez dago eskuragarri."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "Puntuazioak behar bezala bidali dira"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "Zure puntuazio aurrerapena eguneratu da."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "Ikasle batek edo gehiagok berriro bidali dituzte erantzunak. Zoritxarrez, dagoeneko puntuatu diren erantzun eguneratuak berriro puntuatu behar dira."
+
+#: ../services/launchService.js:68
+#: ../services/launchService.js:73
+msgid "Sorry, we cannot find the responses to score. Please contact your system administrator."
+msgstr "Barkatu, ezin ditugu puntuaziorako erantzunak aurkitu. Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:80
+msgid "There are no responses to score yet. Please wait and try again."
+msgstr "Ez dago puntuaziorik oraindik. Itxaron eta saiatu berriro."
+
+#: ../services/launchService.js:84
+msgid "Grading not available."
+msgstr "Kalifikazioa ez dago eskuragarri."
+
+#: ../services/launchService.js:85
+msgid "Please contact your administrator."
+msgstr "Jarri harremanetan zure administratzailearekin."
+
+#: ../services/launchService.js:94
+#: ../services/launchService.js:106
+#: ../services/launchService.js:118
+#: ../services/launchService.js:163
+msgid "No responses were found."
+msgstr "Ez da erantzunik aurkitu."
+
+#: ../services/launchService.js:95
+msgid "Delivery executions with following ids cannot be found: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Ezin izan dira ID hauek dituzten entrega-exekuzioak aurkitu: <br><strong>%s</strong><br>Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:107
+msgid "Delivery executions with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Baliogabeak dira ID hauek dituzten entrega-exekuzioak: <br><strong>%s</strong><br>Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:119
+msgid "Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator."
+msgstr "Baliogabeak dira ID hauek dituzten bidalketak: <br><strong>%s</strong><br>Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:129
+msgid "Scoring is not available right now, because no responses were found."
+msgstr "Puntuazioa ez dago eskuragarri une honetan, ez baita erantzunik aurkitu."
+
+#: ../services/launchService.js:130
+msgid "This may happen if a student has just submitted the test. Please try again later. If the problem persists, please contact your system administrator. Test takers ids which were not found: <br><strong>%s</strong>"
+msgstr "Ikasle batek proba bidali berri badu gerta daiteke hau. Saiatu berriro geroago. Arazoak jarraitzen badu, jarri harremanetan zure sistemaren administratzailearekin. Aurkitu ez diren proban ari direnen IDak: <br><strong>%s</strong>"
+
+#: ../services/launchService.js:140
+msgid "Too many tasks to score."
+msgstr "Zeregin gehiegi puntuatzeko."
+
+#: ../services/launchService.js:142
+msgid "Delivery execution ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Bidalketaren exekuzio IDak: <strong>%s</strong><br>Puntuazio-zeregin kopurua: <strong>%s</strong><br>Baimendutako gehienezko zeregin kopurua: <strong>%s</strong><br>Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:149
+msgid "Delivery ids: <strong>%s</strong><br>Test taker ids: <strong>%s</strong><br>Number of scoring tasks: <strong>%s</strong><br>Allowed maximum number of tasks: <strong>%s</strong><br>Please contact your system administrator."
+msgstr "Bidalketa IDak: <strong>%s</strong><br>Azterketa-egileen IDak: <strong>%s</strong><br>Ebaluazio-zeregin kopurua: <strong>%s</strong><br>Baimendutako gehienezko zeregin kopuru bat: <strong>%s</strong><br>Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:164
+msgid "Deliveries and test takers with following ids cannot be found.<br>Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator."
+msgstr "Ezin dira ID hauek dituzten bidalketak eta azterketariak aurkitu.<br>Bidalketak: <strong>%s</strong>, <br>Azterketako egileak: <strong>%s</strong>. <br>Jarri harremanetan zure sistemaren administratzailearekin."
+
+#: ../services/launchService.js:176
+msgid "Delivery ID(s) and Test Taker ID(s) are empty or not defined."
+msgstr "Bidalketa IDa(k) eta azterketariaren IDa(k) hutsik daude edo ez daude definitu."
+
+#: ../services/launchService.js:181
+msgid "Delivery ID(s) is empty or not defined."
+msgstr "Bidalketa IDa(k) hutsik dago edo ez dago definitu."
+
+#: ../services/launchService.js:186
+msgid "Test Taker ID(s) is empty or not defined."
+msgstr "Azterketa-hartzailearen IDa(k) hutsik dago edo ez dago definitu."
+
+#: ../services/launchService.js:191
+msgid "Review failed: The reviewer cannot be the same user as the original scorer."
+msgstr "Berrikuspena huts egin du: Berrikuslea ezin da jatorrizko ebaluatzailearen erabiltzaile bera izan."
+
+#: ../services/launchService.js:192
+msgid "Please assign a different reviewer to ensure an independent review of the score."
+msgstr "Mesedez, izendatu beste berrikusle bat puntuazioaren berrikuspen independentea bermatzeko."
+
+#: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "Berrikuspena huts egin du: Baliogabeko puntuatzailea den erabiltzailea."
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "Ezin izan dira erabiltzaile ebaluatzaile bat edo gehiago aurkitu. Mesedez, hautatu proba hau dagoeneko ebaluatu duten ebaluatzaileak soilik."
+
+#: ../services/launchService.js:203
+msgid "Invalid Scoring Category"
+msgstr "Puntuazio kategoria baliogabea"
+
+#: ../services/launchService.js:204
+msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
+msgstr "Mesedez, egiaztatu scoringCategory balioa. Baliozkoa izan behar du eta ezin da hutsik egon."
+
+#: ../services/launchService.js:208
+msgid "Invalid custom claim."
+msgstr "Baliogabeko erreklamazio pertsonalizatua."
+
+#: ../services/launchService.js:209
+msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
+msgstr "Parametro baliogabea, erreklamazioak [%s] ezin da hutsik egon behar eta [%s]idatzi behar du."
+
+#: ../services/launchService.js:217
+msgid "Required custom claim."
+msgstr "Beharrezko erreklamazio pertsonalizatua."
+
+#: ../services/launchService.js:218
+msgid "Missing parameter, claim requires [%s] parameter to be present."
+msgstr "Parametroa falta da, erreklamazioak [%s] parametroa egotea eskatzen du."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "Helegitea"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "Estandarra"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "Nire azken puntuazioa"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "Nire errekurtso puntuazioa (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "Nire errekurtso puntuazioa"
+
+#: beMessages.js:3
+msgid "Missing comma(s), there should be exactly %d column at row \"%s\""
+msgstr "Koma(k) falta dira, zehazki %d zutabea egon beharko litzateke \"%s\" errenkadan."
+
+#: beMessages.js:4
+msgid "The uploaded file contains duplicate usernames. Please remove duplicate usernames and try again."
+msgstr "Kargatutako fitxategiak erabiltzaile-izen bikoiztuak ditu. Mesedez, kendu erabiltzaile-izen bikoiztuak eta saiatu berriro."
+
+#: beMessages.js:5
+msgid "The scoring task ID:%s is already scored and submitted."
+msgstr "Puntuazio-zereginaren IDa:%s dagoeneko puntuatu eta bidali da."
+

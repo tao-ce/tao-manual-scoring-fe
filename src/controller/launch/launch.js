@@ -3,10 +3,13 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
-import { JWT_TOKEN_HANDLER_SERVICE_NAME, registerJwtTokenHandler } from '@/services/authService';
+import { registerJwtTokenHandler } from '@/services/authService';
 import jwtTokenStoreFactory from 'core/jwt/jwtTokenStore';
 import pageController from '@/controller/page';
-import LaunchPage from '@/component/LaunchPage/LaunchPage.svelte';
+import LaunchPage from '@/routes/launch/+page.svelte';
+import { ScoringModes } from '@/constants/scoring-mode';
+
+import { JWT_TOKEN_HANDLER_SERVICE_NAME } from '@/constants/jwtToken.js';
 
 export default () =>
     pageController({
@@ -16,7 +19,13 @@ export default () =>
             const sessionToken = queryParams.get('session_token');
             const userId = queryParams.get('user');
 
+            let scoringMode = queryParams.get('scoringMode');
+            if (!Object.values(ScoringModes).includes(scoringMode)) {
+                scoringMode = ScoringModes.ITEM;
+            }
+
             window.sessionStorage.setItem('user', userId);
+            window.sessionStorage.setItem('scoringMode', scoringMode);
 
             await jwtTokenStoreFactory({ namespace: JWT_TOKEN_HANDLER_SERVICE_NAME }).clearRefreshToken();
 

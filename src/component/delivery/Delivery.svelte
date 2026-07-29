@@ -4,16 +4,31 @@ SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
 SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 -->
 
+<script context="module">
+    // Licensed under Gnu Public Licence version 2
+    // Copyright (c) 2025 (original work) Open Assessment Technologies SA ;
+
+    /**
+     * Enum for delivery overview item types
+     * @readonly
+     * @enum {string}
+     */
+    const DeliveryOverviewItemType = Object.freeze({
+        ITEM: 'item',
+        TEST: 'test'
+    });
+</script>
+
 <script>
     // Licensed under Gnu Public Licence version 2
-    // Copyright (c) 2019-2022 (original work) Open Assessment Technologies SA ;
+    // Copyright (c) 2019-2025 (original work) Open Assessment Technologies SA ;
 
     import { createEventDispatcher, onMount, tick } from 'svelte';
-    import { Loading, Pagination, TabGroup } from '@oat-sa-private/ui-components';
+    import { Loading, Pagination, SearchableDropdown, TabGroup } from '@oat-sa-private/ui-components';
     import { compile } from 'path-to-regexp';
     import config from '@/config';
     import { __ } from '@oat-sa-private/ui-core';
-    import { Icon, Dropdown } from '@oat-sa-private/ui-elements';
+    import { Icon } from '@oat-sa-private/ui-elements';
     import { breakpoints } from '@oat-sa-private/ui-identity';
     import router from '@/core/router';
     import { DELIVERY_TAB, PAGE_SIZE } from '../../constants/delivery';
@@ -44,13 +59,14 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
     let isProjectInactive = false;
     let isTableLoading = false;
-    // True if bookmark add/remove request is in progress
+    // True if a bookmark add/remove request is in progress
     let isBookmarkingInProgress = false;
 
     /**
      * @type {DeliveryItem[]}
      */
     let items = [];
+    let tests = [];
     let currentPage = 1;
     let totalPages = 1;
     let activeTab = DELIVERY_TAB.ALL;
@@ -61,51 +77,89 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     let scrollIntoCurrentTask = false;
     let taskGroup = {};
     let activeItem = null;
-    $: allTasks = numTasksUnscored + numTasksScored;
+    let windowWidth;
 
+    $: totalTasks = numTasksUnscored + numTasksScored;
     $: taskTabs = [
         {
             key: DELIVERY_TAB.ALL,
-            label: `${__('All')}(${isNaN(allTasks) ? ' ' : allTasks})`
+            label: `${__('All')}(${isNaN(totalTasks) ? ' ' : totalTasks})`
         },
         {
             key: DELIVERY_TAB.INCOMPLETE,
-            label: `${__('Incomplete')}(${isNaN(allTasks) ? ' ' : numTasksUnscored})`,
+            label: `${__('Incomplete')}(${isNaN(totalTasks) ? ' ' : numTasksUnscored})`,
             disabled: !numTasksUnscored
         },
         {
             key: DELIVERY_TAB.BOOKMARKED,
-            label: `${__('Bookmarked')}(${isNaN(allTasks) ? ' ' : numTasksBookmarked})`,
+            label: `${__('Bookmarked')}(${isNaN(totalTasks) ? ' ' : numTasksBookmarked})`,
             disabled: !numTasksBookmarked
         }
     ];
-
-    $: visibleItems = items.filter(item => {
-        switch (activeTab) {
-            case DELIVERY_TAB.BOOKMARKED:
-                return item.hasBookmarked;
-            case DELIVERY_TAB.INCOMPLETE:
-                return item.hasIncomplete;
-            default:
-                return true;
+    $: visibleItems = items
+        .filter(item => {
+            switch (activeTab) {
+                case DELIVERY_TAB.BOOKMARKED:
+                    return item.hasBookmarked;
+                case DELIVERY_TAB.INCOMPLETE:
+                    return item.hasIncomplete;
+                default:
+                    return true;
+            }
+        })
+        .map(createItemsMapper(DeliveryOverviewItemType.ITEM));
+    $: visibleTests = tests
+        .filter(test => {
+            switch (activeTab) {
+                case DELIVERY_TAB.BOOKMARKED:
+                    return test.hasBookmarked;
+                case DELIVERY_TAB.INCOMPLETE:
+                    return test.hasIncomplete;
+                default:
+                    return true;
+            }
+        })
+        .map(createItemsMapper(DeliveryOverviewItemType.TEST));
+    /**
+     * Options for searchable dropdown
+     * @type {Array<{ group: string, options: Array<{ id: string, title: string, deliveryId: string }> }>}
+     */
+    $: deliveryContents = [
+        {
+            group: __('Items'),
+            items: visibleItems
+        },
+        {
+            group: __('Tests'),
+            items: visibleTests
         }
-    });
-
-    let windowWidth;
+    ];
     $: smallWidth = windowWidth <= breakpoints.width.medium + 1;
 
     const dispatch = createEventDispatcher();
 
     /**
-     * turns on `isProjectInactive` to display inactive project screen component
-     *
+     * Creates a mapper function to add overviewItemType to each item
+     * @param {string} overviewItemType
+     * @returns {(item: DeliveryItem) => DeliveryItem}
+     */
+    function createItemsMapper(overviewItemType = DeliveryOverviewItemType.ITEM) {
+        return item => ({
+            ...item,
+            overviewItemType
+        });
+    }
+
+    /**
+     * Turns on `isProjectInactive` if the response status code is 409
+     * to display an inactive project screen component
      * @param {Error} error
      */
-    const handleRequestError = error => {
+    function handleRequestError(error) {
         if (error.responseStatus === 409) {
             isProjectInactive = true;
         }
-    };
+    }
 
     /**
      * @param {TasksResponse} taskResponse
@@ -129,97 +183,94 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
     };
 
     /**
+     * Reducer for deliveries response
+     * @param {Object} accumulator
+     * @param {Object} delivery
+     * @returns {Object}
+     */
+    function deliveriesResponseReducer(accumulator, delivery) {
+        const workProgress = delivery.workProgress[taskType];
+
+        return {
+            items: accumulator.items.concat(
+                (delivery.items ?? [])
+                    .filter(item => item.numTasks > 0)
+                    // add deliveryId to item
+                    .map(item => ({ ...item, deliveryId: delivery.id }))
+            ),
+            tests: accumulator.tests.concat(
+                (delivery.tests ?? [])
+                    .filter(test => test.numTasks > 0)
+                    // add deliveryId to test
+                    .map(test => ({ ...test, deliveryId: delivery.id }))
+            ),
+            // summarize statistics
+            numTasksUnscored: accumulator.numTasksUnscored + workProgress.numTasksUnscored,
+            numTasksScored: accumulator.numTasksScored + workProgress.numTasksScored,
+            numTasksBookmarked: accumulator.numTasksBookmarked + workProgress.numTasksBookmarked
+        };
+    }
+
+    /**
      * Handles get LTI deliveries request
      * @param {Object} deliveriesResponse
-     * @param currentActiveItem
+     * @param {Object} currentActiveItem
      * @returns {Promise<boolean>} - stop execution?
      */
-    const handleDeliveriesLTIResponse = async (deliveriesResponse, currentActiveItem) => {
+    async function handleDeliveriesLTIResponse(deliveriesResponse, currentActiveItem) {
         if (deliveriesResponse.redirectTask) {
             taskStore.updateRedirectTask(deliveriesResponse.redirectTask);
             return true; // = stop execution
         }
 
-        const newData = deliveriesResponse.data.reduce(
-            (memo, delivery) => {
-                const workProgress = delivery.workProgress[taskType];
-                return {
-                    items: memo.items.concat(
-                        delivery.items
-                            .filter(item => item.numTasks > 0)
-                            // add deliveryId to item
-                            .map(item => ({ ...item, deliveryId: delivery.id }))
-                    ),
-                    // summarize statistics
-                    numTasksUnscored: memo.numTasksUnscored + workProgress.numTasksUnscored,
-                    numTasksScored: memo.numTasksScored + workProgress.numTasksScored,
-                    numTasksBookmarked: memo.numTasksBookmarked + workProgress.numTasksBookmarked
-                };
-            },
-            {
-                items: [],
-                numTasksUnscored: 0,
-                numTasksScored: 0,
-                numTasksBookmarked: 0
-            }
-        );
+        const responseItems = deliveriesResponse.data.items ?? [];
+        const responseTests = deliveriesResponse.data.tests ?? [];
+
+        const newData = [...responseItems, ...responseTests].reduce(deliveriesResponseReducer, {
+            items: [],
+            tests: [],
+            numTasksUnscored: 0,
+            numTasksScored: 0,
+            numTasksBookmarked: 0
+        });
 
         items = newData.items;
+        tests = newData.tests;
 
-        await tick(); // give time to visualItems to recalculate
+        await tick(); // give time to visibleItems and visibleTests to update
         const targetItem = {
-            id: currentActiveItem?.id ?? $taskStore.task?.item?.qtiIdentifier,
-            deliveryId: currentActiveItem?.deliveryId ?? $taskStore.task?.item?.taoDeliveryId
+            id: currentActiveItem?.id ?? $taskStore.task?.item?.qtiIdentifier ?? $taskStore.task?.test?.identifier,
+            deliveryId: currentActiveItem?.deliveryId ?? $taskStore.task?.item?.taoDeliveryId ?? $taskStore.task?.test?.taoDeliveryId
         };
         activeItem =
-            visibleItems.find(item => item.id === targetItem.id && item.deliveryId === targetItem.deliveryId) ||
+            [...visibleItems, ...visibleTests].find(item => item.id === targetItem.id && item.deliveryId === targetItem.deliveryId) ||
             visibleItems[0] ||
+            visibleTests[0] ||
             null;
         numTasksUnscored = newData.numTasksUnscored;
         numTasksScored = newData.numTasksScored;
         numTasksBookmarked = newData.numTasksBookmarked;
 
         return false;
-    };
+    }
 
     /**
      * Load deliveries details from LTI call
      * @param currentActiveItem
      * @returns {Promise<boolean>} - stop execution? (in case of redirection)
      */
-    const loadDeliveriesLTI = async currentActiveItem => {
+    async function loadDeliveriesLTI(currentActiveItem) {
         try {
             const deliveries = await deliveryService.getDeliveriesLTI({
-                currentTask: taskId
+                currentTask: taskId,
+                isReadOnly: $taskStore.ltiConfig.isReadOnly ?? false
             });
             return handleDeliveriesLTIResponse(deliveries, currentActiveItem);
         } catch (error) {
             handleRequestError(error);
             return true;
         }
-    };
-
-    const initialize = async () => {
-        const stopExecution = await loadDeliveriesLTI(activeItem);
-        if (stopExecution) {
-            return;
-        }
-        if (activeItem) {
-            isTableLoading = true;
-            const taskResponse = await taskService.getTasksByDelivery({
-                deliveryId: activeItem.deliveryId,
-                itemId: activeItem.id,
-                taskType,
-                activeTab,
-                selectedTaskId: taskId,
-                currentTask: taskId
-            });
-            scrollIntoCurrentTask = true;
-            handleTasksResponse(taskResponse, activeItem);
-        }
-    };
-
-    onMount(initialize);
+    }
 
     const fetchDeliveriesResponse = async currentActiveItem => {
         const deliveryData = await deliveryService.getDeliveriesLTI({
@@ -235,7 +286,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
      * @param {Number} pageIndex
      * @returns {Promise|void}
      */
-    const loadTasks = (item, pageIndex = currentPage) => {
+    async function loadTasks(item, pageIndex = currentPage) {
         scrollIntoCurrentTask = false;
         if (!item) {
             isTableLoading = false;
@@ -253,32 +304,45 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         }
         currentPage = offsetIndex;
 
-        return taskService
-            .getTasksByDelivery({
+        try {
+            const payload = {
                 deliveryId: item.deliveryId,
-                itemId: item.id,
+                [item.overviewItemType === DeliveryOverviewItemType.ITEM ? 'itemId' : 'testId']: item.id,
+                scope: item.overviewItemType,
                 taskType,
                 activeTab,
+                selectedTaskId: taskId,
+                currentTask: taskId,
                 currentPage,
-                currentTask: taskId
-            })
-            .then(response => handleTasksResponse(response, item))
-            .catch(error => handleRequestError(error));
-    };
+                isReadOnly: $taskStore.ltiConfig.isReadOnly ?? false,
+            };
+            const response = await taskService.getTasksByDelivery(payload);
+            return handleTasksResponse(response, item);
+        } catch (error) {
+            return handleRequestError(error);
+        }
+    }
 
-    const handleChangeActiveItem = (e, item) => {
-        e.preventDefault();
+    /**
+     * Handles change of active item from the sidebar or dropdown
+     * @param {Object} item
+     */
+    async function handleChangeActiveItem(item) {
         activeItem = item;
         loadTasks(activeItem, 1);
-    };
+    }
 
     const getItemKey = item => `${item.id}_${item.deliveryId}`;
 
-    const handleItemDropdownChange = e => {
-        const { value } = e.detail;
-        const selectedItem = visibleItems.find(item => getItemKey(item) === value);
-        handleChangeActiveItem(e, selectedItem);
-    };
+    /**
+     * Handles change event from the item dropdown
+     * @param {Event} event
+     * @param {Object} event.detail
+     */
+    async function handleItemDropdownChange({ detail: selectedValue }) {
+        const matchedItem = [...visibleItems, ...visibleTests].find(item => getItemKey(item) === getItemKey(selectedValue));
+        handleChangeActiveItem(matchedItem);
+    }
 
     const onTabChange = e => {
         isTableLoading = true;
@@ -286,7 +350,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
         // give time to svelte to update visibleItems
         tick().then(() => {
-            activeItem = visibleItems[0];
+            activeItem = visibleItems[0] ?? visibleTests[0];
             loadTasks(activeItem, 1);
         });
     };
@@ -364,7 +428,8 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                                     taskType,
                                     activeTab,
                                     selectedTaskId: taskId,
-                                    currentTask: taskId
+                                    currentTask: taskId,
+                                    isReadOnly: $taskStore.ltiConfig.isReadOnly ?? false
                                 });
                                 handleTasksResponse(taskResponse, activeItem);
                             }
@@ -391,6 +456,28 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
         loadTasks(activeItem, pageIndex);
     };
+
+    onMount(async () => {
+        const stopExecution = await loadDeliveriesLTI(activeItem);
+        if (stopExecution) {
+            return;
+        }
+        if (activeItem) {
+            isTableLoading = true;
+            const taskResponse = await taskService.getTasksByDelivery({
+                deliveryId: activeItem.deliveryId,
+                [activeItem.overviewItemType === DeliveryOverviewItemType.ITEM ? 'itemId' : 'testId']: activeItem.id,
+                scope: activeItem.overviewItemType,
+                taskType,
+                activeTab,
+                selectedTaskId: taskId,
+                currentTask: taskId,
+                isReadOnly: $taskStore.ltiConfig.isReadOnly ?? false
+            });
+            scrollIntoCurrentTask = true;
+            handleTasksResponse(taskResponse, activeItem);
+        }
+    });
 </script>
 
 <style>
@@ -483,14 +570,14 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
             display: flex;
             align-items: center;
 
+            & :global(.dropdown) {
+                min-width: 0;
+            }
+
             & span {
                 font-weight: bold;
                 margin-right: var(--space-1x5);
                 white-space: nowrap;
-            }
-
-            & :global(.select) {
-                min-width: 0; /* prevent overflow */
             }
         }
 
@@ -513,13 +600,17 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
         {#if smallWidth}
             <div class="item-dropdown">
                 <span>{__('Question')}</span>
-                <Dropdown
-                    reset={false}
-                    lite={true}
-                    options={visibleItems.map(item => ({ key: getItemKey(item), label: item.title }))}
-                    value={activeItem ? getItemKey(activeItem) : ''}
-                    on:change={handleItemDropdownChange}
-                />
+                <SearchableDropdown
+                    options={deliveryContents}
+                    allowGroupSelect={false}
+                    groupValues="items"
+                    groupLabel="group"
+                    optionLabel="title"
+                    allowEmpty={false}
+                    multiple={false}
+                    value={activeItem}
+                    fullwidth
+                    on:change={handleItemDropdownChange} />
             </div>
         {/if}
     </aside>
@@ -538,8 +629,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
                         on:bookmark={onBookmark}
                         on:rowClick={onTaskClick}
                         {scrollIntoCurrentTask}
-                        activeTaskId={taskId}
-                    >
+                        activeTaskId={taskId}>
                         {#if totalPages > 1}
                             <Pagination on:changePage={handlePagination} {currentPage} {totalPages} />
                         {/if}
@@ -548,7 +638,7 @@ SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
             </div>
         </main>
         {#if !smallWidth}
-            <SideItemBar items={visibleItems} {activeItem} {handleChangeActiveItem} />
+            <SideItemBar contents={deliveryContents} {activeItem} {handleChangeActiveItem} />
         {/if}
     </div>
 </div>

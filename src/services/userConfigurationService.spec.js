@@ -6,6 +6,10 @@
 import * as userConfigurationService from './userConfigurationService';
 
 describe('User config service', () => {
+    beforeEach(() => {
+        window.localStorage.clear();
+    });
+
     it('get config without setting', () => {
         expect(userConfigurationService.getConfig()).toEqual(userConfigurationService.DEFAULT_USER_CONFIG);
 
@@ -23,9 +27,15 @@ describe('User config service', () => {
             isMarkAsSuspiciousForCheatingEnabled: false
         };
         userConfigurationService.setConfig(config1);
-        expect(userConfigurationService.getConfig()).toEqual(config1);
+        expect(userConfigurationService.getConfig()).toEqual({
+            ...userConfigurationService.DEFAULT_USER_CONFIG,
+            ...config1
+        });
 
         userConfigurationService.setConfig(config2);
-        expect(userConfigurationService.getConfig()).toEqual(config2);
+        expect(userConfigurationService.getConfig()).toEqual({
+            ...userConfigurationService.DEFAULT_USER_CONFIG,
+            ...config2
+        });
     });
 });

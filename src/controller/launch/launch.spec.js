@@ -5,10 +5,10 @@
 
 jest.mock('module');
 jest.mock('@/config/env');
-jest.mock('../../component/LaunchPage/LaunchPage');
+jest.mock('@/routes/launch/+page.svelte');
 
 import launchControllerFactory from './launch';
-import LaunchPage from '../../component/LaunchPage/LaunchPage';
+import LaunchPage from '@/routes/launch/+page.svelte';
 
 describe('Launch controller for LTI', () => {
     it('controller is a factory', () => {

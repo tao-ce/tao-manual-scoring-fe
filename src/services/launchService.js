@@ -1,5 +1,5 @@
 // SPDX-FileCopyrightText: 2012-2026 Open Assessment Technologies S.A.
-// Copyright (C) 2024-2025 (original work) Open Assessment Technologies SA
+// Copyright (C) 2024-2026 (original work) Open Assessment Technologies SA
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
@@ -11,6 +11,7 @@ import router from '@/core/router';
 import { log } from '../core/utils/logger';
 import config from '../config';
 import * as ltiService from './ltiService';
+import { ERROR_CODES } from '@/constants/error-codes';
 
 /**
  * Set application language
@@ -104,7 +105,8 @@ const getErrorMessage = ({ code: errorCode, error_data: logData }) => {
                 title = __('No responses were found.');
                 description = __(
                     'Deliveries with following ids are invalid: <br><strong>%s</strong><br>Please contact your system administrator.',
-                    logData.ids.join(', '));
+                    logData.ids.join(', ')
+                );
             }
             return {
                 title,
@@ -177,6 +179,13 @@ const getErrorMessage = ({ code: errorCode, error_data: logData }) => {
                 title: __('Review failed: The reviewer cannot be the same user as the original scorer.'),
                 description: __('Please assign a different reviewer to ensure an independent review of the score.')
             };
+        case 'scorer_not_found':
+            return {
+                title: __('Review failed: Invalid scorer user.'),
+                description: __(
+                    'One or more scorer users could not be found. Please select only scorers who have already scored this test.'
+                )
+            };
         case 'invalid_scoring_category':
             return {
                 title: __('Invalid Scoring Category'),
@@ -194,10 +203,32 @@ const getErrorMessage = ({ code: errorCode, error_data: logData }) => {
         case 'custom_claim_argument_required':
             return {
                 title: __('Required custom claim.'),
-                description: __(
-                    'Missing parameter, claim requires [%s] parameter to be present.',
-                    logData.field
-                )
+                description: __('Missing parameter, claim requires [%s] parameter to be present.', logData.field)
+            };
+        case 'no_tasks_to_preview_delivery_execution_ids':
+            title = __('Unable to load tasks preview. Tasks are not yet scored.');
+            if ('ids' in logData) {
+                description = __(
+                    'Delivery execution ids: <strong>%s</strong><br>Please contact your system administrator.',
+                    logData.ids.join(', ')
+                );
+            }
+            return {
+                title,
+                description
+            };
+        case 'no_tasks_to_preview_delivery_and_test_taker_ids':
+            title = __('Unable to load tasks preview. Tasks are not yet scored.');
+            if ('ids' in logData && 'testTakerIds' in logData) {
+                description = __(
+                    'Deliveries: <strong>%s</strong>, <br>Test takers: <strong>%s</strong>. <br>Please contact your system administrator.',
+                    logData.ids.join(', '),
+                    logData.testTakerIds.join(', ')
+                );
+            }
+            return {
+                title,
+                description
             };
     }
     return null;
@@ -258,7 +289,7 @@ const validateServerError = response => {
  * @param {string} sessionToken
  * @returns {Promise<LTIError|undefined> | undefined}
  */
-export const validateSessionToken = async (sessionToken) => {
+export const validateSessionToken = async sessionToken => {
     if (typeof sessionToken !== 'string') {
         router.redirect(config.routes.ltiError);
         return;
@@ -279,11 +310,27 @@ export const validateSessionToken = async (sessionToken) => {
             language,
             breadcrumbs,
             testTakerName,
-            hideNoteBox
+            hideNoteBox,
+            isReview,
+            isReadOnly,
+            isAppeal,
+            scorersToReview,
+            isAdministrative
         } = _meta;
 
         await setLanguage(language);
-        ltiService.setConfig({ ltiResourceLink, ltiResourceLabel, breadcrumbs, testTakerName, hideNoteBox });
+        ltiService.setConfig({
+            ltiResourceLink,
+            ltiResourceLabel,
+            breadcrumbs,
+            testTakerName,
+            hideNoteBox,
+            isReview,
+            isReadOnly,
+            isAppeal,
+            scorersToReview,
+            isAdministrative
+        });
 
         if (internalDeliveryId && taskId) {
             router.replace(
@@ -293,7 +340,7 @@ export const validateSessionToken = async (sessionToken) => {
                 })
             );
         } else {
-            router.replace(config.routes.ltiError);
+            router.replace(`${config.routes.ltiError}?reason=${ERROR_CODES.NO_TASKS_TO_SCORE}`);
         }
     } catch (err) {
         if (typeof err === 'object' && err.errorCode === 400 && err.response) {

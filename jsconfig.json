@@ -2,7 +2,9 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": ["./src/*"],
+            "core/*": ["./node_modules/@oat-sa/tao-core-sdk/src/core/*"]
         }
-    }
+    },
+    "exclude": ["node_modules", "dist"]
 }

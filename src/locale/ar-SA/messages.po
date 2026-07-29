@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-ignite\n"
-"POT-Creation-Date: 2025-08-18 09:30\n"
-"PO-Revision-Date: 2025-08-29 16:26\n"
+"POT-Creation-Date: 2026-01-09 19:39\n"
+"PO-Revision-Date: 2026-01-28 14:03\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -275,70 +275,66 @@ msgstr "تتيح لنا ملفات تعريف الارتباط هذه إحصاء
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: ../component/LtiError/LtiError.svelte:11
-msgid "Scoring not available."
-msgstr "نقاط غير متوفرة."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:95
+msgid "see criteria for %s"
+msgstr "راجع المعايير ل %s"
 
-#: ../component/LtiError/LtiError.svelte:12
-msgid "Please contact your system administrator."
-msgstr "الرجاء الاتصال بمدير النظام."
+#: ../component/OutcomeDeclaration/OutcomeDeclaration.svelte:100
+msgid "see scoring criteria"
+msgstr "انظر معايير الدرجات"
 
-#: ../component/LtiSubmitted/LtiSubmitted.svelte:43
-msgid "The scores have been successfully submitted"
-msgstr "تم إرسال العلامات بنجاح"
-
-#: ../component/TaskPage/TaskPage.svelte:76
-msgid "Your scoring progress has been updated."
-msgstr "تم تحديث تقدمك في النقاط."
-
-#: ../component/TaskPage/TaskPage.svelte:81
-msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
-msgstr "قام طالب واحد أو أكثر بإعادة إرسال ردودهم. للأسف تحتاج الردود المحدثة التي تم إحرازها بالفعل إلى أن تسجل مرة أخرى."
-
-#: ../component/delivery/Delivery.svelte:501
+#: ../component/delivery/Delivery.svelte:582
 msgid "Test overview"
 msgstr "عرض عام للاختبار"
 
-#: ../component/delivery/Delivery.svelte:505
+#: ../component/delivery/Delivery.svelte:586
 msgid "Tasks status"
 msgstr "حالة المهام"
 
-#: ../component/delivery/Delivery.svelte:509
+#: ../component/delivery/Delivery.svelte:590
 msgid "Question"
 msgstr "سؤال"
 
-#: ../component/delivery/Delivery.svelte:54
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:70
+#: ../component/delivery/Delivery.svelte:175
 msgid "Total score"
 msgstr "مجموع النقاط"
 
-#: ../component/delivery/Delivery.svelte:63
+#: ../component/delivery/Delivery.svelte:80
 msgid "All"
 msgstr "الكل"
 
-#: ../component/delivery/Delivery.svelte:67
+#: ../component/delivery/Delivery.svelte:84
 msgid "Incomplete"
 msgstr "غير مكتمل"
 
-#: ../component/delivery/Delivery.svelte:72
+#: ../component/delivery/Delivery.svelte:89
 msgid "Bookmarked"
 msgstr "مشار إليه"
 
-#: ../component/delivery/Delivery.svelte:122
+#: ../component/delivery/Delivery.svelte:123
+msgid "Items"
+msgstr "بنود"
+
+#: ../component/delivery/Delivery.svelte:127
+msgid "Tests"
+msgstr "الاختبارات"
+
+#: ../component/delivery/Delivery.svelte:175
 msgid "Corrected total score"
 msgstr "مجموع النتيجة المصححة"
 
-#: ../component/delivery/DeliveryTable.svelte:60
+#: ../component/delivery/DeliveryTable.svelte:61
 msgid "Note"
 msgstr "ملاحظة"
 
-#: ../component/delivery/DeliveryTable.svelte:63
+#: ../component/delivery/DeliveryTable.svelte:64
 msgid "Report"
 msgstr "تقرير"
 
 #: ../component/delivery/SideItemBar.svelte:51
-msgid "Items"
-msgstr "بنود"
+msgid "Delivery contents"
+msgstr "محتويات التوصيل"
 
 #: ../component/delivery/tablecells/BookmarkCell.svelte:23
 msgid "Bookmark"
@@ -348,11 +344,11 @@ msgstr "إشارة"
 msgid "Press to show task note"
 msgstr "اضغط لإظهار ملاحظة المهمة"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:35
+#: ../component/delivery/tablecells/ScoreCell.svelte:49
 msgid "%s of %s"
 msgstr "%s من %s"
 
-#: ../component/delivery/tablecells/ScoreCell.svelte:41
+#: ../component/delivery/tablecells/ScoreCell.svelte:55
 msgid "No score added"
 msgstr "لم تتم إضافة أي نتيجة"
 
@@ -372,18 +368,6 @@ msgstr "السبب غير معطى"
 msgid "Task is scored"
 msgstr "تم تسجيل المهمة"
 
-#: ../component/error/Error.svelte:36
-msgid "Oops! Page not found"
-msgstr "عفوا! لم يتم العثور على الصفحة"
-
-#: ../component/error/Error.svelte:37
-msgid "The page you are looking for does not exist."
-msgstr "الصفحة التي تبحث عنها غير موجودة."
-
-#: ../component/error/Error.svelte:38
-msgid "Go to home"
-msgstr "الذهاب إلى المنزل"
-
 #: ../component/inactiveProject/InactiveProjectDialog.svelte:27
 msgid "This project is now inactive"
 msgstr "هذا المشروع غير نشط الآن"
@@ -396,30 +380,6 @@ msgstr "سيتم الآن إعادة توجيهك إلى قائمة المشار
 msgid "Ok"
 msgstr "حسناً"
 
-#: ../component/task/ComplaintDialog.svelte:66
-msgid "Close Dialog"
-msgstr "إغلاق مربع الحوار"
-
-#: ../component/task/ComplaintDialog.svelte:71
-msgid "Report this question/scorer pair for non-compliant scoring?"
-msgstr "التبليغ عن هذا السؤال/النتيجة لنقاط غير متوافقة؟"
-
-#: ../component/task/ComplaintDialog.svelte:73
-msgid "If you do, all the responses for that pair, %j and scorer %j will be subjected to a review task. This action cannot be undone."
-msgstr "إذا فعلت، فإن جميع الردود لهذا الزوج ، %j و %j سوف تخضع لمهمة المراجعة. لا يمكن التراجع عن هذا الإجراء."
-
-#: ../component/task/ComplaintDialog.svelte:79
-msgid "Type a note for this report"
-msgstr "اكتب ملاحظة لهذا التقرير"
-
-#: ../component/task/ComplaintDialog.svelte:88
-msgid "Cancel"
-msgstr "إلغاء"
-
-#: ../component/task/ComplaintDialog.svelte:97
-msgid "Report and continue"
-msgstr "تقرير ومتابعة"
-
 #: ../component/task/CompliantNote.svelte:9
 msgid "Reported for non-compliance"
 msgstr "الإبلاغ عن عدم الامتثال"
@@ -428,15 +388,15 @@ msgstr "الإبلاغ عن عدم الامتثال"
 msgid "The pairing of %j and scorer %j with the username %j has been reported for the following reasons:"
 msgstr ""
 
-#: ../component/task/ItemPreviewer.svelte:141
+#: ../component/task/ItemPreviewer.svelte:153
 msgid "loading"
 msgstr "تحميل"
 
-#: ../component/task/ItemPreviewer.svelte:142
+#: ../component/task/ItemPreviewer.svelte:154
 msgid "Response is loading"
 msgstr "يتم تحميل الرد"
 
-#: ../component/task/ItemPreviewer.svelte:152
+#: ../component/task/ItemPreviewer.svelte:164
 msgid "Item response"
 msgstr "استجابة البند"
 
@@ -452,61 +412,64 @@ msgstr "إغلاق معايير الدرجات"
 msgid "Scoring criteria"
 msgstr "معايير الدرجات"
 
-#: ../component/task/ScoringForm.svelte:239
+#: ../component/task/ScoringForm.svelte:410
 msgid "Suggested scoring explanation"
 msgstr "شرح الدرجات المقترح"
 
-#: ../component/task/ScoringForm.svelte:257
-#: ../component/task/ScoringForm.svelte:258
+#: ../component/task/ScoringForm.svelte:428
+#: ../component/task/ScoringForm.svelte:429
 msgid "Try again"
 msgstr "حاول مرة أخرى"
 
-#: ../component/task/ScoringForm.svelte:264
-#: ../component/task/ScoringForm.svelte:265
+#: ../component/task/ScoringForm.svelte:435
+#: ../component/task/ScoringForm.svelte:436
 msgid "Use the score"
 msgstr "استخدام النتيجة"
 
-#: ../component/task/ScoringForm.svelte:271
-#: ../component/task/ScoringForm.svelte:272
+#: ../component/task/ScoringForm.svelte:442
+#: ../component/task/ScoringForm.svelte:443
 msgid "Discard"
 msgstr "تجاهل"
 
-#: ../component/task/ScoringForm.svelte:283
-#: ../component/task/ScoringForm.svelte:284
+#: ../component/task/ScoringForm.svelte:454
+#: ../component/task/ScoringForm.svelte:455
 msgid "Show score suggestion"
 msgstr "إظهار اقتراح الدرجات"
 
-#: ../component/task/ScoringForm.svelte:292
-#: ../component/task/ScoringForm.svelte:293
+#: ../component/task/ScoringForm.svelte:463
+#: ../component/task/ScoringForm.svelte:464
 msgid "Get score suggestion"
 msgstr "احصل على اقتراح النقاط"
 
-#: ../component/task/ScoringForm.svelte:308
-msgid "see criteria for %s"
-msgstr "راجع المعايير ل %s"
+#: ../component/task/ScoringForm.svelte:486
+msgid "Apply score to all"
+msgstr "تطبيق النتيجة على الكل"
 
-#: ../component/task/ScoringForm.svelte:315
-msgid "see criteria"
-msgstr "انظر المعايير"
-
-#: ../component/task/ScoringForm.svelte:337
+#: ../component/task/ScoringForm.svelte:511
 msgid "Suspected of cheating"
 msgstr "الاشتباه في الغش"
 
-#: ../component/task/ScoringForm.svelte:347
+#: ../component/task/ScoringForm.svelte:522
+#: ../component/task/ScoringForm.svelte:553
 msgid "Comment optional"
 msgstr "التعليق اختياري"
 
-#: ../component/task/ScoringForm.svelte:355
-#: ../component/task/ScoringForm.svelte:385
+#: ../component/task/ScoringForm.svelte:532
+#: ../component/task/ScoringForm.svelte:563
+#: ../component/task/ScoringForm.svelte:593
 msgid "of %d characters remaining"
 msgstr "من أحرف %d المتبقية"
 
-#: ../component/task/ScoringForm.svelte:359
+#: ../component/task/ScoringForm.svelte:536
+#: ../component/task/ScoringForm.svelte:567
 msgid "Comment (optional)"
 msgstr "التعليق (اختياري)"
 
-#: ../component/task/ScoringForm.svelte:367
+#: ../component/task/ScoringForm.svelte:542
+msgid "Not Enough Basis for Assessment"
+msgstr "لا يوجد أساس كافٍ للتقييم"
+
+#: ../component/task/ScoringForm.svelte:573
 msgid "Scorer's note:"
 msgstr "ملاحظة النتيجة:"
 
@@ -518,133 +481,153 @@ msgstr "هل تريد إرسال النقاط؟"
 msgid "All scores will be submitted to your system. If you have previously scored and regraded responses they will be replaced with the new scores."
 msgstr "سيتم إرسال جميع النقاط إلى النظام الخاص بك. إذا كنت قد حصلت على ردود مسبقة و قمت بإعادة تصنيفها، فسيتم استبدالها بالنتائج الجديدة."
 
+#: ../component/task/SubmitDialog.svelte:14
+msgid "Cancel"
+msgstr "إلغاء"
+
 #: ../component/task/SubmitDialog.svelte:20
 msgid "Submit the scores"
 msgstr "إرسال النقاط"
 
-#: ../component/task/Task.svelte:667
+#: ../component/task/Task.svelte:719
 msgid "Scoring"
 msgstr "تسجيل"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Collapse scoring panel"
 msgstr "طي لوحة العلامات"
 
-#: ../component/task/Task.svelte:673
+#: ../component/task/Task.svelte:725
 msgid "Open scoring panel"
 msgstr "فتح لوحة العلامات"
 
-#: ../component/task/Task.svelte:698
+#: ../component/task/Task.svelte:751
 msgid "Scores given by %s"
 msgstr "النقاط التي أعطاها %s"
 
-#: ../component/task/Task.svelte:711
-msgid "report"
-msgstr "تقرير"
-
-#: ../component/task/Task.svelte:730
+#: ../component/task/Task.svelte:766
 msgid "Answer %s of %s"
 msgstr "الإجابة %s من %s"
 
-#: ../component/task/Task.svelte:751
-#: ../component/task/Task.svelte:751
+#: ../component/task/Task.svelte:834
+#: ../component/task/Task.svelte:834
 msgid "Response"
 msgstr "الرد"
 
-#: ../component/task/Task.svelte:760
+#: ../component/task/Task.svelte:843
 msgid "Go to previous answer"
 msgstr "انتقل إلى الإجابة السابقة"
 
-#: ../component/task/Task.svelte:767
-#: ../component/task/Task.svelte:768
+#: ../component/task/Task.svelte:850
+#: ../component/task/Task.svelte:851
 msgid "SEE Overview"
 msgstr "عرض نظرة عامة"
 
-#: ../component/task/Task.svelte:779
+#: ../component/task/Task.svelte:862
 msgid "Go to next answer"
 msgstr "انتقل إلى الإجابة التالية"
 
-#: ../component/task/Task.svelte:788
+#: ../component/task/Task.svelte:868
 msgid "Completion: %s %"
 msgstr "اكتمال: %s%"
 
-#: ../component/task/Task.svelte:792
+#: ../component/task/Task.svelte:871
 msgid "Test taker response"
 msgstr "اختبار استجابة المأخوذ"
 
-#: ../component/task/Task.svelte:827
+#: ../component/task/Task.svelte:898
 msgid "Task failed to load. Please contact your system administrator."
 msgstr "فشل تحميل المهمة. الرجاء الاتصال بمدير النظام."
 
-#: ../component/task/Task.svelte:837
+#: ../component/task/Task.svelte:85
 msgid "Scoring task submission error"
 msgstr "خطأ في إرسال المهمة"
 
-#: ../component/task/Task.svelte:119
+#: ../component/task/Task.svelte:131
 msgid "Type a note for this answer"
 msgstr "اكتب ملاحظة لهذه الإجابة"
 
-#: ../component/task/Task.svelte:125
+#: ../component/task/Task.svelte:137
 msgid "Type a note for this review"
 msgstr "اكتب ملاحظة لهذا الاستعراض"
+
+#: ../component/task/Task.svelte:174
+msgid "Scoring task could not be started"
+msgstr "لا يمكن بدء مهمة التقييم"
 
 #: ../component/task/Task.svelte:175
 msgid "This scoring task could not be initiated most likely because another scoring session was initiated in a different window or browser.<br>To resolve this issue:<br><ul><li>Make sure you are not scoring different session in another window or browser.</li><li>Close any other tabs or browser windows where this or another scoring link might be open.</li></ul>If you have already checked these steps and still see this message, please contact support or your administrator for further assistance."
 msgstr "ولم يتسن الشروع في مهمة وضع العلامات هذه على الأرجح لأن جلسة تسجيل أخرى بدأت في نافذة أو متصفح مختلف.<br>لحل هذه المشكلة:<br><ul><li>تأكد من عدم تسجيل جلسة مختلفة في نافذة أخرى أو متصفح.</li><li>أغلق أي علامات تبويب أخرى أو نوافذ المتصفح حيث قد يكون هذا الرابط أو أي رابط آخر للتسجيل مفتوحاً.</li></ul>إذا كنت قد قمت بالتحقق من هذه الخطوات ولا تزال ترى هذه الرسالة، يرجى الاتصال بالدعم أو المسؤول الخاص بك لمزيد من المساعدة."
 
-#: ../component/task/Task.svelte:181
+#: ../component/task/Task.svelte:187
 msgid "We encountered an issue while saving your score. Please try again. If the problem persists, contact our support team for assistance."
 msgstr "واجهنا مشكلة أثناء حفظ نتيجتك. الرجاء المحاولة مرة أخرى. إذا استمرت المشكلة، اتصل بفريق الدعم للحصول على المساعدة."
 
-#: ../component/task/Task.svelte:190
+#: ../component/task/Task.svelte:197
 msgid "Back"
 msgstr "الرجوع"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskAdminMode.svelte:95
+msgid "Review needed"
+msgstr "المراجعة مطلوبة"
+
+#: ../component/task/TaskAdminMode.svelte:104
+msgid "Standard scores"
+msgstr "النقاط القياسية"
+
+#: ../component/task/TaskAdminMode.svelte:108
+msgid "Appeal scores"
+msgstr "نقاط الاستئناف"
+
+#: ../component/task/TaskHeader.svelte:124
 msgid "Main navigation"
 msgstr "الملاحة الرئيسية"
 
-#: ../component/task/TaskHeader.svelte:119
+#: ../component/task/TaskHeader.svelte:124
 msgid "Scores"
 msgstr "النقاط"
 
-#: ../component/task/TaskHeader.svelte:127
+#: ../component/task/TaskHeader.svelte:132
 msgid "Are you sure you want to leave?"
 msgstr "هل أنت متأكد من أنك تريد المغادرة؟"
 
-#: ../component/task/TaskHeader.svelte:128
+#: ../component/task/TaskHeader.svelte:133
 msgid "Your grades will be saved and you'll be able to resume grading at a later time."
 msgstr "سيتم حفظ الدرجات الخاصة بك وستتمكن من استئناف التقييم في وقت لاحق."
 
-#: ../component/task/TaskHeader.svelte:148
-#: ../component/task/TaskHeader.svelte:149
+#: ../component/task/TaskHeader.svelte:154
+#: ../component/task/TaskHeader.svelte:155
 msgid "Send scores"
 msgstr "إرسال النقاط"
 
-#: ../component/task/TaskHeader.svelte:157
-#: ../component/task/TaskHeader.svelte:157
+#: ../component/task/TaskHeader.svelte:166
+#: ../component/task/TaskHeader.svelte:167
 msgid "Tools"
 msgstr "أدوات"
 
-#: ../component/task/TaskHeader.svelte:31
+#: ../component/task/TaskHeader.svelte:34
 msgid "continue grading"
 msgstr "متابعة الرسم"
 
-#: ../component/task/TaskHeader.svelte:36
+#: ../component/task/TaskHeader.svelte:39
 msgid "save and leave"
 msgstr "حفظ وغادر"
 
-#: ../component/task/TaskHeader.svelte:47
+#: ../component/task/TaskHeader.svelte:52
 msgid "Score"
 msgstr "نقاط"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Hide highlighter"
 msgstr "إخفاء المبرمج"
 
-#: ../component/task/TaskHeader.svelte:53
+#: ../component/task/TaskHeader.svelte:58
 msgid "Show highlighter"
 msgstr "إظهار المفصل"
+
+#: ../constants/scoring-project.js:28
+msgid "Not enough basis for assessment"
+msgstr "لا يوجد أساس كاف للتقييم"
 
 #: ../controller/error/error.js:31
 msgid "Error page"
@@ -713,6 +696,38 @@ msgstr "يبدو أن التسليم تم تكوينه لاستراتيجية ت
 #: ../core/utils/validations.js:46
 msgid "The delivery seems to be configured for a \"test taker group\" project assignment strategy"
 msgstr "يبدو أن عملية التسليم قد تم تكوينها من أجل استراتيجية إسناد المشروع \"مجموعة تجريبية\""
+
+#: ../routes/error/+page.svelte:36
+msgid "Oops! Page not found"
+msgstr "عفوا! لم يتم العثور على الصفحة"
+
+#: ../routes/error/+page.svelte:37
+msgid "The page you are looking for does not exist."
+msgstr "الصفحة التي تبحث عنها غير موجودة."
+
+#: ../routes/error/+page.svelte:38
+msgid "Go to home"
+msgstr "الذهاب إلى المنزل"
+
+#: ../routes/ltiError/+page.svelte:11
+msgid "Scoring not available."
+msgstr "نقاط غير متوفرة."
+
+#: ../routes/ltiError/+page.svelte:12
+msgid "Please contact your system administrator."
+msgstr "الرجاء الاتصال بمدير النظام."
+
+#: ../routes/ltiSubmitted/+page.svelte:43
+msgid "The scores have been successfully submitted"
+msgstr "تم إرسال العلامات بنجاح"
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:104
+msgid "Your scoring progress has been updated."
+msgstr "تم تحديث تقدمك في النقاط."
+
+#: ../routes/task/[deliveryId]/[taskId]/+page.svelte:110
+msgid "One or more students have re-submitted their responses. Unfortunately the updated responses that were already scored need to be scored again."
+msgstr "قام طالب واحد أو أكثر بإعادة إرسال ردودهم. للأسف تحتاج الردود المحدثة التي تم إحرازها بالفعل إلى أن تسجل مرة أخرى."
 
 #: ../services/launchService.js:68
 #: ../services/launchService.js:73
@@ -795,28 +810,56 @@ msgid "Please assign a different reviewer to ensure an independent review of the
 msgstr "يرجى تعيين مُراجع مختلف لضمان مراجعة مستقلة للنتيجة."
 
 #: ../services/launchService.js:196
+msgid "Review failed: Invalid scorer user."
+msgstr "فشلت المراجعة: مستخدم النتيجة غير صالح."
+
+#: ../services/launchService.js:197
+msgid "One or more scorer users could not be found. Please select only scorers who have already scored this test."
+msgstr "تعذر العثور على واحد أو أكثر من مستخدمي النتيجة. الرجاء تحديد النقاط فقط الذين حصلوا بالفعل على هذا الاختبار."
+
+#: ../services/launchService.js:203
 msgid "Invalid Scoring Category"
 msgstr "تصنيف النقاط غير صالح"
 
-#: ../services/launchService.js:197
+#: ../services/launchService.js:204
 msgid "Please check the scoringCategory value. It must be valid and cannot be empty."
 msgstr "الرجاء التحقق من قيمة تصنيف النقاط. يجب أن تكون صالحة ولا يمكن أن تكون فارغة."
 
-#: ../services/launchService.js:201
+#: ../services/launchService.js:208
 msgid "Invalid custom claim."
 msgstr "طلب مخصص غير صالح."
 
-#: ../services/launchService.js:202
+#: ../services/launchService.js:209
 msgid "Invalid parameter, claim requires [%s] must not be empty and, type [%s]."
 msgstr "المعلمة غير صالحة، المطالبة يجب أن لا يكون [%s] فارغا، والنوع [%s]."
 
-#: ../services/launchService.js:210
+#: ../services/launchService.js:217
 msgid "Required custom claim."
 msgstr "المطالبة المخصصة المطلوبة."
 
-#: ../services/launchService.js:211
+#: ../services/launchService.js:218
 msgid "Missing parameter, claim requires [%s] parameter to be present."
 msgstr "معلمة مفقودة، يتطلب المطالبة أن يكون المعامل [%s] حاضرا."
+
+#: ../store/taskStore.js:207
+msgid "Appeal"
+msgstr "الاستئناف"
+
+#: ../store/taskStore.js:209
+msgid "Standard"
+msgstr "قياسي"
+
+#: ../store/taskStore.js:230
+msgid "My final score"
+msgstr "نتيجتي النهائية"
+
+#: ../store/taskStore.js:234
+msgid "My appeal score (%s)"
+msgstr "نتيجة الاستئناف الخاصة بي (%s)"
+
+#: ../store/taskStore.js:236
+msgid "My appeal score"
+msgstr "نتيجة النداء"
 
 #: beMessages.js:3
 msgid "Missing comma(s), there should be exactly %d column at row \"%s\""

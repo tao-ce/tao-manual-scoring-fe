@@ -4,7 +4,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
 import pageController from '@/controller/page';
-import LtiSubmitted from '../../component/LtiSubmitted/LtiSubmitted.svelte';
+import LtiSubmitted from '@/routes/ltiSubmitted/+page.svelte';
 
 export default () =>
     pageController({

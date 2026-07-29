@@ -9,56 +9,59 @@ exports[`ScoringForm renders correctly 1`] = `
         class="score"
       >
         <div
-          class="score-header"
+          class="outcome-declaration"
         >
-          <h5
-            class="field-header"
+          <div
+            class="outcome-declaration-header"
           >
-            interpretation
-          </h5>
-           
-          <a
-            arialabel="see criteria for id"
-            class="score-criteria"
-            href="longInterpretation"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            see criteria
-          </a>
-        </div>
-         
-        <div
-          aria-roledescription="Scoring input"
-          class="container"
-          role="application"
-        >
-          <label>
-            0
+            <h5
+              class="outcome-declaration__title"
+            >
+              interpretation
+            </h5>
              
-            <input
-              aria-label="Score 0."
-              name="id"
-              type="radio"
-              value="0"
-            />
-          </label>
-          <label
-            class="selected"
-          >
-            1
-             
-            <input
-              aria-label="Score 1."
-              name="id"
-              type="radio"
-              value="1"
-            />
-          </label>
+            <a
+              aria-label="see criteria for id"
+              class="score-criteria"
+              href="longInterpretation"
+              role="button"
+            >
+              see scoring criteria
+            </a>
+          </div>
            
+          <div
+            aria-roledescription="Scoring input"
+            class="container"
+            role="application"
+          >
+            <label>
+              0
+               
+              <input
+                aria-label="Score 0."
+                name="id"
+                type="radio"
+                value="0"
+              />
+            </label>
+            <label
+              class="selected"
+            >
+              1
+               
+              <input
+                aria-label="Score 1."
+                name="id"
+                type="radio"
+                value="1"
+              />
+            </label>
+             
+          </div>
         </div>
       </div>
+       
        
       <label>
          
@@ -93,6 +96,224 @@ exports[`ScoringForm renders correctly 1`] = `
         Comment (optional)
          
       </a>
+      
+       
+      <label>
+         
+        <input
+          aria-checked="false"
+          aria-label=""
+          class="checkbox"
+          type="checkbox"
+        />
+         
+        <span
+          class="selection-container"
+        />
+         
+        <span
+          class="selection"
+        />
+         
+        <span
+          class="label"
+        >
+          Not Enough Basis for Assessment
+        </span>
+      </label>
+       
+      <a
+        aria-label="Comment (optional)"
+        class="button-link"
+        href="#"
+      >
+         
+        Comment (optional)
+         
+      </a>
+      
+       
+       
+      <label
+        class="fullwidth"
+      >
+        <div
+          class="label-text visually-hidden"
+        >
+          Note
+           
+        </div>
+         
+        <div
+          class="positioning-wrapper"
+        >
+          <textarea
+            class="resize-vertical"
+            cols="25"
+            maxlength="500"
+            name="note"
+            rows="4"
+          />
+        </div>
+      </label>
+       
+      <p
+        class="counter"
+      >
+        <strong>
+          500
+        </strong>
+         
+        of 500 characters remaining
+      </p>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`ScoringForm renders with not enough basis fields 1`] = `
+<body>
+  <div>
+    <form>
+       
+      <div
+        class="score"
+      >
+        <div
+          class="outcome-declaration"
+        >
+          <div
+            class="outcome-declaration-header"
+          >
+            <h5
+              class="outcome-declaration__title"
+            >
+              interpretation
+            </h5>
+             
+            <a
+              aria-label="see criteria for id"
+              class="score-criteria"
+              href="longInterpretation"
+              role="button"
+            >
+              see scoring criteria
+            </a>
+          </div>
+           
+          <div
+            aria-roledescription="Scoring input"
+            class="container"
+            role="application"
+          >
+            <label>
+              0
+               
+              <input
+                aria-label="Score 0."
+                name="id"
+                type="radio"
+                value="0"
+              />
+            </label>
+            <label
+              class="selected"
+            >
+              1
+               
+              <input
+                aria-label="Score 1."
+                name="id"
+                type="radio"
+                value="1"
+              />
+            </label>
+             
+          </div>
+        </div>
+      </div>
+       
+       
+       
+      <label>
+        <div
+          class="check-icon-container"
+        >
+          <div
+            class="icon"
+          >
+            <svg
+              aria-hidden="false"
+              class="icon medium"
+              viewBox="0 0 16 16"
+            >
+              <title>
+                Checkbox checked icon
+              </title>
+              <path
+                d="M3 6l4 4 6-7 2 2-8 9-6-6 2-2z"
+              />
+            </svg>
+          </div>
+        </div>
+         
+        <input
+          aria-checked="true"
+          aria-label=""
+          class="checkbox"
+          type="checkbox"
+        />
+         
+        <span
+          class="selection-container"
+        />
+         
+        <span
+          class="selection"
+        />
+         
+        <span
+          class="label"
+        >
+          Not Enough Basis for Assessment
+        </span>
+      </label>
+       
+      <div>
+        <label
+          class="fullwidth"
+        >
+          <div
+            class="label-text visually-hidden"
+          >
+            Note
+             
+          </div>
+           
+          <div
+            class="positioning-wrapper"
+          >
+            <textarea
+              class="resize-vertical"
+              cols="25"
+              maxlength="500"
+              name="not-enough-basis-note"
+              placeholder="Comment (optional)"
+              rows="3"
+            />
+          </div>
+        </label>
+         
+        <p
+          class="counter"
+        >
+          <strong>
+            500
+          </strong>
+           
+          of 500 characters remaining
+        </p>
+      </div>
       
        
        
@@ -156,56 +377,243 @@ exports[`ScoringForm renders with scoring suggestion button 1`] = `
         class="score"
       >
         <div
-          class="score-header"
+          class="outcome-declaration"
         >
-          <h5
-            class="field-header"
+          <div
+            class="outcome-declaration-header"
           >
-            interpretation
-          </h5>
+            <h5
+              class="outcome-declaration__title"
+            >
+              interpretation
+            </h5>
+             
+            <a
+              aria-label="see criteria for id"
+              class="score-criteria"
+              href="longInterpretation"
+              role="button"
+            >
+              see scoring criteria
+            </a>
+          </div>
            
-          <a
-            arialabel="see criteria for id"
-            class="score-criteria"
-            href="longInterpretation"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
+          <div
+            aria-roledescription="Scoring input"
+            class="container"
+            role="application"
           >
-            see criteria
-          </a>
+            <label>
+              0
+               
+              <input
+                aria-label="Score 0."
+                name="id"
+                type="radio"
+                value="0"
+              />
+            </label>
+            <label
+              class="selected"
+            >
+              1
+               
+              <input
+                aria-label="Score 1."
+                name="id"
+                type="radio"
+                value="1"
+              />
+            </label>
+             
+          </div>
+        </div>
+      </div>
+       
+       
+       
+       
+       
+      <label
+        class="fullwidth"
+      >
+        <div
+          class="label-text visually-hidden"
+        >
+          Note
+           
         </div>
          
         <div
-          aria-roledescription="Scoring input"
-          class="container"
-          role="application"
+          class="positioning-wrapper"
         >
-          <label>
-            0
-             
-            <input
-              aria-label="Score 0."
-              name="id"
-              type="radio"
-              value="0"
-            />
-          </label>
-          <label
-            class="selected"
+          <textarea
+            class="resize-vertical"
+            cols="25"
+            maxlength="500"
+            name="note"
+            rows="4"
+          />
+        </div>
+      </label>
+       
+      <p
+        class="counter"
+      >
+        <strong>
+          500
+        </strong>
+         
+        of 500 characters remaining
+      </p>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`ScoringForm renders with suspicious fields 1`] = `
+<body>
+  <div>
+    <form>
+       
+      <div
+        class="score"
+      >
+        <div
+          class="outcome-declaration"
+        >
+          <div
+            class="outcome-declaration-header"
           >
-            1
+            <h5
+              class="outcome-declaration__title"
+            >
+              interpretation
+            </h5>
              
-            <input
-              aria-label="Score 1."
-              name="id"
-              type="radio"
-              value="1"
-            />
-          </label>
+            <a
+              aria-label="see criteria for id"
+              class="score-criteria"
+              href="longInterpretation"
+              role="button"
+            >
+              see scoring criteria
+            </a>
+          </div>
            
+          <div
+            aria-roledescription="Scoring input"
+            class="container"
+            role="application"
+          >
+            <label>
+              0
+               
+              <input
+                aria-label="Score 0."
+                name="id"
+                type="radio"
+                value="0"
+              />
+            </label>
+            <label
+              class="selected"
+            >
+              1
+               
+              <input
+                aria-label="Score 1."
+                name="id"
+                type="radio"
+                value="1"
+              />
+            </label>
+             
+          </div>
         </div>
       </div>
+       
+       
+      <label>
+        <div
+          class="check-icon-container"
+        >
+          <div
+            class="icon"
+          >
+            <svg
+              aria-hidden="false"
+              class="icon medium"
+              viewBox="0 0 16 16"
+            >
+              <title>
+                Checkbox checked icon
+              </title>
+              <path
+                d="M3 6l4 4 6-7 2 2-8 9-6-6 2-2z"
+              />
+            </svg>
+          </div>
+        </div>
+         
+        <input
+          aria-checked="true"
+          aria-label=""
+          class="checkbox"
+          type="checkbox"
+        />
+         
+        <span
+          class="selection-container"
+        />
+         
+        <span
+          class="selection"
+        />
+         
+        <span
+          class="label"
+        >
+          Suspected of cheating
+        </span>
+      </label>
+       
+      <div>
+        <label
+          class="fullwidth"
+        >
+          <div
+            class="label-text visually-hidden"
+          >
+            Note
+             
+          </div>
+           
+          <div
+            class="positioning-wrapper"
+          >
+            <textarea
+              class="resize-vertical"
+              cols="25"
+              maxlength="500"
+              name="suspicious-note"
+              placeholder="Comment (optional)"
+              rows="3"
+            />
+          </div>
+        </label>
+         
+        <p
+          class="counter"
+        >
+          <strong>
+            500
+          </strong>
+           
+          of 500 characters remaining
+        </p>
+      </div>
+      
        
        
        
@@ -255,56 +663,60 @@ exports[`ScoringForm renders without note box 1`] = `
         class="score"
       >
         <div
-          class="score-header"
+          class="outcome-declaration"
         >
-          <h5
-            class="field-header"
+          <div
+            class="outcome-declaration-header"
           >
-            interpretation
-          </h5>
-           
-          <a
-            arialabel="see criteria for id"
-            class="score-criteria"
-            href="longInterpretation"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            see criteria
-          </a>
-        </div>
-         
-        <div
-          aria-roledescription="Scoring input"
-          class="container"
-          role="application"
-        >
-          <label>
-            0
+            <h5
+              class="outcome-declaration__title"
+            >
+              interpretation
+            </h5>
              
-            <input
-              aria-label="Score 0."
-              name="id"
-              type="radio"
-              value="0"
-            />
-          </label>
-          <label
-            class="selected"
-          >
-            1
-             
-            <input
-              aria-label="Score 1."
-              name="id"
-              type="radio"
-              value="1"
-            />
-          </label>
+            <a
+              aria-label="see criteria for id"
+              class="score-criteria"
+              href="longInterpretation"
+              role="button"
+            >
+              see scoring criteria
+            </a>
+          </div>
            
+          <div
+            aria-roledescription="Scoring input"
+            class="container"
+            role="application"
+          >
+            <label>
+              0
+               
+              <input
+                aria-label="Score 0."
+                name="id"
+                type="radio"
+                value="0"
+              />
+            </label>
+            <label
+              class="selected"
+            >
+              1
+               
+              <input
+                aria-label="Score 1."
+                name="id"
+                type="radio"
+                value="1"
+              />
+            </label>
+             
+          </div>
         </div>
       </div>
+       
+       
        
        
        
@@ -313,7 +725,7 @@ exports[`ScoringForm renders without note box 1`] = `
 </body>
 `;
 
-exports[`ScoringForm renders without suspicious fields 1`] = `
+exports[`ScoringForm renders without suspicious and not enough basis fields 1`] = `
 <body>
   <div>
     <form>
@@ -336,56 +748,60 @@ exports[`ScoringForm renders without suspicious fields 1`] = `
         class="score"
       >
         <div
-          class="score-header"
+          class="outcome-declaration"
         >
-          <h5
-            class="field-header"
+          <div
+            class="outcome-declaration-header"
           >
-            interpretation
-          </h5>
-           
-          <a
-            arialabel="see criteria for id"
-            class="score-criteria"
-            href="longInterpretation"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            see criteria
-          </a>
-        </div>
-         
-        <div
-          aria-roledescription="Scoring input"
-          class="container"
-          role="application"
-        >
-          <label>
-            0
+            <h5
+              class="outcome-declaration__title"
+            >
+              interpretation
+            </h5>
              
-            <input
-              aria-label="Score 0."
-              name="id"
-              type="radio"
-              value="0"
-            />
-          </label>
-          <label
-            class="selected"
-          >
-            1
-             
-            <input
-              aria-label="Score 1."
-              name="id"
-              type="radio"
-              value="1"
-            />
-          </label>
+            <a
+              aria-label="see criteria for id"
+              class="score-criteria"
+              href="longInterpretation"
+              role="button"
+            >
+              see scoring criteria
+            </a>
+          </div>
            
+          <div
+            aria-roledescription="Scoring input"
+            class="container"
+            role="application"
+          >
+            <label>
+              0
+               
+              <input
+                aria-label="Score 0."
+                name="id"
+                type="radio"
+                value="0"
+              />
+            </label>
+            <label
+              class="selected"
+            >
+              1
+               
+              <input
+                aria-label="Score 1."
+                name="id"
+                type="radio"
+                value="1"
+              />
+            </label>
+             
+          </div>
         </div>
       </div>
+       
+       
        
        
        

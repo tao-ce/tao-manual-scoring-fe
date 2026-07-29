@@ -5,7 +5,6 @@
 
 import { Userpilot } from 'userpilot';
 import env from '@/config/env';
-import { getUser } from '@/services/authService';
 import { __ } from '@oat-sa-private/ui-core';
 import * as userConfigurationService from './userConfigurationService';
 
@@ -16,24 +15,27 @@ let isUserPilotInitialized = false;
 
 /**
  * Initialize the userpilot service
+ * @param {object} user
  */
-async function initializeUserPilot() {
+async function initializeUserPilot(user) {
     const userConfiguration = userConfigurationService.getConfig();
 
     const userPilotToken = userConfiguration?.userpilot?.token || env('USERPILOT_TOKEN');
     if (userPilotToken) {
-        let user;
         try {
-            user = await getUser();
             Userpilot.initialize(userPilotToken);
-            Userpilot.identify(`${user.tenantId}|${user.sub}`, {
-                name: user.name,
-                login: user.sub,
-                email: user.email,
-                roles: user.roles,
+            const userId = user?.tenantId && user?.sub ? `${user.tenantId}|${user.sub}` : null;
+            if (!userId) {
+                return;
+            }
+            Userpilot.identify(userId, {
+                name: user?.name,
+                login: user?.sub,
+                email: user?.email,
+                roles: user?.roles,
                 interfaceLanguage: __.getLocale(),
                 company: {
-                    id: user.tenantId
+                    id: user?.tenantId
                 }
             });
             /* eslint-disable no-empty */
@@ -82,10 +84,11 @@ export function logout() {
 
 /**
  * Initialize the analytics service
+ * @param {object} user
  */
-export async function initialize() {
+export async function initialize(user) {
     if (!isUserPilotInitialized) {
-        await initializeUserPilot();
+        await initializeUserPilot(user);
     }
     insertGAScript();
 }

@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-TAO-Commercial-License
 
-import { render } from '@testing-library/svelte';
+import { render, waitFor } from '@testing-library/svelte';
 import ScoringForm from './ScoringForm.svelte';
 import * as userConfigurationService from '../../services/userConfigurationService';
 
@@ -28,7 +28,8 @@ describe('ScoringForm', () => {
     it('renders correctly', () => {
         userConfigurationService.setConfig({
             isSuggestedScoringEnabled: false,
-            isMarkAsSuspiciousForCheatingEnabled: true
+            isMarkAsSuspiciousForCheatingEnabled: true,
+            isMarkAsNotEnoughBasisForAssessment: true
         });
         const { container } = render(ScoringForm, {
             props: {
@@ -47,7 +48,9 @@ describe('ScoringForm', () => {
                 ],
                 deliveryExecutionScoring: {
                     suspicious: false,
-                    suspiciousNote: ''
+                    suspiciousNote: '',
+                    notEnoughBasisForAssessment: false,
+                    notEnoughBasisForAssessmentNote: ''
                 },
                 note: ''
             }
@@ -59,7 +62,8 @@ describe('ScoringForm', () => {
     it('renders without note box', () => {
         userConfigurationService.setConfig({
             isSuggestedScoringEnabled: false,
-            isMarkAsSuspiciousForCheatingEnabled: true
+            isMarkAsSuspiciousForCheatingEnabled: true,
+            isMarkAsNotEnoughBasisForAssessment: true
         });
         const { container } = render(ScoringForm, {
             props: {
@@ -78,7 +82,9 @@ describe('ScoringForm', () => {
                 ],
                 deliveryExecutionScoring: {
                     suspicious: true,
-                    suspiciousNote: 'Note'
+                    suspiciousNote: 'Note',
+                    notEnoughBasisForAssessment: true,
+                    notEnoughBasisForAssessmentNote: 'Some notes'
                 },
                 note: '',
                 hideNoteBox: true
@@ -109,7 +115,9 @@ describe('ScoringForm', () => {
                 ],
                 deliveryExecutionScoring: {
                     suspicious: false,
-                    suspiciousNote: ''
+                    suspiciousNote: '',
+                    notEnoughBasisForAssessment: false,
+                    notEnoughBasisForAssessmentNote: ''
                 },
                 note: ''
             }
@@ -118,11 +126,11 @@ describe('ScoringForm', () => {
         expect(container).toMatchSnapshot();
     });
 
-
-    it('renders without suspicious fields', () => {
+    it('renders without suspicious and not enough basis fields', () => {
         userConfigurationService.setConfig({
             isSuggestedScoringEnabled: true,
-            isMarkAsSuspiciousForCheatingEnabled: false
+            isMarkAsSuspiciousForCheatingEnabled: false,
+            isMarkAsNotEnoughBasisForAssessment: false
         });
         const { container } = render(ScoringForm, {
             props: {
@@ -143,6 +151,76 @@ describe('ScoringForm', () => {
             }
         });
 
+        expect(container).toMatchSnapshot();
+    });
+
+    it('renders with suspicious fields', async () => {
+        userConfigurationService.setConfig({
+            isSuggestedScoringEnabled: false,
+            isMarkAsSuspiciousForCheatingEnabled: true,
+            isMarkAsNotEnoughBasisForAssessment: false
+        });
+        const { container, getByText } = render(ScoringForm, {
+            props: {
+                taskId: 'test-task-id',
+                outcomeDeclarations: [
+                    {
+                        interpretation: 'interpretation',
+                        longInterpretation: 'longInterpretation',
+                        taskScoreId: 'taskScoreId',
+                        outcomeDeclarationId: 'outcomeDeclarationId',
+                        value: '1',
+                        minimumValue: 0,
+                        maximumValue: 1,
+                        qtiIdentifier: 'id'
+                    }
+                ],
+                deliveryExecutionScoring: {
+                    suspicious: true,
+                    suspiciousNote: '',
+                    notEnoughBasisForAssessment: false,
+                    notEnoughBasisForAssessmentNote: ''
+                },
+                note: ''
+            }
+        });
+
+        await waitFor(() => expect(getByText('Suspected of cheating')).not.toBeNull(), { timeout: 1000 });
+        expect(container).toMatchSnapshot();
+    });
+
+    it('renders with not enough basis fields', async () => {
+        userConfigurationService.setConfig({
+            isSuggestedScoringEnabled: false,
+            isMarkAsSuspiciousForCheatingEnabled: false,
+            isMarkAsNotEnoughBasisForAssessment: true
+        });
+        const { container, getByText } = render(ScoringForm, {
+            props: {
+                taskId: 'test-task-id',
+                outcomeDeclarations: [
+                    {
+                        interpretation: 'interpretation',
+                        longInterpretation: 'longInterpretation',
+                        taskScoreId: 'taskScoreId',
+                        outcomeDeclarationId: 'outcomeDeclarationId',
+                        value: '1',
+                        minimumValue: 0,
+                        maximumValue: 1,
+                        qtiIdentifier: 'id'
+                    }
+                ],
+                deliveryExecutionScoring: {
+                    suspicious: false,
+                    suspiciousNote: '',
+                    notEnoughBasisForAssessment: true,
+                    notEnoughBasisForAssessmentNote: ''
+                },
+                note: ''
+            }
+        });
+
+        await waitFor(() => expect(getByText('Not Enough Basis for Assessment')).not.toBeNull(), { timeout: 1000 });
         expect(container).toMatchSnapshot();
     });
 });

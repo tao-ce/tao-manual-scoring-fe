@@ -14,6 +14,7 @@ export const ERROR_CODES = {
     EMPTY_ROLE: 'empty_role',
     ALREADY_ASSIGNED: 'already_assigned',
     NOT_FOUND: 'not_found',
+    NO_TASKS_TO_SCORE: 'no_tasks_to_score',
     EMPTY_ASSIGNMENT_CRITERION: 'empty_assignment_criterion',
     SYSTEM_USER_CONFLICT: 'system_user_conflict',
     IRRELEVANT_ROLE: 'irrelevant_role'
